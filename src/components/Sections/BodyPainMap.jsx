@@ -82,6 +82,12 @@ const BodyPainMap = () => {
           ))}
         </div>
 
+        <div className="body-pain-consultation-button">
+          <a href="/request-your-first-appointment/" className="req-btn">
+            <span>Request a Consultation</span>
+          </a>
+        </div>
+
         <div className="body-pain-button mobile-only">
           <a href="/conditions/" className="knee-pain-btn">
             View All Conditions Treated

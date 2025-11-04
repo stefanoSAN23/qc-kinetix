@@ -76,16 +76,17 @@
 .toe { top: 92%; left: 29%; }
 
 .body-pain-content {
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
 }
 
 .body-pain-title {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 5000;
   color: #000;
   margin-bottom: 20px;
   line-height: 1.2;
+  text-align: left;
 }
 
 .body-pain-description {
@@ -93,15 +94,16 @@
   line-height: 1.8;
   color: #333;
   max-width: 700px;
-  margin: 0 auto 30px;
+  margin: 0 0 30px 0;
+  text-align: left;
 }
 
 .body-parts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 50px;
   margin: 40px 0;
-  max-width: 900px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -129,7 +131,7 @@
 
 .part-link img {
   width: 100%;
-  max-width: 96px;
+  max-width: 140px;
   height: auto;
   transition: filter 0.3s ease;
 }
@@ -140,14 +142,52 @@
 
 .part-link figcaption {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: #000;
 }
 
 .body-pain-button {
-  text-align: center;
+  text-align: left;
   margin: 20px 0;
+}
+
+.body-pain-content .body-pain-button {
+  text-align: left;
+}
+
+.body-pain-content .knee-pain-btn {
+  font-size: 16px;
+  padding: 10px 25px;
+}
+
+.body-pain-consultation-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0 20px 0;
+  width: 100%;
+}
+
+.body-pain-consultation-button .req-btn {
+  background-color: var(--e-global-color-accent) !important;
+  font-size: 16px;
+  font-weight: 700 !important;
+  color: #fff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid var(--e-global-color-accent);
+  border-radius: 5px;
+  padding: 8px 14px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.body-pain-consultation-button .req-btn:hover {
+  background: #fff !important;
+  color: #172028 !important;
+  border-color: var(--e-global-color-accent);
 }
 
 .desktop-only {
@@ -176,6 +216,10 @@
   .body-parts-grid {
     grid-column: 1 / -1;
   }
+  
+  .body-pain-consultation-button {
+    grid-column: 1 / -1;
+  }
 }
 
 @media (max-width: 768px) {
@@ -184,8 +228,8 @@
   }
   
   .body-parts-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 25px;
   }
 }
 
