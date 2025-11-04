@@ -9,33 +9,46 @@
 }
 
 .what-is-header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 60px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-top {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  gap: 15px;
-  margin-bottom: 20px;
+  gap: 150px;
 }
 
 .what-is-header h2 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 28px;
+  font-weight: 300;
   color: #000;
   margin: 0;
 }
 
+.what-is-text {
+  font-size: 28px;
+  font-weight: 300;
+  color: #000;
+  margin: 0;
+}
+
+.divider-img {
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
 .title-large {
-  font-size: 48px !important;
+  font-size: 56px !important;
 }
 
 .what-is-content {
   max-width: 900px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .what-is-content p {
@@ -52,7 +65,7 @@
 .dual-buttons {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
@@ -75,6 +88,32 @@
   border-color: var(--e-global-color-accent);
 }
 
+/* Animations */
+.animated {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
 @media (max-width: 768px) {
   .what-is-header h2 {
     font-size: 28px;
@@ -86,7 +125,7 @@
   
   .dual-buttons {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   
   .btn-primary {

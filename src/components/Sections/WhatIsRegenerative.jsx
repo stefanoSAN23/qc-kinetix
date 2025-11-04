@@ -1,18 +1,50 @@
+import { useEffect, useRef } from 'react';
 import './WhatIsRegenerative.css';
 
 const WhatIsRegenerative = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const animatedElements = entry.target.querySelectorAll('.animated');
+          animatedElements.forEach((el) => {
+            el.classList.add('animated-active');
+          });
+        }
+      });
+    }, observerOptions);
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <section className="what-is-section">
+    <section className="what-is-section" ref={sectionRef}>
       <div className="what-is-container">
-        <div className="what-is-header fade-in-down">
+        <div className="what-is-header">
           <div className="header-top">
-            <h2>What is</h2>
+            <h2 className="what-is-text animated fadeInDown">What is</h2>
             <img 
               src="https://qckinetix.com/wp-content/uploads/2025/03/Group-331.svg" 
               alt="Decorative divider line" 
               width="176" 
               height="7"
               loading="lazy"
+              className="divider-img animated fadeInDown"
             />
           </div>
           <h2 className="title-large">Regenerative Medicine ?</h2>

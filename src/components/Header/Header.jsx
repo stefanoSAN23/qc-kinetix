@@ -3,15 +3,62 @@ import './Header.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isSticky, setIsSticky] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsSticky(window.scrollY > 1000);
+      // Cambiar a fondo negro cuando se hace scroll (desde 50px para mejor UX)
+      setIsScrolled(window.scrollY > 50);
     };
+    
+    // Verificar estado inicial
+    handleScroll();
+    
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Detectar si el FloatingBanner está visible para ajustar la posición del header
+  useEffect(() => {
+    const checkBanner = () => {
+      const banner = document.querySelector('.floating-banner');
+      const header = document.querySelector('.header');
+      if (banner && header) {
+        // Si está scrolled, siempre poner el header en top: 0
+        if (isScrolled) {
+          header.style.top = '0';
+        } else {
+          // Si no está scrolled, ajustar según la altura del banner
+          const bannerHeight = banner.offsetHeight;
+          const bannerComputed = window.getComputedStyle(banner);
+          if (bannerHeight > 0 && bannerComputed.display !== 'none') {
+            header.style.top = `${bannerHeight}px`;
+          } else {
+            header.style.top = '0';
+          }
+        }
+      }
+    };
+
+    // Verificar inicialmente y cuando cambie el DOM o el scroll
+    checkBanner();
+    const observer = new MutationObserver(checkBanner);
+    const banner = document.querySelector('.floating-banner');
+    if (banner) {
+      observer.observe(banner, { attributes: true, attributeFilter: ['style', 'class'] });
+    }
+
+    // También verificar cuando cambie el scroll
+    const handleScroll = () => {
+      checkBanner();
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isScrolled]);
 
   const menuItems = [
     {
@@ -58,7 +105,7 @@ const Header = () => {
   ];
 
   return (
-    <header className={`header ${isSticky ? 'sticky-active' : ''}`}>
+    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       {/* Desktop Header */}
       <div className="header-desktop">
         <div className="header-container">

@@ -1,15 +1,46 @@
+import { useEffect, useRef } from 'react';
 import './Stats.css';
 
 const Stats = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const animatedElements = entry.target.querySelectorAll('.animated');
+          animatedElements.forEach((el) => {
+            el.classList.add('animated-active');
+          });
+        }
+      });
+    }, observerOptions);
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <section className="stats-section">
+    <section className="stats-section" ref={sectionRef}>
       <div className="stats-container e-flex e-con-boxed e-con e-parent">
         <div className="e-con-inner">
           {/* First Stat Item */}
           <div className="stat-item e-con-full e-flex e-con e-child">
             <div className="stat-heading animated fadeInDown">
               <h2 className="stat-number">
-                Up to <span>10 Billion</span>
+                Up to 10 Billion
               </h2>
             </div>
             

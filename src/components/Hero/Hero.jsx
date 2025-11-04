@@ -49,7 +49,7 @@ const Hero = () => {
             />
           </div>
           
-          <p className="hero-description">
+          <p className="hero-description align-center">
             Regenerative medicine using your body's own healing abilities for natural pain relief. <br />
             No surgery. No drugs. No downtime.
           </p>
