@@ -33,9 +33,10 @@ const Testimonials = () => {
           <h2>Success Stories</h2>
           <img 
             src="https://qckinetix.com/wp-content/uploads/2025/03/Group-331.svg" 
-            alt="" 
+            alt="Decorative divider line" 
             width="176" 
             height="7"
+            loading="lazy"
           />
         </div>
 
@@ -63,9 +64,10 @@ const Testimonials = () => {
                     <div className="testimonial-text">
                       <img 
                         src="https://qckinetix.com/wp-content/smush-webp/2025/03/Group-293.png.webp" 
-                        alt="Quote" 
+                        alt="Quote icon" 
                         width="31" 
                         height="25"
+                        loading="lazy"
                       />
                       <br />
                       {testimonial.quote}
@@ -75,9 +77,10 @@ const Testimonials = () => {
                     <div className="testimonial-image">
                       <img 
                         src={testimonial.image} 
-                        alt={testimonial.name}
+                        alt={`${testimonial.name}, ${testimonial.condition} patient`}
                         width="276"
                         height="276"
+                        loading="lazy"
                       />
                     </div>
                     <cite className="testimonial-cite">

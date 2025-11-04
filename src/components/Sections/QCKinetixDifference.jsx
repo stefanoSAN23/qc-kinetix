@@ -44,10 +44,11 @@ const QCKinetixDifference = () => {
               <div className="difference-description">
                 <img 
                   src="https://qckinetix.com/wp-content/smush-webp/2025/04/light-dark.png.webp" 
-                  alt="" 
+                  alt="Decorative divider line" 
                   width="101" 
                   height="5"
                   className="divider-img"
+                  loading="lazy"
                 />
                 <p>{diff.description}</p>
               </div>

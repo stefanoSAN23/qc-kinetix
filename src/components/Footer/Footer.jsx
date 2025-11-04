@@ -41,9 +41,10 @@ const Footer = () => {
           <div className="footer-logo">
             <img 
               src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg" 
-              alt="QC Kinetix" 
+              alt="QC Kinetix Logo" 
               width="1440" 
               height="360"
+              loading="lazy"
             />
             <p>© 2025 QC Kinetix. All Rights Reserved.</p>
           </div>
@@ -115,7 +116,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="footer-container">
-          <nav className="footer-nav">
+          <nav className="footer-nav" aria-label="Footer legal navigation">
             <a href="/privacy-policy/">Privacy Policy</a>
             <a href="/privacy-practices/">Privacy Practices</a>
             <a href="/terms-of-use/">Terms of use</a>

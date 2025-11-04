@@ -41,9 +41,11 @@ const Hero = () => {
           <div className="hero-divider fade-in-left">
             <img 
               src="https://qckinetix.com/wp-content/uploads/2025/03/Group-69.svg" 
-              alt="" 
+              alt="Decorative divider line" 
               width="176" 
               height="7"
+              loading="eager"
+              fetchPriority="high"
             />
           </div>
           

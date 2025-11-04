@@ -63,16 +63,20 @@ const Header = () => {
       <div className="header-desktop">
         <div className="header-container">
           <div className="logo-container">
-            <a href="/">
+            <a href="/" aria-label="QC Kinetix Home">
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg" 
                 alt="QC Kinetix" 
                 className="logo"
+                loading="eager"
+                fetchPriority="high"
+                width="200"
+                height="50"
               />
             </a>
           </div>
 
-          <nav className="nav-menu-desktop">
+          <nav className="nav-menu-desktop" aria-label="Main navigation">
             <ul className="menu-list">
               {menuItems.map((item, idx) => (
                 <li 
@@ -99,18 +103,11 @@ const Header = () => {
               <span>Request a Consultation</span>
             </a>
             <div className="phone-icon">
-              <a href="tel:1-800-490-4725">
-                <svg className="phone-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+              <a href="tel:1-800-490-4725" aria-label="Call QC Kinetix at 800-490-4725">
+                <svg className="phone-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                   <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path>
                 </svg>
                 <span>800-490-4725</span>
-              </a>
-            </div>
-            <div className="search-icon">
-              <a href="#search">
-                <svg className="search-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
-                </svg>
               </a>
             </div>
           </div>
@@ -121,11 +118,15 @@ const Header = () => {
       <div className="header-mobile">
         <div className="mobile-header-top">
           <div className="logo-container-mobile">
-            <a href="/">
+            <a href="/" aria-label="QC Kinetix Home">
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg" 
                 alt="QC Kinetix" 
                 className="logo"
+                loading="eager"
+                fetchPriority="high"
+                width="200"
+                height="50"
               />
             </a>
           </div>
@@ -139,7 +140,7 @@ const Header = () => {
           </div>
         </div>
 
-        <nav className="mobile-nav">
+        <nav className="mobile-nav" aria-label="Mobile navigation">
           <button 
             className="menu-toggle" 
             onClick={() => setIsMenuOpen(!isMenuOpen)}

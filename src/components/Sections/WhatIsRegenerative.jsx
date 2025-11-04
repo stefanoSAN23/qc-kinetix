@@ -9,9 +9,10 @@ const WhatIsRegenerative = () => {
             <h2>What is</h2>
             <img 
               src="https://qckinetix.com/wp-content/uploads/2025/03/Group-331.svg" 
-              alt="" 
+              alt="Decorative divider line" 
               width="176" 
               height="7"
+              loading="lazy"
             />
           </div>
           <h2 className="title-large">Regenerative Medicine ?</h2>

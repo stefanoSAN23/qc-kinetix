@@ -150,6 +150,10 @@
   fill: currentColor;
 }
 
+.phone-icon .phone-svg {
+  fill: var(--e-global-color-accent);
+}
+
 .header.sticky-active {
   position: fixed;
   top: 0;

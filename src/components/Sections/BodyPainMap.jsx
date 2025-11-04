@@ -25,7 +25,9 @@ const BodyPainMap = () => {
                 src="https://qckinetix.com/wp-content/smush-webp/2025/03/Bodys-8.png.webp" 
                 alt="Human Body" 
                 width="497"
+                height="497"
                 className="body-image"
+                loading="lazy"
               />
               {bodyParts.map((part, idx) => (
                 part.highlights.map((highlight, hIdx) => (
@@ -68,9 +70,10 @@ const BodyPainMap = () => {
                 <figure>
                   <img 
                     src={part.icon} 
-                    alt={part.label}
+                    alt={`${part.label} pain treatment`}
                     width="96"
                     height="96"
+                    loading="lazy"
                   />
                   <figcaption>{part.label}</figcaption>
                 </figure>
