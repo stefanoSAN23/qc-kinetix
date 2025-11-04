@@ -1,0 +1,133 @@
+/* Estilos globales extraídos del HTML original */
+
+:root {
+  --e-global-color-accent: #159A00;
+  --wp--preset--color--black: #000000;
+  --wp--preset--color--white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.green-dash {
+  background-color: var(--e-global-color-accent);
+  width: 20px;
+  height: 3px;
+  margin-bottom: 10px;
+}
+
+.req-btn a,
+.req-appointment {
+  margin: 20px 0;
+  background-color: var(--e-global-color-accent) !important;
+  font-size: 18px;
+  font-weight: 700 !important;
+  color: #fff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: var(--e-global-color-accent);
+  border-radius: 5px;
+  padding: 10px 35px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.req-btn a:hover,
+.req-appointment:hover {
+  background: #fff !important;
+  color: #172028 !important;
+}
+
+.desktop-hide a {
+  margin: 20px 20px 20px;
+}
+
+.phone-mob a {
+  margin: 0 0 20px !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 1025px) {
+  .desktop-hide {
+    display: none !important;
+  }
+}
+
+.elementor-sticky.elementor-sticky--active.elementor-sticky--effects {
+  top: 0 !important;
+  background: #000;
+}
+
+.elementor-sticky {
+  top: 5px !important;
+}
+
+.knee-pain-btn {
+  background-color: #159A00;
+  font-family: "Mulish", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  fill: #fff;
+  color: #fff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #159a00;
+  border-radius: 5px 5px 5px 5px;
+  padding: 15px 35px 15px 35px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.knee-pain-btn:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #159a00;
+}
+
+@media (max-width: 1025px) {
+  .become-patient {
+    background-color: #F0F5F7;
+    position: relative !important;
+  }
+  .become-patient::before,
+  .become-patient::after {
+    content: "" !important;
+    position: absolute !important;
+    width: 50% !important;
+    height: 100% !important;
+    top: 30px !important;
+    background: #F0F5F7 !important;
+  }
+  .become-patient::before {
+    transform: skew(0deg, 10deg) !important;
+  }
+  .become-patient::after {
+    transform: skew(0deg, -10deg) !important;
+    right: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .treatmentMegaMenu ul.sub-menu {
+    column-count: 2;
+    height: 250px;
+  }
+}
+

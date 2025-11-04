@@ -1,0 +1,238 @@
+.stats-section {
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.e-con-boxed {
+  width: 100%;
+}
+
+.e-con-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.e-con-full {
+  width: 100%;
+}
+
+.e-flex {
+  display: flex;
+}
+
+.e-con {
+  position: relative;
+}
+
+.e-con.e-child {
+  flex: 1;
+}
+
+.stat-heading {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.stat-number span {
+  color: var(--e-global-color-accent);
+}
+
+.stat-divider {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.elementor-divider {
+  width: 100%;
+}
+
+.elementor-divider-separator {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--e-global-color-accent);
+  margin: 0 auto;
+}
+
+.stat-text {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.stat-text p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.stat-footnote {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.stat-footnote p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.stat-button {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.elementor-button {
+  display: inline-block;
+  background-color: var(--e-global-color-accent);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 35px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid var(--e-global-color-accent);
+  transition: all 0.3s ease;
+}
+
+.elementor-button:hover {
+  background: #fff;
+  color: #172028;
+  border-color: var(--e-global-color-accent);
+}
+
+.elementor-button-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementor-button-text {
+  display: inline-block;
+}
+
+.elementor-size-lg {
+  font-size: 18px;
+  padding: 15px 35px;
+}
+
+/* Animations */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .e-con-inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .stat-item {
+    max-width: 100%;
+  }
+  
+  .stat-number {
+    font-size: 36px;
+  }
+}
+

@@ -1,0 +1,191 @@
+.body-pain-section {
+  padding: 100px 20px;
+  background: #fff;
+}
+
+.body-pain-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.body-pain-desktop {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .body-pain-desktop {
+    display: block;
+  }
+}
+
+.human-body-container {
+  margin-bottom: 40px;
+}
+
+.human-body {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.body-image {
+  width: 100%;
+  height: auto;
+}
+
+.highlight {
+  position: absolute;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #000;
+  display: none;
+  width: 24px;
+  height: 24px;
+  z-index: 10;
+}
+
+.highlight::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #0C1B42;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.highlight.active {
+  display: block;
+}
+
+.body-part-item:hover .highlight.active {
+  display: block;
+}
+
+.knee { top: 67%; left: 11%; }
+.shoulder { top: 13%; left: 5%; }
+.elbow { top: 33%; left: 93%; }
+.wrist { top: 42%; left: -1%; }
+.back { top: 33%; left: 77%; }
+.hip { top: 44%; left: 67%; }
+.ankle { top: 88%; left: 83%; }
+.finger { top: 54%; left: 37%; }
+.toe { top: 92%; left: 29%; }
+
+.body-pain-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.body-pain-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.body-pain-description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.body-parts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body-part-item {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.body-part-item:hover {
+  transform: scale(1.1);
+}
+
+.part-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.part-link figure {
+  margin: 0;
+  padding: 10px;
+}
+
+.part-link img {
+  width: 100%;
+  max-width: 96px;
+  height: auto;
+  transition: filter 0.3s ease;
+}
+
+.body-part-item:hover .part-link img {
+  filter: brightness(1.2);
+}
+
+.part-link figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.body-pain-button {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: block;
+}
+
+@media (min-width: 1025px) {
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
+  
+  .body-pain-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .body-parts-grid {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .body-pain-title {
+    font-size: 28px;
+  }
+  
+  .body-parts-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+

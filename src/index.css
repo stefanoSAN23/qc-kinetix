@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "./styles/global.css";
+
+body {
+  font-family: 'Mulish', 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background: #fff;
+}
+
+#root {
+  min-height: 100vh;
+}

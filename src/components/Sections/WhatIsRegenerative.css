@@ -1,0 +1,97 @@
+.what-is-section {
+  padding: 100px 20px;
+  background: #fff;
+}
+
+.what-is-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.what-is-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.what-is-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.title-large {
+  font-size: 48px !important;
+}
+
+.what-is-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.what-is-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.what-is-content strong {
+  font-weight: 700;
+}
+
+.dual-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background-color: var(--e-global-color-accent);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 35px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid var(--e-global-color-accent);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: #172028;
+  border-color: var(--e-global-color-accent);
+}
+
+@media (max-width: 768px) {
+  .what-is-header h2 {
+    font-size: 28px;
+  }
+  
+  .title-large {
+    font-size: 36px !important;
+  }
+  
+  .dual-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+

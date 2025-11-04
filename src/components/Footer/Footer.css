@@ -1,0 +1,160 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 60px 20px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  margin-bottom: 40px;
+}
+
+.footer-top .footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.footer-logo img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer-column h4 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.view-all {
+  color: var(--e-global-color-accent);
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  margin-bottom: 10px;
+}
+
+.footer-menu a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+  color: #fff;
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 15px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.search-input::placeholder {
+  color: #666;
+}
+
+.search-button {
+  background: var(--e-global-color-accent);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.search-button:hover {
+  background: #0d7a00;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 30px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+
+.footer-disclaimer {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-disclaimer p {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #999;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-top .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .footer-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+

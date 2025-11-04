@@ -1,0 +1,86 @@
+.qc-difference-section {
+  padding: 100px 20px;
+  background: #fff;
+}
+
+.qc-difference-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.qc-difference-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #000;
+  margin-bottom: 60px;
+}
+
+.differences-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.difference-card {
+  text-align: center;
+}
+
+.difference-icon-box {
+  margin-bottom: 20px;
+}
+
+.difference-content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.difference-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+.difference-title span {
+  display: block;
+}
+
+.difference-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.difference-description {
+  margin-top: 20px;
+}
+
+.divider-img {
+  margin-bottom: 15px;
+}
+
+.difference-description p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+}
+
+.qc-difference-button {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .qc-difference-title {
+    font-size: 32px;
+  }
+  
+  .differences-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
