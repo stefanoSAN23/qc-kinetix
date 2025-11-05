@@ -268,7 +268,34 @@
   animation-name: fadeInUp;
 }
 
+@media (max-width: 1024px) {
+  .stats-section {
+    padding: 60px 20px;
+  }
+  
+  .e-con-inner {
+    gap: 50px;
+  }
+  
+  .stat-number {
+    font-size: 36px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .stat-text p {
+    font-size: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
 @media (max-width: 768px) {
+  .stats-section {
+    padding: 50px 15px;
+  }
+  
   .e-con-inner {
     flex-direction: column;
     gap: 40px;
@@ -280,10 +307,40 @@
   
   .stat-number {
     font-size: 28px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   
   .stat-text p {
     font-size: 14px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-section {
+    padding: 40px 10px;
+  }
+  
+  .e-con-inner {
+    gap: 30px;
+  }
+  
+  .stat-number {
+    font-size: 24px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .stat-text p {
+    font-size: 13px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 5px;
   }
 }
 

@@ -56,6 +56,9 @@
   line-height: 1.8;
   color: #333;
   margin-bottom: 40px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .what-is-content strong {
@@ -114,23 +117,137 @@
   animation-name: fadeInDown;
 }
 
+@media (max-width: 1024px) {
+  .what-is-section {
+    padding: 60px 20px;
+  }
+  
+  .what-is-container {
+    max-width: 100%;
+  }
+  
+  .what-is-header {
+    margin-bottom: 50px;
+  }
+  
+  .header-top {
+    gap: 80px;
+  }
+  
+  .what-is-header h2,
+  .what-is-text {
+    font-size: 26px;
+  }
+  
+  .title-large {
+    font-size: 48px !important;
+  }
+  
+  .what-is-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 10px;
+  }
+  
+  .what-is-header h2,
+  .what-is-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .btn-primary {
+    font-size: 17px;
+    padding: 14px 32px;
+  }
+}
+
 @media (max-width: 768px) {
-  .what-is-header h2 {
-    font-size: 28px;
+  .what-is-section {
+    padding: 50px 15px;
+  }
+  
+  .what-is-header {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .header-top {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .what-is-header h2,
+  .what-is-text {
+    font-size: 24px;
   }
   
   .title-large {
     font-size: 36px !important;
+    text-align: center;
+  }
+  
+  .what-is-content {
+    text-align: center;
+  }
+  
+  .what-is-content p {
+    font-size: 16px;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 15px;
+  }
+  
+  .what-is-header h2,
+  .what-is-text {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
   
   .dual-buttons {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
   }
   
   .btn-primary {
     width: 100%;
     max-width: 300px;
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .what-is-section {
+    padding: 40px 10px;
+  }
+  
+  .what-is-header h2,
+  .what-is-text {
+    font-size: 22px;
+  }
+  
+  .title-large {
+    font-size: 28px !important;
+  }
+  
+  .what-is-content p {
+    font-size: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 10px;
+  }
+  
+  .btn-primary {
+    font-size: 15px;
+    padding: 10px 24px;
   }
 }
 

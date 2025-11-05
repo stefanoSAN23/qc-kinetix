@@ -1,5 +1,5 @@
 .testimonials-section {
-  padding: 100px 20px;
+  padding: 90px 20px;
   background: #fff;
 }
 
@@ -9,57 +9,123 @@
 }
 
 .testimonials-header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 60px;
+  margin-left: -670px;
+  padding-left: calc(50vw - 50% + 20px);
+  width: 100vw;
+}
+
+.testimonials-header-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 55px;
+  width: fit-content;
 }
 
 .testimonials-header h2 {
-  font-size: 42px;
+  font-size: 30px;
   font-weight: 700;
   color: #000;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .testimonials-carousel {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  overflow: visible;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.testimonials-carousel .swiper-pagination {
+  bottom: 0 !important;
+  position: absolute;
+}
+
+.testimonials-carousel .swiper-wrapper {
+  align-items: stretch;
+}
+
+.testimonials-carousel .swiper-slide {
+  height: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: stretch;
+  margin-bottom: 30px;
+}
+
+.testimonials-carousel .swiper-slide:not(:last-child) .testimonial-card {
+  border-right: 1px solid #ccc;
 }
 
 .testimonial-card {
-  background: #f9f9f9;
+  background: #fff;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 0;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  box-shadow: none;
+  position: relative;
 }
 
-.testimonial-content {
+.testimonial-content-wrapper {
+  display: flex;
+  gap: 20px;
   flex: 1;
-  margin-bottom: 20px;
+}
+
+.testimonial-left {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.testimonial-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.testimonial-image {
+  flex-shrink: 0;
+  margin-bottom: 8px;
+}
+
+.testimonial-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 0;
+  object-fit: cover;
+  display: block;
+}
+
+.testimonial-footer {
+  margin-top: 0;
+}
+
+.testimonial-quote-icon {
+  flex-shrink: 0;
+  margin-bottom: 10px;
+}
+
+.testimonial-quote-icon img {
+  width: 30px;
+  height: auto;
+  display: block;
 }
 
 .testimonial-text {
   font-size: 16px;
   line-height: 1.8;
   color: #333;
-}
-
-.testimonial-footer {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-top: auto;
-}
-
-.testimonial-image {
-  flex-shrink: 0;
-}
-
-.testimonial-image img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
+  flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .testimonial-cite {
@@ -82,7 +148,12 @@
 
 .testimonials-button {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
+}
+
+.testimonials-button .knee-pain-btn {
+  font-size: 16px;
+  padding: 12px 28px;
 }
 
 .swiper-pagination-bullet {
@@ -93,13 +164,193 @@
   background: var(--e-global-color-accent);
 }
 
-@media (max-width: 768px) {
+/* Animations */
+.animated {
+  opacity: 0;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animated-active.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@media (max-width: 1024px) {
+  .testimonials-section {
+    padding: 60px 20px;
+  }
+  
+  .testimonials-container {
+    max-width: 100%;
+  }
+  
+  .testimonials-header {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .testimonials-header-top {
+    gap: 30px;
+    justify-content: center;
+  }
+  
   .testimonials-header h2 {
-    font-size: 32px;
+    font-size: 28px;
+  }
+  
+  .testimonial-content-wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .testimonial-left {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .testimonial-image img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .testimonial-text {
+    font-size: 15px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 10px;
+  }
+  
+  .testimonials-button .knee-pain-btn {
+    font-size: 15px;
+    padding: 11px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 50px 15px;
+  }
+  
+  .testimonials-header {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonials-header-top {
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonials-header h2 {
+    font-size: 28px;
   }
   
   .testimonial-card {
     padding: 20px;
+  }
+  
+  .testimonial-content-wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .testimonial-left {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .testimonial-image img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .testimonial-right {
+    text-align: center;
+  }
+  
+  .testimonial-quote-icon {
+    justify-content: center;
+    display: flex;
+  }
+  
+  .testimonials-carousel .swiper-slide:not(:last-child) .testimonial-card {
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-section {
+    padding: 40px 10px;
+  }
+  
+  .testimonials-header h2 {
+    font-size: 24px;
+  }
+  
+  .testimonials-header-top {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .testimonial-card {
+    padding: 15px;
+  }
+  
+  .testimonial-image img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .testimonial-text {
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    padding: 0 5px;
+  }
+  
+  .testimonial-name {
+    font-size: 16px;
   }
 }
 

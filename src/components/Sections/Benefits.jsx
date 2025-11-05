@@ -1,6 +1,40 @@
+import { useEffect, useRef } from 'react';
 import './Benefits.css';
 
 const Benefits = () => {
+  const headerRef = useRef(null);
+  const buttonRef = useRef(null);
+
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated-active');
+        }
+      });
+    }, observerOptions);
+
+    if (headerRef.current) {
+      observer.observe(headerRef.current);
+    }
+    if (buttonRef.current) {
+      observer.observe(buttonRef.current);
+    }
+
+    return () => {
+      if (headerRef.current) {
+        observer.unobserve(headerRef.current);
+      }
+      if (buttonRef.current) {
+        observer.unobserve(buttonRef.current);
+      }
+    };
+  }, []);
   const benefits = [
     'No surgery',
     'No drugs',
@@ -15,7 +49,7 @@ const Benefits = () => {
     <section className="benefits-section">
       <div className="benefits-container">
         <div className="benefits-header fade-in-down">
-          <div className="benefits-header-top">
+          <div className="benefits-header-top animated fadeInDown" ref={headerRef}>
             <h2>Benefits of</h2>
             <img 
               src="https://qckinetix.com/wp-content/uploads/2025/03/Group-331.svg" 
@@ -26,6 +60,13 @@ const Benefits = () => {
             />
           </div>
           <h2 className="benefits-title-large">Regenerative<br />Medicine</h2>
+          <div className="benefits-header-button desktop-only animated fadeInUp" ref={buttonRef}>
+            <a href="#contact" className="elementor-button elementor-button-link elementor-size-sm">
+              <span className="elementor-button-content-wrapper">
+                <span className="elementor-button-text">Book a Consultation</span>
+              </span>
+            </a>
+          </div>
         </div>
 
         <div className="benefits-content">

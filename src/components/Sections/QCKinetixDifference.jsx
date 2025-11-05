@@ -1,6 +1,33 @@
+import { useEffect, useRef } from 'react';
 import './QCKinetixDifference.css';
 
 const QCKinetixDifference = () => {
+  const buttonRef = useRef(null);
+
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated-active');
+        }
+      });
+    }, observerOptions);
+
+    if (buttonRef.current) {
+      observer.observe(buttonRef.current);
+    }
+
+    return () => {
+      if (buttonRef.current) {
+        observer.unobserve(buttonRef.current);
+      }
+    };
+  }, []);
   const differences = [
     {
       title: 'Patient-First',
@@ -56,7 +83,7 @@ const QCKinetixDifference = () => {
           ))}
         </div>
 
-        <div className="qc-difference-button">
+        <div className="qc-difference-button animated fadeInUp" ref={buttonRef}>
           <a href="/about-us/" className="knee-pain-btn">
             Learn More
           </a>

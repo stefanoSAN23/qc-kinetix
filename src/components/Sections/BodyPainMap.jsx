@@ -1,8 +1,41 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './BodyPainMap.css';
 
 const BodyPainMap = () => {
   const [highlightedPart, setHighlightedPart] = useState(null);
+  const button1Ref = useRef(null);
+  const button2Ref = useRef(null);
+
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated-active');
+        }
+      });
+    }, observerOptions);
+
+    if (button1Ref.current) {
+      observer.observe(button1Ref.current);
+    }
+    if (button2Ref.current) {
+      observer.observe(button2Ref.current);
+    }
+
+    return () => {
+      if (button1Ref.current) {
+        observer.unobserve(button1Ref.current);
+      }
+      if (button2Ref.current) {
+        observer.unobserve(button2Ref.current);
+      }
+    };
+  }, []);
 
   const bodyParts = [
     { name: 'knee', label: 'Knee', href: '/knee-pain/', icon: 'https://qckinetix.com/wp-content/uploads/2025/03/Group-251.svg', highlights: ['knee'] },
@@ -49,7 +82,7 @@ const BodyPainMap = () => {
           <p className="body-pain-description">
             We offer various nonsurgical regenerative treatments that stimulate the body's natural healing mechanisms rather than simply masking symptoms or resorting to surgery.
           </p>
-          <div className="body-pain-button desktop-only">
+          <div className="body-pain-button desktop-only animated fadeInUp" ref={button1Ref}>
             <a href="/conditions/" className="knee-pain-btn">
               View All Conditions Treated
             </a>
@@ -82,7 +115,7 @@ const BodyPainMap = () => {
           ))}
         </div>
 
-        <div className="body-pain-consultation-button">
+        <div className="body-pain-consultation-button animated fadeInUp" ref={button2Ref}>
           <a href="/request-your-first-appointment/" className="req-btn">
             <span>Request a Consultation</span>
           </a>

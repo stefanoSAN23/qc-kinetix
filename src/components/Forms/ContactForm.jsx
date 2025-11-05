@@ -1,7 +1,34 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import './ContactForm.css';
 
 const ContactForm = () => {
+  const titleRef = useRef(null);
+
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated-active');
+        }
+      });
+    }, observerOptions);
+
+    if (titleRef.current) {
+      observer.observe(titleRef.current);
+    }
+
+    return () => {
+      if (titleRef.current) {
+        observer.unobserve(titleRef.current);
+      }
+    };
+  }, []);
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -9,31 +36,32 @@ const ContactForm = () => {
     zipCode: '',
     phone: '',
     hearAbout: '',
-    location: ''
+    location: '',
+    consent: false
   });
 
   const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: type === 'checkbox' ? checked : value
     });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí iría la lógica de envío del formulario
     console.log('Form submitted:', formData);
+    // Aquí iría la lógica de envío del formulario
   };
 
   return (
     <section className="contact-section" id="contact">
       <div className="contact-container">
-        <h2 className="contact-title fade-in-down">Contact Us</h2>
+        <h2 className="contact-title animated fadeInDown" ref={titleRef}>Contact Us</h2>
         
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-row">
-            <div className="form-group half">
-              <label htmlFor="firstName">First Name <span className="required">(Required)</span></label>
+            <div className="form-group">
               <input
                 type="text"
                 id="firstName"
@@ -45,8 +73,7 @@ const ContactForm = () => {
               />
             </div>
             
-            <div className="form-group half">
-              <label htmlFor="lastName">Last Name <span className="required">(Required)</span></label>
+            <div className="form-group">
               <input
                 type="text"
                 id="lastName"
@@ -60,8 +87,7 @@ const ContactForm = () => {
           </div>
 
           <div className="form-row">
-            <div className="form-group half">
-              <label htmlFor="email">Email <span className="required">(Required)</span></label>
+            <div className="form-group">
               <input
                 type="email"
                 id="email"
@@ -73,8 +99,7 @@ const ContactForm = () => {
               />
             </div>
             
-            <div className="form-group half">
-              <label htmlFor="zipCode">ZIP Code <span className="required">(Required)</span></label>
+            <div className="form-group">
               <input
                 type="text"
                 id="zipCode"
@@ -87,22 +112,21 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <div className="form-group full">
-            <label htmlFor="location">Chosen Location <span className="required">(Required)</span></label>
+          <div className="form-group-full">
             <input
               type="text"
               id="location"
               name="location"
+              placeholder=""
               value={formData.location}
               onChange={handleChange}
               required
             />
-            <div className="field-description">Chosen Location</div>
+            <span className="location-label">Chosen Location</span>
           </div>
 
           <div className="form-row">
-            <div className="form-group half">
-              <label htmlFor="phone">Phone <span className="required">(Required)</span></label>
+            <div className="form-group">
               <input
                 type="tel"
                 id="phone"
@@ -114,8 +138,7 @@ const ContactForm = () => {
               />
             </div>
             
-            <div className="form-group half">
-              <label htmlFor="hearAbout">How did you hear about us? <span className="required">(Required)</span></label>
+            <div className="form-group">
               <select
                 id="hearAbout"
                 name="hearAbout"
@@ -138,18 +161,19 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <div className="form-group consent">
+          <div className="consent-group">
             <label className="consent-label">
               <input
                 type="checkbox"
                 name="consent"
+                checked={formData.consent}
+                onChange={handleChange}
                 required
               />
-              <span>
+              <span className="consent-text">
                 By submitting my contact information above, I consent to receive SMS from QC Kinetix. 
                 Reply STOP to opt-out; Reply HELP for support; Message & data rates may apply; 
                 Messaging frequency may vary. Please refer to our Privacy Policy and Terms of Use for more information.
-                <span className="required">*</span>
               </span>
             </label>
           </div>
@@ -166,4 +190,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
