@@ -54,6 +54,11 @@
 .logo {
   height: 58px;
   width: auto;
+  transition: filter 0.3s ease;
+}
+
+.logo.logo-green {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(95%) saturate(1500%) hue-rotate(75deg) brightness(0.95) contrast(105%);
 }
 
 .nav-menu-desktop {
@@ -521,5 +526,65 @@
     font-size: 12px;
     padding: 6px 30px;
   }
+}
+
+/* Regenerative Medicine Page Styles */
+.header.regenerative-page {
+  background: #fff !important;
+}
+
+.header.regenerative-page.scrolled {
+  background: #fff !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header.regenerative-page .menu-link {
+  color: #000;
+}
+
+.header.regenerative-page .menu-link.active-regenerative {
+  color: #159A00 !important;
+}
+
+.header.regenerative-page .menu-item.active .menu-link {
+  color: #159A00 !important;
+}
+
+.header.regenerative-page .menu-item.has-children::after {
+  border-top-color: #fff;
+}
+
+.header.regenerative-page .menu-item.active.has-children::after {
+  border-top-color: #159A00;
+}
+
+.header.regenerative-page .mobile-menu-link {
+  color: #000;
+}
+
+.header.regenerative-page .mobile-menu-link.active-regenerative {
+  color: #159A00 !important;
+}
+
+.header.regenerative-page .mobile-menu-item.active .mobile-menu-link {
+  color: #159A00 !important;
+}
+
+.header.regenerative-page .phone-svg {
+  fill: #000;
+}
+
+.header.regenerative-page .phone-icon span {
+  color: #000;
+}
+
+.header.regenerative-page .req-btn {
+  color: #000;
+  border-color: #000;
+}
+
+.header.regenerative-page .req-btn:hover {
+  background: #000;
+  color: #fff;
 }
 

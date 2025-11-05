@@ -1,0 +1,94 @@
+.what-is-used-for-section {
+  background: #000;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.what-is-used-for-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.what-is-used-for-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.what-is-used-for-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.what-is-used-for-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.what-is-used-for-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease 0.2s, transform 0.8s ease 0.2s;
+}
+
+.what-is-used-for-text.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.what-is-used-for-image {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 1s ease 0.4s, transform 1s ease 0.4s;
+}
+
+.what-is-used-for-image.animated-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.what-is-used-for-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .what-is-used-for-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .what-is-used-for-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .what-is-used-for-section {
+    padding: 60px 20px;
+  }
+
+  .what-is-used-for-title {
+    font-size: 28px;
+  }
+
+  .what-is-used-for-text {
+    font-size: 16px;
+  }
+}
+

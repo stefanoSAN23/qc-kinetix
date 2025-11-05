@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Stats from './components/Stats/Stats';
@@ -9,13 +10,12 @@ import Testimonials from './components/Sections/Testimonials';
 import ContactForm from './components/Forms/ContactForm';
 import Footer from './components/Footer/Footer';
 import FloatingBanner from './components/Common/FloatingBanner';
+import RegenerativeMedicine from './pages/RegenerativeMedicine';
 import './App.css';
 
-function App() {
+function HomePage() {
   return (
-    <div className="App">
-      <FloatingBanner />
-      <Header />
+    <>
       <main>
         <Hero />
         <Stats />
@@ -26,8 +26,23 @@ function App() {
         <Testimonials />
         <ContactForm />
       </main>
-      <Footer />
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <FloatingBanner />
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/regenerative-medicine" element={<RegenerativeMedicine />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

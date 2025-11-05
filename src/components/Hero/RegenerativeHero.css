@@ -1,0 +1,151 @@
+.regenerative-hero-section {
+  background: #000 url('https://qckinetix.com/wp-content/uploads/2025/04/Group-748.png') no-repeat center center;
+  background-size: cover;
+  padding: 120px 20px;
+  margin-top: 100px;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.regenerative-hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.regenerative-hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 80px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.regenerative-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.regenerative-hero-divider-container {
+  display: flex;
+  justify-content: flex-start;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.regenerative-hero-divider-container.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.regenerative-hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0 0 50px 0;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.8s ease 0.2s, transform 0.8s ease 0.2s;
+}
+
+.regenerative-hero-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.regenerative-hero-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease 0.4s, transform 0.8s ease 0.4s;
+}
+
+.regenerative-hero-text.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.regenerative-hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0;
+}
+
+.regenerative-hero-text strong {
+  color: #ffffff;
+}
+
+.regenerative-hero-image {
+  opacity: 0;
+  transform: translateX(30px) scale(0.95);
+  transition: opacity 1s ease 0.6s, transform 1s ease 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.regenerative-hero-image.animated-active {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+.regenerative-hero-image img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .regenerative-hero-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .regenerative-hero-image {
+    order: -1;
+  }
+
+  .regenerative-hero-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .regenerative-hero-section {
+    padding: 60px 20px;
+    margin-top: 80px;
+    min-height: auto;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .regenerative-hero-title {
+    font-size: 28px;
+  }
+
+  .regenerative-hero-text p {
+    font-size: 16px;
+  }
+}
+

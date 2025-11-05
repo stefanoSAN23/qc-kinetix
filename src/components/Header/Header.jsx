@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+  const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -63,11 +65,11 @@ const Header = () => {
   const menuItems = [
     {
       title: 'Regenerative Medicine',
-      href: '/regenerative-medicine/',
+      href: '/regenerative-medicine',
       submenu: [
-        { title: 'Stem Cell Treatments', href: '/regenerative-medicine/stem-cell-treatments/' },
-        { title: 'PRP Treatments', href: '/regenerative-medicine/prp-treatments/' },
-        { title: 'Laser Therapy Treatments', href: '/regenerative-medicine/class-iv-laser-treatment/' }
+        { title: 'Stem Cell Treatments', href: '/regenerative-medicine/stem-cell-treatments' },
+        { title: 'PRP Treatments', href: '/regenerative-medicine/prp-treatments' },
+        { title: 'Laser Therapy Treatments', href: '/regenerative-medicine/class-iv-laser-treatment' }
       ]
     },
     {
@@ -104,51 +106,56 @@ const Header = () => {
     { title: 'Locations', href: '/qc-locations/' }
   ];
 
+  const isRegenerativePage = location.pathname === '/regenerative-medicine' || location.pathname.startsWith('/regenerative-medicine/');
+
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
+    <header className={`header ${isScrolled ? 'scrolled' : ''} ${isRegenerativePage ? 'regenerative-page' : ''}`}>
       {/* Desktop Header */}
       <div className="header-desktop">
         <div className="header-container">
           <div className="logo-container">
-            <a href="/" aria-label="QC Kinetix Home">
+            <Link to="/" aria-label="QC Kinetix Home">
               <img 
-                src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg" 
+                src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
                 alt="QC Kinetix" 
-                className="logo"
+                className={`logo ${isRegenerativePage ? 'logo-green' : ''}`}
                 loading="eager"
                 fetchPriority="high"
                 width="200"
                 height="50"
               />
-            </a>
+            </Link>
           </div>
 
           <nav className="nav-menu-desktop" aria-label="Main navigation">
             <ul className="menu-list">
-              {menuItems.map((item, idx) => (
-                <li 
-                  key={idx} 
-                  className={`menu-item ${item.className || ''} ${item.submenu ? 'has-children' : ''}`}
-                >
-                  <a href={item.href} className="menu-link">{item.title}</a>
-                  {item.submenu && (
-                    <ul className="sub-menu">
-                      {item.submenu.map((sub, subIdx) => (
-                        <li key={subIdx} className="sub-menu-item">
-                          <a href={sub.href} className="sub-menu-link">{sub.title}</a>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              ))}
+              {menuItems.map((item, idx) => {
+                const isActive = location.pathname === item.href || (item.href === '/regenerative-medicine' && isRegenerativePage);
+                return (
+                  <li 
+                    key={idx} 
+                    className={`menu-item ${item.className || ''} ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}
+                  >
+                    <Link to={item.href} className={`menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`}>{item.title}</Link>
+                    {item.submenu && (
+                      <ul className="sub-menu">
+                        {item.submenu.map((sub, subIdx) => (
+                          <li key={subIdx} className="sub-menu-item">
+                            <Link to={sub.href} className="sub-menu-link">{sub.title}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </nav>
 
           <div className="header-actions">
-            <a href="/request-your-first-appointment/" className="req-btn">
+            <Link to="/request-your-first-appointment/" className="req-btn">
               <span>Request a Consultation</span>
-            </a>
+            </Link>
             <div className="phone-icon">
               <a href="tel:1-800-490-4725" aria-label="Call QC Kinetix at 800-490-4725">
                 <svg className="phone-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -165,22 +172,22 @@ const Header = () => {
       <div className="header-mobile">
         <div className="mobile-header-top">
           <div className="logo-container-mobile">
-            <a href="/" aria-label="QC Kinetix Home">
+            <Link to="/" aria-label="QC Kinetix Home">
               <img 
-                src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg" 
+                src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
                 alt="QC Kinetix" 
-                className="logo"
+                className={`logo ${isRegenerativePage ? 'logo-green' : ''}`}
                 loading="eager"
                 fetchPriority="high"
                 width="200"
                 height="50"
               />
-            </a>
+            </Link>
           </div>
           <div className="mobile-actions">
-            <a href="/request-your-first-appointment/" className="req-btn mobile">
+            <Link to="/request-your-first-appointment/" className="req-btn mobile">
               Request a Consultation
-            </a>
+            </Link>
             <div className="phone-icon">
               <a href="tel:1-800-490-4725" aria-label="Call QC Kinetix at 800-490-4725">
                 <svg className="phone-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -211,24 +218,31 @@ const Header = () => {
           </button>
 
           <ul className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
-            {menuItems.map((item, idx) => (
-              <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''}`}>
-                <a href={item.href} className="mobile-menu-link" onClick={() => !item.submenu && setIsMenuOpen(false)}>
-                  {item.title}
-                </a>
-                {item.submenu && (
-                  <ul className="mobile-sub-menu">
-                    {item.submenu.map((sub, subIdx) => (
-                      <li key={subIdx}>
-                        <a href={sub.href} onClick={() => setIsMenuOpen(false)}>{sub.title}</a>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </li>
-            ))}
+            {menuItems.map((item, idx) => {
+              const isActive = location.pathname === item.href || (item.href === '/regenerative-medicine' && isRegenerativePage);
+              return (
+                <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}>
+                  <Link 
+                    to={item.href} 
+                    className={`mobile-menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`} 
+                    onClick={() => !item.submenu && setIsMenuOpen(false)}
+                  >
+                    {item.title}
+                  </Link>
+                  {item.submenu && (
+                    <ul className="mobile-sub-menu">
+                      {item.submenu.map((sub, subIdx) => (
+                        <li key={subIdx}>
+                          <Link to={sub.href} onClick={() => setIsMenuOpen(false)}>{sub.title}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              );
+            })}
             <li className="desktop-hide req-btn mobile-menu-item">
-              <a href="/request-your-first-appointment/" onClick={() => setIsMenuOpen(false)}>Request a Consultation</a>
+              <Link to="/request-your-first-appointment/" onClick={() => setIsMenuOpen(false)}>Request a Consultation</Link>
             </li>
             <li className="desktop-hide phone-mob mobile-menu-item">
               <a href="tel:1-800-490-4725" onClick={() => setIsMenuOpen(false)} className="mobile-phone-link">
