@@ -114,7 +114,14 @@ const Header = () => {
       <div className="header-desktop">
         <div className="header-container">
           <div className="logo-container">
-            <Link to="/" aria-label="QC Kinetix Home">
+            <Link 
+              to="/" 
+              aria-label="QC Kinetix Home"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = '/';
+              }}
+            >
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
                 alt="QC Kinetix" 
@@ -131,12 +138,24 @@ const Header = () => {
             <ul className="menu-list">
               {menuItems.map((item, idx) => {
                 const isActive = location.pathname === item.href || (item.href === '/regenerative-medicine' && isRegenerativePage);
+                const isRegenerativeMedicine = item.href === '/regenerative-medicine';
                 return (
                   <li 
                     key={idx} 
                     className={`menu-item ${item.className || ''} ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}
                   >
-                    <Link to={item.href} className={`menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`}>{item.title}</Link>
+                    <Link 
+                      to={item.href} 
+                      className={`menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`}
+                      onClick={(e) => {
+                        if (isRegenerativeMedicine) {
+                          e.preventDefault();
+                          window.location.href = '/regenerative-medicine';
+                        }
+                      }}
+                    >
+                      {item.title}
+                    </Link>
                     {item.submenu && (
                       <ul className="sub-menu">
                         {item.submenu.map((sub, subIdx) => (
@@ -172,7 +191,14 @@ const Header = () => {
       <div className="header-mobile">
         <div className="mobile-header-top">
           <div className="logo-container-mobile">
-            <Link to="/" aria-label="QC Kinetix Home">
+            <Link 
+              to="/" 
+              aria-label="QC Kinetix Home"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = '/';
+              }}
+            >
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
                 alt="QC Kinetix" 
@@ -220,12 +246,21 @@ const Header = () => {
           <ul className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
             {menuItems.map((item, idx) => {
               const isActive = location.pathname === item.href || (item.href === '/regenerative-medicine' && isRegenerativePage);
+              const isRegenerativeMedicine = item.href === '/regenerative-medicine';
               return (
                 <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}>
                   <Link 
                     to={item.href} 
                     className={`mobile-menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`} 
-                    onClick={() => !item.submenu && setIsMenuOpen(false)}
+                    onClick={(e) => {
+                      if (isRegenerativeMedicine) {
+                        e.preventDefault();
+                        window.location.href = '/regenerative-medicine';
+                        setIsMenuOpen(false);
+                      } else if (!item.submenu) {
+                        setIsMenuOpen(false);
+                      }
+                    }}
                   >
                     {item.title}
                   </Link>

@@ -11,6 +11,7 @@ import ContactForm from './components/Forms/ContactForm';
 import Footer from './components/Footer/Footer';
 import FloatingBanner from './components/Common/FloatingBanner';
 import RegenerativeMedicine from './pages/RegenerativeMedicine';
+import StemCellTreatments from './pages/StemCellTreatments';
 import './App.css';
 
 function HomePage() {
@@ -39,6 +40,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/regenerative-medicine" element={<RegenerativeMedicine />} />
+          <Route path="/regenerative-medicine/stem-cell-treatments" element={<StemCellTreatments />} />
         </Routes>
         <Footer />
       </div>

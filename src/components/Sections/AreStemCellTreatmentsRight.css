@@ -1,0 +1,139 @@
+.are-stem-cell-right-section {
+  padding: 80px 20px;
+  background: #0C1633;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Background-Texture-Gray.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.are-stem-cell-right-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.are-stem-cell-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.are-stem-cell-right-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.are-stem-cell-right-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.are-stem-cell-right-button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.are-stem-cell-right-button.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.are-stem-cell-right-text {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.are-stem-cell-right-text.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.are-stem-cell-right-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.are-stem-cell-right-text p:last-child {
+  margin-bottom: 0;
+}
+
+.are-stem-cell-right-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.are-stem-cell-right-text a:hover {
+  color: #159A00;
+}
+
+.are-stem-cell-right-image {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.are-stem-cell-right-image.animated-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.are-stem-cell-right-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+@media (max-width: 1024px) {
+  .are-stem-cell-right-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .are-stem-cell-right-image {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .are-stem-cell-right-section {
+    padding: 60px 20px;
+  }
+
+  .are-stem-cell-right-title {
+    font-size: 28px;
+  }
+
+  .are-stem-cell-right-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .are-stem-cell-right-section {
+    padding: 50px 15px;
+  }
+
+  .are-stem-cell-right-title {
+    font-size: 24px;
+  }
+
+  .are-stem-cell-right-text p {
+    font-size: 15px;
+  }
+}
+

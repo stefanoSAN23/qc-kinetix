@@ -28,7 +28,7 @@
 
 .benefits-header h2 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   color: #000;
   margin: 0;
 }
@@ -273,25 +273,58 @@
 
 @media (max-width: 480px) {
   .benefits-section {
-    padding: 40px 10px;
+    padding: 40px 15px;
+  }
+
+  .benefits-container {
+    gap: 25px;
   }
   
+  .benefits-header {
+    margin-left: 0;
+  }
+
   .benefits-header h2 {
     font-size: 24px;
   }
   
   .benefits-title-large {
     font-size: 28px !important;
+    line-height: 1.2;
   }
   
   .benefit-item {
     font-size: 14px;
     padding: 6px 0;
+    line-height: 1.5;
   }
   
   .check-icon {
     width: 20px;
     height: 20px;
+  }
+
+  .benefits-header-button .elementor-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .benefits-section {
+    padding: 35px 12px;
+  }
+
+  .benefits-header h2 {
+    font-size: 22px;
+  }
+
+  .benefits-title-large {
+    font-size: 24px !important;
+  }
+
+  .benefit-item {
+    font-size: 13px;
   }
 }
 

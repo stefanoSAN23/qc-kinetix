@@ -47,7 +47,7 @@ const WhatIsRegenerative = () => {
               className="divider-img animated fadeInDown"
             />
           </div>
-          <h2 className="title-large">Regenerative Medicine ?</h2>
+          <h2 className="title-large" style={{ opacity: 1 }}>Regenerative Medicine ?</h2>
         </div>
 
         <div className="what-is-content">

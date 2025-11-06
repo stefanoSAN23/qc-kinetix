@@ -2,11 +2,14 @@ import { useEffect, useRef } from 'react';
 import './RegenerativeProcess.css';
 
 const RegenerativeProcess = () => {
-  const containerRef = useRef(null);
+  const titleRef = useRef(null);
+  const dividerRef = useRef(null);
+  const titleLargeRef = useRef(null);
+  const introRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
-      threshold: 0.1,
+      threshold: 0.2,
       rootMargin: '0px 0px -100px 0px'
     };
 
@@ -18,14 +21,24 @@ const RegenerativeProcess = () => {
       });
     }, observerOptions);
 
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
+    if (titleRef.current) {
+      observer.observe(titleRef.current);
+    }
+    if (dividerRef.current) {
+      observer.observe(dividerRef.current);
+    }
+    if (titleLargeRef.current) {
+      observer.observe(titleLargeRef.current);
+    }
+    if (introRef.current) {
+      observer.observe(introRef.current);
     }
 
     return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
+      if (titleRef.current) observer.unobserve(titleRef.current);
+      if (dividerRef.current) observer.unobserve(dividerRef.current);
+      if (titleLargeRef.current) observer.unobserve(titleLargeRef.current);
+      if (introRef.current) observer.unobserve(introRef.current);
     };
   }, []);
 
@@ -56,25 +69,29 @@ const RegenerativeProcess = () => {
     <section className="regenerative-process-section">
       <div className="regenerative-process-container">
         <div className="regenerative-process-header">
-          <div className="regenerative-process-header-top">
-            <h2>What is the</h2>
-            <img 
-              src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp" 
-              alt="Decorative divider" 
-              width="177" 
-              height="8"
-              loading="lazy"
-            />
+          <div className="regenerative-process-title-container">
+            <div className="regenerative-process-header-top">
+              <h2 className="animated fadeInDown" ref={titleRef}>What is the</h2>
+              <img 
+                src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp" 
+                alt="Decorative divider" 
+                width="177" 
+                height="8"
+                loading="lazy"
+                className="regenerative-process-divider animated fadeInDown"
+                ref={dividerRef}
+              />
+            </div>
+            <h2 className="regenerative-process-title-large animated fadeInDown" ref={titleLargeRef}>
+              Regenerative Therapy<br /> Process Like at QC<br /> Kinetix?
+            </h2>
           </div>
-          <h2 className="regenerative-process-title-large">
-            Regenerative Therapy<br /> Process Like at QC<br /> Kinetix?
-          </h2>
-          <p className="regenerative-process-intro">
+          <p className="regenerative-process-intro animated fadeInDown" ref={introRef}>
             Regenerative medicine is powered by natural biologics derived from the individual patient's blood components. Orthobiologic therapies isolate specific biological materials, concentrate them, and then reintroduce them at the injured site to stimulate and support your body's own restorative processes.
           </p>
         </div>
 
-        <div className="hex-row" ref={containerRef}>
+        <div className="hex-row">
           {processSteps.map((step, index) => (
             <div key={index} className="hex-container">
               <div className="circle">{step.number}</div>
@@ -112,4 +129,5 @@ const RegenerativeProcess = () => {
 };
 
 export default RegenerativeProcess;
+
 

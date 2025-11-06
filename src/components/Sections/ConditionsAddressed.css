@@ -1,0 +1,87 @@
+.conditions-addressed-section {
+  padding: 80px 20px;
+  background: #1a2d5a;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Background-Texture-Gray.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.conditions-addressed-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.conditions-addressed-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0 0 30px 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.conditions-addressed-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.conditions-addressed-text {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  max-width: 100%;
+  width: 100%;
+}
+
+.conditions-addressed-text.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.conditions-addressed-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.conditions-addressed-text p:last-child {
+  margin-bottom: 0;
+}
+
+.conditions-addressed-text strong {
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .conditions-addressed-section {
+    padding: 60px 20px;
+  }
+
+  .conditions-addressed-title {
+    font-size: 28px;
+  }
+
+  .conditions-addressed-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .conditions-addressed-section {
+    padding: 50px 15px;
+  }
+
+  .conditions-addressed-title {
+    font-size: 24px;
+  }
+
+  .conditions-addressed-text p {
+    font-size: 15px;
+  }
+}
+

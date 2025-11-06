@@ -37,12 +37,10 @@
   margin: 0;
 }
 
-.divider-img {
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
 
 .title-large {
   font-size: 56px !important;
+  opacity: 1;
 }
 
 .what-is-content {
@@ -117,6 +115,12 @@
   animation-name: fadeInDown;
 }
 
+@media (max-width: 1200px) {
+  .header-top {
+    gap: 120px;
+  }
+}
+
 @media (max-width: 1024px) {
   .what-is-section {
     padding: 60px 20px;
@@ -131,7 +135,7 @@
   }
   
   .header-top {
-    gap: 80px;
+    gap: 60px;
   }
   
   .what-is-header h2,
@@ -225,29 +229,70 @@
 
 @media (max-width: 480px) {
   .what-is-section {
-    padding: 40px 10px;
+    padding: 40px 15px;
+  }
+
+  .what-is-header {
+    margin-bottom: 35px;
+  }
+
+  .header-top {
+    gap: 15px;
   }
   
   .what-is-header h2,
   .what-is-text {
-    font-size: 22px;
+    font-size: 20px;
   }
   
   .title-large {
-    font-size: 28px !important;
+    font-size: 26px !important;
+    line-height: 1.2;
   }
   
   .what-is-content p {
     font-size: 15px;
+    line-height: 1.6;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
-    padding: 0 10px;
+    padding: 0;
+    margin-bottom: 30px;
   }
   
   .btn-primary {
     font-size: 15px;
-    padding: 10px 24px;
+    padding: 12px 24px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .dual-buttons {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .what-is-section {
+    padding: 35px 12px;
+  }
+
+  .what-is-header h2,
+  .what-is-text {
+    font-size: 18px;
+  }
+
+  .title-large {
+    font-size: 24px !important;
+  }
+
+  .what-is-content p {
+    font-size: 14px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    padding: 10px 20px;
   }
 }
 

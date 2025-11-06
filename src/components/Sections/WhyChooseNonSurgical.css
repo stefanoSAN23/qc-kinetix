@@ -1,0 +1,170 @@
+.why-choose-non-surgical-section {
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.why-choose-non-surgical-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-choose-non-surgical-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.why-choose-non-surgical-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.why-choose-non-surgical-divider-container {
+  margin-bottom: 10px;
+}
+
+.why-choose-non-surgical-divider {
+  display: block;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.why-choose-non-surgical-divider.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.why-choose-non-surgical-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.why-choose-non-surgical-intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.why-choose-non-surgical-intro.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.why-choose-non-surgical-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.why-choose-non-surgical-list.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.why-choose-non-surgical-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.why-choose-non-surgical-list-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  color: #159A00;
+  margin-top: 2px;
+}
+
+.why-choose-non-surgical-list-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.why-choose-non-surgical-list-content {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+}
+
+.why-choose-non-surgical-list-title {
+  font-weight: 700;
+  color: #000;
+}
+
+.why-choose-non-surgical-final-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.why-choose-non-surgical-final-text.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.why-choose-non-surgical-button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.why-choose-non-surgical-button.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .why-choose-non-surgical-section {
+    padding: 60px 20px;
+  }
+
+  .why-choose-non-surgical-title {
+    font-size: 28px;
+  }
+
+  .why-choose-non-surgical-intro,
+  .why-choose-non-surgical-list-content,
+  .why-choose-non-surgical-final-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .why-choose-non-surgical-section {
+    padding: 50px 15px;
+  }
+
+  .why-choose-non-surgical-title {
+    font-size: 24px;
+  }
+
+  .why-choose-non-surgical-intro,
+  .why-choose-non-surgical-list-content,
+  .why-choose-non-surgical-final-text {
+    font-size: 15px;
+  }
+}
+

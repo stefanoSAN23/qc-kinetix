@@ -3,8 +3,6 @@ import './WhatIsRegenerativeUsedFor.css';
 
 const WhatIsRegenerativeUsedFor = () => {
   const titleRef = useRef(null);
-  const textRef = useRef(null);
-  const imageRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -23,17 +21,9 @@ const WhatIsRegenerativeUsedFor = () => {
     if (titleRef.current) {
       observer.observe(titleRef.current);
     }
-    if (textRef.current) {
-      observer.observe(textRef.current);
-    }
-    if (imageRef.current) {
-      observer.observe(imageRef.current);
-    }
 
     return () => {
       if (titleRef.current) observer.unobserve(titleRef.current);
-      if (textRef.current) observer.unobserve(textRef.current);
-      if (imageRef.current) observer.unobserve(imageRef.current);
     };
   }, []);
 
@@ -44,11 +34,11 @@ const WhatIsRegenerativeUsedFor = () => {
           <h2 className="what-is-used-for-title animated fadeInDown" ref={titleRef}>
             What is Regenerative<br /> Medicine Used For?
           </h2>
-          <p className="what-is-used-for-text animated" ref={textRef}>
+          <p className="what-is-used-for-text">
             At QC Kinetix, we use regenerative medicine for non-surgical, drug-free joint preservation. Our orthobiologic therapies treat joint pain caused by a musculoskeletal condition, injury, or degeneration, restoring joint health and function. These natural pain treatments provide effective alternatives to invasive and painful surgeries.
           </p>
         </div>
-        <div className="what-is-used-for-image animated fadeIn" ref={imageRef}>
+        <div className="what-is-used-for-image">
           <img 
             src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-635.png.webp" 
             alt="Regenerative Medicine Treatment" 
@@ -63,4 +53,5 @@ const WhatIsRegenerativeUsedFor = () => {
 };
 
 export default WhatIsRegenerativeUsedFor;
+
 

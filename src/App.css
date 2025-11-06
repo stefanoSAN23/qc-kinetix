@@ -86,3 +86,39 @@ a {
     transform: translateY(0);
   }
 }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.animated {
+  opacity: 0;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+.animated.fadeInDown.animated-active {
+  animation: fadeInDown 0.5s ease forwards;
+}
+
+.animated.fadeInUp.animated-active {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.animated.fadeIn.animated-active {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.animated.bounce.animated-active {
+  animation: bounce 1s ease forwards;
+}

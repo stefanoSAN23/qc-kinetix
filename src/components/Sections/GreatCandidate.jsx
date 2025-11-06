@@ -2,10 +2,7 @@ import { useEffect, useRef } from 'react';
 import './GreatCandidate.css';
 
 const GreatCandidate = () => {
-  const imageRef = useRef(null);
   const titleRef = useRef(null);
-  const listRef = useRef(null);
-  const textRef = useRef(null);
   const buttonRef = useRef(null);
 
   useEffect(() => {
@@ -22,17 +19,11 @@ const GreatCandidate = () => {
       });
     }, observerOptions);
 
-    if (imageRef.current) observer.observe(imageRef.current);
     if (titleRef.current) observer.observe(titleRef.current);
-    if (listRef.current) observer.observe(listRef.current);
-    if (textRef.current) observer.observe(textRef.current);
     if (buttonRef.current) observer.observe(buttonRef.current);
 
     return () => {
-      if (imageRef.current) observer.unobserve(imageRef.current);
       if (titleRef.current) observer.unobserve(titleRef.current);
-      if (listRef.current) observer.unobserve(listRef.current);
-      if (textRef.current) observer.unobserve(textRef.current);
       if (buttonRef.current) observer.unobserve(buttonRef.current);
     };
   }, []);
@@ -50,7 +41,7 @@ const GreatCandidate = () => {
   return (
     <section className="great-candidate-section">
       <div className="great-candidate-container">
-        <div className="great-candidate-image animated fadeIn" ref={imageRef}>
+        <div className="great-candidate-image">
           <figure className="candidate-image-wrapper">
             <img 
               src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-631.png.webp" 
@@ -67,10 +58,10 @@ const GreatCandidate = () => {
 
         <div className="great-candidate-content">
           <h2 className="great-candidate-title animated fadeInDown" ref={titleRef}>
-            You may be a great candidate for regenerative treatments if you:
+            You may be a great candidate for regenerative treatments if<br /> you:
           </h2>
 
-          <ul className="great-candidate-list animated" ref={listRef}>
+          <ul className="great-candidate-list">
             {candidateItems.map((item, index) => (
               <li key={index}>
                 {index === 0 ? <strong>{item}</strong> : item}
@@ -78,7 +69,7 @@ const GreatCandidate = () => {
             ))}
           </ul>
 
-          <p className="great-candidate-text animated" ref={textRef}>
+          <p className="great-candidate-text">
             Regenerative medicine is not for everyone. For instance, it is not a good fit for a patient who is pregnant or is battling cancer.
           </p>
 
@@ -94,4 +85,5 @@ const GreatCandidate = () => {
 };
 
 export default GreatCandidate;
+
 

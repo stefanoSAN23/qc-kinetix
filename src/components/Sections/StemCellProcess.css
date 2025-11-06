@@ -1,0 +1,244 @@
+.stem-cell-how-it-works-section {
+  padding: 80px 80px 40px 80px;
+  background: #fff;
+}
+
+.stem-cell-how-it-works-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.stem-cell-how-it-works-text {
+  max-width: 1500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.stem-cell-how-it-works-text p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+
+.stem-cell-how-it-works-text p:last-child {
+  margin-bottom: 0;
+}
+
+.stem-cell-consultation-section {
+  padding: 40px 20px 40px 20px;
+  background: #fff;
+}
+
+.stem-cell-process-section {
+  padding: 40px 20px 40px 20px;
+  background: #fff;
+}
+
+.stem-cell-after-section {
+  padding: 40px 20px 80px 20px;
+  background: #fff;
+}
+
+.stem-cell-consultation-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.stem-cell-process-container,
+.stem-cell-after-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.stem-cell-consultation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.stem-cell-consultation-text {
+  max-width: 1500px;
+  width: 100%;
+}
+
+.stem-cell-process-content,
+.stem-cell-after-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.stem-cell-consultation-title,
+.stem-cell-process-title,
+.stem-cell-after-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stem-cell-consultation-title.animated-active,
+.stem-cell-process-title.animated-active,
+.stem-cell-after-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stem-cell-consultation-text,
+.stem-cell-process-text,
+.stem-cell-after-text {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stem-cell-consultation-text.animated-active,
+.stem-cell-process-text.animated-active,
+.stem-cell-after-text.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stem-cell-consultation-text p,
+.stem-cell-process-text p,
+.stem-cell-after-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+
+.stem-cell-consultation-text p:last-child,
+.stem-cell-process-text p:last-child,
+.stem-cell-after-text p:last-child {
+  margin-bottom: 0;
+}
+
+.stem-cell-after-button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stem-cell-after-button.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stem-cell-after-button .knee-pain-btn {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.stem-cell-consultation-image,
+.stem-cell-process-image,
+.stem-cell-after-image {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  width: 100%;
+}
+
+.stem-cell-consultation-image.animated-active,
+.stem-cell-process-image.animated-active,
+.stem-cell-after-image.animated-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.stem-cell-consultation-image img,
+.stem-cell-process-image img,
+.stem-cell-after-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.stem-cell-process-container {
+  grid-template-columns: 1.1fr 1fr;
+}
+
+.stem-cell-after-section {
+  background: #fff;
+}
+
+.stem-cell-after-title,
+.stem-cell-after-text p {
+  color: #000;
+}
+
+@media (max-width: 1024px) {
+  .stem-cell-consultation-container,
+  .stem-cell-process-container,
+  .stem-cell-after-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .stem-cell-consultation-image,
+  .stem-cell-process-image {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .stem-cell-how-it-works-section,
+  .stem-cell-consultation-section,
+  .stem-cell-process-section,
+  .stem-cell-after-section {
+    padding: 60px 20px;
+  }
+
+  .stem-cell-consultation-title,
+  .stem-cell-process-title,
+  .stem-cell-after-title {
+    font-size: 28px;
+  }
+
+  .stem-cell-consultation-text p,
+  .stem-cell-process-text p,
+  .stem-cell-after-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stem-cell-how-it-works-section,
+  .stem-cell-consultation-section,
+  .stem-cell-process-section,
+  .stem-cell-after-section {
+    padding: 50px 15px;
+  }
+
+  .stem-cell-consultation-title,
+  .stem-cell-process-title,
+  .stem-cell-after-title {
+    font-size: 24px;
+  }
+
+  .stem-cell-consultation-text p,
+  .stem-cell-process-text p,
+  .stem-cell-after-text p {
+    font-size: 15px;
+  }
+}
+

@@ -280,6 +280,7 @@
   
   .testimonials-header h2 {
     font-size: 28px;
+    line-height: 1.3;
   }
   
   .testimonial-card {
@@ -320,11 +321,12 @@
 
 @media (max-width: 480px) {
   .testimonials-section {
-    padding: 40px 10px;
+    padding: 40px 15px;
   }
   
   .testimonials-header h2 {
     font-size: 24px;
+    line-height: 1.3;
   }
   
   .testimonials-header-top {
@@ -343,6 +345,7 @@
   
   .testimonial-text {
     font-size: 14px;
+    line-height: 1.5;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
@@ -351,6 +354,29 @@
   
   .testimonial-name {
     font-size: 16px;
+  }
+
+  .testimonials-button .knee-pain-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .testimonials-section {
+    padding: 35px 12px;
+  }
+
+  .testimonials-header h2 {
+    font-size: 22px;
+  }
+
+  .testimonial-text {
+    font-size: 13px;
+  }
+
+  .testimonial-name {
+    font-size: 15px;
   }
 }
 

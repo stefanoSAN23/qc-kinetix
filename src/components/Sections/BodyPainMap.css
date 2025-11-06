@@ -356,6 +356,7 @@
     overflow-wrap: break-word;
     hyphens: auto;
     max-width: 100%;
+    line-height: 1.3;
   }
   
   .body-pain-description {
@@ -367,6 +368,7 @@
     overflow-wrap: break-word;
     hyphens: auto;
     padding: 0 10px;
+    line-height: 1.5;
   }
   
   .body-parts-grid {
@@ -432,58 +434,48 @@
 
 @media (max-width: 480px) {
   .body-pain-section {
-    padding: 40px 10px;
+    padding: 40px 15px;
   }
   
   .body-pain-title {
     font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .body-pain-description {
+    font-size: 14px;
+    line-height: 1.5;
   }
   
   .body-parts-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  
-  .body-part-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .part-link {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .part-link figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 5px;
-  }
-  
+
   .part-link img {
-    max-width: 70px;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    display: block;
+    max-width: 50px;
   }
-  
+
   .part-link figcaption {
     font-size: 11px;
-    margin-top: 8px;
-    text-align: center;
-    display: block;
-    width: 100%;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 380px) {
+  .body-pain-section {
+    padding: 35px 12px;
+  }
+
+  .body-pain-title {
+    font-size: 22px;
+  }
+
+  .body-pain-description {
+    font-size: 13px;
+  }
+
+  .body-parts-grid {
+    gap: 15px;
   }
 }
 
