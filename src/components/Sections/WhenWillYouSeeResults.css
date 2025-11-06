@@ -8,11 +8,11 @@
 }
 
 .when-will-you-see-results-container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 80px;
   align-items: center;
 }
 
@@ -23,18 +23,22 @@
 .when-will-you-see-results-image img {
   width: 100%;
   height: auto;
+  max-width: 100%;
   display: block;
+  object-fit: contain;
 }
 
 .when-will-you-see-results-content {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  max-width: 100%;
+  width: 100%;
 }
 
 .when-will-you-see-results-title {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 31px;
+  font-weight: 700;
   color: #fff;
   line-height: 1.2;
   margin: 0;
@@ -52,6 +56,8 @@
   opacity: 0;
   transform: translateY(-30px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+  max-width: 100%;
+  width: 100%;
 }
 
 .when-will-you-see-results-text.animated-active {
