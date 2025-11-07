@@ -4,7 +4,6 @@ import './RegenerativeHero.css';
 const RegenerativeHero = () => {
   const dividerRef = useRef(null);
   const titleRef = useRef(null);
-  const textRef = useRef(null);
   const imageRef = useRef(null);
 
   useEffect(() => {
@@ -27,9 +26,6 @@ const RegenerativeHero = () => {
     if (titleRef.current) {
       observer.observe(titleRef.current);
     }
-    if (textRef.current) {
-      observer.observe(textRef.current);
-    }
     if (imageRef.current) {
       observer.observe(imageRef.current);
     }
@@ -40,9 +36,6 @@ const RegenerativeHero = () => {
       }
       if (titleRef.current) {
         observer.unobserve(titleRef.current);
-      }
-      if (textRef.current) {
-        observer.unobserve(textRef.current);
       }
       if (imageRef.current) {
         observer.unobserve(imageRef.current);
@@ -70,7 +63,7 @@ const RegenerativeHero = () => {
             Regenerative Medicine Treatments &amp; Therapy
           </h1>
 
-          <div className="regenerative-hero-text animated" ref={textRef}>
+          <div className="regenerative-hero-text">
             <p>
               <strong>QC Kinetix</strong> is the leader in regenerative medicine, a cutting-edge approach to healing that can help your body revive and revitalize damaged tissues. Regenerative medicine utilizes your own natural biologics like PRP (Platelet Rich Plasma), Plasma, and Stem Cells to work with your body's own healing process to reduce pain, improve mobility, and support long-term recovery. Whether you're dealing with joint pain, injuries, or chronic conditions, regenerative medicine offers a non-invasive solution to help you get back to living life on your terms.
             </p>

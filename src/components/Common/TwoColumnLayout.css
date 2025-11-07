@@ -1,0 +1,30 @@
+.qc-two-column-layout {
+  display: grid;
+  grid-template-columns: var(--left-width, 1fr) var(--right-width, 1fr);
+  gap: var(--gap, 80px);
+  align-items: var(--align-items, start);
+  width: 100%;
+}
+
+.qc-two-column-left,
+.qc-two-column-right {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .qc-two-column-layout {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .qc-reverse-mobile {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .qc-two-column-layout {
+    gap: 40px;
+  }
+}
+

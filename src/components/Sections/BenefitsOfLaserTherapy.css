@@ -1,0 +1,207 @@
+.benefits-of-laser-therapy-section {
+  padding: 80px 20px;
+  background: #f8f8f8;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.benefits-of-laser-therapy-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.benefits-of-laser-therapy-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1.3fr;
+  gap: 80px;
+  max-width: 100%;
+  align-items: start;
+}
+
+.benefits-of-laser-therapy-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 0;
+}
+
+/* Header styles now handled by SectionHeader component */
+.benefits-of-laser-therapy-header-component {
+  margin-bottom: 0;
+}
+
+.benefits-of-laser-therapy-header-component .qc-section-header-top {
+  margin-bottom: 0;
+}
+
+/* Animación lenta de arriba a abajo solo para el contenedor qc-section-header-top */
+.benefits-of-laser-therapy-header-component .qc-section-header-top.animated {
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.benefits-of-laser-therapy-header-component .qc-section-header-top.animated.animated-active {
+  animation-name: fadeInDown !important;
+  opacity: 1;
+}
+
+.benefits-of-laser-therapy-header-component .qc-section-header-title-part {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+.benefits-of-laser-therapy-header-component .qc-section-header-dots {
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+/* El título principal NO debe tener animación */
+.benefits-of-laser-therapy-header-component .qc-section-header-main-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 5px;
+  opacity: 1 !important;
+}
+
+.benefits-of-laser-therapy-header-component .qc-section-header-main-title.animated {
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+.benefits-of-laser-therapy-right {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  padding-top: 0;
+}
+
+.benefits-of-laser-therapy-intro {
+  max-width: 100%;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.benefits-of-laser-therapy-intro p {
+  font-size: 19px;
+  color: #333;
+  margin: 0;
+}
+
+.benefits-of-laser-therapy-intro a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.benefits-of-laser-therapy-intro a:hover {
+  color: #0d7a00;
+}
+
+.benefits-of-laser-therapy-features {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 0;
+}
+
+.benefits-of-laser-therapy-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.benefits-of-laser-therapy-feature h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+.benefits-of-laser-therapy-feature p {
+  font-size: 19px;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+.benefits-of-laser-therapy-feature p:last-child {
+  margin-bottom: 0;
+}
+
+.benefits-of-laser-therapy-feature ul {
+  margin: 0 0 10px 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.benefits-of-laser-therapy-feature li {
+  font-size: 19px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1024px) {
+  .benefits-of-laser-therapy-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .benefits-of-laser-therapy-left {
+    padding-top: 0;
+  }
+
+  .benefits-of-laser-therapy-main-title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits-of-laser-therapy-section {
+    padding: 60px 20px;
+  }
+
+  .benefits-of-laser-therapy-title-part {
+    font-size: 20px;
+  }
+
+  .benefits-of-laser-therapy-main-title {
+    font-size: 32px;
+  }
+
+  .benefits-of-laser-therapy-intro p,
+  .benefits-of-laser-therapy-feature p,
+  .benefits-of-laser-therapy-feature li {
+    font-size: 16px;
+  }
+
+  .benefits-of-laser-therapy-feature h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefits-of-laser-therapy-section {
+    padding: 50px 15px;
+  }
+
+  .benefits-of-laser-therapy-title-part,
+  .benefits-of-laser-therapy-main-title {
+    font-size: 24px;
+  }
+
+  .benefits-of-laser-therapy-intro p,
+  .benefits-of-laser-therapy-feature p,
+  .benefits-of-laser-therapy-feature li {
+    font-size: 15px;
+  }
+
+  .benefits-of-laser-therapy-feature h3 {
+    font-size: 18px;
+  }
+}
+

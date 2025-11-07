@@ -10,8 +10,11 @@ import Testimonials from './components/Sections/Testimonials';
 import ContactForm from './components/Forms/ContactForm';
 import Footer from './components/Footer/Footer';
 import FloatingBanner from './components/Common/FloatingBanner';
+import ScrollToTop from './components/Common/ScrollToTop';
 import RegenerativeMedicine from './pages/RegenerativeMedicine';
 import StemCellTreatments from './pages/StemCellTreatments';
+import PRPTreatments from './pages/PRPTreatments';
+import ClassIVLaserTreatment from './pages/ClassIVLaserTreatment';
 import './App.css';
 
 function HomePage() {
@@ -34,6 +37,7 @@ function HomePage() {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <FloatingBanner />
         <Header />
@@ -41,6 +45,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/regenerative-medicine" element={<RegenerativeMedicine />} />
           <Route path="/regenerative-medicine/stem-cell-treatments" element={<StemCellTreatments />} />
+          <Route path="/regenerative-medicine/prp-treatments" element={<PRPTreatments />} />
+          <Route path="/regenerative-medicine/class-iv-laser-treatment" element={<ClassIVLaserTreatment />} />
         </Routes>
         <Footer />
       </div>

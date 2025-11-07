@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -108,19 +108,22 @@ const Header = () => {
 
   const isRegenerativePage = location.pathname === '/regenerative-medicine' || location.pathname.startsWith('/regenerative-medicine/');
 
+  // Función para manejar enlaces internos que recargan la página
+  const handleInternalLink = (e, href) => {
+    e.preventDefault();
+    window.location.href = href;
+  };
+
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''} ${isRegenerativePage ? 'regenerative-page' : ''}`}>
       {/* Desktop Header */}
       <div className="header-desktop">
         <div className="header-container">
           <div className="logo-container">
-            <Link 
-              to="/" 
+            <a 
+              href="/" 
               aria-label="QC Kinetix Home"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = '/';
-              }}
+              onClick={(e) => handleInternalLink(e, '/')}
             >
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
@@ -131,7 +134,7 @@ const Header = () => {
                 width="200"
                 height="50"
               />
-            </Link>
+            </a>
           </div>
 
           <nav className="nav-menu-desktop" aria-label="Main navigation">
@@ -144,23 +147,18 @@ const Header = () => {
                     key={idx} 
                     className={`menu-item ${item.className || ''} ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}
                   >
-                    <Link 
-                      to={item.href} 
+                    <a 
+                      href={item.href} 
                       className={`menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`}
-                      onClick={(e) => {
-                        if (isRegenerativeMedicine) {
-                          e.preventDefault();
-                          window.location.href = '/regenerative-medicine';
-                        }
-                      }}
+                      onClick={(e) => handleInternalLink(e, item.href)}
                     >
                       {item.title}
-                    </Link>
+                    </a>
                     {item.submenu && (
                       <ul className="sub-menu">
                         {item.submenu.map((sub, subIdx) => (
                           <li key={subIdx} className="sub-menu-item">
-                            <Link to={sub.href} className="sub-menu-link">{sub.title}</Link>
+                            <a href={sub.href} className="sub-menu-link" onClick={(e) => handleInternalLink(e, sub.href)}>{sub.title}</a>
                           </li>
                         ))}
                       </ul>
@@ -172,9 +170,9 @@ const Header = () => {
           </nav>
 
           <div className="header-actions">
-            <Link to="/request-your-first-appointment/" className="req-btn">
+            <a href="/request-your-first-appointment/" className="req-btn" onClick={(e) => handleInternalLink(e, '/request-your-first-appointment/')}>
               <span>Request a Consultation</span>
-            </Link>
+            </a>
             <div className="phone-icon">
               <a href="tel:1-800-490-4725" aria-label="Call QC Kinetix at 800-490-4725">
                 <svg className="phone-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -191,13 +189,10 @@ const Header = () => {
       <div className="header-mobile">
         <div className="mobile-header-top">
           <div className="logo-container-mobile">
-            <Link 
-              to="/" 
+            <a 
+              href="/" 
               aria-label="QC Kinetix Home"
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = '/';
-              }}
+              onClick={(e) => handleInternalLink(e, '/')}
             >
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
@@ -208,12 +203,12 @@ const Header = () => {
                 width="200"
                 height="50"
               />
-            </Link>
+            </a>
           </div>
           <div className="mobile-actions">
-            <Link to="/request-your-first-appointment/" className="req-btn mobile">
+            <a href="/request-your-first-appointment/" className="req-btn mobile" onClick={(e) => handleInternalLink(e, '/request-your-first-appointment/')}>
               Request a Consultation
-            </Link>
+            </a>
             <div className="phone-icon">
               <a href="tel:1-800-490-4725" aria-label="Call QC Kinetix at 800-490-4725">
                 <svg className="phone-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -249,26 +244,24 @@ const Header = () => {
               const isRegenerativeMedicine = item.href === '/regenerative-medicine';
               return (
                 <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}>
-                  <Link 
-                    to={item.href} 
+                  <a 
+                    href={item.href} 
                     className={`mobile-menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`} 
                     onClick={(e) => {
-                      if (isRegenerativeMedicine) {
-                        e.preventDefault();
-                        window.location.href = '/regenerative-medicine';
-                        setIsMenuOpen(false);
-                      } else if (!item.submenu) {
-                        setIsMenuOpen(false);
-                      }
+                      handleInternalLink(e, item.href);
+                      setIsMenuOpen(false);
                     }}
                   >
                     {item.title}
-                  </Link>
+                  </a>
                   {item.submenu && (
                     <ul className="mobile-sub-menu">
                       {item.submenu.map((sub, subIdx) => (
                         <li key={subIdx}>
-                          <Link to={sub.href} onClick={() => setIsMenuOpen(false)}>{sub.title}</Link>
+                          <a href={sub.href} onClick={(e) => {
+                            handleInternalLink(e, sub.href);
+                            setIsMenuOpen(false);
+                          }}>{sub.title}</a>
                         </li>
                       ))}
                     </ul>
@@ -277,7 +270,10 @@ const Header = () => {
               );
             })}
             <li className="desktop-hide req-btn mobile-menu-item">
-              <Link to="/request-your-first-appointment/" onClick={() => setIsMenuOpen(false)}>Request a Consultation</Link>
+              <a href="/request-your-first-appointment/" onClick={(e) => {
+                handleInternalLink(e, '/request-your-first-appointment/');
+                setIsMenuOpen(false);
+              }}>Request a Consultation</a>
             </li>
             <li className="desktop-hide phone-mob mobile-menu-item">
               <a href="tel:1-800-490-4725" onClick={() => setIsMenuOpen(false)} className="mobile-phone-link">

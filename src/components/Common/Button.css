@@ -1,0 +1,62 @@
+.qc-button {
+  background-color: #159A00;
+  font-family: "Mulish", Sans-serif;
+  font-weight: 700;
+  color: #fff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #159a00;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.qc-button:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #159a00;
+}
+
+/* Size variants */
+.qc-button-small {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.qc-button-medium {
+  font-size: 18px;
+  padding: 15px 35px;
+}
+
+.qc-button-large {
+  font-size: 20px;
+  padding: 18px 40px;
+}
+
+/* Variant styles */
+.qc-button-primary {
+  background-color: #159A00;
+  border-color: #159a00;
+}
+
+.qc-button-primary:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #159a00;
+}
+
+.qc-button-secondary {
+  background-color: transparent;
+  border-color: #159A00;
+  color: #159A00 !important;
+}
+
+.qc-button-secondary:hover {
+  background-color: #159A00;
+  color: #fff !important;
+}
+

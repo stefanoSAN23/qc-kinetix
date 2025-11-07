@@ -1,0 +1,252 @@
+.laser-therapy-hero-section {
+  padding: 100px 20px;
+  background: #fff;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-748.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.laser-therapy-hero-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr;
+  gap: 80px;
+  align-items: start;
+  position: relative;
+  padding-left: 40px;
+}
+
+.laser-therapy-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 100%;
+  padding-top: 180px;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.laser-therapy-hero-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Dots now handled by SectionHeader component */
+.laser-therapy-hero-header-component {
+  margin-bottom: 0;
+}
+
+/* Animación del divider: fadeInDown sin delay */
+.laser-therapy-hero-header-component .qc-section-header-dots.animated {
+  animation-name: fadeInDown !important;
+}
+
+/* Hacer más grande el divider y aumentar espacio entre puntos */
+.laser-therapy-hero-header-component .qc-section-header-dots {
+  gap: 20px !important;
+}
+
+.laser-therapy-hero-header-component .qc-section-header-dot {
+  width: 9px !important;
+  height: 9px !important;
+}
+
+/* Animación del título: fadeInDown con delay para aparecer después del divider */
+.laser-therapy-hero-header-component .qc-section-header-main-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.laser-therapy-hero-header-component .qc-section-header-main-title.animated {
+  animation-name: fadeInDown !important;
+  animation-delay: 0.3s;
+}
+
+.laser-therapy-hero-text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.laser-therapy-hero-text-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.laser-therapy-hero-text-section p {
+  font-size: 20px;
+  color: #fff;
+  margin: 0;
+}
+
+/* List styles now handled by BulletList component */
+.laser-therapy-hero-list {
+  margin: 0;
+}
+
+.laser-therapy-hero-list-item-white {
+  color: #fff;
+}
+
+.laser-therapy-hero-text-section a {
+  color: #159A00;
+}
+
+.laser-therapy-hero-text-section a:hover {
+  color: #0d7a00;
+}
+
+.laser-therapy-hero-button {
+  margin-top: 10px;
+}
+
+/* Button styles now handled by Button component */
+
+@media (max-width: 767px) {
+  .laser-therapy-hero-button-desktop {
+    display: none;
+  }
+}
+
+.laser-therapy-hero-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  min-height: 500px;
+  padding-top: 300px;
+}
+
+.laser-therapy-hero-image {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.laser-therapy-hero-image img {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  object-position: center;
+  background-color: #f0f0f0;
+  aspect-ratio: auto;
+}
+
+@media (max-width: 1024px) {
+  .laser-therapy-hero-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .laser-therapy-hero-content {
+    padding-top: 80px;
+  }
+
+  .laser-therapy-hero-image-wrapper {
+    order: -1;
+    padding-top: 80px;
+  }
+
+  .laser-therapy-hero-title {
+    font-size: 32px;
+  }
+
+  .laser-therapy-hero-text-section h2 {
+    font-size: 24px;
+  }
+
+  .laser-therapy-hero-text-section p,
+  .laser-therapy-hero-text-section li {
+    font-size: 16px;
+  }
+
+  .laser-therapy-hero-list-two-columns {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .laser-therapy-hero-section {
+    padding: 60px 20px;
+  }
+
+  .laser-therapy-hero-container {
+    gap: 40px;
+  }
+
+  .laser-therapy-hero-content {
+    padding-top: 60px;
+  }
+
+  .laser-therapy-hero-image-wrapper {
+    padding-top: 60px;
+  }
+
+  .laser-therapy-hero-title {
+    font-size: 28px;
+  }
+
+  .laser-therapy-hero-text-section h2 {
+    font-size: 22px;
+  }
+
+  .laser-therapy-hero-text-section p,
+  .laser-therapy-hero-text-section li {
+    font-size: 16px;
+  }
+
+  .laser-therapy-hero-list-two-columns {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .laser-therapy-hero-section {
+    padding: 50px 15px;
+  }
+
+  .laser-therapy-hero-content {
+    padding-top: 50px;
+  }
+
+  .laser-therapy-hero-image-wrapper {
+    padding-top: 50px;
+  }
+
+  .laser-therapy-hero-title {
+    font-size: 24px;
+  }
+
+  .laser-therapy-hero-text-section h2 {
+    font-size: 20px;
+  }
+
+  .laser-therapy-hero-text-section p,
+  .laser-therapy-hero-text-section li {
+    font-size: 15px;
+  }
+
+  .laser-therapy-hero-list-two-columns {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
