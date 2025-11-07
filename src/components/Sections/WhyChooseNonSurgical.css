@@ -25,12 +25,6 @@
   max-width: 90%;
 }
 
-.why-choose-non-surgical-dots {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  margin-bottom: 10px;
-}
 
 .why-choose-non-surgical-dot {
   width: 10px;
@@ -46,6 +40,21 @@
   background-color: #0d7a00;
 }
 
+.why-choose-non-surgical-dots {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.why-choose-non-surgical-dots.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .why-choose-non-surgical-title {
   font-size: 30px;
   font-weight: 600;
@@ -54,14 +63,7 @@
   margin: 0;
   padding-bottom: 40px;
   max-width: 90%;
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.why-choose-non-surgical-title.animated-active {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .why-choose-non-surgical-intro {
@@ -70,14 +72,7 @@
   color: #333;
   margin: 0;
   max-width: 100%;
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.why-choose-non-surgical-intro.animated-active {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .why-choose-non-surgical-right {
@@ -94,14 +89,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.why-choose-non-surgical-list.animated-active {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .why-choose-non-surgical-list-item {
@@ -142,14 +130,7 @@
   color: #333;
   margin: 0;
   max-width: 90%;
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.why-choose-non-surgical-final-text.animated-active {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .why-choose-non-surgical-button {

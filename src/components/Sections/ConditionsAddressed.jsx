@@ -4,7 +4,6 @@ import './ConditionsAddressed.css';
 
 const ConditionsAddressed = () => {
   const titleRef = useRef(null);
-  const textRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -21,11 +20,9 @@ const ConditionsAddressed = () => {
     }, observerOptions);
 
     if (titleRef.current) observer.observe(titleRef.current);
-    if (textRef.current) observer.observe(textRef.current);
 
     return () => {
       if (titleRef.current) observer.unobserve(titleRef.current);
-      if (textRef.current) observer.unobserve(textRef.current);
     };
   }, []);
 
@@ -35,7 +32,7 @@ const ConditionsAddressed = () => {
         <h2 className="conditions-addressed-title animated fadeInDown" ref={titleRef}>
           Conditions Addressed with Stem Cell Treatments
         </h2>
-        <div className="conditions-addressed-text animated fadeInDown" ref={textRef}>
+        <div className="conditions-addressed-text">
           <p>QC Kinetix utilizes regenerative medicine to address a variety of chronic pain conditions, with a focus on musculoskeletal issues. For individuals suffering from osteoarthritis and general joint wear and tear, the clinic offers stem cell treatments for osteoarthritis, aiming to support the body's natural healing of damaged cartilage in joints like the hips, ankles, wrists, and more.</p>
           <p><strong>Knees</strong> – Those facing injuries such as a torn meniscus or <Link to="/knee-pain/acl-treatment/" className="acl-link">Grade I or II ACL injury get relief</Link> from our stem cell treatments for knee pain.</p>
           <p><strong>Shoulders</strong> – People with bursitis, tendinitis, and rotator cuff injuries often seek out our stem cell treatments for shoulder pain.</p>

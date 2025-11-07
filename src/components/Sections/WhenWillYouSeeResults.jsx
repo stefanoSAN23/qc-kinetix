@@ -3,8 +3,6 @@ import './WhenWillYouSeeResults.css';
 
 const WhenWillYouSeeResults = () => {
   const titleRef = useRef(null);
-  const textRef = useRef(null);
-  const imageRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -21,13 +19,9 @@ const WhenWillYouSeeResults = () => {
     }, observerOptions);
 
     if (titleRef.current) observer.observe(titleRef.current);
-    if (textRef.current) observer.observe(textRef.current);
-    if (imageRef.current) observer.observe(imageRef.current);
 
     return () => {
       if (titleRef.current) observer.unobserve(titleRef.current);
-      if (textRef.current) observer.unobserve(textRef.current);
-      if (imageRef.current) observer.unobserve(imageRef.current);
     };
   }, []);
 
@@ -47,7 +41,7 @@ const WhenWillYouSeeResults = () => {
           <h2 className="when-will-you-see-results-title animated fadeInDown" ref={titleRef}>
             When Will You See Results?
           </h2>
-          <div className="when-will-you-see-results-text animated fadeInDown" ref={textRef}>
+          <div className="when-will-you-see-results-text">
             <p>When can you expect to see results from your stem cell treatments? Everyone is different. Some patients say they notice improvement as soon as a few days.</p>
             <ul>
               <li>Most patients see improvements in 3-6 months</li>

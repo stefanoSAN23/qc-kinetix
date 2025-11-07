@@ -53,16 +53,9 @@
 }
 
 .when-will-you-see-results-text {
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1;
   max-width: 100%;
   width: 100%;
-}
-
-.when-will-you-see-results-text.animated-active {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .when-will-you-see-results-text p {

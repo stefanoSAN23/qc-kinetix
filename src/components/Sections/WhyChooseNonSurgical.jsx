@@ -2,10 +2,7 @@ import { useEffect, useRef } from 'react';
 import './WhyChooseNonSurgical.css';
 
 const WhyChooseNonSurgical = () => {
-  const titleRef = useRef(null);
-  const textRef = useRef(null);
-  const listRef = useRef(null);
-  const finalTextRef = useRef(null);
+  const dividerRef = useRef(null);
   const buttonRef = useRef(null);
 
   useEffect(() => {
@@ -22,17 +19,11 @@ const WhyChooseNonSurgical = () => {
       });
     }, observerOptions);
 
-    if (titleRef.current) observer.observe(titleRef.current);
-    if (textRef.current) observer.observe(textRef.current);
-    if (listRef.current) observer.observe(listRef.current);
-    if (finalTextRef.current) observer.observe(finalTextRef.current);
+    if (dividerRef.current) observer.observe(dividerRef.current);
     if (buttonRef.current) observer.observe(buttonRef.current);
 
     return () => {
-      if (titleRef.current) observer.unobserve(titleRef.current);
-      if (textRef.current) observer.unobserve(textRef.current);
-      if (listRef.current) observer.unobserve(listRef.current);
-      if (finalTextRef.current) observer.unobserve(finalTextRef.current);
+      if (dividerRef.current) observer.unobserve(dividerRef.current);
       if (buttonRef.current) observer.unobserve(buttonRef.current);
     };
   }, []);
@@ -58,7 +49,7 @@ const WhyChooseNonSurgical = () => {
         <div className="why-choose-non-surgical-content">
           {/* Left Column */}
           <div className="why-choose-non-surgical-left">
-            <div className="why-choose-non-surgical-dots">
+            <div className="why-choose-non-surgical-dots animated fadeInDown" ref={dividerRef}>
               {[0, 1, 2, 3, 4, 5, 6].map((index) => (
                 <div
                   key={index}
@@ -66,17 +57,17 @@ const WhyChooseNonSurgical = () => {
                 />
               ))}
             </div>
-            <h3 className="why-choose-non-surgical-title animated fadeInDown" ref={titleRef}>
+            <h3 className="why-choose-non-surgical-title">
               Why Choose<br />Non-Surgical Treatment ?
             </h3>
-            <p className="why-choose-non-surgical-intro animated fadeInDown" ref={textRef}>
+            <p className="why-choose-non-surgical-intro">
               Opting for a non-surgical approach to pain management offers a compelling alternative to traditional surgery, providing several key benefits that prioritize patient convenience and safety. These benefits include:
             </p>
           </div>
 
           {/* Right Column */}
           <div className="why-choose-non-surgical-right">
-            <ul className="why-choose-non-surgical-list animated fadeInDown" ref={listRef}>
+            <ul className="why-choose-non-surgical-list">
               {benefits.map((benefit, index) => (
                 <li key={index} className="why-choose-non-surgical-list-item">
                   <div className="why-choose-non-surgical-list-icon">
@@ -91,7 +82,7 @@ const WhyChooseNonSurgical = () => {
               ))}
             </ul>
 
-            <p className="why-choose-non-surgical-final-text animated fadeInDown" ref={finalTextRef}>
+            <p className="why-choose-non-surgical-final-text">
               Ultimately, choosing a non-surgical path can lead to a quicker, safer, and more natural recovery, helping you find natural pain relief and regain your quality of life without the drawbacks of an invasive procedure.
             </p>
 

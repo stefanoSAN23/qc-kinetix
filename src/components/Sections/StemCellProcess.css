@@ -102,18 +102,12 @@
 }
 
 .stem-cell-consultation-text,
-.stem-cell-process-text,
-.stem-cell-after-text {
-  opacity: 0;
-  transform: translateY(-30px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+.stem-cell-process-text {
+  opacity: 1;
 }
 
-.stem-cell-consultation-text.animated-active,
-.stem-cell-process-text.animated-active,
-.stem-cell-after-text.animated-active {
+.stem-cell-after-text {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .stem-cell-consultation-text p,
@@ -148,19 +142,14 @@
 }
 
 .stem-cell-consultation-image,
-.stem-cell-process-image,
-.stem-cell-after-image {
-  opacity: 0;
-  transform: scale(0.95);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+.stem-cell-process-image {
+  opacity: 1;
   width: 100%;
 }
 
-.stem-cell-consultation-image.animated-active,
-.stem-cell-process-image.animated-active,
-.stem-cell-after-image.animated-active {
+.stem-cell-after-image {
   opacity: 1;
-  transform: scale(1);
+  width: 100%;
 }
 
 .stem-cell-consultation-image img,

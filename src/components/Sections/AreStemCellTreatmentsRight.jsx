@@ -3,9 +3,7 @@ import './AreStemCellTreatmentsRight.css';
 
 const AreStemCellTreatmentsRight = () => {
   const titleRef = useRef(null);
-  const textRef = useRef(null);
   const buttonRef = useRef(null);
-  const imageRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -22,15 +20,11 @@ const AreStemCellTreatmentsRight = () => {
     }, observerOptions);
 
     if (titleRef.current) observer.observe(titleRef.current);
-    if (textRef.current) observer.observe(textRef.current);
     if (buttonRef.current) observer.observe(buttonRef.current);
-    if (imageRef.current) observer.observe(imageRef.current);
 
     return () => {
       if (titleRef.current) observer.unobserve(titleRef.current);
-      if (textRef.current) observer.unobserve(textRef.current);
       if (buttonRef.current) observer.unobserve(buttonRef.current);
-      if (imageRef.current) observer.unobserve(imageRef.current);
     };
   }, []);
 
@@ -46,13 +40,13 @@ const AreStemCellTreatmentsRight = () => {
               Request an Appointment
             </a>
           </div>
-          <div className="are-stem-cell-right-text animated fadeInDown" ref={textRef}>
+          <div className="are-stem-cell-right-text">
             <p>If you wish to avoid surgery, stem cell treatments for pain offer a compelling alternative to traditional orthopedic medicine treatments. The benefits include avoiding surgical complications, experiencing minimal downtime, and reducing your reliance on pain medications.</p>
             <p>Not everyone is a candidate for stem cell treatment. If you are pregnant or undergoing cancer treatment, regenerative medicine is not appropriate for you. In all cases, an evaluation is essential to determine if this treatment is right for you.</p>
             <p>If you are looking for a non-surgical option to address chronic pain, we invite you to schedule a free consultation at a <a href="/qc-locations/">QC Kinetix location</a> near you to learn more about <a href="/regenerative-medicine/">how regenerative medicine can help you</a>.</p>
           </div>
         </div>
-        <div className="are-stem-cell-right-image animated fadeIn" ref={imageRef}>
+        <div className="are-stem-cell-right-image">
           <img
             src="https://qckinetixsidev.wpenginepowered.com/wp-content/uploads/2025/09/DSC_3117-scaled.jpg"
             alt="Stem Cell Treatment Consultation"
