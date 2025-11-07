@@ -107,6 +107,8 @@ const Header = () => {
   ];
 
   const isRegenerativePage = location.pathname === '/regenerative-medicine' || location.pathname.startsWith('/regenerative-medicine/');
+  const isConditionsPage = location.pathname === '/conditions/' || location.pathname === '/conditions';
+  const shouldUseWhiteHeader = isRegenerativePage || isConditionsPage;
 
   // Función para manejar enlaces internos que recargan la página
   const handleInternalLink = (e, href) => {
@@ -115,7 +117,7 @@ const Header = () => {
   };
 
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''} ${isRegenerativePage ? 'regenerative-page' : ''}`}>
+    <header className={`header ${isScrolled ? 'scrolled' : ''} ${shouldUseWhiteHeader ? 'regenerative-page' : ''}`}>
       {/* Desktop Header */}
       <div className="header-desktop">
         <div className="header-container">
@@ -128,7 +130,7 @@ const Header = () => {
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
                 alt="QC Kinetix" 
-                className={`logo ${isRegenerativePage ? 'logo-green' : ''}`}
+                className={`logo ${shouldUseWhiteHeader ? 'logo-green' : ''}`}
                 loading="eager"
                 fetchPriority="high"
                 width="200"
@@ -140,7 +142,11 @@ const Header = () => {
           <nav className="nav-menu-desktop" aria-label="Main navigation">
             <ul className="menu-list">
               {menuItems.map((item, idx) => {
-                const isActive = location.pathname === item.href || (item.href === '/regenerative-medicine' && isRegenerativePage);
+                const isActive = location.pathname === item.href || 
+                                 location.pathname === item.href.replace(/\/$/, '') ||
+                                 item.href === location.pathname.replace(/\/$/, '') ||
+                                 (item.href === '/regenerative-medicine' && isRegenerativePage) ||
+                                 (item.href === '/conditions/' && isConditionsPage);
                 const isRegenerativeMedicine = item.href === '/regenerative-medicine';
                 return (
                   <li 
@@ -149,7 +155,7 @@ const Header = () => {
                   >
                     <a 
                       href={item.href} 
-                      className={`menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`}
+                      className={`menu-link ${isActive && shouldUseWhiteHeader ? 'active-regenerative' : ''}`}
                       onClick={(e) => handleInternalLink(e, item.href)}
                     >
                       {item.title}
@@ -197,7 +203,7 @@ const Header = () => {
               <img 
                 src="https://qckinetix.com/wp-content/uploads/2025/04/QC-Kinetix-Logo-White.svg"
                 alt="QC Kinetix" 
-                className={`logo ${isRegenerativePage ? 'logo-green' : ''}`}
+                className={`logo ${shouldUseWhiteHeader ? 'logo-green' : ''}`}
                 loading="eager"
                 fetchPriority="high"
                 width="200"
@@ -240,13 +246,17 @@ const Header = () => {
 
           <ul className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
             {menuItems.map((item, idx) => {
-              const isActive = location.pathname === item.href || (item.href === '/regenerative-medicine' && isRegenerativePage);
+              const isActive = location.pathname === item.href || 
+                               location.pathname === item.href.replace(/\/$/, '') ||
+                               item.href === location.pathname.replace(/\/$/, '') ||
+                               (item.href === '/regenerative-medicine' && isRegenerativePage) ||
+                               (item.href === '/conditions/' && isConditionsPage);
               const isRegenerativeMedicine = item.href === '/regenerative-medicine';
               return (
                 <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}>
                   <a 
                     href={item.href} 
-                    className={`mobile-menu-link ${isActive && isRegenerativePage ? 'active-regenerative' : ''}`} 
+                    className={`mobile-menu-link ${isActive && shouldUseWhiteHeader ? 'active-regenerative' : ''}`} 
                     onClick={(e) => {
                       handleInternalLink(e, item.href);
                       setIsMenuOpen(false);

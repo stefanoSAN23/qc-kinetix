@@ -15,6 +15,7 @@ import RegenerativeMedicine from './pages/RegenerativeMedicine';
 import StemCellTreatments from './pages/StemCellTreatments';
 import PRPTreatments from './pages/PRPTreatments';
 import ClassIVLaserTreatment from './pages/ClassIVLaserTreatment';
+import Conditions from './pages/Conditions';
 import './App.css';
 
 function HomePage() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/regenerative-medicine/stem-cell-treatments" element={<StemCellTreatments />} />
           <Route path="/regenerative-medicine/prp-treatments" element={<PRPTreatments />} />
           <Route path="/regenerative-medicine/class-iv-laser-treatment" element={<ClassIVLaserTreatment />} />
+          <Route path="/conditions/" element={<Conditions />} />
         </Routes>
         <Footer />
       </div>

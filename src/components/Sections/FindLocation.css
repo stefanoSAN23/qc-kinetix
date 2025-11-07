@@ -1,0 +1,138 @@
+.find-location-section {
+  padding: 100px 20px;
+  background: #F0F5F7;
+}
+
+.find-location-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.find-location-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.find-location-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.find-location-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.find-location-subtitle {
+  font-size: 20px;
+  color: #333;
+  margin: 0;
+}
+
+.find-location-search {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.find-location-search-input {
+  flex: 1;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.find-location-search-input:focus {
+  border-color: #159A00;
+}
+
+.find-location-search-button {
+  padding: 15px 20px;
+  background-color: #159A00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.find-location-search-button:hover {
+  background-color: #0d7a00;
+}
+
+.find-location-button {
+  margin-top: 10px;
+}
+
+.find-location-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-location-image {
+  width: 100%;
+  max-width: 714px;
+}
+
+.find-location-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Animations */
+.find-location-title.animated {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.find-location-title.animated.animated-active {
+  animation-name: fadeInDown;
+  opacity: 1;
+}
+
+.find-location-button.animated {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.find-location-button.animated.animated-active {
+  animation-name: fadeInUp;
+  opacity: 1;
+}
+
+.find-location-image.animated {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.find-location-image.animated.animated-active {
+  animation-name: fadeIn;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .find-location-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .find-location-right {
+    order: -1;
+  }
+}
+
