@@ -2,7 +2,9 @@ import { useEffect, useRef } from 'react';
 import './ConditionsHero.css';
 
 const ConditionsHero = () => {
-  const textRef = useRef(null);
+  const subtitleRef = useRef(null);
+  const titleRef = useRef(null);
+  const dividerRef = useRef(null);
   const imageRef = useRef(null);
 
   useEffect(() => {
@@ -19,11 +21,15 @@ const ConditionsHero = () => {
       });
     }, observerOptions);
 
-    if (textRef.current) observer.observe(textRef.current);
+    if (subtitleRef.current) observer.observe(subtitleRef.current);
+    if (titleRef.current) observer.observe(titleRef.current);
+    if (dividerRef.current) observer.observe(dividerRef.current);
     if (imageRef.current) observer.observe(imageRef.current);
 
     return () => {
-      if (textRef.current) observer.unobserve(textRef.current);
+      if (subtitleRef.current) observer.unobserve(subtitleRef.current);
+      if (titleRef.current) observer.unobserve(titleRef.current);
+      if (dividerRef.current) observer.unobserve(dividerRef.current);
       if (imageRef.current) observer.unobserve(imageRef.current);
     };
   }, []);
@@ -35,19 +41,21 @@ const ConditionsHero = () => {
           <div className="conditions-hero-left">
             <div className="conditions-hero-header-component">
               <div className="conditions-hero-header-top">
-                <h2 className="conditions-hero-title-part">Conditions Treated by</h2>
+                <h2 className="conditions-hero-title-part animated" ref={subtitleRef}>
+                  Conditions Treated by
+                </h2>
               </div>
-              <h2 className="conditions-hero-main-title">
+              <h2 className="conditions-hero-main-title animated" ref={titleRef}>
                 Regenerative<br />
                 Medicine Treatments
               </h2>
-              <div className="conditions-hero-divider-dots">
+              <div className="conditions-hero-divider-dots animated" ref={dividerRef}>
                 {Array.from({ length: 7 }).map((_, index) => (
                   <div key={index} className="conditions-hero-dot"></div>
                 ))}
               </div>
             </div>
-            <div className="conditions-hero-text animated fadeIn" ref={textRef}>
+            <div className="conditions-hero-text">
               <p>QC Kinetix offers different types of regenerative medicine designed to address the source of your pain. Our regenerative medicine treatments include <a href="/regenerative-medicine/stem-cell-treatments/" onClick={(e) => { e.preventDefault(); window.location.href = '/regenerative-medicine/stem-cell-treatments/'; }}>stem cell</a> and <a href="/regenerative-medicine/prp-treatments/" onClick={(e) => { e.preventDefault(); window.location.href = '/regenerative-medicine/prp-treatments/'; }}>PRP treatments</a> that work with your body's natural ability to restore and repair itself. These non-surgical options may help various musculoskeletal conditions without the risks and downtime of surgery.</p>
             </div>
           </div>
