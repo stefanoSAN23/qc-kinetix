@@ -4,16 +4,17 @@
 }
 
 .conditions-faqs-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .conditions-faqs-title {
-  font-size: 42px;
+  font-size: 30px;
   font-weight: 700;
   color: #000;
   margin: 0 0 50px 0;
-  text-align: center;
+  margin-left: 38px;
+  text-align: left;
 }
 
 .conditions-faqs-accordion {
@@ -35,8 +36,8 @@
   padding: 25px 30px;
   cursor: pointer;
   list-style: none;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
   color: #000;
   transition: background-color 0.3s ease;
 }
@@ -93,7 +94,8 @@
 
 @media (max-width: 768px) {
   .conditions-faqs-title {
-    font-size: 32px;
+    font-size: 26px;
+    text-align: left;
   }
 
   .conditions-faq-question {

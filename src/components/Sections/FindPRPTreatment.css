@@ -1,10 +1,6 @@
 .find-prp-section {
   padding: 80px 20px;
-  background: #0C1633;
-  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Background-Texture-Gray.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #0b1f47;
   position: relative;
 }
 
@@ -35,7 +31,6 @@
 }
 
 .find-prp-text {
-  opacity: 1;
   max-width: 100%;
   width: 100%;
 }
@@ -117,7 +112,6 @@
 }
 
 .find-prp-image {
-  opacity: 1;
   width: 100%;
 }
 

@@ -1,132 +1,135 @@
 .find-location-section {
-  padding: 100px 20px;
-  background: #F0F5F7;
+  padding: 80px 20px;
+  background: #0b1f47;
+  position: relative;
 }
 
 .find-location-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-}
-
-.find-location-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.1fr 1fr;
   gap: 60px;
   align-items: center;
 }
 
-.find-location-left {
+.find-location-content {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  max-width: 100%;
+  width: 100%;
 }
 
 .find-location-title {
-  font-size: 42px;
-  font-weight: 700;
-  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
   margin: 0;
+  max-width: 100%;
 }
 
 .find-location-subtitle {
-  font-size: 20px;
-  color: #333;
+  max-width: 100%;
+  width: 100%;
+}
+
+.find-location-subtitle p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
   margin: 0;
 }
 
-.find-location-search {
-  display: flex;
-  gap: 10px;
-  max-width: 500px;
+.find-location-subtitle a {
+  color: #fff;
+  text-decoration: underline;
 }
 
-.find-location-search-input {
+.find-location-subtitle a:hover {
+  color: #159A00;
+}
+
+.find-location-subtitle .in-cell-link {
+  color: #fff;
+}
+
+.find-location-section .find-location-search {
+  display: flex;
+  gap: 10px;
+  margin-top: 0;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 350px;
+}
+
+.find-location-section .find-location-search-input {
   flex: 1;
-  padding: 15px 20px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #333;
+  color: #000;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: inherit;
   outline: none;
 }
 
-.find-location-search-input:focus {
-  border-color: #159A00;
+.find-location-section .find-location-search-input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.find-location-search-button {
-  padding: 15px 20px;
-  background-color: #159A00;
-  color: #fff;
+.find-location-section .find-location-search-input:focus {
+  outline: none;
+  border-color: var(--e-global-color-accent);
+}
+
+.find-location-section .find-location-search-button {
+  background: var(--e-global-color-accent);
   border: none;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 4px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease;
+  min-width: 45px;
 }
 
-.find-location-search-button:hover {
-  background-color: #0d7a00;
+.find-location-section .find-location-search-button:hover {
+  background: #0d7a00;
 }
 
 .find-location-button {
-  margin-top: 10px;
+  /* Animation handled by global animated classes */
+}
+
+.find-location-button .knee-pain-btn {
+  font-size: 16px;
+  padding: 12px 28px;
 }
 
 .find-location-right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .find-location-image {
   width: 100%;
-  max-width: 714px;
 }
 
 .find-location-image img {
   width: 100%;
   height: auto;
   display: block;
-}
-
-/* Animations */
-.find-location-title.animated {
-  opacity: 0;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
-.find-location-title.animated.animated-active {
-  animation-name: fadeInDown;
-  opacity: 1;
-}
-
-.find-location-button.animated {
-  opacity: 0;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
-.find-location-button.animated.animated-active {
-  animation-name: fadeInUp;
-  opacity: 1;
-}
-
-.find-location-image.animated {
-  opacity: 0;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
-.find-location-image.animated.animated-active {
-  animation-name: fadeIn;
-  opacity: 1;
+  border-radius: 8px;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 1024px) {
-  .find-location-content {
+  .find-location-container {
     grid-template-columns: 1fr;
     gap: 40px;
   }
@@ -136,3 +139,30 @@
   }
 }
 
+@media (max-width: 768px) {
+  .find-location-section {
+    padding: 60px 20px;
+  }
+
+  .find-location-title {
+    font-size: 28px;
+  }
+
+  .find-location-subtitle p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .find-location-section {
+    padding: 50px 15px;
+  }
+
+  .find-location-title {
+    font-size: 24px;
+  }
+
+  .find-location-subtitle p {
+    font-size: 15px;
+  }
+}

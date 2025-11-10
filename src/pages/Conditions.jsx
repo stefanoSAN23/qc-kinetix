@@ -1,6 +1,7 @@
 import ConditionsHero from '../components/Sections/ConditionsHero';
 import HowRegenerativeTreatsPain from '../components/Sections/HowRegenerativeTreatsPain';
 import AllConditionsTreated from '../components/Sections/AllConditionsTreated';
+import ResearchSection from '../components/Sections/ResearchSection';
 import FindLocation from '../components/Sections/FindLocation';
 import ConditionsFAQs from '../components/Sections/ConditionsFAQs';
 import Testimonials from '../components/Sections/Testimonials';
@@ -12,6 +13,7 @@ function Conditions() {
       <ConditionsHero />
       <HowRegenerativeTreatsPain />
       <AllConditionsTreated />
+      <ResearchSection />
       <FindLocation />
       <ConditionsFAQs />
       <Testimonials />
