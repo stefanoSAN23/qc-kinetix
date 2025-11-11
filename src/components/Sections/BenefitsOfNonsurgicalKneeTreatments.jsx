@@ -3,8 +3,6 @@ import './BenefitsOfNonsurgicalKneeTreatments.css';
 
 const BenefitsOfNonsurgicalKneeTreatments = () => {
   const headerRef = useRef(null);
-  const topTextRef = useRef(null);
-  const bottomTextRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -21,13 +19,9 @@ const BenefitsOfNonsurgicalKneeTreatments = () => {
     }, observerOptions);
 
     if (headerRef.current) observer.observe(headerRef.current);
-    if (topTextRef.current) observer.observe(topTextRef.current);
-    if (bottomTextRef.current) observer.observe(bottomTextRef.current);
 
     return () => {
       if (headerRef.current) observer.unobserve(headerRef.current);
-      if (topTextRef.current) observer.unobserve(topTextRef.current);
-      if (bottomTextRef.current) observer.unobserve(bottomTextRef.current);
     };
   }, []);
 
@@ -43,7 +37,7 @@ const BenefitsOfNonsurgicalKneeTreatments = () => {
           </div>
         </div>
         <div className="benefits-nonsurgical-content">
-          <div className="benefits-nonsurgical-left animated fadeInDown" ref={topTextRef}>
+          <div className="benefits-nonsurgical-left">
             <h2>Nonsurgical Knee Treatments</h2>
             <p>
               Regenerative knee pain treatments offer the benefits of knee surgery without a hospital stay, loss of work, added pain, risk of complications, and a lengthy recovery.
@@ -55,7 +49,7 @@ const BenefitsOfNonsurgicalKneeTreatments = () => {
               If you've been told by an orthopedic surgeon that surgery is your only option, consider exploring knee replacement alternatives. Many patients experience reduced pain and improved mobility.
             </p>
           </div>
-          <div className="benefits-nonsurgical-right animated fadeInDown" ref={bottomTextRef}>
+          <div className="benefits-nonsurgical-right">
             <h3>Less Invasive</h3>
             <p>
               Regenerative knee pain therapy is a minimally invasive treatment option that offers a less invasive alternative to knee surgery. Unlike surgery, which typically requires anesthesia and involves more extensive procedures, regenerative therapy focuses on restoring and healing the knee with minimal disruption to the surrounding tissues.

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
-import './ReadyToReduceKneePain.css';
+import './ReadyToReduceShoulderPain.css';
 
-const ReadyToReduceKneePain = () => {
+const ReadyToReduceShoulderPain = () => {
   const buttonRef = useRef(null);
 
   useEffect(() => {
@@ -26,17 +26,19 @@ const ReadyToReduceKneePain = () => {
   }, []);
 
   return (
-    <section className="ready-reduce-knee-section">
-      <div className="ready-reduce-knee-container">
-        <div className="ready-reduce-knee-content">
-          <div className="ready-reduce-knee-text">
+    <section className="ready-reduce-shoulder-section">
+      <div className="ready-reduce-shoulder-container">
+        <div className="ready-reduce-shoulder-content">
+          <div className="ready-reduce-shoulder-text">
             <p>
-              Ready to reduce your knee pain without surgery? Getting started is simple:<br />
-              Just schedule your free consultation at your local QC Kinetix clinic. Be sure to bring your medical<br />
-              records and a list of questions. Before your appointment, learn <a href="/what-to-expect/">what to expect from QC Kinetix</a>.
+              Ready to reduce your shoulder pain without surgery? Getting started is simple:
+              <br />
+              Just schedule your free consultation at your local QC Kinetix clinic. Be sure to bring your medical
+              records and a list of questions. Before your appointment, learn{' '}
+              <a href="/what-to-expect/">what to expect from QC Kinetix</a>.
             </p>
           </div>
-          <div className="ready-reduce-knee-button animated fadeInUp" ref={buttonRef}>
+          <div className="ready-reduce-shoulder-button animated fadeInUp" ref={buttonRef}>
             <a
               href="/request-your-first-appointment/"
               className="knee-pain-btn"
@@ -54,5 +56,6 @@ const ReadyToReduceKneePain = () => {
   );
 };
 
-export default ReadyToReduceKneePain;
+export default ReadyToReduceShoulderPain;
+
 

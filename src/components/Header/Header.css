@@ -116,11 +116,11 @@
 
 .sub-menu {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 12px);
   left: 0;
-  background: #000;
+  background: #fff;
   list-style: none;
-  padding: 10px 0;
+  padding: 15px 0;
   margin: 0;
   min-width: 200px;
   opacity: 0;
@@ -128,6 +128,8 @@
   transform: translateY(-10px);
   transition: all 0.3s ease;
   z-index: 1000;
+  border-radius: 0;
+  box-shadow: 0 28px 70px rgba(15, 23, 42, 0.28);
 }
 
 .menu-item:hover .sub-menu {
@@ -142,21 +144,38 @@
 
 .sub-menu-link {
   display: block;
-  color: #fff;
+  color: #000;
   text-decoration: none;
-  padding: 10px 20px;
-  font-size: 14px;
-  transition: background 0.3s ease;
+  padding: 6px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .sub-menu-link:hover {
-  background: var(--e-global-color-accent);
+  color: #159A00;
 }
 
 .treatmentMegaMenu .sub-menu {
-  min-width: 300px;
-  column-count: 2;
-  column-gap: 20px;
+  min-width: 660px;
+  padding: 16px 20px;
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.treatmentMegaMenu .sub-menu-item {
+  break-inside: avoid;
+}
+
+.treatmentMegaMenu .sub-menu-link {
+  padding: 5px 12px;
+  font-size: 12.5px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.treatmentMegaMenu .sub-menu-link:hover {
+  color: #159A00;
 }
 
 .header-actions {
@@ -303,7 +322,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background: #000;
+  background: #fff;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
@@ -318,12 +337,12 @@
 }
 
 .mobile-menu-item {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #e4e7ec;
 }
 
 .mobile-menu-link {
   display: block;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   padding: 15px 20px;
   font-size: 16px;
@@ -333,15 +352,19 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background: #111;
+  background: #f5f7fb;
 }
 
 .mobile-sub-menu li a {
   display: block;
-  color: #ccc;
+  color: #000;
   text-decoration: none;
   padding: 10px 40px;
   font-size: 14px;
+}
+
+.mobile-sub-menu li a:hover {
+  color: #159A00;
 }
 
 .mobile-menu-item.req-btn a {

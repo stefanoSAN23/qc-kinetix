@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Stats from './components/Stats/Stats';
@@ -17,6 +17,7 @@ import PRPTreatments from './pages/PRPTreatments';
 import ClassIVLaserTreatment from './pages/ClassIVLaserTreatment';
 import Conditions from './pages/Conditions';
 import KneePain from './pages/KneePain';
+import ShoulderPain from './pages/ShoulderPain';
 import './App.css';
 
 function HomePage() {
@@ -36,13 +37,19 @@ function HomePage() {
   );
 }
 
+const HeaderManager = () => {
+  const location = useLocation();
+  const isHome = location.pathname === '/' || location.pathname === '';
+  return <Header variant={isHome ? 'main' : 'regenerative'} />;
+};
+
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <div className="App">
         <FloatingBanner />
-        <Header />
+        <HeaderManager />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/regenerative-medicine" element={<RegenerativeMedicine />} />
@@ -51,6 +58,7 @@ function App() {
           <Route path="/regenerative-medicine/class-iv-laser-treatment" element={<ClassIVLaserTreatment />} />
           <Route path="/conditions/" element={<Conditions />} />
           <Route path="/knee-pain/" element={<KneePain />} />
+          <Route path="/shoulder-pain/" element={<ShoulderPain />} />
         </Routes>
         <Footer />
       </div>

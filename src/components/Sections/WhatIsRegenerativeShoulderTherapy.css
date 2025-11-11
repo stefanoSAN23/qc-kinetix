@@ -1,0 +1,237 @@
+.what-is-shoulder-therapy-section {
+  position: relative;
+  padding: 0 20px;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Mask-Group-41.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.what-is-shoulder-therapy-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.what-is-shoulder-therapy-panel {
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background: rgba(0, 0, 0, 0.78);
+  padding: 70px 120px;
+  box-shadow: 0 28px 70px rgba(5, 12, 24, 0.45);
+  margin-left: -180px;
+  min-height: 100%;
+}
+.what-is-shoulder-therapy-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.what-is-shoulder-therapy-header h3 {
+  font-size: 19px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.what-is-shoulder-therapy-header img {
+  width: 160px;
+  height: auto;
+  margin-left: 25px;
+}
+
+.what-is-shoulder-therapy-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1040px;
+}
+
+.what-is-shoulder-therapy-text h2 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.what-is-shoulder-therapy-text p {
+  font-size: 20px;
+  margin: 0;
+  color: #eef4ff;
+}
+
+.what-is-shoulder-therapy-highlight {
+  color: #ffffff;
+}
+
+.what-is-shoulder-therapy-text ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  column-count: 2;
+  column-gap: 60px;
+}
+
+.what-is-shoulder-therapy-text li {
+  font-size: 18px;
+  color: #dff4ff;
+  position: relative;
+  padding-left: 20px;
+  break-inside: avoid;
+  margin-bottom: 10px;
+}
+
+.what-is-shoulder-therapy-text li::before {
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #159a00;
+}
+
+.what-is-shoulder-therapy-more-text {
+  font-size: 20px;
+  margin: 0;
+  color: #eef4ff;
+}
+
+.what-is-shoulder-therapy-button {
+  margin-top: 4px;
+}
+
+.what-is-shoulder-therapy-button .knee-pain-btn {
+  background-color: #159A00;
+  font-family: 'Mulish', Sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff !important;
+  box-shadow: 0px 10px 25px rgba(12, 80, 0, 0.35);
+  border: 1px solid #159a00;
+  border-radius: 6px;
+  padding: 14px 36px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.what-is-shoulder-therapy-button .knee-pain-btn:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #159a00;
+}
+
+/* Animations */
+.animated {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .what-is-shoulder-therapy-section {
+    padding: 50px 18px;
+  }
+
+  .what-is-shoulder-therapy-panel {
+    max-width: 100%;
+    padding: 36px 48px;
+    margin-left: 0;
+  }
+
+  .what-is-shoulder-therapy-text {
+    max-width: 100%;
+  }
+
+  .what-is-shoulder-therapy-text h2 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .what-is-shoulder-therapy-section {
+    padding: 45px 16px;
+  }
+
+  .what-is-shoulder-therapy-panel {
+    align-items: flex-start;
+    gap: 22px;
+    padding: 32px 28px;
+    margin-left: 0;
+  }
+
+  .what-is-shoulder-therapy-text h2 {
+    font-size: 34px;
+  }
+
+  .what-is-shoulder-therapy-text p,
+  .what-is-shoulder-therapy-text li,
+  .what-is-shoulder-therapy-more-text {
+    font-size: 16px;
+  }
+
+  .what-is-shoulder-therapy-text ul {
+    column-count: 1;
+  }
+}
+
+@media (max-width: 520px) {
+  .what-is-shoulder-therapy-section {
+    padding: 40px 14px;
+  }
+
+  .what-is-shoulder-therapy-header img {
+    width: 140px;
+  }
+
+  .what-is-shoulder-therapy-text h2 {
+    font-size: 28px;
+  }
+
+  .what-is-shoulder-therapy-panel {
+    padding: 26px 22px;
+  }
+}
+
+

@@ -3,7 +3,6 @@ import './WhatIsRegenerativeKneePainTherapy.css';
 
 const WhatIsRegenerativeKneePainTherapy = () => {
   const headerRef = useRef(null);
-  const textRef = useRef(null);
   const buttonRef = useRef(null);
 
   useEffect(() => {
@@ -21,12 +20,10 @@ const WhatIsRegenerativeKneePainTherapy = () => {
     }, observerOptions);
 
     if (headerRef.current) observer.observe(headerRef.current);
-    if (textRef.current) observer.observe(textRef.current);
     if (buttonRef.current) observer.observe(buttonRef.current);
 
     return () => {
       if (headerRef.current) observer.unobserve(headerRef.current);
-      if (textRef.current) observer.unobserve(textRef.current);
       if (buttonRef.current) observer.unobserve(buttonRef.current);
     };
   }, []);
@@ -45,7 +42,7 @@ const WhatIsRegenerativeKneePainTherapy = () => {
               </div>
             </div>
             <div className="what-is-knee-therapy-text">
-              <div className="what-is-knee-therapy-text-content animated fadeInDown" ref={textRef}>
+              <div className="what-is-knee-therapy-text-content">
                 <h2>Regenerative Knee Pain Therapy?</h2>
                 <p>
                   Our regenerative knee pain treatments avoid the risk of further damage to the joint and cartilage by targeting healing directly. At QC Kinetix, we customize orthobiologic therapies for each patient to stimulate the body's natural ability to repair and revitalize its own tissues. We then guide these self-healing mechanisms to focus specifically on the source of the patient's pain, promoting targeted recovery.

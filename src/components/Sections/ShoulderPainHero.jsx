@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
-import './KneePainHero.css';
+import './ShoulderPainHero.css';
 
-const KneePainHero = () => {
+const ShoulderPainHero = () => {
   const titleRef = useRef(null);
 
   useEffect(() => {
@@ -26,17 +26,21 @@ const KneePainHero = () => {
   }, []);
 
   return (
-    <section className="knee-pain-hero-section" id="HeroConTreatment">
-      <div className="knee-pain-hero-container">
-        <div className="knee-pain-hero-content">
-          <div className="knee-pain-breadcrumb">
-            <a href="/conditions/">Conditions Treated</a> &gt; Knee Pain
+    <section className="shoulder-pain-hero-section" id="HeroConTreatment">
+      <div className="shoulder-pain-hero-container">
+        <div className="shoulder-pain-hero-content">
+          <div className="shoulder-pain-breadcrumb">
+            <a href="/conditions/">Conditions Treated</a> &gt; Shoulder Pain
           </div>
-          <h2 className="knee-pain-title animated fadeInDown" ref={titleRef}>Knee Pain</h2>
+          <h2 className="shoulder-pain-title animated fadeInDown" ref={titleRef}>
+            Natural Shoulder Pain Relief
+          </h2>
         </div>
       </div>
     </section>
   );
 };
 
-export default KneePainHero;
+export default ShoulderPainHero;
+
+

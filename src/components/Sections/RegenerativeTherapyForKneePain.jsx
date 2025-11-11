@@ -2,9 +2,7 @@ import { useEffect, useRef } from 'react';
 import './RegenerativeTherapyForKneePain.css';
 
 const RegenerativeTherapyForKneePain = () => {
-  const textRef = useRef(null);
   const buttonRef = useRef(null);
-  const imageRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -20,14 +18,10 @@ const RegenerativeTherapyForKneePain = () => {
       });
     }, observerOptions);
 
-    if (textRef.current) observer.observe(textRef.current);
     if (buttonRef.current) observer.observe(buttonRef.current);
-    if (imageRef.current) observer.observe(imageRef.current);
 
     return () => {
-      if (textRef.current) observer.unobserve(textRef.current);
       if (buttonRef.current) observer.unobserve(buttonRef.current);
-      if (imageRef.current) observer.unobserve(imageRef.current);
     };
   }, []);
 
@@ -35,7 +29,7 @@ const RegenerativeTherapyForKneePain = () => {
     <section className="regenerative-therapy-knee-section">
       <div className="regenerative-therapy-knee-container">
         <div className="regenerative-therapy-knee-image-wrapper">
-          <div className="regenerative-therapy-knee-image animated fadeIn" ref={imageRef}>
+          <div className="regenerative-therapy-knee-image">
             <img
               data-src="https://qckinetix.com/wp-content/smush-webp/2025/04/QC-Kinetix9852.png.webp"
               src="https://qckinetix.com/wp-content/smush-webp/2025/04/QC-Kinetix9852.png.webp"
@@ -47,7 +41,7 @@ const RegenerativeTherapyForKneePain = () => {
           </div>
         </div>
         <div className="regenerative-therapy-knee-content">
-          <div className="regenerative-therapy-knee-text animated fadeInDown" ref={textRef}>
+          <div className="regenerative-therapy-knee-text">
             <h1>Regenerative Therapy for Knee Pain</h1>
             <p>
               <a href="/regenerative-medicine/">Regenerative medicine</a> offers exciting promise for those with knee pain: nonsurgical pain relief. At QC Kinetix<sup className="reg-symbol">®</sup>, we provide natural regenerative knee pain therapy that activates your body's own ability to revitalize its tissues so you can experience genuine pain relief from conditions like:

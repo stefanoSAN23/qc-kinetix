@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import './Header.css';
 
-const Header = () => {
+const Header = ({ variant = 'auto' }) => {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -109,7 +109,16 @@ const Header = () => {
   const isRegenerativePage = location.pathname === '/regenerative-medicine' || location.pathname.startsWith('/regenerative-medicine/');
   const isConditionsPage = location.pathname === '/conditions/' || location.pathname === '/conditions';
   const isKneePainPage = location.pathname === '/knee-pain/' || location.pathname === '/knee-pain';
-  const shouldUseWhiteHeader = isRegenerativePage || isConditionsPage || isKneePainPage;
+  const isShoulderPainPage = location.pathname === '/shoulder-pain/' || location.pathname === '/shoulder-pain';
+  let shouldUseWhiteHeader;
+
+  if (variant === 'main') {
+    shouldUseWhiteHeader = false;
+  } else if (variant === 'regenerative') {
+    shouldUseWhiteHeader = true;
+  } else {
+    shouldUseWhiteHeader = isRegenerativePage || isConditionsPage || isKneePainPage || isShoulderPainPage;
+  }
 
   // Función para manejar enlaces internos que recargan la página
   const handleInternalLink = (e, href) => {
@@ -147,7 +156,7 @@ const Header = () => {
                                  location.pathname === item.href.replace(/\/$/, '') ||
                                  item.href === location.pathname.replace(/\/$/, '') ||
                                  (item.href === '/regenerative-medicine' && isRegenerativePage) ||
-                                 (item.href === '/conditions/' && (isConditionsPage || isKneePainPage));
+                                 (item.href === '/conditions/' && (isConditionsPage || isKneePainPage || isShoulderPainPage));
                 const isRegenerativeMedicine = item.href === '/regenerative-medicine';
                 return (
                   <li 
@@ -251,7 +260,7 @@ const Header = () => {
                                location.pathname === item.href.replace(/\/$/, '') ||
                                item.href === location.pathname.replace(/\/$/, '') ||
                                (item.href === '/regenerative-medicine' && isRegenerativePage) ||
-                               (item.href === '/conditions/' && (isConditionsPage || isKneePainPage));
+                               (item.href === '/conditions/' && (isConditionsPage || isKneePainPage || isShoulderPainPage));
               const isRegenerativeMedicine = item.href === '/regenerative-medicine';
               return (
                 <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}>
