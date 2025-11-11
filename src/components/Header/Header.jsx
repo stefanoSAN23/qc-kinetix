@@ -108,7 +108,8 @@ const Header = () => {
 
   const isRegenerativePage = location.pathname === '/regenerative-medicine' || location.pathname.startsWith('/regenerative-medicine/');
   const isConditionsPage = location.pathname === '/conditions/' || location.pathname === '/conditions';
-  const shouldUseWhiteHeader = isRegenerativePage || isConditionsPage;
+  const isKneePainPage = location.pathname === '/knee-pain/' || location.pathname === '/knee-pain';
+  const shouldUseWhiteHeader = isRegenerativePage || isConditionsPage || isKneePainPage;
 
   // Función para manejar enlaces internos que recargan la página
   const handleInternalLink = (e, href) => {
@@ -146,7 +147,7 @@ const Header = () => {
                                  location.pathname === item.href.replace(/\/$/, '') ||
                                  item.href === location.pathname.replace(/\/$/, '') ||
                                  (item.href === '/regenerative-medicine' && isRegenerativePage) ||
-                                 (item.href === '/conditions/' && isConditionsPage);
+                                 (item.href === '/conditions/' && (isConditionsPage || isKneePainPage));
                 const isRegenerativeMedicine = item.href === '/regenerative-medicine';
                 return (
                   <li 
@@ -250,7 +251,7 @@ const Header = () => {
                                location.pathname === item.href.replace(/\/$/, '') ||
                                item.href === location.pathname.replace(/\/$/, '') ||
                                (item.href === '/regenerative-medicine' && isRegenerativePage) ||
-                               (item.href === '/conditions/' && isConditionsPage);
+                               (item.href === '/conditions/' && (isConditionsPage || isKneePainPage));
               const isRegenerativeMedicine = item.href === '/regenerative-medicine';
               return (
                 <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}>
