@@ -1,53 +1,85 @@
 .ready-reduce-wrist-section {
-  background: #0f1f34;
-  padding: 90px 20px;
+  position: relative;
+  padding: 140px 20px;
+  background: #081a3e;
+  overflow: hidden;
+}
+
+.ready-reduce-wrist-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-1102.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.ready-reduce-wrist-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(3, 15, 38, 0.38) 0%, rgba(4, 20, 49, 0.52) 100%);
 }
 
 .ready-reduce-wrist-container {
-  max-width: 1100px;
+  max-width: 1150px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 .ready-reduce-wrist-content {
   display: flex;
   flex-direction: column;
-  gap: 28px;
-  align-items: flex-start;
+  gap: 36px;
+  align-items: center;
+  text-align: center;
+}
+
+.ready-reduce-wrist-text {
+  max-width: 1150px;
 }
 
 .ready-reduce-wrist-text p {
+  font-size: 24px;
+  color: #ffffff;
   margin: 0;
-  font-size: 20px;
-  line-height: 1.8;
-  color: #eef4ff;
 }
 
-.ready-reduce-wrist-text a {
-  color: #6dd17d;
-  text-decoration: none;
+.ready-reduce-wrist-text p a {
+  color: #ffffff;
+  text-decoration: underline;
   font-weight: 600;
 }
 
-.ready-reduce-wrist-text a:hover {
-  text-decoration: underline;
+.ready-reduce-wrist-text p a:hover {
+  color: #159A00;
+}
+
+.ready-reduce-wrist-button {
+  margin-top: 10px;
 }
 
 .ready-reduce-wrist-button .knee-pain-btn {
   background-color: #159A00;
-  color: #fff !important;
-  border-radius: 6px;
-  border: 1px solid #159A00;
-  padding: 12px 36px;
+  font-family: "Mulish", Sans-serif;
   font-size: 18px;
   font-weight: 700;
+  color: #fff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #159a00;
+  border-radius: 5px;
+  padding: 12px 34px;
   text-decoration: none;
+  display: inline-block;
   transition: all 0.3s ease;
 }
 
 .ready-reduce-wrist-button .knee-pain-btn:hover {
   background-color: #fff;
-  color: #0c1c32 !important;
-  border-color: #159A00;
+  color: #000 !important;
+  border-color: #159a00;
 }
 
 .animated {
@@ -77,17 +109,16 @@
 
 @media (max-width: 768px) {
   .ready-reduce-wrist-section {
-    padding: 70px 18px;
+    padding: 80px 15px;
   }
 
   .ready-reduce-wrist-text p {
-    font-size: 17px;
+    font-size: 22px;
   }
 
   .ready-reduce-wrist-button .knee-pain-btn {
     font-size: 16px;
-    padding: 12px 28px;
+    padding: 12px 30px;
   }
 }
-
 

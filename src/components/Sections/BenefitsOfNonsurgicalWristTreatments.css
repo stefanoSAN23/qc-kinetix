@@ -9,7 +9,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 34px;
 }
 
 .wrist-benefits-header {
@@ -19,7 +19,7 @@
 }
 
 .wrist-benefits-header h3 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   color: #000000;
   margin: 0;
@@ -49,18 +49,18 @@
 .wrist-benefits-dots .dot-7 { opacity: 0.95; }
 .wrist-benefits-dots .dot-8 { opacity: 1; }
 
-.wrist-benefits-content {
+ .wrist-benefits-content {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-  gap: 70px;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: 60px;
   align-items: start;
 }
 
 .wrist-benefits-left h2 {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 600;
   color: #000000;
-  margin: 0 0 28px 0;
+  margin: 0 0 12px 0;
 }
 
 .wrist-benefits-left p {
@@ -69,14 +69,16 @@
   margin: 0;
 }
 
-.wrist-benefits-right {
+ .wrist-benefits-right {
   display: flex;
   flex-direction: column;
   gap: 28px;
+  margin-top: -40px;
+  max-width: 870px;
 }
 
 .wrist-benefits-right h3 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 600;
   color: #102032;
   margin: 0 0 14px 0;
@@ -134,11 +136,16 @@
   }
 
   .wrist-benefits-left h2 {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .wrist-benefits-right h3 {
-    font-size: 26px;
+    font-size: 22px;
+  }
+
+  .wrist-benefits-right {
+    margin-top: 0;
+    max-width: 100%;
   }
 }
 
@@ -152,7 +159,7 @@
   }
 
   .wrist-benefits-left h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .wrist-benefits-right p,

@@ -35,10 +35,9 @@ const ReadyToReduceWristPain = () => {
         <div className="ready-reduce-wrist-content">
           <div className="ready-reduce-wrist-text">
             <p>
-              Ready to reduce your wrist pain without surgery? Getting started is simple:
-              <br />
-              Just schedule your free consultation at your local QC Kinetix clinic. Be sure to bring your medical records and
-              a list of questions. Before your appointment, learn{' '}
+              Ready to reduce your wrist pain without surgery? Getting started is simple:<br />
+              Just schedule your free consultation at your local QC Kinetix clinic. Be sure to bring your medical<br />
+              records and a list of questions. Before your appointment, learn{' '}
               <a href="/what-to-expect/">what to expect from QC Kinetix</a>.
             </p>
           </div>
