@@ -20,6 +20,7 @@ import Conditions from './pages/Conditions';
 import KneePain from './pages/KneePain';
 import ShoulderPain from './pages/ShoulderPain';
 import ElbowPain from './pages/ElbowPain';
+import WristPain from './pages/WristPain';
 import './App.css';
 
 const HeaderManager = () => {
@@ -177,6 +178,7 @@ function App() {
           <Route path="/knee-pain/" element={<KneePain />} />
           <Route path="/shoulder-pain/" element={<ShoulderPain />} />
           <Route path="/elbow-pain/" element={<ElbowPain />} />
+          <Route path="/wrist-pain/" element={<WristPain />} />
         </Routes>
         <Footer />
       </div>

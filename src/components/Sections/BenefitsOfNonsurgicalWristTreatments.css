@@ -1,0 +1,164 @@
+.wrist-benefits-section {
+  padding: 110px 20px;
+  background: #f6fafc;
+  position: relative;
+}
+
+.wrist-benefits-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.wrist-benefits-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.wrist-benefits-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+}
+
+.wrist-benefits-dots {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.wrist-benefits-dots .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #0f8f16;
+  opacity: 0.6;
+}
+
+.wrist-benefits-dots .dot-1 { opacity: 0.35; }
+.wrist-benefits-dots .dot-2 { opacity: 0.45; }
+.wrist-benefits-dots .dot-3 { opacity: 0.55; }
+.wrist-benefits-dots .dot-4 { opacity: 0.65; }
+.wrist-benefits-dots .dot-5 { opacity: 0.75; }
+.wrist-benefits-dots .dot-6 { opacity: 0.85; }
+.wrist-benefits-dots .dot-7 { opacity: 0.95; }
+.wrist-benefits-dots .dot-8 { opacity: 1; }
+
+.wrist-benefits-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 70px;
+  align-items: start;
+}
+
+.wrist-benefits-left h2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+.wrist-benefits-left p {
+  font-size: 19px;
+  color: #24374a;
+  margin: 0;
+}
+
+.wrist-benefits-right {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.wrist-benefits-right h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #102032;
+  margin: 0 0 14px 0;
+}
+
+.wrist-benefits-right p {
+  font-size: 18px;
+  color: #253a4d;
+  margin: 0;
+  line-height: 1.75;
+}
+
+.wrist-benefits-right p a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.wrist-benefits-right p a:hover {
+  text-decoration: underline;
+}
+
+.animated {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.animated[data-animated="true"].animated-active {
+  opacity: 1;
+}
+
+.animated[data-animated="true"].animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrist-benefits-section {
+    padding: 90px 20px;
+  }
+
+  .wrist-benefits-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .wrist-benefits-left h2 {
+    font-size: 38px;
+  }
+
+  .wrist-benefits-right h3 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrist-benefits-section {
+    padding: 60px 15px;
+  }
+
+  .wrist-benefits-header {
+    gap: 16px;
+  }
+
+  .wrist-benefits-left h2 {
+    font-size: 32px;
+  }
+
+  .wrist-benefits-right p,
+  .wrist-benefits-left p {
+    font-size: 16px;
+  }
+}
+
+

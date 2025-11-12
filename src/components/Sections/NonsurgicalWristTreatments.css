@@ -1,0 +1,161 @@
+.wrist-therapy-section {
+  display: grid;
+  grid-template-columns: minmax(0, 480px) minmax(0, 1fr);
+  align-items: stretch;
+  gap: 60px;
+  padding: 120px 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.wrist-therapy-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrist-therapy-image {
+  position: relative;
+  width: 100%;
+  max-width: 453px;
+}
+
+.wrist-therapy-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  box-shadow: 0 25px 60px rgba(21, 32, 48, 0.25);
+}
+
+.wrist-therapy-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.wrist-therapy-text h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #0c1c32;
+  margin: 0 0 20px;
+}
+
+.wrist-therapy-text p {
+  font-size: 19px;
+  line-height: 1.8;
+  color: #324155;
+  margin: 0 0 22px;
+}
+
+.wrist-therapy-text p a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.wrist-therapy-text p a:hover {
+  text-decoration: underline;
+}
+
+.wrist-therapy-text ul {
+  margin: 0 0 24px 20px;
+  padding: 0;
+  list-style-type: disc;
+  color: #25354a;
+}
+
+.wrist-therapy-text ul li {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.wrist-therapy-more {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #25354a;
+  margin: 0;
+}
+
+.wrist-therapy-button {
+  display: flex;
+  align-items: center;
+}
+
+.wrist-therapy-button .knee-pain-btn {
+  background-color: #159A00;
+  color: #fff !important;
+  border-radius: 6px;
+  border: 1px solid #159A00;
+  padding: 12px 36px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.wrist-therapy-button .knee-pain-btn:hover {
+  background-color: #fff;
+  color: #0c1c32 !important;
+  border-color: #159A00;
+}
+
+.animated {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.animated[data-animated="true"].animated-active {
+  opacity: 1;
+}
+
+.animated[data-animated="true"].animated-active.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1100px) {
+  .wrist-therapy-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 90px 20px;
+  }
+
+  .wrist-therapy-image-wrapper {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrist-therapy-section {
+    padding: 70px 18px;
+  }
+
+  .wrist-therapy-text h1 {
+    font-size: 32px;
+  }
+
+  .wrist-therapy-text p,
+  .wrist-therapy-text ul li {
+    font-size: 16px;
+  }
+
+  .wrist-therapy-button .knee-pain-btn {
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+}
+
+
