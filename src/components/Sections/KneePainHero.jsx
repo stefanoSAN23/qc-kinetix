@@ -32,7 +32,13 @@ const KneePainHero = () => {
           <div className="knee-pain-breadcrumb">
             <a href="/conditions/">Conditions Treated</a> &gt; Knee Pain
           </div>
-          <h2 className="knee-pain-title animated fadeInDown" ref={titleRef}>Knee Pain</h2>
+          <h2
+            className="knee-pain-title animated fadeInDown"
+            data-animate-immediate="true"
+            ref={titleRef}
+          >
+            Knee Pain
+          </h2>
         </div>
       </div>
     </section>

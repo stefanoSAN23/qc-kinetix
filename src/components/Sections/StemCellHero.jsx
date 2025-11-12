@@ -54,10 +54,15 @@ const StemCellHero = () => {
                 height="8"
                 loading="lazy"
                 className="stem-cell-hero-divider animated fadeInDown"
+                data-animate-immediate="true"
                 ref={dividerRef}
               />
             </div>
-            <h1 className="stem-cell-hero-title animated fadeInDown" ref={titleRef}>
+            <h1
+              className="stem-cell-hero-title animated fadeInDown"
+              data-animate-immediate="true"
+              ref={titleRef}
+            >
               Get Pain Relief with Stem Cell Treatments
             </h1>
             <p className="stem-cell-hero-text" ref={textRef}>
@@ -89,7 +94,11 @@ const StemCellHero = () => {
           </ul>
         </div>
 
-        <div className="stem-cell-hero-image animated fadeIn" ref={imageRef}>
+        <div
+          className="stem-cell-hero-image animated fadeIn"
+          data-animate-immediate="true"
+          ref={imageRef}
+        >
           <img
             src="https://qckinetix.com/wp-content/smush-webp/2025/09/AdobeStock_611064101-scaled-1.jpeg.webp"
             alt="Stem Cell Treatment"

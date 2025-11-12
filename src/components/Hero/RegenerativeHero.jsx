@@ -47,7 +47,11 @@ const RegenerativeHero = () => {
     <section className="regenerative-hero-section">
       <div className="regenerative-hero-container">
         <div className="regenerative-hero-content">
-          <div className="regenerative-hero-divider-container animated fadeInDown" ref={dividerRef}>
+          <div
+            className="regenerative-hero-divider-container animated fadeInDown"
+            data-animate-immediate="true"
+            ref={dividerRef}
+          >
             <img 
               src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp" 
               alt="Decorative divider" 
@@ -59,7 +63,11 @@ const RegenerativeHero = () => {
             />
           </div>
 
-          <h1 className="regenerative-hero-title animated fadeInDown" ref={titleRef}>
+        <h1
+          className="regenerative-hero-title animated fadeInDown"
+          data-animate-immediate="true"
+          ref={titleRef}
+        >
             Regenerative Medicine Treatments &amp; Therapy
           </h1>
 
@@ -70,7 +78,11 @@ const RegenerativeHero = () => {
           </div>
         </div>
 
-        <div className="regenerative-hero-image animated fadeIn" ref={imageRef}>
+        <div
+          className="regenerative-hero-image animated fadeIn"
+          data-animate-immediate="true"
+          ref={imageRef}
+        >
           <img 
             src="https://qckinetix.com/wp-content/smush-webp/2025/04/Mask-Group-47.png.webp" 
             alt="Regenerative Medicine" 

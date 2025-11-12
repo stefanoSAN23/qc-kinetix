@@ -1,4 +1,3 @@
-import { useEffect, useRef } from 'react';
 import './SectionHeader.css';
 
 const SectionHeader = ({ 
@@ -8,46 +7,23 @@ const SectionHeader = ({
   dividerImage = "https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp",
   dotsCount = 7,
   className = "",
-  animation = "fadeInDown"
+  animation = "fadeInDown",
+  animateImmediate = false,
 }) => {
-  const dividerRef = useRef(null);
-  const titleRef = useRef(null);
-  const titlePartRef = useRef(null);
-  const topContainerRef = useRef(null);
-
-  useEffect(() => {
-    const observerOptions = {
-      threshold: 0.2,
-      rootMargin: '0px 0px -100px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animated-active');
-        }
-      });
-    }, observerOptions);
-
-    if (dividerRef.current) observer.observe(dividerRef.current);
-    if (titleRef.current) observer.observe(titleRef.current);
-    if (titlePartRef.current) observer.observe(titlePartRef.current);
-    if (topContainerRef.current) observer.observe(topContainerRef.current);
-
-    return () => {
-      if (dividerRef.current) observer.unobserve(dividerRef.current);
-      if (titleRef.current) observer.unobserve(titleRef.current);
-      if (titlePartRef.current) observer.unobserve(titlePartRef.current);
-      if (topContainerRef.current) observer.unobserve(topContainerRef.current);
-    };
-  }, []);
-
   return (
     <div className={`qc-section-header ${className}`}>
       {(titlePart || dividerType === "dots" || dividerType === "image") && (
-        <div className={`qc-section-header-top animated ${className.includes('benefits-of-laser-therapy') ? 'fadeInDown' : ''}`} ref={topContainerRef}>
+        <div
+          className={`qc-section-header-top animated ${className.includes('benefits-of-laser-therapy') ? 'fadeInDown' : ''}`}
+          data-animate-immediate={animateImmediate ? 'true' : undefined}
+        >
           {titlePart && (
-            <h2 className="qc-section-header-title-part animated" ref={titlePartRef}>{titlePart}</h2>
+            <h2
+              className="qc-section-header-title-part animated"
+              data-animate-immediate={animateImmediate ? 'true' : undefined}
+            >
+              {titlePart}
+            </h2>
           )}
           {dividerType === "image" && (
             <div className="qc-section-header-divider-container">
@@ -58,12 +34,15 @@ const SectionHeader = ({
                 height="8"
                 loading="lazy"
                 className={`qc-section-header-divider animated ${animation}`}
-                ref={dividerRef}
+                data-animate-immediate={animateImmediate ? 'true' : undefined}
               />
             </div>
           )}
           {dividerType === "dots" && (
-            <div className={`qc-section-header-dots animated ${animation}`} ref={dividerRef}>
+            <div
+              className={`qc-section-header-dots animated ${animation}`}
+              data-animate-immediate={animateImmediate ? 'true' : undefined}
+            >
               {Array.from({ length: dotsCount }).map((_, index) => (
                 <div key={index} className="qc-section-header-dot dot-green"></div>
               ))}
@@ -72,7 +51,10 @@ const SectionHeader = ({
         </div>
       )}
       {mainTitle && (
-        <h2 className={`qc-section-header-main-title animated fadeInUp`} ref={titleRef}>
+        <h2
+          className={`qc-section-header-main-title animated fadeInUp`}
+          data-animate-immediate={animateImmediate ? 'true' : undefined}
+        >
           {mainTitle}
         </h2>
       )}

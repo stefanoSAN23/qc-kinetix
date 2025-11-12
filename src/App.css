@@ -98,27 +98,3 @@ a {
     transform: translateY(-5px);
   }
 }
-
-.animated {
-  opacity: 0;
-}
-
-.animated.animated-active {
-  opacity: 1;
-}
-
-.animated.fadeInDown.animated-active {
-  animation: fadeInDown 0.5s ease forwards;
-}
-
-.animated.fadeInUp.animated-active {
-  animation: fadeInUp 0.5s ease forwards;
-}
-
-.animated.fadeIn.animated-active {
-  animation: fadeIn 0.8s ease forwards;
-}
-
-.animated.bounce.animated-active {
-  animation: bounce 1s ease forwards;
-}

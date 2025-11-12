@@ -103,7 +103,7 @@
   animation-fill-mode: both;
 }
 
-.animated.animated-active {
+.animated[data-animated="true"].animated-active {
   opacity: 1;
 }
 
@@ -118,7 +118,7 @@
   }
 }
 
-.animated-active.fadeInUp {
+.animated[data-animated="true"].animated-active.fadeInUp {
   animation-name: fadeInUp;
 }
 

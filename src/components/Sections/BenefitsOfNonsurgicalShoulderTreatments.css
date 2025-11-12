@@ -121,7 +121,7 @@
   animation-fill-mode: both;
 }
 
-.animated.animated-active {
+.animated[data-animated="true"].animated-active {
   opacity: 1;
 }
 
@@ -136,7 +136,7 @@
   }
 }
 
-.animated-active.fadeInDown {
+.animated[data-animated="true"].animated-active.fadeInDown {
   animation-name: fadeInDown;
 }
 

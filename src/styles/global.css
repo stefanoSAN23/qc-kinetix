@@ -134,14 +134,18 @@ body {
   }
 }
 
-/* Animaciones globales */
 .animated {
   opacity: 0;
-  animation-duration: 1s;
+  animation-duration: 1.6s;
   animation-fill-mode: both;
 }
 
-.animated.animated-active {
+.animated:not([data-animated="true"]) {
+  opacity: 0 !important;
+  animation-name: none !important;
+}
+
+.animated[data-animated="true"].animated-active {
   opacity: 1;
 }
 
@@ -156,8 +160,9 @@ body {
   }
 }
 
-.animated-active.fadeInDown {
+.animated[data-animated="true"].animated-active.fadeInDown {
   animation-name: fadeInDown;
+  animation-duration: 1.6s;
 }
 
 @keyframes fadeInLeft {
@@ -171,8 +176,9 @@ body {
   }
 }
 
-.animated-active.fadeInLeft {
+.animated[data-animated="true"].animated-active.fadeInLeft {
   animation-name: fadeInLeft;
+  animation-duration: 1.6s;
 }
 
 @keyframes fadeInRight {
@@ -186,8 +192,9 @@ body {
   }
 }
 
-.animated-active.fadeInRight {
+.animated[data-animated="true"].animated-active.fadeInRight {
   animation-name: fadeInRight;
+  animation-duration: 1.6s;
 }
 
 @keyframes fadeIn {
@@ -199,8 +206,9 @@ body {
   }
 }
 
-.animated-active.fadeIn {
+.animated[data-animated="true"].animated-active.fadeIn {
   animation-name: fadeIn;
+  animation-duration: 1.6s;
 }
 
 @keyframes fadeInUp {
@@ -214,7 +222,8 @@ body {
   }
 }
 
-.animated-active.fadeInUp {
+.animated[data-animated="true"].animated-active.fadeInUp {
   animation-name: fadeInUp;
+  animation-duration: 1.6s;
 }
 

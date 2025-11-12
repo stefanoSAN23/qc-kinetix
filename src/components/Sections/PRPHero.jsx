@@ -47,10 +47,15 @@ const PRPHero = () => {
                 height="8"
                 loading="lazy"
                 className="prp-hero-divider animated fadeInDown"
+                data-animate-immediate="true"
                 ref={dividerRef}
               />
             </div>
-            <h1 className="prp-hero-title animated fadeInDown" ref={titleRef}>
+            <h1
+              className="prp-hero-title animated fadeInDown"
+              data-animate-immediate="true"
+              ref={titleRef}
+            >
               PRP Treatments
             </h1>
           </div>
@@ -65,7 +70,11 @@ const PRPHero = () => {
             <p><strong>Foot and Hand Pain</strong>: Provides relief for pain in the extremities.</p>
           </div>
 
-          <div className="prp-hero-button animated fadeInUp prp-hero-button-desktop" ref={buttonRef}>
+          <div
+            className="prp-hero-button animated fadeInUp prp-hero-button-desktop"
+            data-animate-immediate="true"
+            ref={buttonRef}
+          >
             <a href="/request-your-first-appointment/" className="knee-pain-btn">
               Request an Appointment
             </a>
@@ -73,7 +82,11 @@ const PRPHero = () => {
         </div>
 
         <div className="prp-hero-image-wrapper">
-          <div className="prp-hero-image animated fadeIn" ref={imageRef}>
+          <div
+            className="prp-hero-image animated fadeIn"
+            data-animate-immediate="true"
+            ref={imageRef}
+          >
             <img
               src="https://qckinetix.com/wp-content/smush-webp/2025/09/DSC_3399-1-1024x681.jpg.webp"
               alt="PRP Treatment"

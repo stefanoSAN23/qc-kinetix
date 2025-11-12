@@ -32,7 +32,11 @@ const ShoulderPainHero = () => {
           <div className="shoulder-pain-breadcrumb">
             <a href="/conditions/">Conditions Treated</a> &gt; Shoulder Pain
           </div>
-          <h2 className="shoulder-pain-title animated fadeInDown" ref={titleRef}>
+          <h2
+            className="shoulder-pain-title animated fadeInDown"
+            data-animate-immediate="true"
+            ref={titleRef}
+          >
             Natural Shoulder Pain Relief
           </h2>
         </div>

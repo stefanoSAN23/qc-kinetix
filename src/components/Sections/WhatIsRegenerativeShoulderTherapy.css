@@ -135,15 +135,15 @@
   animation-fill-mode: both;
 }
 
-.animated.animated-active {
+.animated[data-animated="true"].animated-active {
   opacity: 1;
 }
 
-.fadeInDown {
+.animated[data-animated="true"].animated-active.fadeInDown {
   animation-name: fadeInDown;
 }
 
-.fadeInUp {
+.animated[data-animated="true"].animated-active.fadeInUp {
   animation-name: fadeInUp;
 }
 

@@ -1,39 +1,8 @@
-import { useEffect, useRef } from 'react';
 import './WhatIsRegenerative.css';
 
 const WhatIsRegenerative = () => {
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const observerOptions = {
-      threshold: 0.2,
-      rootMargin: '0px 0px -100px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const animatedElements = entry.target.querySelectorAll('.animated');
-          animatedElements.forEach((el) => {
-            el.classList.add('animated-active');
-          });
-        }
-      });
-    }, observerOptions);
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
-
   return (
-    <section className="what-is-section" ref={sectionRef}>
+    <section className="what-is-section">
       <div className="what-is-container">
         <div className="what-is-header">
           <div className="header-top">

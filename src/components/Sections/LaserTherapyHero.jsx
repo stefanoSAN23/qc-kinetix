@@ -47,6 +47,7 @@ const LaserTherapyHero = () => {
               dividerType="dots"
               dotsCount={7}
               className="laser-therapy-hero-header-component"
+              animateImmediate
             />
           </div>
 
@@ -70,7 +71,11 @@ const LaserTherapyHero = () => {
             <p>Deep tissue laser therapy can help you reclaim your active lifestyle without surgery or a dependency on strong medications. It's a powerful, restorative tool to kick-start your body's cellular recovery process.</p>
           </div>
 
-          <div className="laser-therapy-hero-button animated fadeInUp laser-therapy-hero-button-desktop" ref={buttonRef}>
+          <div
+            className="laser-therapy-hero-button animated fadeInUp laser-therapy-hero-button-desktop"
+            data-animate-immediate="true"
+            ref={buttonRef}
+          >
             <Button 
               text="Request an Appointment" 
               href="#contact" 
@@ -81,7 +86,11 @@ const LaserTherapyHero = () => {
         </div>
 
         <div className="laser-therapy-hero-image-wrapper">
-          <div className="laser-therapy-hero-image animated fadeIn" ref={imageRef}>
+          <div
+            className="laser-therapy-hero-image animated fadeIn"
+            data-animate-immediate="true"
+            ref={imageRef}
+          >
             <img
               src="https://qckinetix.com/wp-content/smush-webp/2025/09/DSC_4237-1024x681.jpg.webp"
               alt="Class IV Laser Therapy"

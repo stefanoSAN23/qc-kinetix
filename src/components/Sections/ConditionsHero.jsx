@@ -41,15 +41,27 @@ const ConditionsHero = () => {
           <div className="conditions-hero-left">
             <div className="conditions-hero-header-component">
               <div className="conditions-hero-header-top">
-                <h2 className="conditions-hero-title-part animated" ref={subtitleRef}>
+                <h2
+                  className="conditions-hero-title-part animated"
+                  data-animate-immediate="true"
+                  ref={subtitleRef}
+                >
                   Conditions Treated by
                 </h2>
               </div>
-              <h2 className="conditions-hero-main-title animated" ref={titleRef}>
+              <h2
+                className="conditions-hero-main-title animated"
+                data-animate-immediate="true"
+                ref={titleRef}
+              >
                 Regenerative<br />
                 Medicine Treatments
               </h2>
-              <div className="conditions-hero-divider-dots animated" ref={dividerRef}>
+              <div
+                className="conditions-hero-divider-dots animated"
+                data-animate-immediate="true"
+                ref={dividerRef}
+              >
                 {Array.from({ length: 7 }).map((_, index) => (
                   <div key={index} className="conditions-hero-dot"></div>
                 ))}
@@ -60,7 +72,11 @@ const ConditionsHero = () => {
             </div>
           </div>
           <div className="conditions-hero-right">
-            <div className="conditions-hero-image animated fadeIn" ref={imageRef}>
+            <div
+              className="conditions-hero-image animated fadeIn"
+              data-animate-immediate="true"
+              ref={imageRef}
+            >
               <img
                 src="https://qckinetix.com/wp-content/smush-webp/2025/04/Mask-Group-40.png.webp"
                 alt="Conditions Treated"
