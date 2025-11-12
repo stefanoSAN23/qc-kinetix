@@ -19,6 +19,7 @@ import ClassIVLaserTreatment from './pages/ClassIVLaserTreatment';
 import Conditions from './pages/Conditions';
 import KneePain from './pages/KneePain';
 import ShoulderPain from './pages/ShoulderPain';
+import ElbowPain from './pages/ElbowPain';
 import './App.css';
 
 const HeaderManager = () => {
@@ -175,6 +176,7 @@ function App() {
           <Route path="/conditions/" element={<Conditions />} />
           <Route path="/knee-pain/" element={<KneePain />} />
           <Route path="/shoulder-pain/" element={<ShoulderPain />} />
+          <Route path="/elbow-pain/" element={<ElbowPain />} />
         </Routes>
         <Footer />
       </div>
