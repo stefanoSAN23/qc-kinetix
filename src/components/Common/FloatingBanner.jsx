@@ -8,8 +8,7 @@ const FloatingBanner = () => {
   useEffect(() => {
     // Verificar si ya fue cerrado en localStorage
     const storageKey = 'popupClosedOrSubmitted';
-    const hideDays = 30;
-    
+
     const getWithExpiry = (key) => {
       const itemStr = localStorage.getItem(key);
       if (!itemStr) return null;
@@ -20,7 +19,7 @@ const FloatingBanner = () => {
           return null;
         }
         return item.value;
-      } catch (e) {
+      } catch {
         return null;
       }
     };

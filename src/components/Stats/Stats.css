@@ -137,8 +137,11 @@
   font-size: 13px;
   color: #fff;
   margin: 0 auto;
-  white-space: nowrap;
   text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  padding: 0 10px;
 }
 
 .stat-button {
@@ -288,6 +291,12 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
+    padding: 0 10px;
+  }
+
+  .stat-footnote p {
+    font-size: 12px;
+    padding: 0 20px;
   }
 }
 
@@ -318,6 +327,11 @@
     hyphens: auto;
     padding: 0 10px;
   }
+
+  .stat-footnote p {
+    font-size: 12px;
+    padding: 0 15px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -341,6 +355,11 @@
     overflow-wrap: break-word;
     hyphens: auto;
     padding: 0 5px;
+  }
+
+  .stat-footnote p {
+    font-size: 11px;
+    padding: 0 10px;
   }
 }
 

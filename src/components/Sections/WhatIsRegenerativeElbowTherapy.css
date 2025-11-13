@@ -25,6 +25,83 @@
   background: rgba(0, 0, 0, 0.8);
   padding: 70px 120px;
   margin-left: -180px;
+  position: relative;
+  overflow: hidden;
+}
+
+.what-is-elbow-therapy-panel > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1350px) {
+  .what-is-elbow-therapy-panel {
+    margin-left: -110px;
+    padding: 60px 90px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .what-is-elbow-therapy-panel {
+    margin-left: -60px;
+    padding: 55px 70px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .what-is-elbow-therapy-panel {
+    margin-left: 0;
+    max-width: 100%;
+    padding: 50px 48px;
+  }
+
+  .what-is-elbow-therapy-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .what-is-elbow-therapy-header img {
+    margin-left: 0;
+  }
+
+  .what-is-elbow-therapy-text {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .what-is-elbow-therapy-text ul {
+    column-count: 1;
+    margin-top: 16px;
+  }
+
+  .what-is-elbow-therapy-button {
+    text-align: center;
+  }
+
+  .what-is-elbow-therapy-section {
+    background: #000;
+    background-image: none;
+  }
+
+  .what-is-elbow-therapy-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    max-width: 1024px;
+    height: 240px;
+    background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-775-4.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    margin: 0;
+    z-index: 0;
+  }
 }
 
 .what-is-elbow-therapy-header {
@@ -184,16 +261,55 @@
 
   .what-is-elbow-therapy-panel {
     max-width: 100%;
-    padding: 36px 48px;
+    padding: 260px 48px 36px;
     margin-left: 0;
   }
 
   .what-is-elbow-therapy-text {
     max-width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
   .what-is-elbow-therapy-text h2 {
     font-size: 42px;
+  }
+
+  .what-is-elbow-therapy-text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin: 18px 0;
+  }
+
+  .what-is-elbow-therapy-text li {
+    width: 100%;
+    max-width: 360px;
+    text-align: left;
+  }
+
+  .what-is-elbow-therapy-text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin: 18px 0;
+  }
+
+  .what-is-elbow-therapy-text li {
+    width: 100%;
+    max-width: 360px;
+    text-align: left;
+  }
+
+  .what-is-elbow-therapy-button .knee-pain-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: auto;
+    max-width: 100%;
   }
 }
 
@@ -204,7 +320,7 @@
 
   .what-is-elbow-therapy-panel {
     gap: 22px;
-    padding: 32px 28px;
+    padding: 220px 28px 32px;
   }
 
   .what-is-elbow-therapy-text h2 {
@@ -216,14 +332,21 @@
     font-size: 17px;
   }
 
-  .what-is-elbow-therapy-text ul {
-    column-count: 1;
+  .what-is-elbow-therapy-panel::before {
+    height: 210px;
+  }
+
+  .what-is-elbow-therapy-button .knee-pain-btn {
+    width: auto;
+    max-width: 100%;
+    padding: 12px 22px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 480px) {
   .what-is-elbow-therapy-panel {
-    padding: 28px 18px;
+    padding: 210px 18px 28px;
   }
 
   .what-is-elbow-therapy-header img {
@@ -233,6 +356,14 @@
 
   .what-is-elbow-therapy-text h2 {
     font-size: 28px;
+  }
+
+  .what-is-elbow-therapy-panel::before {
+    height: 190px;
+  }
+
+  .what-is-elbow-therapy-button .knee-pain-btn {
+    padding: 12px 20px;
   }
 }
 

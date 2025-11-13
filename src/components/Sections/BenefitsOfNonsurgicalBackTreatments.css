@@ -1,0 +1,294 @@
+.back-benefits-section {
+  padding: 110px 20px;
+  background: #f6fafc;
+  position: relative;
+}
+
+.back-benefits-container {
+  max-width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.back-benefits-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.back-benefits-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+}
+
+.back-benefits-dots {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.back-benefits-dots .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #0f8f16;
+  opacity: 0.6;
+}
+
+.back-benefits-dots .dot-1 { opacity: 0.35; }
+.back-benefits-dots .dot-2 { opacity: 0.45; }
+.back-benefits-dots .dot-3 { opacity: 0.55; }
+.back-benefits-dots .dot-4 { opacity: 0.65; }
+.back-benefits-dots .dot-5 { opacity: 0.75; }
+.back-benefits-dots .dot-6 { opacity: 0.85; }
+.back-benefits-dots .dot-7 { opacity: 0.95; }
+.back-benefits-dots .dot-8 { opacity: 1; }
+
+.back-benefits-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 80px;
+  align-items: start;
+}
+
+.back-benefits-left h2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+.back-benefits-left p {
+  font-size: 19px;
+  color: #24374a;
+  margin: 0 0 24px 0;
+}
+
+.back-benefits-right {
+  margin-top: -90px;
+  max-width: 720px;
+}
+
+.back-benefits-right h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #102032;
+  margin: 0 0 18px 0;
+}
+
+.back-benefits-right p {
+  font-size: 18px;
+  color: #253a4d;
+  margin: 0 0 22px 0;
+}
+
+.back-benefits-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 40px;
+  margin: 20px 0 30px 0;
+}
+
+.back-benefits-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.back-benefits-list ul li {
+  font-size: 18px;
+  color: #253a4d;
+  position: relative;
+  padding-left: 18px;
+}
+
+.back-benefits-list ul li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1ab04d;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.back-benefits-note {
+  font-size: 18px;
+  color: #253a4d;
+  margin: 0;
+}
+
+.animated {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@media (max-width: 1200px) {
+  .back-benefits-content {
+    gap: 60px;
+  }
+
+  .back-benefits-right {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .back-benefits-section {
+    padding: 90px 20px;
+  }
+
+  .back-benefits-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .back-benefits-left h2 {
+    font-size: 38px;
+  }
+
+  .back-benefits-right h3 {
+    font-size: 26px;
+  }
+
+  .back-benefits-container {
+    align-items: center;
+  }
+
+  .back-benefits-header {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align:  center;
+  }
+
+  .back-benefits-dots {
+    margin-left: 0;
+  }
+
+  .back-benefits-left,
+  .back-benefits-right {
+    text-align: center;
+  }
+
+  .back-benefits-right {
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .back-benefits-list {
+    justify-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-benefits-section {
+    padding: 60px 15px;
+  }
+
+  .back-benefits-header {
+    gap: 16px;
+  }
+
+  .back-benefits-left h2 {
+    font-size: 32px;
+  }
+
+  .back-benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .back-benefits-right p,
+  .back-benefits-left p,
+  .back-benefits-list ul li {
+    font-size: 16px;
+  }
+
+  .back-benefits-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .back-benefits-list ul li::before {
+    top: 8px;
+  }
+
+  .back-benefits-right h3 {
+    font-size: 24px;
+  }
+
+  .back-benefits-content {
+    gap: 32px;
+  }
+
+  .back-benefits-header {
+    gap: 12px;
+  }
+
+  .back-benefits-list {
+    gap: 18px 24px;
+  }
+
+  .back-benefits-list ul li::before {
+    top: 8px;
+  }
+
+  .back-benefits-right .knee-pain-btn,
+  .back-benefits-left .knee-pain-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 520px) {
+  .back-benefits-left h2 {
+    font-size: 30px;
+  }
+
+  .back-benefits-right h3 {
+    font-size: 22px;
+  }
+
+  .back-benefits-right p,
+  .back-benefits-left p,
+  .back-benefits-list ul li,
+  .back-benefits-note {
+    font-size: 15px;
+  }
+
+  .back-benefits-list {
+    gap: 14px;
+  }
+}
+

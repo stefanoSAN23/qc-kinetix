@@ -115,6 +115,23 @@
   .are-stem-cell-right-image {
     order: -1;
   }
+
+  .are-stem-cell-right-content {
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .are-stem-cell-right-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .are-stem-cell-right-button {
+    align-self: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -129,6 +146,10 @@
   .are-stem-cell-right-text p {
     font-size: 16px;
   }
+
+  .are-stem-cell-right-text p {
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -142,6 +163,12 @@
 
   .are-stem-cell-right-text p {
     font-size: 15px;
+    text-align: center;
+  }
+
+  .are-stem-cell-right-button .knee-pain-btn {
+    width: 100%;
+    max-width: 260px;
   }
 }
 

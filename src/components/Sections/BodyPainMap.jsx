@@ -115,7 +115,7 @@ const BodyPainMap = () => {
           ))}
         </div>
 
-        <div className="body-pain-consultation-button animated fadeInUp" ref={button2Ref}>
+        <div className="body-pain-consultation-button animated fadeInUp desktop-only" ref={button2Ref}>
           <a href="/request-your-first-appointment/" className="req-btn">
             <span>Request a Consultation</span>
           </a>

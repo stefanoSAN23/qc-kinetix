@@ -213,9 +213,10 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #fff;
+  color: inherit;
   text-decoration: none;
   margin-top: 10px;
+  transition: color 0.3s ease;
 }
 
 .phone-icon {
@@ -227,6 +228,7 @@
   width: 15px;
   height: 15px;
   fill: currentColor;
+  transition: fill 0.3s ease;
 }
 
 .phone-icon .phone-svg {
@@ -297,13 +299,13 @@
 }
 
 .header.scrolled .mobile-nav {
-  background: #000;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .menu-toggle {
   background: transparent;
   border: none;
-  color: #fff;
+  color: var(--e-global-color-accent);
   cursor: pointer;
   padding: 10px;
   display: flex;
@@ -318,16 +320,21 @@
   fill: currentColor;
 }
 
+.close-icon {
+  color: var(--e-global-color-accent);
+}
+
 .mobile-menu {
   list-style: none;
   padding: 0;
   margin: 0;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
   opacity: 0;
   visibility: hidden;
+  backdrop-filter: blur(6px);
 }
 
 .mobile-menu.open {
@@ -337,7 +344,14 @@
 }
 
 .mobile-menu-item {
-  border-bottom: 1px solid #e4e7ec;
+  border-bottom: 1px solid rgba(228, 231, 236, 0.6);
+}
+
+.mobile-menu-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .mobile-menu-link {
@@ -346,6 +360,7 @@
   text-decoration: none;
   padding: 15px 20px;
   font-size: 16px;
+  flex: 1;
 }
 
 .mobile-sub-menu {
@@ -353,6 +368,15 @@
   padding: 0;
   margin: 0;
   background: #f5f7fb;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.mobile-sub-menu.open {
+  max-height: 500px;
+  opacity: 1;
 }
 
 .mobile-sub-menu li a {
@@ -361,6 +385,29 @@
   text-decoration: none;
   padding: 10px 40px;
   font-size: 14px;
+}
+
+.submenu-toggle {
+  background: transparent;
+  border: none;
+  padding: 12px 20px 12px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--e-global-color-accent);
+}
+
+.submenu-toggle svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease;
+}
+
+.submenu-toggle.open svg {
+  transform: rotate(0deg);
 }
 
 .mobile-sub-menu li a:hover {
@@ -385,6 +432,30 @@
 }
 
 @media (max-width: 1024px) {
+  .header:not(.regenerative-page) .mobile-actions .phone-icon a,
+  .header:not(.regenerative-page) .mobile-actions .phone-icon span {
+    color: #fff;
+  }
+
+  .header:not(.regenerative-page) .mobile-actions .phone-svg {
+    fill: var(--e-global-color-accent);
+  }
+
+  .header.regenerative-page.scrolled,
+  .header.regenerative-page.scrolled .mobile-header-top,
+  .header.regenerative-page.scrolled .mobile-nav {
+    background: #fff;
+  }
+
+  .header.regenerative-page.scrolled .mobile-actions .phone-icon a,
+  .header.regenerative-page.scrolled .mobile-actions .phone-icon span {
+    color: #000;
+  }
+
+  .header.regenerative-page.scrolled .mobile-actions .phone-svg {
+    fill: var(--e-global-color-accent);
+  }
+
   .header-container {
     flex-wrap: wrap;
     padding: 15px 20px;
@@ -473,22 +544,21 @@
     overflow-wrap: break-word;
   }
   
-  .phone-mob .mobile-phone-link {
+.phone-mob .mobile-phone-link {
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #fff;
+    color: inherit;
     text-decoration: none;
     padding: 15px 20px;
   }
-  
+
   .phone-mob .phone-svg {
     width: 16px;
     height: 16px;
-    fill: var(--e-global-color-accent);
     flex-shrink: 0;
   }
-  
+
   .phone-mob .mobile-phone-link span {
     font-size: 16px;
   }
@@ -507,6 +577,15 @@
   .mobile-sub-menu li a {
     font-size: 13px;
     padding: 8px 35px;
+  }
+
+  .submenu-toggle {
+    padding: 10px 16px 10px 8px;
+  }
+
+  .submenu-toggle svg {
+    width: 18px;
+    height: 18px;
   }
 }
 
@@ -528,14 +607,14 @@
     padding: 6px 12px;
   }
   
-  .mobile-actions .phone-icon span {
-    font-size: 12px;
-  }
-  
-  .mobile-actions .phone-svg {
-    width: 12px;
-    height: 12px;
-  }
+.mobile-actions .phone-icon span {
+  font-size: 12px;
+}
+
+.mobile-actions .phone-svg {
+  width: 12px;
+  height: 12px;
+}
   
   .phone-mob .mobile-phone-link span {
     font-size: 14px;
@@ -554,6 +633,15 @@
   .mobile-sub-menu li a {
     font-size: 12px;
     padding: 6px 30px;
+  }
+
+  .submenu-toggle {
+    padding: 8px 12px 8px 6px;
+  }
+
+  .submenu-toggle svg {
+    width: 16px;
+    height: 16px;
   }
 }
 
@@ -616,5 +704,13 @@
 .header.regenerative-page .req-btn:hover {
   background: #000;
   color: #fff;
+}
+
+.header.regenerative-page.scrolled .phone-icon a {
+  color: #fff;
+}
+
+.header.regenerative-page.scrolled .phone-svg {
+  fill: var(--e-global-color-accent);
 }
 

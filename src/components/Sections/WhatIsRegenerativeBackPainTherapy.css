@@ -1,15 +1,15 @@
-.what-is-knee-therapy-section {
+.what-is-back-therapy-section {
   padding: 0;
   background: #fff;
   position: relative;
   min-height: 600px;
-  background-image: url('https://qckinetix.com/wp-content/smush-webp/2025/04/Group-775.png.webp');
+  background-image: url('https://qckinetix.com/wp-content/smush-webp/2025/04/Group-775-2.png.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.what-is-knee-therapy-container {
+.what-is-back-therapy-container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
@@ -19,14 +19,14 @@
   min-height: inherit;
 }
 
-.what-is-knee-therapy-content {
+.what-is-back-therapy-content {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
 }
 
-.what-is-knee-therapy-panel {
+.what-is-back-therapy-panel {
   position: relative;
   z-index: 1;
   max-width: 1200px;
@@ -38,93 +38,90 @@
   width: 100%;
   height: 100%;
   margin-left: -190px;
+  color: #fff;
   overflow: hidden;
 }
 
-.what-is-knee-therapy-panel > * {
+.what-is-back-therapy-panel > * {
   position: relative;
   z-index: 1;
 }
 
 @media (max-width: 1350px) {
-  .what-is-knee-therapy-panel {
+  .what-is-back-therapy-panel {
     margin-left: -120px;
     padding: 60px 60px;
   }
 }
 
 @media (max-width: 1150px) {
-  .what-is-knee-therapy-panel {
+  .what-is-back-therapy-panel {
     margin-left: -60px;
     padding: 55px 45px;
   }
 }
 
 @media (max-width: 1080px) {
-  .what-is-knee-therapy-panel {
+  .what-is-back-therapy-panel {
     margin-left: 0;
     max-width: 100%;
     padding: 50px 40px;
   }
 
-  .what-is-knee-therapy-container {
+  .what-is-back-therapy-container {
     justify-content: center;
   }
 
-  .what-is-knee-therapy-header-wrapper {
+  .what-is-back-therapy-header-wrapper {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     gap: 16px;
   }
 
-  .what-is-knee-therapy-dots {
+  .what-is-back-therapy-dots {
     margin-left: 0;
   }
 
-  .what-is-knee-therapy-text,
-  .what-is-knee-therapy-text-content {
+  .what-is-back-therapy-text,
+  .what-is-back-therapy-text-content {
     align-items: center;
     text-align: center;
   }
 
-  .what-is-knee-therapy-text-content {
+  .what-is-back-therapy-text-content {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .what-is-knee-therapy-text-content ul {
-    justify-items: center;
-  }
-
-  .what-is-knee-therapy-button {
+  .what-is-back-therapy-button {
     text-align: center;
   }
 }
 
-.what-is-knee-therapy-header-wrapper {
+.what-is-back-therapy-header-wrapper {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.what-is-knee-therapy-header-wrapper h3 {
+.what-is-back-therapy-header-wrapper h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #fff;
   margin: 0;
+  color: #fff;
   letter-spacing: 0.08em;
 }
 
-.what-is-knee-therapy-dots {
+.what-is-back-therapy-dots {
   display: flex;
   margin-left: 60px;
   gap: 12px;
   align-items: center;
 }
 
-.what-is-knee-therapy-dots .dot {
+.what-is-back-therapy-dots .dot {
   width: 9px;
   height: 9px;
   border-radius: 50%;
@@ -132,56 +129,56 @@
   opacity: 0.6;
 }
 
-.what-is-knee-therapy-dots .dot-1 { opacity: 0.35; }
-.what-is-knee-therapy-dots .dot-2 { opacity: 0.45; }
-.what-is-knee-therapy-dots .dot-3 { opacity: 0.55; }
-.what-is-knee-therapy-dots .dot-4 { opacity: 0.65; }
-.what-is-knee-therapy-dots .dot-5 { opacity: 0.75; }
-.what-is-knee-therapy-dots .dot-6 { opacity: 0.85; }
-.what-is-knee-therapy-dots .dot-7 { opacity: 0.95; }
-.what-is-knee-therapy-dots .dot-8 { opacity: 1; }
+.what-is-back-therapy-dots .dot-1 { opacity: 0.35; }
+.what-is-back-therapy-dots .dot-2 { opacity: 0.45; }
+.what-is-back-therapy-dots .dot-3 { opacity: 0.55; }
+.what-is-back-therapy-dots .dot-4 { opacity: 0.65; }
+.what-is-back-therapy-dots .dot-5 { opacity: 0.75; }
+.what-is-back-therapy-dots .dot-6 { opacity: 0.85; }
+.what-is-back-therapy-dots .dot-7 { opacity: 0.95; }
+.what-is-back-therapy-dots .dot-8 { opacity: 1; }
 
-.what-is-knee-therapy-text {
+.what-is-back-therapy-text {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.what-is-knee-therapy-text-content h2 {
+.what-is-back-therapy-text-content h2 {
   font-size: 40px;
   font-weight: 600;
-  color: #fff;
   margin: 0 0 25px 0;
+  color: #fff;
 }
 
-.what-is-knee-therapy-text-content p {
+.what-is-back-therapy-text-content p {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.88);
   margin: 0 0 24px 0;
 }
 
-.what-is-knee-therapy-text-content p strong {
-  font-weight: 700;
+.what-is-back-therapy-text-content p strong {
   color: #fff;
 }
 
-.what-is-knee-therapy-text-content ul {
+.what-is-back-therapy-text-content ul {
   margin: 26px 0 30px 0;
   padding: 0;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px 40px;
+  columns: 2;
+  column-gap: 60px;
 }
 
-.what-is-knee-therapy-text-content ul li {
+.what-is-back-therapy-text-content ul li {
   font-size: 19px;
   color: rgba(255, 255, 255, 0.9);
   position: relative;
   padding-left: 20px;
+  break-inside: avoid;
+  margin-bottom: 12px;
 }
 
-.what-is-knee-therapy-text-content ul li::before {
+.what-is-back-therapy-text-content ul li::before {
   content: '';
   width: 8px;
   height: 8px;
@@ -192,13 +189,13 @@
   top: 10px;
 }
 
-.what-is-knee-therapy-button {
+.what-is-back-therapy-button {
   margin-top: 10px;
 }
 
-.what-is-knee-therapy-button .knee-pain-btn {
-  background-color: #159A00;
-  font-family: "Mulish", Sans-serif;
+.what-is-back-therapy-button .knee-pain-btn {
+  background-color: #159a00;
+  font-family: 'Mulish', sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #fff !important;
@@ -211,13 +208,12 @@
   transition: all 0.3s ease;
 }
 
-.what-is-knee-therapy-button .knee-pain-btn:hover {
+.what-is-back-therapy-button .knee-pain-btn:hover {
   background-color: #fff;
   color: #000 !important;
   border-color: #159a00;
 }
 
-/* Animations */
 .animated {
   opacity: 0;
   animation-duration: 0.8s;
@@ -259,22 +255,23 @@
 }
 
 @media (max-width: 1024px) {
-  .what-is-knee-therapy-section {
+  .what-is-back-therapy-section {
     background: #000;
     background-image: none;
   }
 
-  .what-is-knee-therapy-container {
+  .what-is-back-therapy-container {
     padding: 80px 20px;
     justify-content: center;
   }
 
-  .what-is-knee-therapy-panel {
+  .what-is-back-therapy-panel {
     max-width: 100%;
     padding: 260px 35px 45px;
+    margin-left: 0;
   }
 
-  .what-is-knee-therapy-panel::before {
+  .what-is-back-therapy-panel::before {
     content: '';
     position: absolute;
     top: 0;
@@ -283,31 +280,31 @@
     width: 100vw;
     max-width: 1024px;
     height: 240px;
-    background-image: url('https://qckinetix.com/wp-content/smush-webp/2025/04/Group-775.png.webp');
+    background-image: url('https://qckinetix.com/wp-content/smush-webp/2025/04/Group-775-2.png.webp');
     background-size: cover;
     background-position: center;
     z-index: 0;
   }
 
-  .what-is-knee-therapy-text-content h2 {
+  .what-is-back-therapy-text-content h2 {
     font-size: 38px;
   }
 
-  .what-is-knee-therapy-text-content ul {
+  .what-is-back-therapy-text-content ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 14px;
-    margin: 20px 0;
+    margin: 20px 0 24px 0;
   }
 
-  .what-is-knee-therapy-text-content ul li {
+  .what-is-back-therapy-text-content ul li {
     width: 100%;
     max-width: 360px;
     text-align: left;
   }
 
-  .what-is-knee-therapy-button .knee-pain-btn {
+  .what-is-back-therapy-button .knee-pain-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -318,54 +315,58 @@
 }
 
 @media (max-width: 768px) {
-  .what-is-knee-therapy-section {
+  .what-is-back-therapy-section {
     min-height: auto;
     background-image: none;
   }
 
-  .what-is-knee-therapy-container {
+  .what-is-back-therapy-container {
     padding: 40px 15px;
   }
 
-  .what-is-knee-therapy-panel {
+  .what-is-back-therapy-panel {
     padding: 220px 25px 35px;
     background: rgba(0, 0, 0, 0.78);
   }
 
-  .what-is-knee-therapy-text-content h2 {
+  .what-is-back-therapy-text-content h2 {
     font-size: 32px;
   }
 
-  .what-is-knee-therapy-text-content p,
-  .what-is-knee-therapy-text-content ul li {
+  .what-is-back-therapy-text-content p,
+  .what-is-back-therapy-text-content ul li {
     font-size: 16px;
   }
 
-  .what-is-knee-therapy-panel::before {
+  .what-is-back-therapy-panel::before {
     height: 210px;
   }
 
-  .what-is-knee-therapy-button .knee-pain-btn {
-    padding: 12px 22px;
-    font-size: 16px;
+  .what-is-back-therapy-button .knee-pain-btn {
+    font-size: 15px;
+    padding: 10px 24px;
   }
 }
 
 @media (max-width: 480px) {
-  .what-is-knee-therapy-panel {
+  .what-is-back-therapy-panel {
     padding: 220px 20px 30px;
   }
 
-  .what-is-knee-therapy-panel::before {
-    height: 190px;
-  }
-
-  .what-is-knee-therapy-text-content h2 {
+  .what-is-back-therapy-text-content h2 {
     font-size: 28px;
   }
 
-  .what-is-knee-therapy-text-content p {
+  .what-is-back-therapy-text-content p {
     font-size: 15px;
+  }
+
+  .what-is-back-therapy-header-wrapper h3 {
+    font-size: 16px;
+  }
+
+  .what-is-back-therapy-panel::before {
+    height: 190px;
   }
 }
 

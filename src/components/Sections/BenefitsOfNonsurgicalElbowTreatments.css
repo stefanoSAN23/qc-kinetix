@@ -149,6 +149,16 @@
   animation-name: fadeInDown;
 }
 
+@media (max-width: 1200px) {
+  .elbow-benefits-content {
+    gap: 50px;
+  }
+
+  .elbow-benefits-right {
+    margin-top: -40px;
+  }
+}
+
 @media (max-width: 1024px) {
   .elbow-benefits-section {
     padding: 90px 20px;
@@ -166,6 +176,34 @@
   .elbow-benefits-right h3 {
     font-size: 26px;
   }
+
+  .elbow-benefits-container {
+    align-items: center;
+  }
+
+  .elbow-benefits-header {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .elbow-benefits-dots {
+    margin-left: 0;
+  }
+
+  .elbow-benefits-left,
+  .elbow-benefits-right {
+    text-align: center;
+  }
+
+  .elbow-benefits-right {
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .elbow-benefits-right ul {
+    justify-items: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -182,12 +220,66 @@
   }
 
   .elbow-benefits-right ul {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 18px 0;
   }
 
   .elbow-benefits-right p,
   .elbow-benefits-left p,
   .elbow-benefits-right ul li {
     font-size: 16px;
+  }
+
+  .elbow-benefits-right ul li::before {
+    top: 8px;
+  }
+
+  .elbow-benefits-right h3 {
+    font-size: 24px;
+  }
+
+  .elbow-benefits-content {
+    gap: 32px;
+  }
+
+  .elbow-benefits-header {
+    gap: 12px;
+  }
+
+  .elbow-benefits-right ul {
+    gap: 12px;
+  }
+
+  .elbow-benefits-right ul li::before {
+    top: 8px;
+  }
+
+  .elbow-benefits-right .knee-pain-btn,
+  .elbow-benefits-left .knee-pain-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 520px) {
+  .elbow-benefits-left h2 {
+    font-size: 28px;
+  }
+
+  .elbow-benefits-right h3 {
+    font-size: 22px;
+  }
+
+  .elbow-benefits-right p,
+  .elbow-benefits-left p,
+  .elbow-benefits-right ul li {
+    font-size: 15px;
+  }
+
+  .elbow-benefits-right ul {
+    gap: 10px;
   }
 }

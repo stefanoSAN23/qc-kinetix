@@ -88,6 +88,9 @@
   opacity: 0;
   transform: translateY(-30px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .regenerative-process-intro.animated-active {
@@ -209,6 +212,7 @@
   .regenerative-process-header {
     grid-template-columns: 1fr;
     gap: 30px;
+    text-align: center;
   }
 
   .hex-row {
@@ -228,6 +232,7 @@
     left: 15%;
     top: 20%;
     padding: 10px 80px 10px 30px;
+    text-align: center;
   }
 
   .hex-content p {
@@ -252,10 +257,12 @@
 
   .regenerative-process-header {
     gap: 25px;
+    text-align: center;
   }
 
   .regenerative-process-header-top {
     gap: 15px;
+    justify-content: center;
   }
 
   .regenerative-process-header-top h2 {
@@ -273,9 +280,12 @@
   }
 
   .hex-row {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 40px;
     padding: 40px 15px;
+    gap: 30px;
   }
 
   .hex-shape .hex-border {
@@ -323,6 +333,7 @@
   .hex-row {
     margin-top: 30px;
     padding: 30px 10px;
+    gap: 25px;
   }
 
   .hex-shape .hex-border {
@@ -334,6 +345,7 @@
     left: 8%;
     top: 12%;
     padding: 8px 50px 8px 15px;
+    text-align: center;
   }
 
   .hex-content p {
@@ -356,6 +368,44 @@
 
   .regenerative-process-intro {
     font-size: 14px;
+  }
+
+  .hex-row {
+    padding: 25px 0;
+  }
+
+  .hex-container {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hex-shape {
+    width: 100%;
+  }
+
+  .circle {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .hex-content {
+    position: static;
+    padding: 20px 25px;
+    max-width: 100%;
+  }
+
+  .hex-content h4 {
+    font-size: 15px;
+  }
+
+  .hex-content p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .hex-content hr {
+    margin: 12px auto;
   }
 }
 

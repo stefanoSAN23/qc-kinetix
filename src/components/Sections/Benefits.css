@@ -74,12 +74,22 @@
   display: inline-block;
 }
 
-.desktop-only {
+.benefits-section .desktop-only {
+  display: none;
+}
+
+.benefits-section .mobile-only {
   display: none;
 }
 
 @media (min-width: 1025px) {
-  .desktop-only {
+  .benefits-section .desktop-only {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .benefits-section .mobile-only {
     display: block;
   }
 }

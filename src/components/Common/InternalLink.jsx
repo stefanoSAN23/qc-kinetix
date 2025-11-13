@@ -1,8 +1,4 @@
-import { useNavigate } from 'react-router-dom';
-
 const InternalLink = ({ to, children, className = '', onClick, ...props }) => {
-  const navigate = useNavigate();
-
   const handleClick = (e) => {
     e.preventDefault();
     

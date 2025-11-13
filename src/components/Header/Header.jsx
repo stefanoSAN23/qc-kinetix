@@ -6,6 +6,7 @@ const Header = ({ variant = 'auto' }) => {
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [openSubmenus, setOpenSubmenus] = useState({});
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,6 +62,19 @@ const Header = ({ variant = 'auto' }) => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [isScrolled]);
+
+  useEffect(() => {
+    const body = document.body;
+    if (variant !== 'main') {
+      body.classList.add('non-home-header-active');
+    } else {
+      body.classList.remove('non-home-header-active');
+    }
+
+    return () => {
+      body.classList.remove('non-home-header-active');
+    };
+  }, [variant]);
 
   const menuItems = [
     {
@@ -126,6 +140,18 @@ const Header = ({ variant = 'auto' }) => {
     window.location.href = href;
   };
 
+  const toggleSubmenu = (idx) => {
+    setOpenSubmenus((prev) => ({
+      ...prev,
+      [idx]: !prev[idx],
+    }));
+  };
+
+  const closeMobileMenu = () => {
+    setIsMenuOpen(false);
+    setOpenSubmenus({});
+  };
+
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''} ${shouldUseWhiteHeader ? 'regenerative-page' : ''}`}>
       {/* Desktop Header */}
@@ -157,7 +183,6 @@ const Header = ({ variant = 'auto' }) => {
                                  item.href === location.pathname.replace(/\/$/, '') ||
                                  (item.href === '/regenerative-medicine' && isRegenerativePage) ||
                                  (item.href === '/conditions/' && (isConditionsPage || isKneePainPage || isShoulderPainPage));
-                const isRegenerativeMedicine = item.href === '/regenerative-medicine';
                 return (
                   <li 
                     key={idx} 
@@ -239,7 +264,15 @@ const Header = ({ variant = 'auto' }) => {
         <nav className="mobile-nav" aria-label="Mobile navigation">
           <button 
             className="menu-toggle" 
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={() => {
+              setIsMenuOpen((prev) => {
+                const next = !prev;
+                if (!next) {
+                  setOpenSubmenus({});
+                }
+                return next;
+              });
+            }}
             aria-label="Menu Toggle"
             aria-expanded={isMenuOpen}
           >
@@ -261,26 +294,44 @@ const Header = ({ variant = 'auto' }) => {
                                item.href === location.pathname.replace(/\/$/, '') ||
                                (item.href === '/regenerative-medicine' && isRegenerativePage) ||
                                (item.href === '/conditions/' && (isConditionsPage || isKneePainPage || isShoulderPainPage));
-              const isRegenerativeMedicine = item.href === '/regenerative-medicine';
               return (
                 <li key={idx} className={`mobile-menu-item ${item.submenu ? 'has-children' : ''} ${isActive ? 'active' : ''}`}>
-                  <a 
-                    href={item.href} 
-                    className={`mobile-menu-link ${isActive && shouldUseWhiteHeader ? 'active-regenerative' : ''}`} 
-                    onClick={(e) => {
-                      handleInternalLink(e, item.href);
-                      setIsMenuOpen(false);
-                    }}
-                  >
-                    {item.title}
-                  </a>
+                  <div className="mobile-menu-item-header">
+                    <a 
+                      href={item.href} 
+                      className={`mobile-menu-link ${isActive && shouldUseWhiteHeader ? 'active-regenerative' : ''}`} 
+                      onClick={(e) => {
+                        handleInternalLink(e, item.href);
+                        closeMobileMenu();
+                      }}
+                    >
+                      {item.title}
+                    </a>
+                    {item.submenu && (
+                      <button
+                        type="button"
+                        className={`submenu-toggle ${openSubmenus[idx] ? 'open' : ''}`}
+                        onClick={(event) => {
+                          event.preventDefault();
+                          event.stopPropagation();
+                          toggleSubmenu(idx);
+                        }}
+                        aria-expanded={!!openSubmenus[idx]}
+                        aria-label={`Mostrar opciones para ${item.title}`}
+                      >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path d="M12 15.5L4.5 8l1.41-1.41L12 12.67l6.09-6.08L19.5 8z"></path>
+                        </svg>
+                      </button>
+                    )}
+                  </div>
                   {item.submenu && (
-                    <ul className="mobile-sub-menu">
+                    <ul className={`mobile-sub-menu ${openSubmenus[idx] ? 'open' : ''}`}>
                       {item.submenu.map((sub, subIdx) => (
                         <li key={subIdx}>
                           <a href={sub.href} onClick={(e) => {
                             handleInternalLink(e, sub.href);
-                            setIsMenuOpen(false);
+                            closeMobileMenu();
                           }}>{sub.title}</a>
                         </li>
                       ))}
@@ -289,20 +340,6 @@ const Header = ({ variant = 'auto' }) => {
                 </li>
               );
             })}
-            <li className="desktop-hide req-btn mobile-menu-item">
-              <a href="/request-your-first-appointment/" onClick={(e) => {
-                handleInternalLink(e, '/request-your-first-appointment/');
-                setIsMenuOpen(false);
-              }}>Request a Consultation</a>
-            </li>
-            <li className="desktop-hide phone-mob mobile-menu-item">
-              <a href="tel:1-800-490-4725" onClick={() => setIsMenuOpen(false)} className="mobile-phone-link">
-                <svg className="phone-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path>
-                </svg>
-                <span>800-490-4725</span>
-              </a>
-            </li>
           </ul>
         </nav>
       </div>

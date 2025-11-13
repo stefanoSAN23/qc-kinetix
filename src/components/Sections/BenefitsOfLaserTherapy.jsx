@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import SectionHeader from '../Common/SectionHeader';
 import './BenefitsOfLaserTherapy.css';
 

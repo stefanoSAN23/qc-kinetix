@@ -140,6 +140,16 @@
   animation-name: fadeInDown;
 }
 
+@media (max-width: 1200px) {
+  .benefits-nonsurgical-content {
+    gap: 50px;
+  }
+
+  .benefits-nonsurgical-right {
+    margin-top: -40px;
+  }
+}
+
 @media (max-width: 1024px) {
   .benefits-nonsurgical-section {
     padding: 90px 20px;
@@ -157,6 +167,34 @@
   .benefits-nonsurgical-right h3 {
     font-size: 26px;
   }
+
+  .benefits-nonsurgical-container {
+    align-items: center;
+  }
+
+  .benefits-nonsurgical-header {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .benefits-nonsurgical-dots {
+    margin-left: 0;
+  }
+
+  .benefits-nonsurgical-left,
+  .benefits-nonsurgical-right {
+    text-align: center;
+  }
+
+  .benefits-nonsurgical-right {
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .benefits-nonsurgical-right ul {
+    justify-items: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -173,13 +211,59 @@
   }
 
   .benefits-nonsurgical-right ul {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 20px 0;
   }
 
   .benefits-nonsurgical-right p,
   .benefits-nonsurgical-left p,
   .benefits-nonsurgical-right ul li {
     font-size: 16px;
+  }
+
+  .benefits-nonsurgical-right h3 {
+    font-size: 24px;
+  }
+
+  .benefits-nonsurgical-right ul li::before {
+    top: 8px;
+  }
+
+  .benefits-nonsurgical-content {
+    gap: 32px;
+  }
+
+  .benefits-nonsurgical-header {
+    gap: 12px;
+  }
+
+  .benefits-nonsurgical-right .knee-pain-btn,
+  .benefits-nonsurgical-left .knee-pain-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 520px) {
+  .benefits-nonsurgical-left h2 {
+    font-size: 28px;
+  }
+
+  .benefits-nonsurgical-right h3 {
+    font-size: 22px;
+  }
+
+  .benefits-nonsurgical-right p,
+  .benefits-nonsurgical-left p,
+  .benefits-nonsurgical-right ul li {
+    font-size: 15px;
+  }
+
+  .benefits-nonsurgical-right ul {
+    gap: 10px;
   }
 }
 

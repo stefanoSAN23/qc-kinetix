@@ -1,9 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import './NonsurgicalShoulderTreatments.css';
 
 const NonsurgicalShoulderTreatments = () => {
   const buttonRef = useRef(null);
-  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     const observerOptions = {

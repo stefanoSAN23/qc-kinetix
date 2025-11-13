@@ -32,6 +32,9 @@
   line-height: 1.6;
   color: #000;
   margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 @media (max-width: 1200px) {
@@ -48,6 +51,14 @@
 
   .alternatives-image {
     order: -1;
+  }
+
+  .alternatives-content {
+    text-align: center;
+  }
+
+  .alternatives-content p {
+    text-align: center;
   }
 }
 
@@ -78,6 +89,13 @@
   .alternatives-content p {
     font-size: 15px;
     line-height: 1.5;
+    text-align: center;
+  }
+}
+
+@media (max-width: 420px) {
+  .alternatives-content p {
+    font-size: 14px;
   }
 }
 

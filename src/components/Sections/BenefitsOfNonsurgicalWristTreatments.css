@@ -125,6 +125,16 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .wrist-benefits-content {
+    gap: 48px;
+  }
+
+  .wrist-benefits-right {
+    margin-top: -20px;
+  }
+}
+
 @media (max-width: 1024px) {
   .wrist-benefits-section {
     padding: 90px 20px;
@@ -147,6 +157,25 @@
     margin-top: 0;
     max-width: 100%;
   }
+
+  .wrist-benefits-container {
+    align-items: center;
+  }
+
+  .wrist-benefits-header {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .wrist-benefits-dots {
+    margin-left: 0;
+  }
+
+  .wrist-benefits-left,
+  .wrist-benefits-right {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -165,6 +194,46 @@
   .wrist-benefits-right p,
   .wrist-benefits-left p {
     font-size: 16px;
+  }
+
+  .wrist-benefits-right h3 {
+    font-size: 20px;
+  }
+
+  .wrist-benefits-content {
+    gap: 28px;
+  }
+
+  .wrist-benefits-right ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 18px 0;
+  }
+
+  .wrist-benefits-right ul li::before {
+    top: 8px;
+  }
+
+  .wrist-benefits-right .knee-pain-btn,
+  .wrist-benefits-left .knee-pain-btn {
+    width: 100%;
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 520px) {
+  .wrist-benefits-left h2 {
+    font-size: 26px;
+  }
+
+  .wrist-benefits-right h3 {
+    font-size: 20px;
+  }
+
+  .wrist-benefits-right p,
+  .wrist-benefits-left p {
+    font-size: 15px;
   }
 }
 
