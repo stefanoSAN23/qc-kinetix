@@ -22,6 +22,7 @@ import ShoulderPain from './pages/ShoulderPain';
 import ElbowPain from './pages/ElbowPain';
 import WristPain from './pages/WristPain';
 import BackPain from './pages/BackPain';
+import HipPain from './pages/HipPain';
 import './App.css';
 
 const HeaderManager = () => {
@@ -181,6 +182,7 @@ function App() {
           <Route path="/elbow-pain/" element={<ElbowPain />} />
           <Route path="/wrist-pain/" element={<WristPain />} />
           <Route path="/back-pain/" element={<BackPain />} />
+          <Route path="/hip-pain/" element={<HipPain />} />
         </Routes>
         <Footer />
       </div>

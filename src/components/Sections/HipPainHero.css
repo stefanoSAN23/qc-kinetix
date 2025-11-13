@@ -1,5 +1,4 @@
-.shoulder-pain-hero-section {
-  margin-top: 0;
+.hip-pain-hero-section {
   padding: 100px 20px 25px;
   background: #000;
   background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-671.png');
@@ -12,36 +11,36 @@
   align-items: flex-start;
 }
 
-.shoulder-pain-hero-container {
+.hip-pain-hero-container {
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
 }
 
-.shoulder-pain-hero-content {
+.hip-pain-hero-content {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.shoulder-pain-breadcrumb {
+.hip-pain-breadcrumb {
   font-size: 16px;
   color: #fff;
   margin-bottom: 20px;
   font-weight: 400;
 }
 
-.shoulder-pain-breadcrumb a {
+.hip-pain-breadcrumb a {
   color: #fff;
   text-decoration: none;
 }
 
-.shoulder-pain-breadcrumb a:hover {
-  color: #159A00;
+.hip-pain-breadcrumb a:hover {
+  color: #159a00;
   text-decoration: underline;
 }
 
-.shoulder-pain-title {
+.hip-pain-title {
   font-size: 60px;
   font-weight: 500;
   color: #fff;
@@ -49,7 +48,6 @@
   line-height: 1.1;
 }
 
-/* Animations */
 .animated {
   opacity: 0;
   animation-duration: 0.8s;
@@ -76,8 +74,7 @@
 }
 
 @media (max-width: 1024px) {
-  .shoulder-pain-hero-section {
-    margin-top: 0;
+  .hip-pain-hero-section {
     padding: 40px 20px 30px;
     padding-top: 60px;
     margin-top: var(--condition-header-offset);
@@ -85,15 +82,14 @@
     background-position: center top;
   }
 
-  .shoulder-pain-title {
+  .hip-pain-title {
     font-size: 52px;
     line-height: 1.1;
   }
 }
 
 @media (max-width: 768px) {
-  .shoulder-pain-hero-section {
-    margin-top: 0;
+  .hip-pain-hero-section {
     padding: 110px 18px 40px;
     padding-top: 50px;
     margin-top: var(--condition-header-offset);
@@ -102,17 +98,17 @@
     align-items: center;
   }
 
-  .shoulder-pain-title {
+  .hip-pain-title {
     font-size: 42px;
     line-height: 1.1;
   }
 
-  .shoulder-pain-breadcrumb {
+  .hip-pain-breadcrumb {
     font-size: 14px;
     margin-bottom: 6px;
   }
 
-  .shoulder-pain-hero-content {
+  .hip-pain-hero-content {
     gap: 12px;
     align-items: center;
     text-align: center;
@@ -120,25 +116,26 @@
 }
 
 @media (max-width: 480px) {
-  .shoulder-pain-hero-section {
-    margin-top: 0;
+  .hip-pain-hero-section {
     padding: 100px 15px 32px;
     padding-top: 46px;
     margin-top: var(--condition-header-offset);
     min-height: auto;
   }
 
-  .shoulder-pain-title {
+  .hip-pain-title {
     font-size: 36px;
     line-height: 1.1;
   }
 
-  .shoulder-pain-breadcrumb {
+  .hip-pain-breadcrumb {
     font-size: 13px;
     margin-bottom: 4px;
   }
 
-  .shoulder-pain-hero-content {
+  .hip-pain-hero-content {
     gap: 10px;
   }
 }
+
+

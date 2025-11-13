@@ -4,6 +4,7 @@
   --e-global-color-accent: #159A00;
   --wp--preset--color--black: #000000;
   --wp--preset--color--white: #ffffff;
+  --condition-header-offset: 0px;
 }
 
 * {
@@ -152,6 +153,24 @@ img {
   .treatmentMegaMenu ul.sub-menu {
     column-count: 2;
     height: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --condition-header-offset: 88px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --condition-header-offset: 82px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --condition-header-offset: 74px;
   }
 }
 

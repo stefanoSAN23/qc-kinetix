@@ -75,9 +75,11 @@
 
 @media (max-width: 1024px) {
   .back-pain-hero-section {
-    padding: 35px 20px 20px;
-    padding-top: 90px;
-    min-height: 280px;
+    padding: 40px 20px 30px;
+    padding-top: 60px;
+    margin-top: var(--condition-header-offset);
+    min-height: 320px;
+    background-position: center top;
   }
 
   .back-pain-title {
@@ -88,9 +90,12 @@
 
 @media (max-width: 768px) {
   .back-pain-hero-section {
-    padding: 30px 15px 18px;
-    padding-top: 80px;
-    min-height: 250px;
+    padding: 110px 18px 40px;
+    padding-top: 50px;
+    margin-top: var(--condition-header-offset);
+    min-height: auto;
+    background-position: center top;
+    align-items: center;
   }
 
   .back-pain-title {
@@ -100,19 +105,22 @@
 
   .back-pain-breadcrumb {
     font-size: 14px;
-    margin-bottom: 0;
+    margin-bottom: 6px;
   }
 
   .back-pain-hero-content {
-    gap: 10px;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
   .back-pain-hero-section {
-    padding: 28px 15px 15px;
-    padding-top: 70px;
-    min-height: 220px;
+    padding: 100px 15px 32px;
+    padding-top: 46px;
+    margin-top: var(--condition-header-offset);
+    min-height: auto;
   }
 
   .back-pain-title {
@@ -122,11 +130,11 @@
 
   .back-pain-breadcrumb {
     font-size: 13px;
-    margin-bottom: 0;
+    margin-bottom: 4px;
   }
 
   .back-pain-hero-content {
-    gap: 8px;
+    gap: 10px;
   }
 }
 
