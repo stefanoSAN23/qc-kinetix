@@ -1,6 +1,6 @@
 .finger-toe-benefits-section {
   padding: 110px 20px;
-  background: #fff;
+  background: #f6fafc;
 }
 
 .finger-toe-benefits-container {
@@ -18,18 +18,17 @@
 }
 
 .finger-toe-benefits-header h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin: 0;
-  color: #0f172a;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  color: #000000;
 }
 
 .finger-toe-benefits-dots {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   align-items: center;
+  margin-left: 50px;
 }
 
 .finger-toe-benefits-dots .dot {

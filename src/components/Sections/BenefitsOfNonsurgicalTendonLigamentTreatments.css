@@ -1,6 +1,6 @@
 .tendon-ligament-benefits-section {
   padding: 110px 20px;
-  background: #fff;
+  background: #f6fafc;
 }
 
 .tendon-ligament-benefits-container {
@@ -18,18 +18,17 @@
 }
 
 .tendon-ligament-benefits-header h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin: 0;
-  color: #0f172a;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  color: #000000;
 }
 
 .tendon-ligament-benefits-dots {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   align-items: center;
+  margin-left: 50px;
 }
 
 .tendon-ligament-benefits-dots .dot {

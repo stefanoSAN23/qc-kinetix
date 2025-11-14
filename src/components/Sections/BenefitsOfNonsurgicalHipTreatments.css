@@ -1,6 +1,6 @@
 .hip-benefits-section {
   padding: 120px 20px;
-  background: #ffffff;
+  background: #f6fafc;
 }
 
 .hip-benefits-container {
@@ -18,18 +18,17 @@
 }
 
 .hip-benefits-header h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
-  color: #0f233f;
+  color: #000000;
   margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 
 .hip-benefits-dots {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   align-items: center;
+  margin-left: 50px;
 }
 
 .hip-benefits-dots .dot {
