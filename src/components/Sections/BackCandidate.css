@@ -147,6 +147,13 @@
   .back-candidate-text h2 {
     font-size: 32px;
   }
+
+  .back-candidate-button .knee-pain-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
 }
 
 @media (max-width: 768px) {
@@ -163,9 +170,13 @@
     font-size: 16px;
   }
 
-  .knee-pain-btn {
+  .back-candidate-button .knee-pain-btn {
     font-size: 16px;
     padding: 12px 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
   }
 }
 

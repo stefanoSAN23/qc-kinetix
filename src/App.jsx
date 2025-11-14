@@ -23,6 +23,12 @@ import ElbowPain from './pages/ElbowPain';
 import WristPain from './pages/WristPain';
 import BackPain from './pages/BackPain';
 import HipPain from './pages/HipPain';
+import AnklePain from './pages/AnklePain';
+import ArthritisPain from './pages/ArthritisPain';
+import FingerToePain from './pages/FingerToePain';
+import FootHandPain from './pages/FootHandPain';
+import TendonLigamentPain from './pages/TendonLigamentPain';
+import JointPain from './pages/JointPain';
 import './App.css';
 
 const HeaderManager = () => {
@@ -183,6 +189,12 @@ function App() {
           <Route path="/wrist-pain/" element={<WristPain />} />
           <Route path="/back-pain/" element={<BackPain />} />
           <Route path="/hip-pain/" element={<HipPain />} />
+          <Route path="/ankle-pain/" element={<AnklePain />} />
+          <Route path="/arthritis-pain/" element={<ArthritisPain />} />
+          <Route path="/finger-toe-pain/" element={<FingerToePain />} />
+          <Route path="/foot-hand-pain/" element={<FootHandPain />} />
+          <Route path="/tendon-and-ligament-pain/" element={<TendonLigamentPain />} />
+          <Route path="/joint-pain-treatments/" element={<JointPain />} />
         </Routes>
         <Footer />
       </div>

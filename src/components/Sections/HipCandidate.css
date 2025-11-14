@@ -167,6 +167,15 @@
     text-align: center;
     width: 100%;
   }
+
+  .hip-candidate-button .knee-pain-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: auto;
+    max-width: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -183,11 +192,16 @@
     font-size: 16px;
   }
 
-  .knee-pain-btn {
+  .hip-candidate-button .knee-pain-btn {
     font-size: 16px;
     padding: 12px 28px;
-    width: 100%;
-    max-width: 260px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: auto;
+    max-width: none;
+    margin: 0 auto;
   }
 }
 

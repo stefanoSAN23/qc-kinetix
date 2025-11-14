@@ -34,6 +34,15 @@
   .header-mobile {
     display: none !important;
   }
+
+  .header:not(.regenerative-page) .header-actions {
+    color: #fff;
+  }
+
+  .header:not(.regenerative-page) .header-actions .phone-icon a,
+  .header:not(.regenerative-page) .header-actions .phone-icon span {
+    color: #fff;
+  }
 }
 
 .header-container {
