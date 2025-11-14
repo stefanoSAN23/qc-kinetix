@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import './BodyPainMap.css';
 
-const BodyPainMap = () => {
+const BodyPainMap = ({ hideConsultationButton = false }) => {
   const [highlightedPart, setHighlightedPart] = useState(null);
   const button1Ref = useRef(null);
   const button2Ref = useRef(null);
@@ -115,11 +115,13 @@ const BodyPainMap = () => {
           ))}
         </div>
 
-        <div className="body-pain-consultation-button animated fadeInUp desktop-only" ref={button2Ref}>
-          <a href="/request-your-first-appointment/" className="req-btn">
-            <span>Request a Consultation</span>
-          </a>
-        </div>
+        {!hideConsultationButton && (
+          <div className="body-pain-consultation-button animated fadeInUp desktop-only" ref={button2Ref}>
+            <a href="/request-your-first-appointment/" className="req-btn">
+              <span>Request a Consultation</span>
+            </a>
+          </div>
+        )}
 
         <div className="body-pain-button mobile-only">
           <a href="/conditions/" className="knee-pain-btn">

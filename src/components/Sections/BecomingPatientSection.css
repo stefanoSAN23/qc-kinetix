@@ -1,0 +1,162 @@
+.becoming-patient-section {
+  padding: 130px 20px;
+  background: #edf5f6;
+}
+
+.becoming-patient-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.becoming-patient-header {
+  text-align: center;
+}
+
+.becoming-patient-heading h2 {
+  font-size: 48px;
+  margin: 0 0 18px;
+  color: #031b30;
+}
+
+.becoming-patient-dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.becoming-patient-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #0abf53;
+  display: block;
+}
+
+.becoming-patient-steps {
+  display: flex;
+  gap: 18px;
+  position: relative;
+}
+
+.patient-step-card {
+  flex: 1;
+  position: relative;
+  padding: 48px 36px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 34px;
+  overflow: hidden;
+  min-height: 260px;
+  box-shadow: 0 25px 60px rgba(15, 31, 53, 0.08);
+}
+
+.patient-step-card::before,
+.patient-step-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-759.png');
+  background-size: cover;
+  opacity: 0.4;
+}
+
+.patient-step-card::before {
+  left: -40px;
+  transform: skewX(-12deg);
+}
+
+.patient-step-card::after {
+  right: -40px;
+  transform: skewX(-12deg);
+}
+
+.patient-step-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #0abf53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  position: relative;
+  z-index: 1;
+}
+
+.patient-step-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.patient-step-content {
+  position: relative;
+  z-index: 1;
+}
+
+.patient-step-content h4 {
+  margin: 0 0 16px;
+  font-size: 22px;
+  color: #01152a;
+}
+
+.patient-step-content h4 span {
+  font-weight: 600;
+}
+
+.patient-step-content p {
+  margin: 0;
+  color: #4a5561;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.animated {
+  opacity: 0;
+  animation-duration: 0.9s;
+  animation-fill-mode: both;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+.animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1100px) {
+  .becoming-patient-steps {
+    flex-direction: column;
+  }
+
+  .patient-step-card::before,
+  .patient-step-card::after {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .becoming-patient-section {
+    padding: 80px 15px;
+  }
+
+  .becoming-patient-heading h2 {
+    font-size: 38px;
+  }
+}
+

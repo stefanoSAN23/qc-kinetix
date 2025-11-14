@@ -1,0 +1,213 @@
+.pain-relief-journey {
+  padding: 120px 20px 140px;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-673.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.pain-relief-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.pain-relief-header {
+  max-width: 760px;
+}
+
+.pain-relief-heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 12px;
+}
+
+.pain-relief-heading h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.pain-relief-divider img {
+  display: block;
+  width: 177px;
+  height: 8px;
+  margin-left: 40px;
+}
+
+.pain-relief-header h2 {
+  font-size: 52px;
+  font-weight: 600;
+  margin: 0 0 24px;
+  padding-bottom: 35px;
+}
+
+.pain-relief-description {
+  font-size: 20px;
+  
+  color: #ffffff;
+  margin: 0;
+  max-width: 520px;
+}
+
+.pain-relief-steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  position: relative;
+}
+
+.pain-step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 18px;
+  position: relative;
+}
+
+.pain-step:first-child {
+  margin-top: -25px;
+}
+
+.pain-step:nth-child(3) {
+  margin-top: -15px;
+}
+
+.pain-step:nth-child(4) {
+  margin-top: -135px;
+}
+.pain-step:nth-child(5) {
+  margin-top: -245px;
+}
+
+.pain-step-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pain-step-icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.pain-step-body {
+  max-width: 260px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.pain-step-dots {
+  position: absolute;
+  top: 14px;
+  left: calc(100% - 170px);
+  display: flex;
+  gap: 14px;
+  transform-origin: left center;
+  opacity: 0.9;
+}
+
+.pain-step-dots span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: block;
+}
+
+.pain-step:last-child .pain-step-dots {
+  display: none;
+}
+
+.pain-step-1 .pain-step-dots {
+  top: 26px;
+  transform: rotate(3deg);
+}
+
+.pain-step:nth-child(2) .pain-step-dots {
+  top: 22px;
+  transform: rotate(-3deg);
+}
+
+.pain-step:nth-child(3) .pain-step-dots {
+  transform: rotate(-22deg);
+}
+
+.pain-step:nth-child(4) .pain-step-dots {
+  transform: rotate(-22deg);
+}
+
+.animated {
+  opacity: 0;
+  animation-duration: 0.9s;
+  animation-fill-mode: both;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+.animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animated {
+  opacity: 0;
+  animation-duration: 0.9s;
+  animation-fill-mode: both;
+}
+
+.animated.animated-active {
+  opacity: 1;
+}
+
+.animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .pain-relief-steps {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .pain-relief-journey {
+    padding: 80px 15px;
+  }
+
+  .pain-relief-header h2 {
+    font-size: 40px;
+  }
+
+  .pain-relief-steps {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .pain-step-connector {
+    display: none;
+  }
+}
+
