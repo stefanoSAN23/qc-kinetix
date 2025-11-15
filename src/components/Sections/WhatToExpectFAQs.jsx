@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import './StemCellFAQs.css';
 import './WhatToExpectFAQs.css';
 
 const faqs = [
@@ -30,8 +31,8 @@ const faqs = [
 ];
 
 const WhatToExpectFAQs = () => {
+  const titleRef = useRef(null);
   const [openIndex, setOpenIndex] = useState(0);
-  const headerRef = useRef(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -47,38 +48,52 @@ const WhatToExpectFAQs = () => {
       });
     }, observerOptions);
 
-    if (headerRef.current) observer.observe(headerRef.current);
+    if (titleRef.current) observer.observe(titleRef.current);
 
     return () => {
-      if (headerRef.current) observer.unobserve(headerRef.current);
+      if (titleRef.current) observer.unobserve(titleRef.current);
     };
   }, []);
 
-  return (
-    <section className="wte-faqs-section">
-      <div className="wte-faqs-container">
-        <div className="wte-faqs-header animated fadeInDown" ref={headerRef}>
-          <h2>FAQs About Our Clinic</h2>
-        </div>
+  const handleToggle = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
-        <div className="wte-faqs-accordion">
+  return (
+    <section className="stem-cell-faqs-section wte-faqs-section">
+      <div className="stem-cell-faqs-container">
+        <h2 className="stem-cell-faqs-title animated fadeInDown" ref={titleRef}>
+          FAQs About Our Clinic
+        </h2>
+
+        <div className="stem-cell-faqs-accordion">
           {faqs.map((faq, index) => {
             const isOpen = openIndex === index;
             return (
-              <details key={faq.question} className="wte-faq-item" open={isOpen}>
+              <details key={index} className="stem-cell-faq-item" open={isOpen}>
                 <summary
-                  className="wte-faq-question"
+                  className="stem-cell-faq-question"
                   onClick={(e) => {
                     e.preventDefault();
-                    setOpenIndex(isOpen ? null : index);
+                    handleToggle(index);
                   }}
-                  aria-expanded={isOpen}
                   role="button"
+                  aria-expanded={isOpen}
                 >
-                  <span>{faq.question}</span>
-                  <span className="wte-faq-icon">{isOpen ? '−' : '+'}</span>
+                  <h3 className="stem-cell-faq-question-text">{faq.question}</h3>
+                  <span className="stem-cell-faq-icon">
+                    {isOpen ? (
+                      <svg aria-hidden="true" className="minus-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                      </svg>
+                    ) : (
+                      <svg aria-hidden="true" className="plus-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
+                      </svg>
+                    )}
+                  </span>
                 </summary>
-                <div className="wte-faq-answer">
+                <div className="stem-cell-faq-answer">
                   <p>{faq.answer}</p>
                 </div>
               </details>
