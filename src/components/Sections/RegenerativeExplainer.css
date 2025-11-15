@@ -1,0 +1,70 @@
+.regenerative-explainer-section {
+  padding: 120px 20px;
+  background: #fdfdfd;
+}
+
+.regenerative-explainer-container {
+  max-width: 980px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0 40px 120px rgba(3, 27, 48, 0.08);
+  padding: 64px 72px;
+  text-align: left;
+}
+
+.regenerative-explainer-title {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.regenerative-explainer-title h3 {
+  margin: 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #159a00;
+}
+
+.regenerative-explainer-title h2 {
+  margin: 0;
+  font-size: clamp(36px, 4vw, 52px);
+  color: #031b30;
+}
+
+.regenerative-explainer-container p {
+  margin: 0 0 24px;
+  font-size: 18px;
+  color: #4a5969;
+  line-height: 1.8;
+}
+
+.regenerative-explainer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #159a00;
+}
+
+.regenerative-explainer-link::after {
+  content: '→';
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .regenerative-explainer-container {
+    padding: 48px 32px;
+  }
+
+  .regenerative-explainer-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+

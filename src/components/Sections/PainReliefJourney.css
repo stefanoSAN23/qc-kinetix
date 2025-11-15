@@ -187,6 +187,24 @@
 }
 
 @media (max-width: 1024px) {
+  .pain-relief-heading h3 {
+    font-size: 24px;
+  }
+
+  .pain-relief-divider img {
+    width: 150px;
+    height: 6px;
+    margin-left: 24px;
+  }
+
+  .pain-relief-header h2 {
+    font-size: 46px;
+  }
+
+  .pain-relief-description {
+    font-size: 18px;
+  }
+
   .pain-relief-steps {
     flex-wrap: wrap;
   }
@@ -197,17 +215,96 @@
     padding: 80px 15px;
   }
 
+  .pain-relief-heading {
+    gap: 12px;
+  }
+
+  .pain-relief-heading h3 {
+    font-size: 20px;
+  }
+
+  .pain-relief-divider img {
+    width: 110px;
+    height: 5px;
+    margin-left: 12px;
+  }
+
   .pain-relief-header h2 {
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+  }
+
+  .pain-relief-description {
+    font-size: 16px;
+    max-width: 100%;
   }
 
   .pain-relief-steps {
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
   }
 
-  .pain-step-connector {
+  .pain-step,
+  .pain-step:first-child,
+  .pain-step:nth-child(3),
+  .pain-step:nth-child(4),
+  .pain-step:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .pain-step {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 12px;
+    gap: 16px;
+    padding-bottom: 36px;
+  }
+
+  .pain-step:last-child {
+    padding-bottom: 0;
+  }
+
+  .pain-step-icon {
+    flex-shrink: 0;
+  }
+
+  .pain-step-body {
+    max-width: 100%;
+  }
+
+  .pain-step-dots {
+    position: absolute;
+    top: 58px;
+    left: 30px;
+    height: 46px;
+    flex-direction: column;
+    gap: 6px;
+    transform: none;
+    align-items: center;
+  }
+
+  .pain-step-dots span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    display: block;
+  }
+
+  .pain-step:last-child .pain-step-dots {
     display: none;
+  }
+
+  .pain-step.pain-step-1 .pain-step-dots,
+  .pain-step.pain-step-2 .pain-step-dots,
+  .pain-step.pain-step-3 .pain-step-dots,
+  .pain-step.pain-step-4 .pain-step-dots,
+  .pain-step.pain-step-5 .pain-step-dots {
+    top: 58px;
+    left: 30px;
+    height: 46px;
+    transform: none;
   }
 }
 

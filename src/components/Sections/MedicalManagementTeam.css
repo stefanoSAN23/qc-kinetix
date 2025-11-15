@@ -1,0 +1,158 @@
+.medical-team-section {
+  padding: 140px 20px;
+  background: #f1f6fb;
+}
+
+.medical-team-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.medical-team-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.medical-team-header h2 {
+  font-size: clamp(36px, 4vw, 56px);
+  margin: 0 0 18px;
+  color: #031b30;
+}
+
+.medical-team-header p {
+  margin: 0;
+  color: #4e5c6c;
+  font-size: 18px;
+}
+
+.medical-team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.medical-team-card {
+  background: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0 25px 90px rgba(20, 37, 61, 0.08);
+  border: 1px solid rgba(3, 27, 48, 0.06);
+  padding: 32px;
+}
+
+.medical-team-card-inner {
+  display: grid;
+  grid-template-columns: 192px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.medical-team-card img {
+  width: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at top, #e9f5ff, #dbeeff);
+  box-shadow: inset 0 0 0 6px #f5fbff;
+}
+
+.medical-team-card-body h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #031b30;
+}
+
+.medical-team-card-body h4 {
+  margin: 6px 0 16px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #159a00;
+}
+
+.medical-team-card-body p {
+  margin: 0 0 16px;
+  color: #4a5766;
+  line-height: 1.7;
+}
+
+.medical-team-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: none;
+  color: #159a00;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0;
+}
+
+.medical-team-toggle span {
+  display: inline-flex;
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.medical-team-toggle[aria-expanded='true'] span {
+  transform: rotate(0deg);
+}
+
+.medical-team-details {
+  border-top: 1px solid rgba(3, 27, 48, 0.08);
+  padding-top: 16px;
+  margin-top: 10px;
+  animation: fadeIn 0.35s ease;
+}
+
+.medical-team-details p {
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .medical-team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .medical-team-card-inner {
+    grid-template-columns: 120px 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .medical-team-section {
+    padding: 100px 18px;
+  }
+
+  .medical-team-card-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .medical-team-card img {
+    max-width: 160px;
+    margin: 0 auto;
+  }
+
+  .medical-team-card-body h4 {
+    margin-bottom: 12px;
+  }
+
+  .medical-team-card-body p {
+    text-align: left;
+  }
+}
+

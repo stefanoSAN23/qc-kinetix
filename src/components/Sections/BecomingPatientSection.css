@@ -106,6 +106,7 @@
 .patient-step-card.edge-card::after {
   background-image: none;
 }
+
 .patient-step-inner {
   display: flex;
   flex-direction: column;
@@ -179,13 +180,42 @@
 
 @media (max-width: 1100px) {
   .becoming-patient-steps {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    padding: 60px 20px;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 60px 24px;
+  }
+
+  .patient-step-card {
+    min-height: 220px;
+    padding: 48px 32px;
   }
 
   .patient-step-card.edge-card {
     display: none;
+  }
+
+  /* Cambia la dirección del chevron para que apunte hacia abajo en mobile con forma más definida */
+  .patient-step-card::before {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    transform: skew(0deg, 6deg);
+    background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-759.png');
+    background-size: 170px auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .patient-step-card::after {
+    bottom: 0;
+    right: 0;
+    left: auto;
+    height: 100%;
+    width: 50%;
+    transform: skew(0deg, -6deg);
+    background-image: none;
   }
 }
 
@@ -196,5 +226,15 @@
 
   .becoming-patient-heading h2 {
     font-size: 38px;
+  }
+
+  .becoming-patient-steps {
+    padding: 40px 16px;
+    gap: 18px;
+  }
+
+  .patient-step-card {
+    min-height: 200px;
+    padding: 38px 26px;
   }
 }

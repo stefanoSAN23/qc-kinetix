@@ -1,10 +1,14 @@
 import { useEffect, useRef } from 'react';
 import './QCKinetixDifference.css';
 
-const QCKinetixDifference = () => {
+const QCKinetixDifference = ({ hideButton = false }) => {
   const buttonRef = useRef(null);
 
   useEffect(() => {
+    if (hideButton) {
+      return undefined;
+    }
+
     const observerOptions = {
       threshold: 0.2,
       rootMargin: '0px 0px -100px 0px'
@@ -27,7 +31,7 @@ const QCKinetixDifference = () => {
         observer.unobserve(buttonRef.current);
       }
     };
-  }, []);
+  }, [hideButton]);
   const differences = [
     {
       title: 'Patient-First',
@@ -83,11 +87,13 @@ const QCKinetixDifference = () => {
           ))}
         </div>
 
-        <div className="qc-difference-button animated fadeInUp" ref={buttonRef}>
-          <a href="/about-us/" className="knee-pain-btn">
-            Learn More
-          </a>
-        </div>
+        {!hideButton && (
+          <div className="qc-difference-button animated fadeInUp" ref={buttonRef}>
+            <a href="/about-us/" className="knee-pain-btn">
+              Learn More
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );

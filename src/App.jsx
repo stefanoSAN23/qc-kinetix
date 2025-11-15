@@ -30,6 +30,7 @@ import FootHandPain from './pages/FootHandPain';
 import TendonLigamentPain from './pages/TendonLigamentPain';
 import JointPain from './pages/JointPain';
 import WhatToExpect from './pages/WhatToExpect';
+import AboutUs from './pages/AboutUs';
 import './App.css';
 
 const HeaderManager = () => {
@@ -197,6 +198,7 @@ function App() {
           <Route path="/tendon-and-ligament-pain/" element={<TendonLigamentPain />} />
           <Route path="/joint-pain-treatments/" element={<JointPain />} />
               <Route path="/what-to-expect/" element={<WhatToExpect />} />
+              <Route path="/about-us/" element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>
