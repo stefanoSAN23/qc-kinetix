@@ -14,7 +14,10 @@ const RegenerativeProviders = () => {
           />
         </div>
         <div className="regenerative-providers-content">
-          <h2>Regenerative Health Providers and Physicians</h2>
+          <h2 className="rp-title">
+            <span className="rp-title-eyebrow">Regenerative Health</span>
+            <span className="rp-title-main">Providers and Physicians</span>
+          </h2>
           <img
             src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-530.png.webp"
             width="177"

@@ -15,19 +15,24 @@ const NewsStoryHighlight = () => {
         </div>
         <div className="news-highlight-content">
           <div className="news-highlight-label">
-            <h3>News Story</h3>
+            <h3 className="animated fadeInDown">News Story</h3>
             <img
-              src="https://qckinetix.com/wp-content/uploads/2025/03/Group-331.svg"
-              width="176"
-              height="7"
-              alt=""
+              className="news-highlight-divider animated fadeInDown"
+              src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-530.png.webp"
+              width="177"
+              height="8"
+              alt="Decorative divider"
               loading="lazy"
             />
           </div>
-          <h2>How Regenerative Medicine Is Accelerating the Evolution of Personalized Healthcare</h2>
+          <h2>
+            How Regenerative Medicine Is Accelerating the
+            <br />
+            Evolution of Personalized Healthcare
+          </h2>
           <div className="news-highlight-actions">
-            <a href="https://qckinetix.com/news-and-press/">Read More</a>
-            <a href="https://qckinetix.com/news-and-press/">More News</a>
+            <a href="https://qckinetix.com/news-and-press/" className="animated fadeInUp">Read More</a>
+            <a href="https://qckinetix.com/news-and-press/" className="animated fadeInUp">More News</a>
           </div>
         </div>
       </div>

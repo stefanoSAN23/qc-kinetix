@@ -1,0 +1,126 @@
+.success-stories-grid-section {
+  padding: 120px 20px;
+  background: #f7f9fb;
+}
+
+.success-stories-grid-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.success-story-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 230px 1fr; /* imagen ligeramente más pequeña */
+  gap: 60px; /* texto aún más pegado a la imagen */
+  align-items: start;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #e7edf3;
+  
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(7, 30, 48, 0.10);
+}
+
+.success-story-card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background: #159a00;
+  border-radius: 6px;
+}
+
+.success-card-media img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 8px 26px rgba(7, 30, 48, 0.15);
+}
+
+.success-card-person {
+  margin-top: 16px;
+}
+
+.person-name {
+  margin: 0 0 6px;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.person-role {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #5f7285;
+}
+
+.success-card-content {
+  position: relative;
+  padding-right: 4px; /* menos espacio lateral para acortar el bloque */
+  display: flex;            /* coloca icono y texto en la misma línea */
+  align-items: flex-start;  /* alinea la parte superior del icono con el inicio del texto */
+  column-gap: 10px;         /* separación mínima entre icono y texto */
+  padding-top: 6px;         /* asegúralo dentro del padding del card */
+}
+
+.quote-icon {
+  font-size: 100px;
+  line-height: 1;       /* mantener dentro del contenedor sin desbordar */
+  color: #159a00;
+  margin: 0;            /* sin márgenes extra */
+  display: inline-block;/* evita altura extra por línea */
+}
+
+.success-quote {
+  margin: 50px 0 0; /* bajar el texto respecto al icono */
+  color: #213b55;
+  font-size: 15px; /* texto un poco más grande */
+  max-width: 340px; /* más angosto para reducir extensión visual */
+  margin-right: 50px;
+}
+
+@media (max-width: 1024px) {
+  .success-stories-grid-container {
+    grid-template-columns: 1fr;
+  }
+  .success-story-card {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 18px;
+  }
+  .success-card-content {
+    padding-top: 0;
+    column-gap: 8px;
+  }
+  .quote-icon { font-size: 64px; }
+  .success-quote {
+    margin: 8px 0 0;
+    max-width: 100%; /* en responsive usar el ancho disponible */
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .success-stories-grid-section {
+    padding: 80px 18px;
+  }
+  .success-story-card { gap: 12px; padding: 16px; }
+  .person-name { font-size: 18px; }
+  .person-role { font-size: 14px; }
+  .quote-icon { font-size: 48px; }
+  .success-quote { font-size: 14px; }
+}
+
+@media (max-width: 400px) {
+  .success-story-card { padding: 14px; }
+  .quote-icon { font-size: 40px; }
+  .success-quote { font-size: 13px; }
+}
+
+

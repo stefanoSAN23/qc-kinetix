@@ -59,6 +59,13 @@
   hyphens: auto;
 }
 
+.what-is-content a.deeplink-purple {
+  color: #3b2a6d; /* morado oscuro */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
 .what-is-content strong {
   font-weight: 700;
 }
