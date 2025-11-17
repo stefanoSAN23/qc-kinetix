@@ -6,7 +6,7 @@ const FloatingBanner = () => {
   const [isClosed, setIsClosed] = useState(false);
 
   useEffect(() => {
-    // Verificar si ya fue cerrado en localStorage
+    // Check if already closed in localStorage
     const storageKey = 'popupClosedOrSubmitted';
 
     const getWithExpiry = (key) => {
@@ -25,7 +25,7 @@ const FloatingBanner = () => {
     };
 
     if (!getWithExpiry(storageKey)) {
-      // Mostrar después de 10 segundos
+      // Show after 10 seconds
       const timer = setTimeout(() => {
         setIsVisible(true);
       }, 10000);
@@ -38,7 +38,7 @@ const FloatingBanner = () => {
     setIsVisible(false);
     setIsClosed(true);
     
-    // Guardar en localStorage por 30 días
+    // Save to localStorage for 30 days
     const storageKey = 'popupClosedOrSubmitted';
     const hideDays = 30;
     const now = new Date();

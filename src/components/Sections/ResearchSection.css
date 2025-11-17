@@ -1,6 +1,6 @@
 .research-section {
   padding: 100px 20px;
-  background: #fff;
+  background: transparent;
 }
 
 .research-container {
@@ -102,14 +102,13 @@
   grid-column: 1;
 }
 
-.apply_filter_btn,
-.clear_filter_btn {
-  background-color: #159A00;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+.apply_filter_btn {
+  background-color: transparent;
+  color: #159A00;
+  font-size: 18px;
+  font-weight: 700;
   padding: 12px 24px;
-  border: 1px solid #159A00;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -117,11 +116,26 @@
   display: inline-block;
 }
 
-.apply_filter_btn:hover,
+.apply_filter_btn:hover {
+  color: #0d7a00;
+}
+
+.clear_filter_btn {
+  background-color: transparent;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .clear_filter_btn:hover {
-  background: #fff;
-  color: #172028;
-  border-color: #159A00;
+  color: #333333;
 }
 
 .research-results {

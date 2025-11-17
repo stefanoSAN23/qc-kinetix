@@ -14,8 +14,8 @@
 .success-story-card {
   position: relative;
   display: grid;
-  grid-template-columns: 230px 1fr; /* imagen ligeramente más pequeña */
-  gap: 60px; /* texto aún más pegado a la imagen */
+  grid-template-columns: 230px 1fr; /* slightly smaller image */
+  gap: 60px; /* text even closer to the image */
   align-items: start;
   background: #ffffff;
   border-radius: 6px;
@@ -62,26 +62,26 @@
 
 .success-card-content {
   position: relative;
-  padding-right: 4px; /* menos espacio lateral para acortar el bloque */
-  display: flex;            /* coloca icono y texto en la misma línea */
-  align-items: flex-start;  /* alinea la parte superior del icono con el inicio del texto */
-  column-gap: 10px;         /* separación mínima entre icono y texto */
-  padding-top: 6px;         /* asegúralo dentro del padding del card */
+  padding-right: 4px; /* less side space to shorten the block */
+  display: flex;            /* place icon and text on the same line */
+  align-items: flex-start;  /* align top of icon with start of text */
+  column-gap: 10px;         /* minimum separation between icon and text */
+  padding-top: 6px;         /* ensure it's within the card padding */
 }
 
 .quote-icon {
   font-size: 100px;
-  line-height: 1;       /* mantener dentro del contenedor sin desbordar */
+  line-height: 1;       /* keep within container without overflow */
   color: #159a00;
-  margin: 0;            /* sin márgenes extra */
-  display: inline-block;/* evita altura extra por línea */
+  margin: 0;            /* no extra margins */
+  display: inline-block;/* avoid extra height per line */
 }
 
 .success-quote {
-  margin: 50px 0 0; /* bajar el texto respecto al icono */
+  margin: 50px 0 0; /* lower text relative to icon */
   color: #213b55;
-  font-size: 15px; /* texto un poco más grande */
-  max-width: 340px; /* más angosto para reducir extensión visual */
+  font-size: 15px; /* slightly larger text */
+  max-width: 340px; /* narrower to reduce visual extension */
   margin-right: 50px;
 }
 
@@ -101,7 +101,7 @@
   .quote-icon { font-size: 64px; }
   .success-quote {
     margin: 8px 0 0;
-    max-width: 100%; /* en responsive usar el ancho disponible */
+    max-width: 100%; /* in responsive use available width */
     margin-right: 0;
   }
 }

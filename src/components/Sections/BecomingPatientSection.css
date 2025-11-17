@@ -195,7 +195,7 @@
     display: none;
   }
 
-  /* Cambia la dirección del chevron para que apunte hacia abajo en mobile con forma más definida */
+  /* Change chevron direction to point down on mobile with more defined shape */
   .patient-step-card::before {
     top: 0;
     left: 0;

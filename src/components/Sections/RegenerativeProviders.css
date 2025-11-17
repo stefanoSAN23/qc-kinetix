@@ -7,7 +7,7 @@
   max-width: 1250px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.2fr 1fr; /* un poco más espacio para la imagen */
+  grid-template-columns: 1.2fr 1fr; /* slightly more space for the image */
   gap: 60px;
   align-items: center;
 }
@@ -29,7 +29,7 @@
 
 .rp-title-eyebrow {
   display: block;
-  font-size: 24px ; /* más pequeño */
+  font-size: 24px ; /* smaller */
   font-weight: 500;
   color: #000000;
   margin-bottom: 28px;
@@ -37,7 +37,7 @@
 
 .rp-title-main {
   display: block;
-  font-size: 44px; /* reducir tamaño del título principal */
+  font-size: 44px; /* reduce main title size */
   font-weight: 600;
   margin-bottom: 80px;
 }

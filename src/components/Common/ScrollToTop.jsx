@@ -5,11 +5,11 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Scroll al inicio cuando cambia la ruta
+    // Scroll to top when route changes
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: 'instant' // Sin animación para que sea inmediato
+      behavior: 'instant' // No animation for immediate effect
     });
   }, [pathname]);
 

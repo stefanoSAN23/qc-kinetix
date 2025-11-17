@@ -32,6 +32,11 @@ import JointPain from './pages/JointPain';
 import WhatToExpect from './pages/WhatToExpect';
 import AboutUs from './pages/AboutUs';
 import SuccessStories from './pages/SuccessStories';
+import RegenerativeMedicineBlog from './pages/RegenerativeMedicineBlog';
+import NewsAndPress from './pages/NewsAndPress';
+import FAQ from './pages/FAQ';
+import Webinars from './pages/Webinars';
+import QCLocations from './pages/QCLocations';
 import './App.css';
 
 const HeaderManager = () => {
@@ -201,6 +206,11 @@ function App() {
               <Route path="/what-to-expect/" element={<WhatToExpect />} />
               <Route path="/about-us/" element={<AboutUs />} />
               <Route path="/success-stories/" element={<SuccessStories />} />
+              <Route path="/regenerative-medicine-blog/" element={<RegenerativeMedicineBlog />} />
+              <Route path="/news-and-press/" element={<NewsAndPress />} />
+              <Route path="/faq/" element={<FAQ />} />
+              <Route path="/webinars/" element={<Webinars />} />
+              <Route path="/qc-locations/" element={<QCLocations />} />
         </Routes>
         <Footer />
       </div>

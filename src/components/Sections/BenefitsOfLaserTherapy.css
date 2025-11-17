@@ -34,7 +34,7 @@
   margin-bottom: 0;
 }
 
-/* Animación lenta de arriba a abajo solo para el contenedor qc-section-header-top */
+/* Slow top-to-bottom animation only for qc-section-header-top container */
 .benefits-of-laser-therapy-header-component .qc-section-header-top.animated {
   opacity: 0;
   animation-duration: 1.5s;
@@ -59,7 +59,7 @@
   opacity: 1 !important;
 }
 
-/* El título principal NO debe tener animación */
+/* Main title should NOT have animation */
 .benefits-of-laser-therapy-header-component .qc-section-header-main-title {
   font-size: 48px;
   font-weight: 700;

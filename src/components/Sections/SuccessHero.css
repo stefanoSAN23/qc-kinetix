@@ -7,15 +7,15 @@
   max-width: 1500px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.2fr 1.8fr; /* más ancho para ambos lados en un contenedor mayor */
+  grid-template-columns: 1.2fr 1.8fr; /* wider for both sides in a larger container */
   gap: 48px;
   align-items: center;
 }
 
 .success-hero-left h1 {
   margin: 0;
-  font-size: clamp(36px, 5vw, 56px); /* más grande */
-  font-weight: 600; /* un poco menos de peso */
+  font-size: clamp(36px, 5vw, 56px); /* larger */
+  font-weight: 600; /* slightly less weight */
   color: #000000;
   line-height: 1.15;
   padding-bottom: 60px;
@@ -23,11 +23,11 @@
 }
 
 .success-hero-description {
-  margin: 36px 0 0; /* más margen superior */
+  margin: 36px 0 0; /* more top margin */
   color: #000000;
-  font-size: 18.5px; /* un poco más grande */
+  font-size: 18.5px; /* slightly larger */
   line-height: 1.8;
-  max-width: 1100px; /* permitir más ancho dentro de la columna */
+  max-width: 1100px; /* allow more width within the column */
 }
 
 .success-hero-divider {

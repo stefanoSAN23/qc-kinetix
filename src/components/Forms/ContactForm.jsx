@@ -51,7 +51,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Aquí iría la lógica de envío del formulario
+    // Form submission logic would go here
   };
 
   return (

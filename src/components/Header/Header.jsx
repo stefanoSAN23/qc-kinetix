@@ -10,28 +10,28 @@ const Header = ({ variant = 'auto' }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Cambiar a fondo negro cuando se hace scroll (desde 50px para mejor UX)
+      // Change to black background when scrolling (from 50px for better UX)
       setIsScrolled(window.scrollY > 50);
     };
     
-    // Verificar estado inicial
+    // Check initial state
     handleScroll();
     
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Detectar si el FloatingBanner está visible para ajustar la posición del header
+  // Detect if FloatingBanner is visible to adjust header position
   useEffect(() => {
     const checkBanner = () => {
       const banner = document.querySelector('.floating-banner');
       const header = document.querySelector('.header');
       if (banner && header) {
-        // Si está scrolled, siempre poner el header en top: 0
+        // If scrolled, always set header to top: 0
         if (isScrolled) {
           header.style.top = '0';
         } else {
-          // Si no está scrolled, ajustar según la altura del banner
+          // If not scrolled, adjust according to banner height
           const bannerHeight = banner.offsetHeight;
           const bannerComputed = window.getComputedStyle(banner);
           if (bannerHeight > 0 && bannerComputed.display !== 'none') {
@@ -43,7 +43,7 @@ const Header = ({ variant = 'auto' }) => {
       }
     };
 
-    // Verificar inicialmente y cuando cambie el DOM o el scroll
+    // Check initially and when DOM or scroll changes
     checkBanner();
     const observer = new MutationObserver(checkBanner);
     const banner = document.querySelector('.floating-banner');
@@ -51,7 +51,7 @@ const Header = ({ variant = 'auto' }) => {
       observer.observe(banner, { attributes: true, attributeFilter: ['style', 'class'] });
     }
 
-    // También verificar cuando cambie el scroll
+    // Also check when scroll changes
     const handleScroll = () => {
       checkBanner();
     };
@@ -134,7 +134,7 @@ const Header = ({ variant = 'auto' }) => {
     shouldUseWhiteHeader = isRegenerativePage || isConditionsPage || isKneePainPage || isShoulderPainPage;
   }
 
-  // Función para manejar enlaces internos que recargan la página
+  // Function to handle internal links that reload the page
   const handleInternalLink = (e, href) => {
     e.preventDefault();
     window.location.href = href;

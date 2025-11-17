@@ -2,12 +2,12 @@ const InternalLink = ({ to, children, className = '', onClick, ...props }) => {
   const handleClick = (e) => {
     e.preventDefault();
     
-    // Si hay un onClick personalizado, ejecutarlo primero
+    // If there's a custom onClick, execute it first
     if (onClick) {
       onClick(e);
     }
 
-    // Recargar la página y navegar
+    // Reload page and navigate
     window.location.href = to;
   };
 

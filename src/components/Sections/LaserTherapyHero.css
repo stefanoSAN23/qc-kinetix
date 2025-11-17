@@ -40,12 +40,12 @@
   margin-bottom: 0;
 }
 
-/* Animación del divider: fadeInDown sin delay */
+/* Divider animation: fadeInDown without delay */
 .laser-therapy-hero-header-component .qc-section-header-dots.animated {
   animation-name: fadeInDown !important;
 }
 
-/* Hacer más grande el divider y aumentar espacio entre puntos */
+/* Make divider larger and increase space between dots */
 .laser-therapy-hero-header-component .qc-section-header-dots {
   gap: 20px !important;
 }
@@ -55,7 +55,7 @@
   height: 9px !important;
 }
 
-/* Animación del título: fadeInDown con delay para aparecer después del divider */
+/* Title animation: fadeInDown with delay to appear after divider */
 .laser-therapy-hero-header-component .qc-section-header-main-title {
   font-size: 52px;
   font-weight: 700;

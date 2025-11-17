@@ -4,24 +4,24 @@
 }
 
 .news-highlight-container {
-  max-width: 1900px; /* ampliar más para agrandar la imagen sin tocar textos */
+  max-width: 1900px; /* expand more to enlarge image without touching texts */
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 780px 1040px; /* imagen un poco más pequeña, texto un poco más ancho */
-  gap: 0; /* juntar aún más imagen y contenido */
-  align-items: center; /* centra verticalmente cada celda */
-  justify-items: center; /* centra horizontalmente el contenido de cada celda */
+  grid-template-columns: 780px 1040px; /* slightly smaller image, slightly wider text */
+  gap: 0; /* bring image and content even closer */
+  align-items: center; /* vertically center each cell */
+  justify-items: center; /* horizontally center content of each cell */
   background: #ffffff;
   padding: 40px;
   border-radius: 10px;
 }
 
 .news-highlight-image {
-  margin-right: -250px; /* acercar casi pegado al contenido */
+  margin-right: -250px; /* bring almost close to content */
 }
 
 .news-highlight-image img {
-  width: 100%; /* imagen ligeramente más pequeña que antes */
+  width: 100%; /* slightly smaller image than before */
   border-radius: 8px;
   box-shadow: 0 35px 90px rgba(7, 30, 48, 0.2);
   max-width: none;
@@ -65,7 +65,7 @@
 
 .news-highlight-content h2 {
   margin: 16px 0 26px;
-  font-size: clamp(20px, 2.8vw, 32px); /* letra más grande */
+  font-size: clamp(20px, 2.8vw, 32px); /* larger font */
   color: #031b30;
 }
 
@@ -78,7 +78,7 @@
 
 .news-highlight-actions {
   display: flex;
-  gap: 20px; /* similar a dual-buttons */
+  gap: 20px; /* similar to dual-buttons */
   flex-wrap: wrap;
 }
 
@@ -86,13 +86,13 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 50px; /* más grandes: un poco más altos y más anchos */
-  border-radius: 5px; /* como dual-buttons */
+  padding: 12px 50px; /* larger: slightly taller and wider */
+  border-radius: 5px; /* like dual-buttons */
   font-weight: 700;
-  font-size: 16px; /* letra un poco más grande */
-  text-transform: none; /* sin uppercase, como dual-buttons */
-  letter-spacing: 0; /* sin tracking extra */
-  border: 1px solid #333333; /* mantener color pero con grosor como dual-buttons */
+  font-size: 16px; /* slightly larger font */
+  text-transform: none; /* no uppercase, like dual-buttons */
+  letter-spacing: 0; /* no extra tracking */
+  border: 1px solid #333333; /* keep color but with thickness like dual-buttons */
   color: #333333;
   transition: all 0.2s ease;
 }
@@ -100,7 +100,7 @@
 .news-highlight-actions a:first-child {
   background: #159a00;
   color: #ffffff;
-  border-color: #159a00; /* mantener color */
+  border-color: #159a00; /* keep color */
 }
 
 .news-highlight-actions a:hover {
