@@ -1,0 +1,240 @@
+.stem-cell-hero-section {
+  padding: 100px 20px;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-748.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.stem-cell-hero-container {
+  max-width: 1400px;
+  margin: 120px auto 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 100px;
+  align-items: center;
+  position: relative;
+}
+
+.stem-cell-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 100%;
+}
+
+.stem-cell-hero-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stem-cell-hero-divider-container {
+  margin-bottom: 10px;
+}
+
+.stem-cell-hero-divider {
+  display: block;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stem-cell-hero-divider.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stem-cell-hero-title {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.stem-cell-hero-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stem-cell-hero-text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.stem-cell-hero-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.stem-cell-hero-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.stem-cell-hero-list-item-link {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.stem-cell-hero-list-item-link:hover {
+  opacity: 0.8;
+}
+
+.stem-cell-hero-list-content {
+  flex: 1;
+}
+
+.stem-cell-hero-list-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.5;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.stem-cell-hero-list-icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  color: #159A00;
+  margin-top: 4px;
+}
+
+.stem-cell-hero-list-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
+.stem-cell-hero-image {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  width: 100%;
+  max-width: 100%;
+}
+
+.stem-cell-hero-image.animated-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.stem-cell-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .stem-cell-hero-container {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .stem-cell-hero-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .stem-cell-hero-image {
+    order: -1;
+  }
+
+  .stem-cell-hero-title {
+    font-size: 48px;
+  }
+
+  .stem-cell-hero-text {
+    font-size: 20px;
+  }
+
+  .stem-cell-hero-list-title {
+    font-size: 20px;
+  }
+
+  .stem-cell-hero-list-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stem-cell-hero-section {
+    padding: 60px 20px;
+  }
+
+  .stem-cell-hero-container {
+    margin-top: 80px;
+    gap: 40px;
+  }
+
+  .stem-cell-hero-title {
+    font-size: 36px;
+  }
+
+  .stem-cell-hero-text {
+    font-size: 18px;
+  }
+
+  .stem-cell-hero-list-title {
+    font-size: 18px;
+  }
+
+  .stem-cell-hero-list-icon {
+    width: 26px;
+    height: 26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stem-cell-hero-section {
+    padding: 50px 15px;
+  }
+
+  .stem-cell-hero-container {
+    margin-top: 60px;
+    gap: 35px;
+  }
+
+  .stem-cell-hero-title {
+    font-size: 28px;
+  }
+
+  .stem-cell-hero-text {
+    font-size: 16px;
+  }
+
+  .stem-cell-hero-list-title {
+    font-size: 16px;
+  }
+
+  .stem-cell-hero-list-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+

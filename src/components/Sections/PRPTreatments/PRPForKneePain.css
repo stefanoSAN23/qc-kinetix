@@ -1,0 +1,109 @@
+.prp-for-knee-pain-section {
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.prp-for-knee-pain-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.9fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.prp-for-knee-pain-image {
+  width: 100%;
+  max-width: 100%;
+}
+
+.prp-for-knee-pain-image img {
+  width: 140%;
+  height: auto;
+  max-height: 450px;
+  display: block;
+  max-width: 140%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.prp-for-knee-pain-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 90%;
+  margin-left: 110px;
+}
+
+.prp-for-knee-pain-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.prp-for-knee-pain-text {
+  max-width: 100%;
+}
+
+.prp-for-knee-pain-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+
+.prp-for-knee-pain-text p:last-child {
+  margin-bottom: 0;
+}
+
+.prp-for-knee-pain-text a {
+  color: #159A00;
+
+}
+
+.prp-for-knee-pain-text a:hover {
+  color: #0d7a00;
+}
+
+@media (max-width: 1024px) {
+  .prp-for-knee-pain-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .prp-for-knee-pain-image {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .prp-for-knee-pain-section {
+    padding: 60px 20px;
+  }
+
+  .prp-for-knee-pain-title {
+    font-size: 28px;
+  }
+
+  .prp-for-knee-pain-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .prp-for-knee-pain-section {
+    padding: 50px 15px;
+  }
+
+  .prp-for-knee-pain-title {
+    font-size: 24px;
+  }
+
+  .prp-for-knee-pain-text p {
+    font-size: 15px;
+  }
+}
+

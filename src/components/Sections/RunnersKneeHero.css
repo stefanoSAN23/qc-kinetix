@@ -1,0 +1,133 @@
+.runners-knee-hero-section {
+  padding: 120px 20px 40px;
+  background: #ffffff;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.runners-knee-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.runners-knee-featured-image {
+  margin-bottom: 30px;
+}
+
+.runners-knee-featured-image img {
+  max-width: 55%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.runners-knee-post-info {
+  margin-bottom: 30px;
+}
+
+.runners-knee-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.runners-knee-info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.runners-knee-info-icon {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.runners-knee-info-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.runners-knee-info-text {
+  color: #666;
+}
+
+.runners-knee-info-text time {
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .runners-knee-hero-section {
+    padding: 120px 20px 35px;
+  }
+  
+  .runners-knee-hero-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .runners-knee-featured-image {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .runners-knee-hero-section {
+    padding: 115px 18px 30px;
+  }
+  
+  .runners-knee-featured-image {
+    margin-bottom: 20px;
+  }
+  
+  .runners-knee-info-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .runners-knee-hero-section {
+    padding: 110px 16px 25px;
+  }
+  
+  .runners-knee-featured-image {
+    margin-bottom: 18px;
+  }
+  
+  .runners-knee-info-item {
+    font-size: 13px;
+    gap: 6px;
+  }
+  
+  .runners-knee-info-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .runners-knee-hero-section {
+    padding: 105px 14px 20px;
+  }
+  
+  .runners-knee-featured-image {
+    margin-bottom: 15px;
+  }
+  
+  .runners-knee-info-item {
+    font-size: 12px;
+  }
+}
+

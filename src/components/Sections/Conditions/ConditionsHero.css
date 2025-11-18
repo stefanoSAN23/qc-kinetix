@@ -1,0 +1,169 @@
+.conditions-hero-section {
+  padding: 100px 20px;
+  background: #f5f5f5;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Mask-Group-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.conditions-hero-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.conditions-hero-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.conditions-hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.conditions-hero-header-component {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.conditions-hero-header-top {
+  margin-bottom: 5px;
+}
+
+.conditions-hero-title-part {
+  font-size: 26px;
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+}
+
+.conditions-hero-title-part.animated {
+  opacity: 0;
+  transform: translateY(-40px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.conditions-hero-title-part.animated.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.conditions-hero-main-title {
+  font-size: 52px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 15px 0;
+}
+
+.conditions-hero-main-title.animated {
+  opacity: 0;
+  transform: translateY(-40px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.conditions-hero-main-title.animated.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.conditions-hero-divider-dots {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.conditions-hero-divider-dots.animated {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.conditions-hero-divider-dots.animated.animated-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.conditions-hero-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #159A00;
+}
+
+.conditions-hero-text {
+  font-size: 26px;
+  color: #333;
+}
+
+.conditions-hero-text p {
+  margin: 0;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.conditions-hero-text p a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.conditions-hero-text p a:hover {
+  text-decoration: underline;
+}
+
+.conditions-hero-text a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.conditions-hero-text a:hover {
+  text-decoration: underline;
+}
+
+.conditions-hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+.conditions-hero-image {
+  width: 100%;
+  max-width: 600px;
+  padding-top: 60px;
+}
+
+.conditions-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Animations */
+.conditions-hero-image.animated {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.conditions-hero-image.animated.animated-active {
+  animation-name: fadeIn;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .conditions-hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .conditions-hero-right {
+    order: -1;
+  }
+}

@@ -1,10 +1,10 @@
-import AnklePainHero from '../components/Sections/AnklePainHero';
-import RegenerativeTherapyForAnklePain from '../components/Sections/RegenerativeTherapyForAnklePain';
-import WhatIsRegenerativeAnklePainTherapy from '../components/Sections/WhatIsRegenerativeAnklePainTherapy';
-import AnkleCandidate from '../components/Sections/AnkleCandidate';
-import SectionDivider from '../components/Sections/SectionDivider';
-import BenefitsOfNonsurgicalAnkleTreatments from '../components/Sections/BenefitsOfNonsurgicalAnkleTreatments';
-import ReadyToReduceAnklePain from '../components/Sections/ReadyToReduceAnklePain';
+import AnklePainHero from '../components/Sections/AnklePain/AnklePainHero';
+import RegenerativeTherapyForAnklePain from '../components/Sections/AnklePain/RegenerativeTherapyForAnklePain';
+import WhatIsRegenerativeAnklePainTherapy from '../components/Sections/AnklePain/WhatIsRegenerativeAnklePainTherapy';
+import AnkleCandidate from '../components/Sections/AnklePain/AnkleCandidate';
+import SectionDivider from '../components/Sections/AnklePain/SectionDivider';
+import BenefitsOfNonsurgicalAnkleTreatments from '../components/Sections/AnklePain/BenefitsOfNonsurgicalAnkleTreatments';
+import ReadyToReduceAnklePain from '../components/Sections/AnklePain/ReadyToReduceAnklePain';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
 

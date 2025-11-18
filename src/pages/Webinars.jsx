@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import WebinarHero from '../components/Sections/WebinarHero';
-import WebinarContent from '../components/Sections/WebinarContent';
+import WebinarHero from '../components/Sections/Webinars/WebinarHero';
+import WebinarContent from '../components/Sections/Webinars/WebinarContent';
 import ContactForm from '../components/Forms/ContactForm';
 
 const Webinars = () => {

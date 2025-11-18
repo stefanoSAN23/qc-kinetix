@@ -1,0 +1,194 @@
+.achilles-tendonitis-related-section {
+  padding: 60px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.achilles-tendonitis-related-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.achilles-tendonitis-related-title {
+  font-size: clamp(28px, 3vw, 36px);
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 40px;
+  text-align: left;
+}
+
+.achilles-tendonitis-related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.achilles-tendonitis-related-post {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achilles-tendonitis-related-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.achilles-tendonitis-related-post-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.achilles-tendonitis-related-post-thumbnail {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.achilles-tendonitis-related-post-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.achilles-tendonitis-related-post:hover .achilles-tendonitis-related-post-thumbnail img {
+  transform: scale(1.05);
+}
+
+.achilles-tendonitis-related-post-text {
+  padding: 24px;
+}
+
+.achilles-tendonitis-related-post-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 12px;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+.achilles-tendonitis-related-post:hover .achilles-tendonitis-related-post-title {
+  color: #159A00;
+}
+
+.achilles-tendonitis-related-post-meta {
+  margin-bottom: 16px;
+}
+
+.achilles-tendonitis-related-post-date {
+  font-size: 14px;
+  color: #666;
+}
+
+.achilles-tendonitis-related-post-read-more {
+  margin-top: 16px;
+}
+
+.achilles-tendonitis-related-post-read-more-link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #159A00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.achilles-tendonitis-related-post-link:hover .achilles-tendonitis-related-post-read-more-link {
+  color: #0d6e00;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .achilles-tendonitis-related-grid {
+    gap: 30px;
+  }
+  
+  .achilles-tendonitis-related-post-thumbnail {
+    height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .achilles-tendonitis-related-section {
+    padding: 50px 18px;
+  }
+  
+  .achilles-tendonitis-related-title {
+    margin-bottom: 30px;
+  }
+  
+  .achilles-tendonitis-related-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .achilles-tendonitis-related-post-thumbnail {
+    height: 200px;
+  }
+  
+  .achilles-tendonitis-related-post-text {
+    padding: 20px;
+  }
+  
+  .achilles-tendonitis-related-post-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .achilles-tendonitis-related-section {
+    padding: 40px 16px;
+  }
+  
+  .achilles-tendonitis-related-title {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  .achilles-tendonitis-related-post-thumbnail {
+    height: 180px;
+  }
+  
+  .achilles-tendonitis-related-post-text {
+    padding: 18px;
+  }
+  
+  .achilles-tendonitis-related-post-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .achilles-tendonitis-related-section {
+    padding: 35px 14px;
+  }
+  
+  .achilles-tendonitis-related-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .achilles-tendonitis-related-post-thumbnail {
+    height: 160px;
+  }
+  
+  .achilles-tendonitis-related-post-text {
+    padding: 16px;
+  }
+  
+  .achilles-tendonitis-related-post-title {
+    font-size: 15px;
+  }
+  
+  .achilles-tendonitis-related-post-read-more-link {
+    font-size: 14px;
+  }
+}
+

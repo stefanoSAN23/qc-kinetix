@@ -1,0 +1,237 @@
+.great-candidate-section {
+  background: #0C1633;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Background-Texture-Gray.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.great-candidate-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.great-candidate-image {
+  opacity: 1;
+}
+
+.candidate-image-wrapper {
+  margin: 0;
+}
+
+.candidate-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.candidate-image-caption {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ccc;
+  font-style: italic;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.great-candidate-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.great-candidate-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.great-candidate-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.great-candidate-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.great-candidate-list li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 8px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.great-candidate-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.great-candidate-list li strong {
+  color: #ffffff;
+}
+
+.great-candidate-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0;
+  opacity: 1;
+}
+
+.great-candidate-button {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  align-self: flex-start;
+}
+
+.great-candidate-button.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.great-candidate-button .knee-pain-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 1200px) {
+  .great-candidate-container {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .great-candidate-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .great-candidate-image {
+    order: -1;
+  }
+
+  .great-candidate-content {
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .great-candidate-button {
+    align-self: center;
+  }
+
+  .great-candidate-list {
+    text-align: left;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .great-candidate-section {
+    padding: 60px 20px;
+  }
+
+  .great-candidate-container {
+    gap: 35px;
+  }
+
+  .great-candidate-title {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .great-candidate-list li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .great-candidate-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .candidate-image-caption {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .great-candidate-content {
+    gap: 25px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .great-candidate-section {
+    padding: 50px 15px;
+  }
+
+  .great-candidate-container {
+    gap: 30px;
+  }
+
+  .great-candidate-title {
+    font-size: 20px;
+  }
+
+  .great-candidate-list li {
+    font-size: 15px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+  }
+
+  .great-candidate-text {
+    font-size: 13px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .great-candidate-button .knee-pain-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .candidate-image-caption {
+    font-size: 15px;
+    margin-top: 12px;
+  }
+
+  .great-candidate-button {
+    padding-left: 0;
+  }
+
+  .great-candidate-button .knee-pain-btn {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+}
+
+

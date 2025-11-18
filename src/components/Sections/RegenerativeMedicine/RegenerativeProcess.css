@@ -1,0 +1,412 @@
+.regenerative-process-section {
+  background: #000;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-749.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.regenerative-process-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.regenerative-process-header {
+  max-width: 1200px;
+  margin: 0 auto 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.regenerative-process-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.regenerative-process-header-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+.regenerative-process-header-top h2 {
+  font-size: 19px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.regenerative-process-header-top h2.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.regenerative-process-divider {
+  display: block;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.regenerative-process-divider.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.regenerative-process-title-large {
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.regenerative-process-title-large.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.regenerative-process-intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0;
+  align-self: flex-start;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.regenerative-process-intro.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hexagon Row Styles */
+.hex-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0;
+  padding: 60px 20px;
+  margin-top: 180px;
+  opacity: 1;
+}
+
+.hex-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.hex-container:nth-child(2) {
+  margin-top: -188px;
+  margin-left: -110px;
+}
+
+.hex-container:nth-child(3) {
+  margin-top: 0px;
+  margin-left: -110px;
+}
+
+.hex-container:nth-child(4) {
+  margin-top: -188px;
+  margin-left: -110px;
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  background: #159B00;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  font-size: 18px;
+}
+
+.hex-shape {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+.hex-shape polygon {
+  fill: #000;
+  stroke: #159B00;
+  stroke-width: 1;
+}
+
+.hex-content {
+  color: white;
+  text-align: left;
+  padding: 10px 100px 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  right: 0;
+}
+
+.hex-content h4 {
+  margin: 0 0 1px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hex-content hr {
+  width: 20px;
+  border: none;
+  border-top: 2px solid white;
+  margin: 10px 0;
+}
+
+.hex-content p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+@media (max-width: 1260px) {
+  .hex-content {
+    left: 10%;
+    max-width: 70%;
+    padding: 10px 60px 10px 30px;
+  }
+
+  .hex-content p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .regenerative-process-header {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .hex-row {
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 60px;
+  }
+
+  .hex-container:nth-child(2),
+  .hex-container:nth-child(3),
+  .hex-container:nth-child(4) {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .hex-content {
+    left: 15%;
+    top: 20%;
+    padding: 10px 80px 10px 30px;
+    text-align: center;
+  }
+
+  .hex-content p {
+    font-size: 14px;
+  }
+
+  .hex-content h4 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .regenerative-process-header {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .regenerative-process-section {
+    padding: 60px 20px;
+  }
+
+  .regenerative-process-header {
+    gap: 25px;
+    text-align: center;
+  }
+
+  .regenerative-process-header-top {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .regenerative-process-header-top h2 {
+    font-size: 18px;
+  }
+
+  .regenerative-process-title-large {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .regenerative-process-intro {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .hex-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 40px 15px;
+    gap: 30px;
+  }
+
+  .hex-shape .hex-border {
+    transform: scaleX(1.3);
+    transform-origin: center;
+  }
+
+  .hex-content {
+    left: 10%;
+    top: 15%;
+    padding: 10px 60px 10px 20px;
+  }
+
+  .hex-content p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .hex-content h4 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 550px) {
+  .regenerative-process-section {
+    padding: 50px 15px;
+  }
+
+  .regenerative-process-header {
+    gap: 20px;
+  }
+
+  .regenerative-process-header-top h2 {
+    font-size: 16px;
+  }
+
+  .regenerative-process-title-large {
+    font-size: 24px;
+  }
+
+  .regenerative-process-intro {
+    font-size: 15px;
+  }
+
+  .hex-row {
+    margin-top: 30px;
+    padding: 30px 10px;
+    gap: 25px;
+  }
+
+  .hex-shape .hex-border {
+    transform: scaleX(1.3);
+    transform-origin: center;
+  }
+
+  .hex-content {
+    left: 8%;
+    top: 12%;
+    padding: 8px 50px 8px 15px;
+    text-align: center;
+  }
+
+  .hex-content p {
+    font-size: 11px;
+  }
+
+  .hex-content h4 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 380px) {
+  .regenerative-process-header-top h2 {
+    font-size: 14px;
+  }
+
+  .regenerative-process-title-large {
+    font-size: 20px;
+  }
+
+  .regenerative-process-intro {
+    font-size: 14px;
+  }
+
+  .hex-row {
+    padding: 25px 0;
+  }
+
+  .hex-container {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .hex-shape {
+    width: 100%;
+  }
+
+  .circle {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .hex-content {
+    position: static;
+    padding: 20px 25px;
+    max-width: 100%;
+  }
+
+  .hex-content h4 {
+    font-size: 15px;
+  }
+
+  .hex-content p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .hex-content hr {
+    margin: 12px auto;
+  }
+}
+
+

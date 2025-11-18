@@ -1,10 +1,10 @@
-import RegenerativeHero from '../components/Hero/RegenerativeHero';
-import WhatIsRegenerativeUsedFor from '../components/Sections/WhatIsRegenerativeUsedFor';
-import AlternativesToSurgery from '../components/Sections/AlternativesToSurgery';
-import RegenerativeProcess from '../components/Sections/RegenerativeProcess';
+import RegenerativeHero from '../components/Sections/RegenerativeMedicine/RegenerativeHero';
+import WhatIsRegenerativeUsedFor from '../components/Sections/RegenerativeMedicine/WhatIsRegenerativeUsedFor';
+import AlternativesToSurgery from '../components/Sections/RegenerativeMedicine/AlternativesToSurgery';
+import RegenerativeProcess from '../components/Sections/RegenerativeMedicine/RegenerativeProcess';
 import Benefits from '../components/Sections/Benefits';
-import GreatCandidate from '../components/Sections/GreatCandidate';
-import FAQs from '../components/Sections/FAQs';
+import GreatCandidate from '../components/Sections/RegenerativeMedicine/GreatCandidate';
+import FAQs from '../components/Sections/RegenerativeMedicine/FAQs';
 import ContactForm from '../components/Forms/ContactForm';
 
 function RegenerativeMedicine() {

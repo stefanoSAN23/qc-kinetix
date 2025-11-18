@@ -1,0 +1,90 @@
+.veteran-back-pain-navigation-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.veteran-back-pain-navigation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.veteran-back-pain-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.veteran-back-pain-navigation-prev,
+.veteran-back-pain-navigation-next {
+  flex: 1;
+}
+
+.veteran-back-pain-navigation-prev a {
+  display: block;
+  text-decoration: none;
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.veteran-back-pain-navigation-prev a:hover {
+  color: #0d6e00;
+}
+
+.veteran-back-pain-navigation-link-prev {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.veteran-back-pain-navigation-prev-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.veteran-back-pain-navigation-prev-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #159A00;
+  line-height: 1.4;
+}
+
+.veteran-back-pain-navigation-prev a:hover .veteran-back-pain-navigation-prev-title {
+  color: #0d6e00;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .veteran-back-pain-navigation-section {
+    padding: 30px 18px;
+  }
+  
+  .veteran-back-pain-navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .veteran-back-pain-navigation-prev-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .veteran-back-pain-navigation-section {
+    padding: 25px 14px;
+  }
+  
+  .veteran-back-pain-navigation-prev-label {
+    font-size: 12px;
+  }
+  
+  .veteran-back-pain-navigation-prev-title {
+    font-size: 14px;
+  }
+}
+

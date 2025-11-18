@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import NewsHero from '../components/Sections/NewsHero';
-import NewsResults from '../components/Sections/NewsResults';
+import NewsHero from '../components/Sections/News/NewsHero';
+import NewsResults from '../components/Sections/News/NewsResults';
 import ContactForm from '../components/Forms/ContactForm';
 
 const NewsAndPress = () => {

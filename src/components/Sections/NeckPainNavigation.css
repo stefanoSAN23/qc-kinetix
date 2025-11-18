@@ -1,0 +1,115 @@
+.neck-pain-navigation-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.neck-pain-navigation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.neck-pain-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.neck-pain-navigation-prev,
+.neck-pain-navigation-next {
+  flex: 1;
+}
+
+.neck-pain-navigation-prev a,
+.neck-pain-navigation-next a {
+  display: block;
+  text-decoration: none;
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.neck-pain-navigation-prev a:hover,
+.neck-pain-navigation-next a:hover {
+  color: #0d6e00;
+}
+
+.neck-pain-navigation-link-prev,
+.neck-pain-navigation-link-next {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.neck-pain-navigation-prev-label,
+.neck-pain-navigation-next-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.neck-pain-navigation-prev-title,
+.neck-pain-navigation-next-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #159A00;
+  line-height: 1.4;
+}
+
+.neck-pain-navigation-prev a:hover .neck-pain-navigation-prev-title,
+.neck-pain-navigation-next a:hover .neck-pain-navigation-next-title {
+  color: #0d6e00;
+  text-decoration: underline;
+}
+
+.neck-pain-navigation-next {
+  text-align: right;
+}
+
+.neck-pain-navigation-link-next {
+  align-items: flex-end;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .neck-pain-navigation-section {
+    padding: 30px 18px;
+  }
+  
+  .neck-pain-navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .neck-pain-navigation-next {
+    text-align: left;
+  }
+  
+  .neck-pain-navigation-link-next {
+    align-items: flex-start;
+  }
+  
+  .neck-pain-navigation-prev-title,
+  .neck-pain-navigation-next-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .neck-pain-navigation-section {
+    padding: 25px 14px;
+  }
+  
+  .neck-pain-navigation-prev-label,
+  .neck-pain-navigation-next-label {
+    font-size: 12px;
+  }
+  
+  .neck-pain-navigation-prev-title,
+  .neck-pain-navigation-next-title {
+    font-size: 14px;
+  }
+}
+

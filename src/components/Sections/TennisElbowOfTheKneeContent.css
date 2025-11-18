@@ -1,0 +1,330 @@
+.tennis-elbow-of-the-knee-content-section {
+  padding: 1px 20px 60px;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.tennis-elbow-of-the-knee-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tennis-elbow-of-the-knee-title {
+  font-size: clamp(32px, 4vw, 50px);
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.0;
+  margin: 0 auto 40px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.tennis-elbow-of-the-knee-article-content {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tennis-elbow-of-the-knee-article-content p {
+  margin: 0 0 24px;
+  color: #333;
+}
+
+.tennis-elbow-of-the-knee-article-content a {
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.tennis-elbow-of-the-knee-article-content a:hover {
+  color: #0d6e00;
+}
+
+.tennis-elbow-of-the-knee-article-content strong {
+  font-weight: 700;
+  color: #000;
+}
+
+.tennis-elbow-of-the-knee-heading {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+  margin: 40px 0 24px;
+}
+
+.tennis-elbow-of-the-knee-heading:first-of-type {
+  margin-top: 0;
+}
+
+.tennis-elbow-of-the-knee-list {
+  margin: 24px 0;
+  padding-left: 30px;
+  list-style-type: disc;
+}
+
+.tennis-elbow-of-the-knee-list li {
+  margin: 12px 0;
+  color: #333;
+  line-height: 1.8;
+}
+
+.tennis-elbow-of-the-knee-list ol {
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+
+.tennis-elbow-of-the-knee-faq {
+  margin: 40px 0;
+}
+
+.tennis-elbow-of-the-knee-faq-item {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tennis-elbow-of-the-knee-faq-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.tennis-elbow-of-the-knee-faq-question {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 16px;
+  line-height: 1.4;
+}
+
+.tennis-elbow-of-the-knee-faq-answer {
+  color: #333;
+  line-height: 1.8;
+}
+
+.tennis-elbow-of-the-knee-faq-answer p {
+  margin: 0;
+}
+
+.tennis-elbow-of-the-knee-categories {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.tennis-elbow-of-the-knee-categories-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tennis-elbow-of-the-knee-category-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.tennis-elbow-of-the-knee-category-prefix {
+  color: #666;
+}
+
+.tennis-elbow-of-the-knee-categories-list-items {
+  color: #333;
+}
+
+.tennis-elbow-of-the-knee-category-tag {
+  color: #159A00;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .tennis-elbow-of-the-knee-content-section {
+    padding: 35px 20px 50px;
+  }
+  
+  .tennis-elbow-of-the-knee-content-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-title {
+    margin-bottom: 35px;
+  }
+  
+  .tennis-elbow-of-the-knee-article-content {
+    font-size: 17px;
+  }
+  
+  .tennis-elbow-of-the-knee-heading {
+    margin: 35px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tennis-elbow-of-the-knee-content-section {
+    padding: 30px 18px 40px;
+  }
+  
+  .tennis-elbow-of-the-knee-title {
+    margin-bottom: 30px;
+    font-size: clamp(28px, 5vw, 36px);
+  }
+  
+  .tennis-elbow-of-the-knee-article-content {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  
+  .tennis-elbow-of-the-knee-article-content p {
+    margin-bottom: 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-heading {
+    font-size: clamp(22px, 4vw, 28px);
+    margin: 30px 0 18px;
+  }
+  
+  .tennis-elbow-of-the-knee-list {
+    margin: 20px 0;
+    padding-left: 25px;
+  }
+  
+  .tennis-elbow-of-the-knee-list li {
+    margin: 10px 0;
+  }
+  
+  .tennis-elbow-of-the-knee-faq {
+    margin: 35px 0;
+  }
+  
+  .tennis-elbow-of-the-knee-faq-item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .tennis-elbow-of-the-knee-faq-question {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  
+  .tennis-elbow-of-the-knee-categories {
+    margin-top: 35px;
+    padding-top: 25px;
+  }
+  
+  .tennis-elbow-of-the-knee-category-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .tennis-elbow-of-the-knee-content-section {
+    padding: 25px 16px 35px;
+  }
+  
+  .tennis-elbow-of-the-knee-title {
+    margin-bottom: 25px;
+  }
+  
+  .tennis-elbow-of-the-knee-article-content {
+    font-size: 15px;
+  }
+  
+  .tennis-elbow-of-the-knee-article-content p {
+    margin-bottom: 18px;
+  }
+  
+  .tennis-elbow-of-the-knee-heading {
+    margin: 25px 0 16px;
+  }
+  
+  .tennis-elbow-of-the-knee-list {
+    margin: 18px 0;
+    padding-left: 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-list li {
+    margin: 8px 0;
+  }
+  
+  .tennis-elbow-of-the-knee-faq {
+    margin: 30px 0;
+  }
+  
+  .tennis-elbow-of-the-knee-faq-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-faq-question {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .tennis-elbow-of-the-knee-category-item {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tennis-elbow-of-the-knee-content-section {
+    padding: 20px 14px 30px;
+  }
+  
+  .tennis-elbow-of-the-knee-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .tennis-elbow-of-the-knee-article-content {
+    font-size: 14px;
+  }
+  
+  .tennis-elbow-of-the-knee-article-content p {
+    margin-bottom: 16px;
+  }
+  
+  .tennis-elbow-of-the-knee-heading {
+    font-size: 20px;
+    margin: 20px 0 14px;
+  }
+  
+  .tennis-elbow-of-the-knee-list {
+    margin: 16px 0;
+    padding-left: 18px;
+  }
+  
+  .tennis-elbow-of-the-knee-list li {
+    margin: 6px 0;
+  }
+  
+  .tennis-elbow-of-the-knee-faq {
+    margin: 25px 0;
+  }
+  
+  .tennis-elbow-of-the-knee-faq-item {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+  }
+  
+  .tennis-elbow-of-the-knee-faq-question {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .tennis-elbow-of-the-knee-category-item {
+    font-size: 12px;
+  }
+}
+

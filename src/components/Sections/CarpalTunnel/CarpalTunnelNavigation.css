@@ -1,0 +1,116 @@
+.carpal-tunnel-navigation-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.carpal-tunnel-navigation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carpal-tunnel-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.carpal-tunnel-navigation-prev,
+.carpal-tunnel-navigation-next {
+  flex: 1;
+}
+
+.carpal-tunnel-navigation-prev a,
+.carpal-tunnel-navigation-next a {
+  display: block;
+  text-decoration: none;
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.carpal-tunnel-navigation-prev a:hover,
+.carpal-tunnel-navigation-next a:hover {
+  color: #0d6e00;
+}
+
+.carpal-tunnel-navigation-link-prev,
+.carpal-tunnel-navigation-link-next {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.carpal-tunnel-navigation-prev-label,
+.carpal-tunnel-navigation-next-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.carpal-tunnel-navigation-prev-title,
+.carpal-tunnel-navigation-next-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #159A00;
+  line-height: 1.4;
+}
+
+.carpal-tunnel-navigation-prev a:hover .carpal-tunnel-navigation-prev-title,
+.carpal-tunnel-navigation-next a:hover .carpal-tunnel-navigation-next-title {
+  color: #0d6e00;
+  text-decoration: underline;
+}
+
+.carpal-tunnel-navigation-next {
+  text-align: right;
+}
+
+.carpal-tunnel-navigation-link-next {
+  align-items: flex-end;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carpal-tunnel-navigation-section {
+    padding: 30px 18px;
+  }
+  
+  .carpal-tunnel-navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .carpal-tunnel-navigation-next {
+    text-align: left;
+  }
+  
+  .carpal-tunnel-navigation-link-next {
+    align-items: flex-start;
+  }
+  
+  .carpal-tunnel-navigation-prev-title,
+  .carpal-tunnel-navigation-next-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carpal-tunnel-navigation-section {
+    padding: 25px 14px;
+  }
+  
+  .carpal-tunnel-navigation-prev-label,
+  .carpal-tunnel-navigation-next-label {
+    font-size: 12px;
+  }
+  
+  .carpal-tunnel-navigation-prev-title,
+  .carpal-tunnel-navigation-next-title {
+    font-size: 14px;
+  }
+}
+
+

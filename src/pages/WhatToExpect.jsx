@@ -1,9 +1,9 @@
-import WhatToExpectHero from '../components/Sections/WhatToExpectHero';
-import PainReliefJourney from '../components/Sections/PainReliefJourney';
+import WhatToExpectHero from '../components/Sections/WhatToExpect/WhatToExpectHero';
+import PainReliefJourney from '../components/Sections/WhatToExpect/PainReliefJourney';
 import BodyPainMap from '../components/Sections/BodyPainMap';
-import BecomingPatientSection from '../components/Sections/BecomingPatientSection';
+import BecomingPatientSection from '../components/Sections/WhatToExpect/BecomingPatientSection';
 import Testimonials from '../components/Sections/Testimonials';
-import WhatToExpectFAQs from '../components/Sections/WhatToExpectFAQs';
+import WhatToExpectFAQs from '../components/Sections/WhatToExpect/WhatToExpectFAQs';
 import ContactForm from '../components/Forms/ContactForm';
 
 const WhatToExpect = () => {

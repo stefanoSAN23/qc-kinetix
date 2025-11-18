@@ -1,0 +1,134 @@
+.neck-pain-hero-section {
+  padding: 120px 20px 40px;
+  background: #ffffff;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.neck-pain-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.neck-pain-featured-image {
+  margin-bottom: 30px;
+}
+
+.neck-pain-featured-image img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.neck-pain-post-info {
+  margin-bottom: 30px;
+}
+
+.neck-pain-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.neck-pain-info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.neck-pain-info-icon {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.neck-pain-info-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.neck-pain-info-text {
+  color: #666;
+}
+
+.neck-pain-info-text time {
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .neck-pain-hero-section {
+    padding: 120px 20px 35px;
+  }
+  
+  .neck-pain-hero-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .neck-pain-featured-image {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .neck-pain-hero-section {
+    padding: 115px 18px 30px;
+  }
+  
+  .neck-pain-featured-image {
+    margin-bottom: 20px;
+  }
+  
+  .neck-pain-info-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .neck-pain-hero-section {
+    padding: 110px 16px 25px;
+  }
+  
+  .neck-pain-featured-image {
+    margin-bottom: 18px;
+  }
+  
+  .neck-pain-info-item {
+    font-size: 13px;
+    gap: 6px;
+  }
+  
+  .neck-pain-info-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .neck-pain-hero-section {
+    padding: 105px 14px 20px;
+  }
+  
+  .neck-pain-featured-image {
+    margin-bottom: 15px;
+  }
+  
+  .neck-pain-info-item {
+    font-size: 12px;
+  }
+}
+

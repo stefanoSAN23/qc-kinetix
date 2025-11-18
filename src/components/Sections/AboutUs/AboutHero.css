@@ -1,0 +1,153 @@
+.about-hero-section {
+  position: relative;
+  padding: 120px 20px 140px;
+  background: #eef4f7;
+  color: #000000;
+  overflow: hidden;
+}
+
+.about-hero-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Group-678.png');
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+.about-hero-container {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto 70px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 60px;
+}
+
+.about-hero-heading h1 {
+  font-size: clamp(32px, 3.8vw, 50px);
+  margin: 30px 0 24px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.about-hero-dots {
+  display: inline-block;
+  margin: 6px 0 24px;
+}
+
+.about-hero-dots img {
+  display: block;
+  transform-origin: left center;
+  transform: translateX(-30px) scaleX(0.2);
+  opacity: 0;
+  animation: heroDividerSlide 0.9s ease forwards;
+}
+
+.about-hero-description {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.7;
+  max-width: 540px;
+  color: #000000;
+}
+
+.about-hero-image img {
+  width: 100%;
+  margin-top: 38px;
+  box-shadow: 0 30px 80px rgba(14, 30, 52, 0.18);
+  object-fit: cover;
+}
+
+@keyframes heroDividerSlide {
+  0% {
+    transform: translateX(-30px) scaleX(0.2);
+    opacity: 0;
+  }
+
+  60% {
+    transform: translateX(0) scaleX(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0) scaleX(1);
+    opacity: 1;
+  }
+}
+
+.about-pillars {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.about-pillar-card {
+  background: transparent;
+  padding: 18px 24px;
+}
+
+.about-pillar-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.about-pillar-title span {
+  width: 40px;
+  height: 3px;
+  background: #000000;
+  opacity: 0.25;
+}
+
+.about-pillar-card h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.about-pillar-card p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .about-hero-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-pillars {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .about-hero-section {
+    padding: 90px 18px 60px;
+  }
+
+  .about-hero-description {
+    font-size: 18px;
+  }
+
+  .about-pillars {
+    grid-template-columns: 1fr;
+  }
+}
+
+

@@ -1,0 +1,116 @@
+.tennis-elbow-of-the-knee-navigation-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.tennis-elbow-of-the-knee-navigation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tennis-elbow-of-the-knee-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.tennis-elbow-of-the-knee-navigation-prev,
+.tennis-elbow-of-the-knee-navigation-next {
+  flex: 1;
+}
+
+.tennis-elbow-of-the-knee-navigation-prev a,
+.tennis-elbow-of-the-knee-navigation-next a {
+  display: block;
+  text-decoration: none;
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.tennis-elbow-of-the-knee-navigation-prev a:hover,
+.tennis-elbow-of-the-knee-navigation-next a:hover {
+  color: #0d6e00;
+}
+
+.tennis-elbow-of-the-knee-navigation-link-prev,
+.tennis-elbow-of-the-knee-navigation-link-next {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tennis-elbow-of-the-knee-navigation-prev-label,
+.tennis-elbow-of-the-knee-navigation-next-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tennis-elbow-of-the-knee-navigation-prev-title,
+.tennis-elbow-of-the-knee-navigation-next-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #159A00;
+  line-height: 1.4;
+}
+
+.tennis-elbow-of-the-knee-navigation-prev a:hover .tennis-elbow-of-the-knee-navigation-prev-title,
+.tennis-elbow-of-the-knee-navigation-next a:hover .tennis-elbow-of-the-knee-navigation-next-title {
+  color: #0d6e00;
+  text-decoration: underline;
+}
+
+.tennis-elbow-of-the-knee-navigation-next {
+  text-align: right;
+}
+
+.tennis-elbow-of-the-knee-navigation-link-next {
+  align-items: flex-end;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tennis-elbow-of-the-knee-navigation-section {
+    padding: 30px 18px;
+  }
+  
+  .tennis-elbow-of-the-knee-navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-navigation-next {
+    text-align: left;
+  }
+  
+  .tennis-elbow-of-the-knee-navigation-link-next {
+    align-items: flex-start;
+  }
+  
+  .tennis-elbow-of-the-knee-navigation-prev-title,
+  .tennis-elbow-of-the-knee-navigation-next-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tennis-elbow-of-the-knee-navigation-section {
+    padding: 25px 14px;
+  }
+  
+  .tennis-elbow-of-the-knee-navigation-prev-label,
+  .tennis-elbow-of-the-knee-navigation-next-label {
+    font-size: 12px;
+  }
+  
+  .tennis-elbow-of-the-knee-navigation-prev-title,
+  .tennis-elbow-of-the-knee-navigation-next-title {
+    font-size: 14px;
+  }
+}
+
+

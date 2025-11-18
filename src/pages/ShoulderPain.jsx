@@ -1,10 +1,10 @@
-import ShoulderPainHero from '../components/Sections/ShoulderPainHero';
-import NonsurgicalShoulderTreatments from '../components/Sections/NonsurgicalShoulderTreatments';
-import WhatIsRegenerativeShoulderTherapy from '../components/Sections/WhatIsRegenerativeShoulderTherapy';
-import ShoulderCandidate from '../components/Sections/ShoulderCandidate';
-import SectionDivider from '../components/Sections/SectionDivider';
-import BenefitsOfNonsurgicalShoulderTreatments from '../components/Sections/BenefitsOfNonsurgicalShoulderTreatments';
-import ReadyToReduceShoulderPain from '../components/Sections/ReadyToReduceShoulderPain';
+import ShoulderPainHero from '../components/Sections/ShoulderPain/ShoulderPainHero';
+import NonsurgicalShoulderTreatments from '../components/Sections/ShoulderPain/NonsurgicalShoulderTreatments';
+import WhatIsRegenerativeShoulderTherapy from '../components/Sections/ShoulderPain/WhatIsRegenerativeShoulderTherapy';
+import ShoulderCandidate from '../components/Sections/ShoulderPain/ShoulderCandidate';
+import SectionDivider from '../components/Sections/ShoulderPain/SectionDivider';
+import BenefitsOfNonsurgicalShoulderTreatments from '../components/Sections/ShoulderPain/BenefitsOfNonsurgicalShoulderTreatments';
+import ReadyToReduceShoulderPain from '../components/Sections/ShoulderPain/ReadyToReduceShoulderPain';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
 

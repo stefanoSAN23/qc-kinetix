@@ -11,7 +11,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 1,
       title: "Combat & Service-Related Back Pain: Regenerative Treatment for Veterans",
-      url: "https://qckinetix.com/blog/veteran-back-pain-without-surgery/",
+      url: "/blog/veteran-back-pain-without-surgery/",
       image: "https://qckinetix.com/wp-content/uploads/2025/04/back-pain-6949392_1920.png",
       imageWidth: 453,
       imageHeight: 632,
@@ -21,7 +21,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 2,
       title: "Advanced Neck Pain Relief: How Regenerative Medicine Outperforms Surgery",
-      url: "https://qckinetix.com/blog/neck-pain-relief-near-me-regenerative-solutions/",
+      url: "/blog/neck-pain-relief-near-me-regenerative-solutions/",
       image: "https://qckinetix.com/wp-content/uploads/2025/10/AdobeStock_127286389-scaled.jpeg",
       imageWidth: 2560,
       imageHeight: 1810,
@@ -31,7 +31,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 3,
       title: "How to Soothe Achilles Tendon Pain Fast: Regenerative Medicine Solutions",
-      url: "https://qckinetix.com/blog/non-surgical-achilles-tendonitis-treatment/",
+      url: "/blog/non-surgical-achilles-tendonitis-treatment/",
       image: "https://qckinetix.com/wp-content/uploads/2025/09/achilles-tendonities-001.jpg",
       imageWidth: 1000,
       imageHeight: 667,
@@ -41,7 +41,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 4,
       title: "Runner's Knee Treatment: Regenerative Sports Medicine Solutions for Fall Marathon Training",
-      url: "https://qckinetix.com/blog/runners-knee-regenerative-sports-medicine/",
+      url: "/blog/runners-knee-regenerative-sports-medicine/",
       image: "https://qckinetix.com/wp-content/uploads/2025/09/knee-pain-01.jpg",
       imageWidth: 945,
       imageHeight: 650,
@@ -51,7 +51,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 5,
       title: "Regenerative Sciatica Therapy: Natural Relief Without Surgery or Medication",
-      url: "https://qckinetix.com/blog/non-surgical-sciatica-treatment-regenerative-medicine/",
+      url: "/blog/non-surgical-sciatica-treatment-regenerative-medicine/",
       image: "https://qckinetix.com/wp-content/uploads/2025/08/sciatica-image.jpg",
       imageWidth: 1200,
       imageHeight: 658,
@@ -61,7 +61,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 6,
       title: "PRP Injection vs. Cortisone: The Natural Path to Long-Term Joint Health",
-      url: "https://qckinetix.com/blog/prp-vs-cortisone-regenerative-medicine/",
+      url: "/blog/prp-vs-cortisone-regenerative-medicine/",
       image: "https://qckinetix.com/wp-content/uploads/2025/08/prp-treatment.jpg",
       imageWidth: 1000,
       imageHeight: 668,
@@ -71,7 +71,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 7,
       title: "Tennis Elbow of the Knee: Understanding Medial Knee Pain",
-      url: "https://qckinetix.com/blog/tennis-elbow-of-the-knee/",
+      url: "/blog/tennis-elbow-of-the-knee/",
       image: "https://qckinetix.com/wp-content/uploads/2025/07/knee-pain.jpg",
       imageWidth: 512,
       imageHeight: 236,
@@ -81,7 +81,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 8,
       title: "Non-Surgical Regenerative Treatments for Carpal Tunnel Syndrome",
-      url: "https://qckinetix.com/blog/non-surgical-regenerative-carpal-tunnel-treatment/",
+      url: "/blog/non-surgical-regenerative-carpal-tunnel-treatment/",
       image: "https://qckinetix.com/wp-content/uploads/2025/07/carpal-tunnel-image.jpg",
       imageWidth: 512,
       imageHeight: 341,

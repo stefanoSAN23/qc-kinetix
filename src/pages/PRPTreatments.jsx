@@ -1,10 +1,10 @@
-import PRPHero from '../components/Sections/PRPHero';
-import WhatIsPRP from '../components/Sections/WhatIsPRP';
-import PRPForBackPain from '../components/Sections/PRPForBackPain';
-import PRPForKneePain from '../components/Sections/PRPForKneePain';
-import FindPRPTreatment from '../components/Sections/FindPRPTreatment';
-import BenefitsOfPRP from '../components/Sections/BenefitsOfPRP';
-import WhyConsiderPRP from '../components/Sections/WhyConsiderPRP';
+import PRPHero from '../components/Sections/PRPTreatments/PRPHero';
+import WhatIsPRP from '../components/Sections/PRPTreatments/WhatIsPRP';
+import PRPForBackPain from '../components/Sections/PRPTreatments/PRPForBackPain';
+import PRPForKneePain from '../components/Sections/PRPTreatments/PRPForKneePain';
+import FindPRPTreatment from '../components/Sections/PRPTreatments/FindPRPTreatment';
+import BenefitsOfPRP from '../components/Sections/PRPTreatments/BenefitsOfPRP';
+import WhyConsiderPRP from '../components/Sections/PRPTreatments/WhyConsiderPRP';
 import ContactForm from '../components/Forms/ContactForm';
 
 function PRPTreatments() {

@@ -1,0 +1,174 @@
+.are-stem-cell-right-section {
+  padding: 80px 20px;
+  background: #0C1633;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Background-Texture-Gray.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.are-stem-cell-right-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.are-stem-cell-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 100%;
+  width: 100%;
+  padding-right: 0;
+  margin-left: -30px;
+  justify-content: space-between;
+  min-height: 100%;
+  align-self: stretch;
+}
+
+.are-stem-cell-right-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.are-stem-cell-right-title.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.are-stem-cell-right-button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.are-stem-cell-right-button.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.are-stem-cell-right-button .knee-pain-btn {
+  font-size: 16px;
+  padding: 12px 28px;
+}
+
+.are-stem-cell-right-text {
+  opacity: 1;
+  max-width: 120%;
+  width: 120%;
+}
+
+.are-stem-cell-right-text p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.are-stem-cell-right-text p:last-child {
+  margin-bottom: 0;
+}
+
+.are-stem-cell-right-text a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.are-stem-cell-right-text a:hover {
+  color: #0d7a00;
+  text-decoration: underline;
+}
+
+.are-stem-cell-right-image {
+  opacity: 1;
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  margin-left: 30px;
+}
+
+.are-stem-cell-right-image img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  align-self: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .are-stem-cell-right-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .are-stem-cell-right-image {
+    order: -1;
+  }
+
+  .are-stem-cell-right-content {
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .are-stem-cell-right-text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .are-stem-cell-right-button {
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .are-stem-cell-right-section {
+    padding: 60px 20px;
+  }
+
+  .are-stem-cell-right-title {
+    font-size: 28px;
+  }
+
+  .are-stem-cell-right-text p {
+    font-size: 16px;
+  }
+
+  .are-stem-cell-right-text p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .are-stem-cell-right-section {
+    padding: 50px 15px;
+  }
+
+  .are-stem-cell-right-title {
+    font-size: 24px;
+  }
+
+  .are-stem-cell-right-text p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .are-stem-cell-right-button .knee-pain-btn {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+

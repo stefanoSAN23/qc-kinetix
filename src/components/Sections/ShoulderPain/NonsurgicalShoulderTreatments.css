@@ -1,0 +1,234 @@
+.shoulder-therapy-section {
+  padding: 110px 20px 90px;
+  background: #f2f7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.shoulder-therapy-image-wrapper {
+  flex: 0 0 440px;
+  display: flex;
+  justify-content: center;
+}
+
+.shoulder-therapy-image {
+  position: relative;
+  width: 100%;
+  border-radius: 0;
+  overflow: visible;
+  box-shadow: 0 18px 55px rgba(10, 29, 56, 0.18);
+}
+
+.shoulder-therapy-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(4, 17, 40, 0) 0%, rgba(4, 17, 40, 0.28) 100%);
+}
+
+.shoulder-therapy-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.shoulder-therapy-content {
+  max-width: 810px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.shoulder-therapy-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0a1d38;
+  margin: 0 0 12px;
+}
+
+.shoulder-therapy-text p {
+  font-size: 20px;
+  line-height: 1.75;
+  color: #25354a;
+  margin: 0 0 18px;
+}
+
+.shoulder-therapy-text p strong {
+  color: #0a1d38;
+}
+
+.shoulder-therapy-text ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  column-count: 3;
+  column-gap: 32px;
+}
+
+.shoulder-therapy-text li {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #25354a;
+  position: relative;
+  padding-left: 20px;
+  break-inside: avoid;
+  margin-bottom: 8px;
+}
+
+.shoulder-therapy-text li::before {
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #159a00;
+}
+
+.shoulder-therapy-text a {
+  color: #159a00;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.shoulder-therapy-text a:hover {
+  text-decoration: underline;
+}
+
+.shoulder-therapy-more-text {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #25354a;
+  margin: 0 0 22px;
+}
+
+.shoulder-therapy-button {
+  margin-top: 12px;
+}
+
+.shoulder-therapy-button .knee-pain-btn {
+  background-color: #159A00;
+  font-family: 'Mulish', Sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+  border: 1px solid #159a00;
+  border-radius: 5px;
+  padding: 12px 30px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.shoulder-therapy-button .knee-pain-btn:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #159a00;
+}
+
+/* Animations */
+.animated {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.animated[data-animated="true"].animated-active {
+  opacity: 1;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated[data-animated="true"].animated-active.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@media (max-width: 1200px) {
+  .shoulder-therapy-image-wrapper {
+    flex: 0 0 380px;
+  }
+
+  .shoulder-therapy-text ul {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 1024px) {
+  .shoulder-therapy-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+    padding: 90px 18px 70px;
+  }
+
+  .shoulder-therapy-image-wrapper {
+    flex: none;
+    width: 320px;
+  }
+
+  .shoulder-therapy-content {
+    align-items: center;
+  }
+
+  .shoulder-therapy-text ul {
+    column-count: 2;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .shoulder-therapy-section {
+    padding: 70px 16px 60px;
+  }
+
+  .shoulder-therapy-image-wrapper {
+    width: 260px;
+  }
+
+  .shoulder-therapy-text h1 {
+    font-size: 30px;
+  }
+
+  .shoulder-therapy-text p {
+    font-size: 16px;
+  }
+
+  .shoulder-therapy-text li {
+    font-size: 15px;
+  }
+
+  .shoulder-therapy-text ul {
+    column-count: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .shoulder-therapy-section {
+    padding: 60px 14px 50px;
+    gap: 36px;
+  }
+
+  .shoulder-therapy-image-wrapper {
+    width: 220px;
+  }
+
+  .shoulder-therapy-text h1 {
+    font-size: 26px;
+  }
+}
+

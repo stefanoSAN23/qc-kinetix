@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import FAQHero from '../components/Sections/FAQHero';
-import FAQAccordion from '../components/Sections/FAQAccordion';
-import FAQImageSection from '../components/Sections/FAQImageSection';
-import FAQResources from '../components/Sections/FAQResources';
+import FAQHero from '../components/Sections/FAQ/FAQHero';
+import FAQAccordion from '../components/Sections/FAQ/FAQAccordion';
+import FAQImageSection from '../components/Sections/FAQ/FAQImageSection';
+import FAQResources from '../components/Sections/FAQ/FAQResources';
 import ContactForm from '../components/Forms/ContactForm';
 
 const FAQ = () => {

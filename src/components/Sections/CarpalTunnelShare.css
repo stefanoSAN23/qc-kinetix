@@ -1,0 +1,117 @@
+.carpal-tunnel-share-section {
+  padding: 30px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.carpal-tunnel-share-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.carpal-tunnel-share-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.carpal-tunnel-share-buttons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.carpal-tunnel-share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.carpal-tunnel-share-btn:hover {
+  background: #f5f5f5;
+  border-color: #159A00;
+}
+
+.carpal-tunnel-share-btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  fill: #666;
+  transition: fill 0.3s ease;
+}
+
+.carpal-tunnel-share-btn:hover .carpal-tunnel-share-btn-icon {
+  fill: #159A00;
+}
+
+.carpal-tunnel-share-btn-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .carpal-tunnel-share-section {
+    padding: 25px 18px;
+  }
+  
+  .carpal-tunnel-share-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .carpal-tunnel-share-label {
+    font-size: 16px;
+  }
+  
+  .carpal-tunnel-share-btn {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .carpal-tunnel-share-btn-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carpal-tunnel-share-section {
+    padding: 20px 14px;
+  }
+  
+  .carpal-tunnel-share-label {
+    font-size: 15px;
+  }
+  
+  .carpal-tunnel-share-buttons {
+    gap: 10px;
+  }
+  
+  .carpal-tunnel-share-btn {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .carpal-tunnel-share-btn-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+

@@ -1,10 +1,10 @@
-import ElbowPainHero from '../components/Sections/ElbowPainHero';
-import NonsurgicalElbowTreatments from '../components/Sections/NonsurgicalElbowTreatments';
-import WhatIsRegenerativeElbowTherapy from '../components/Sections/WhatIsRegenerativeElbowTherapy';
-import ElbowCandidate from '../components/Sections/ElbowCandidate';
-import SectionDivider from '../components/Sections/SectionDivider';
-import BenefitsOfNonsurgicalElbowTreatments from '../components/Sections/BenefitsOfNonsurgicalElbowTreatments';
-import ReadyToReduceElbowPain from '../components/Sections/ReadyToReduceElbowPain';
+import ElbowPainHero from '../components/Sections/ElbowPain/ElbowPainHero';
+import NonsurgicalElbowTreatments from '../components/Sections/ElbowPain/NonsurgicalElbowTreatments';
+import WhatIsRegenerativeElbowTherapy from '../components/Sections/ElbowPain/WhatIsRegenerativeElbowTherapy';
+import ElbowCandidate from '../components/Sections/ElbowPain/ElbowCandidate';
+import SectionDivider from '../components/Sections/ElbowPain/SectionDivider';
+import BenefitsOfNonsurgicalElbowTreatments from '../components/Sections/ElbowPain/BenefitsOfNonsurgicalElbowTreatments';
+import ReadyToReduceElbowPain from '../components/Sections/ElbowPain/ReadyToReduceElbowPain';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
 

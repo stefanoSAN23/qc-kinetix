@@ -1,0 +1,99 @@
+.prp-vs-cortisone-navigation-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.prp-vs-cortisone-navigation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.prp-vs-cortisone-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.prp-vs-cortisone-navigation-prev,
+.prp-vs-cortisone-navigation-next {
+  flex: 1;
+}
+
+.prp-vs-cortisone-navigation-prev a,
+.prp-vs-cortisone-navigation-next a {
+  display: block;
+  text-decoration: none;
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.prp-vs-cortisone-navigation-prev a:hover,
+.prp-vs-cortisone-navigation-next a:hover {
+  color: #0d6e00;
+}
+
+.prp-vs-cortisone-navigation-link-prev,
+.prp-vs-cortisone-navigation-link-next {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.prp-vs-cortisone-navigation-prev-label,
+.prp-vs-cortisone-navigation-next-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.prp-vs-cortisone-navigation-prev-title,
+.prp-vs-cortisone-navigation-next-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #159A00;
+  line-height: 1.4;
+}
+
+.prp-vs-cortisone-navigation-prev a:hover .prp-vs-cortisone-navigation-prev-title,
+.prp-vs-cortisone-navigation-next a:hover .prp-vs-cortisone-navigation-next-title {
+  color: #0d6e00;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .prp-vs-cortisone-navigation-section {
+    padding: 30px 18px;
+  }
+  
+  .prp-vs-cortisone-navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .prp-vs-cortisone-navigation-prev-title,
+  .prp-vs-cortisone-navigation-next-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .prp-vs-cortisone-navigation-section {
+    padding: 25px 14px;
+  }
+  
+  .prp-vs-cortisone-navigation-prev-label,
+  .prp-vs-cortisone-navigation-next-label {
+    font-size: 12px;
+  }
+  
+  .prp-vs-cortisone-navigation-prev-title,
+  .prp-vs-cortisone-navigation-next-title {
+    font-size: 14px;
+  }
+}
+

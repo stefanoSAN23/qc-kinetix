@@ -1,0 +1,194 @@
+.runners-knee-related-section {
+  padding: 60px 20px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.runners-knee-related-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.runners-knee-related-title {
+  font-size: clamp(28px, 3vw, 36px);
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 40px;
+  text-align: left;
+}
+
+.runners-knee-related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.runners-knee-related-post {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.runners-knee-related-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.runners-knee-related-post-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.runners-knee-related-post-thumbnail {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.runners-knee-related-post-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.runners-knee-related-post:hover .runners-knee-related-post-thumbnail img {
+  transform: scale(1.05);
+}
+
+.runners-knee-related-post-text {
+  padding: 24px;
+}
+
+.runners-knee-related-post-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 12px;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+.runners-knee-related-post:hover .runners-knee-related-post-title {
+  color: #159A00;
+}
+
+.runners-knee-related-post-meta {
+  margin-bottom: 16px;
+}
+
+.runners-knee-related-post-date {
+  font-size: 14px;
+  color: #666;
+}
+
+.runners-knee-related-post-read-more {
+  margin-top: 16px;
+}
+
+.runners-knee-related-post-read-more-link {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #159A00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.runners-knee-related-post-link:hover .runners-knee-related-post-read-more-link {
+  color: #0d6e00;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .runners-knee-related-grid {
+    gap: 30px;
+  }
+  
+  .runners-knee-related-post-thumbnail {
+    height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .runners-knee-related-section {
+    padding: 50px 18px;
+  }
+  
+  .runners-knee-related-title {
+    margin-bottom: 30px;
+  }
+  
+  .runners-knee-related-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .runners-knee-related-post-thumbnail {
+    height: 200px;
+  }
+  
+  .runners-knee-related-post-text {
+    padding: 20px;
+  }
+  
+  .runners-knee-related-post-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .runners-knee-related-section {
+    padding: 40px 16px;
+  }
+  
+  .runners-knee-related-title {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  .runners-knee-related-post-thumbnail {
+    height: 180px;
+  }
+  
+  .runners-knee-related-post-text {
+    padding: 18px;
+  }
+  
+  .runners-knee-related-post-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .runners-knee-related-section {
+    padding: 35px 14px;
+  }
+  
+  .runners-knee-related-title {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .runners-knee-related-post-thumbnail {
+    height: 160px;
+  }
+  
+  .runners-knee-related-post-text {
+    padding: 16px;
+  }
+  
+  .runners-knee-related-post-title {
+    font-size: 15px;
+  }
+  
+  .runners-knee-related-post-read-more-link {
+    font-size: 14px;
+  }
+}
+

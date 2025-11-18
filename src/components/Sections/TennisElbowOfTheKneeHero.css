@@ -1,0 +1,133 @@
+.tennis-elbow-of-the-knee-hero-section {
+  padding: 120px 20px 40px;
+  background: #ffffff;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.tennis-elbow-of-the-knee-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tennis-elbow-of-the-knee-featured-image {
+  margin-bottom: 30px;
+}
+
+.tennis-elbow-of-the-knee-featured-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tennis-elbow-of-the-knee-post-info {
+  margin-bottom: 30px;
+}
+
+.tennis-elbow-of-the-knee-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.tennis-elbow-of-the-knee-info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.tennis-elbow-of-the-knee-info-icon {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.tennis-elbow-of-the-knee-info-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.tennis-elbow-of-the-knee-info-text {
+  color: #666;
+}
+
+.tennis-elbow-of-the-knee-info-text time {
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .tennis-elbow-of-the-knee-hero-section {
+    padding: 120px 20px 35px;
+  }
+  
+  .tennis-elbow-of-the-knee-hero-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-featured-image {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tennis-elbow-of-the-knee-hero-section {
+    padding: 115px 18px 30px;
+  }
+  
+  .tennis-elbow-of-the-knee-featured-image {
+    margin-bottom: 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-info-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .tennis-elbow-of-the-knee-hero-section {
+    padding: 110px 16px 25px;
+  }
+  
+  .tennis-elbow-of-the-knee-featured-image {
+    margin-bottom: 18px;
+  }
+  
+  .tennis-elbow-of-the-knee-info-item {
+    font-size: 13px;
+    gap: 6px;
+  }
+  
+  .tennis-elbow-of-the-knee-info-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tennis-elbow-of-the-knee-hero-section {
+    padding: 105px 14px 20px;
+  }
+  
+  .tennis-elbow-of-the-knee-featured-image {
+    margin-bottom: 15px;
+  }
+  
+  .tennis-elbow-of-the-knee-info-item {
+    font-size: 12px;
+  }
+}
+

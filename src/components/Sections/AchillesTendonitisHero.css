@@ -1,0 +1,134 @@
+.achilles-tendonitis-hero-section {
+  padding: 120px 20px 40px;
+  background: #ffffff;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.achilles-tendonitis-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.achilles-tendonitis-featured-image {
+  margin-bottom: 30px;
+}
+
+.achilles-tendonitis-featured-image img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.achilles-tendonitis-post-info {
+  margin-bottom: 30px;
+}
+
+.achilles-tendonitis-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.achilles-tendonitis-info-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.achilles-tendonitis-info-icon {
+  display: flex;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.achilles-tendonitis-info-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.achilles-tendonitis-info-text {
+  color: #666;
+}
+
+.achilles-tendonitis-info-text time {
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .achilles-tendonitis-hero-section {
+    padding: 120px 20px 35px;
+  }
+  
+  .achilles-tendonitis-hero-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .achilles-tendonitis-featured-image {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .achilles-tendonitis-hero-section {
+    padding: 115px 18px 30px;
+  }
+  
+  .achilles-tendonitis-featured-image {
+    margin-bottom: 20px;
+  }
+  
+  .achilles-tendonitis-info-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .achilles-tendonitis-hero-section {
+    padding: 110px 16px 25px;
+  }
+  
+  .achilles-tendonitis-featured-image {
+    margin-bottom: 18px;
+  }
+  
+  .achilles-tendonitis-info-item {
+    font-size: 13px;
+    gap: 6px;
+  }
+  
+  .achilles-tendonitis-info-icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .achilles-tendonitis-hero-section {
+    padding: 105px 14px 20px;
+  }
+  
+  .achilles-tendonitis-featured-image {
+    margin-bottom: 15px;
+  }
+  
+  .achilles-tendonitis-info-item {
+    font-size: 12px;
+  }
+}
+

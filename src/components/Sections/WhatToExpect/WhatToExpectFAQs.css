@@ -1,0 +1,20 @@
+.wte-faqs-section {
+  background: #f8f8f8;
+  background-image: url('https://qckinetix.com/wp-content/uploads/2025/04/Mask-Group-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wte-faqs-section .stem-cell-faqs-container {
+  max-width: 1400px;
+}
+
+.wte-faqs-section .stem-cell-faqs-title {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+  color: #000000;
+}
+
+

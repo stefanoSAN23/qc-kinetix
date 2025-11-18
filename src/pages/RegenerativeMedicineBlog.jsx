@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import BlogHero from '../components/Sections/BlogHero';
-import BlogFilters from '../components/Sections/BlogFilters';
-import BlogResults from '../components/Sections/BlogResults';
+import BlogHero from '../components/Sections/Blog/BlogHero';
+import BlogFilters from '../components/Sections/Blog/BlogFilters';
+import BlogResults from '../components/Sections/Blog/BlogResults';
 import ContactForm from '../components/Forms/ContactForm';
 
 const RegenerativeMedicineBlog = () => {

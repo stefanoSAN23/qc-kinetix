@@ -1,0 +1,348 @@
+.veteran-back-pain-content-section {
+  padding: 1px 20px 60px;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.veteran-back-pain-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.veteran-back-pain-title {
+  font-size: clamp(32px, 4vw, 50px);
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.0;
+  margin: 0 auto 40px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.veteran-back-pain-article-content {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.veteran-back-pain-article-content p {
+  margin: 0 0 24px;
+  color: #333;
+}
+
+.veteran-back-pain-article-content a {
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.veteran-back-pain-article-content a:hover {
+  color: #0d6e00;
+}
+
+.veteran-back-pain-article-content strong {
+  font-weight: 700;
+  color: #000;
+}
+
+.veteran-back-pain-heading {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+  margin: 40px 0 24px;
+}
+
+.veteran-back-pain-heading:first-of-type {
+  margin-top: 0;
+}
+
+.veteran-back-pain-list {
+  margin: 24px 0;
+  padding-left: 30px;
+  list-style-type: disc;
+}
+
+.veteran-back-pain-list li {
+  margin: 12px 0;
+  color: #333;
+  line-height: 1.8;
+}
+
+.veteran-back-pain-list ol {
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+
+.veteran-back-pain-faq {
+  margin: 40px 0;
+}
+
+.veteran-back-pain-faq-item {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.veteran-back-pain-faq-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.veteran-back-pain-faq-question {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 16px;
+  line-height: 1.4;
+}
+
+.veteran-back-pain-faq-answer {
+  color: #333;
+  line-height: 1.8;
+}
+
+.veteran-back-pain-faq-answer p {
+  margin: 0;
+}
+
+.veteran-back-pain-separator {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 40px 0 24px;
+}
+
+.veteran-back-pain-disclaimer {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0;
+}
+
+.veteran-back-pain-categories {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.veteran-back-pain-categories-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.veteran-back-pain-category-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.veteran-back-pain-category-prefix {
+  color: #666;
+}
+
+.veteran-back-pain-categories-list-items {
+  color: #333;
+}
+
+.veteran-back-pain-category-tag {
+  color: #159A00;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .veteran-back-pain-content-section {
+    padding: 35px 20px 50px;
+  }
+  
+  .veteran-back-pain-content-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .veteran-back-pain-title {
+    margin-bottom: 35px;
+  }
+  
+  .veteran-back-pain-article-content {
+    font-size: 17px;
+  }
+  
+  .veteran-back-pain-heading {
+    margin: 35px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .veteran-back-pain-content-section {
+    padding: 30px 18px 40px;
+  }
+  
+  .veteran-back-pain-title {
+    margin-bottom: 30px;
+    font-size: clamp(28px, 5vw, 36px);
+  }
+  
+  .veteran-back-pain-article-content {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  
+  .veteran-back-pain-article-content p {
+    margin-bottom: 20px;
+  }
+  
+  .veteran-back-pain-heading {
+    font-size: clamp(22px, 4vw, 28px);
+    margin: 30px 0 18px;
+  }
+  
+  .veteran-back-pain-list {
+    margin: 20px 0;
+    padding-left: 25px;
+  }
+  
+  .veteran-back-pain-list li {
+    margin: 10px 0;
+  }
+  
+  .veteran-back-pain-faq {
+    margin: 35px 0;
+  }
+  
+  .veteran-back-pain-faq-item {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .veteran-back-pain-faq-question {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  
+  .veteran-back-pain-separator {
+    margin: 35px 0 20px;
+  }
+  
+  .veteran-back-pain-categories {
+    margin-top: 35px;
+    padding-top: 25px;
+  }
+  
+  .veteran-back-pain-category-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .veteran-back-pain-content-section {
+    padding: 25px 16px 35px;
+  }
+  
+  .veteran-back-pain-title {
+    margin-bottom: 25px;
+  }
+  
+  .veteran-back-pain-article-content {
+    font-size: 15px;
+  }
+  
+  .veteran-back-pain-article-content p {
+    margin-bottom: 18px;
+  }
+  
+  .veteran-back-pain-heading {
+    margin: 25px 0 16px;
+  }
+  
+  .veteran-back-pain-list {
+    margin: 18px 0;
+    padding-left: 20px;
+  }
+  
+  .veteran-back-pain-list li {
+    margin: 8px 0;
+  }
+  
+  .veteran-back-pain-faq {
+    margin: 30px 0;
+  }
+  
+  .veteran-back-pain-faq-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .veteran-back-pain-faq-question {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .veteran-back-pain-category-item {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .veteran-back-pain-content-section {
+    padding: 20px 14px 30px;
+  }
+  
+  .veteran-back-pain-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .veteran-back-pain-article-content {
+    font-size: 14px;
+  }
+  
+  .veteran-back-pain-article-content p {
+    margin-bottom: 16px;
+  }
+  
+  .veteran-back-pain-heading {
+    font-size: 20px;
+    margin: 20px 0 14px;
+  }
+  
+  .veteran-back-pain-list {
+    margin: 16px 0;
+    padding-left: 18px;
+  }
+  
+  .veteran-back-pain-list li {
+    margin: 6px 0;
+  }
+  
+  .veteran-back-pain-faq {
+    margin: 25px 0;
+  }
+  
+  .veteran-back-pain-faq-item {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+  }
+  
+  .veteran-back-pain-faq-question {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .veteran-back-pain-category-item {
+    font-size: 12px;
+  }
+}
+

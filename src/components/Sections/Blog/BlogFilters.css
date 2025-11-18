@@ -1,0 +1,405 @@
+.blog-filters-section {
+  padding: 100px 20px;
+  background: transparent;
+}
+
+.blog-filters-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.research-filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+  align-items: start;
+}
+
+.filter-group {
+  width: 100%;
+}
+
+.category-filters {
+  grid-column: 1;
+}
+
+.date-filters {
+  grid-column: 2;
+}
+
+.language-filters {
+  grid-column: 3;
+}
+
+.language-filters-mobile {
+  display: none;
+}
+
+.filter-group p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0;
+}
+
+.column-sm-4 {
+  flex: 1;
+  min-width: 200px;
+  padding-right: 20px;
+}
+
+.column-sm-12 {
+  width: 100%;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.field input[type="checkbox"],
+.field input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #159A00;
+}
+
+.field label {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  margin: 0;
+  user-select: none;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin-top: 20px;
+  grid-column: 1;
+}
+
+.apply_filter_btn {
+  background-color: transparent;
+  color: #159A00;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.apply_filter_btn:hover {
+  color: #0d7a00;
+}
+
+.clear_filter_btn {
+  background-color: transparent;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.clear_filter_btn:hover {
+  color: #333333;
+}
+
+@media (max-width: 1200px) {
+  .blog-filters-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .research-filters {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .blog-filters-section {
+    padding: 60px 20px;
+  }
+
+  .research-filters {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 30px;
+    row-gap: 5px;
+    margin-bottom: 40px;
+  }
+
+  .category-filters {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .date-filters {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .language-filters-desktop {
+    display: none;
+  }
+
+  .language-filters-mobile {
+    display: block;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .filter-buttons {
+    grid-column: 1 / -1;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 15px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .apply_filter_btn,
+  .clear_filter_btn {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .language-filters-mobile {
+    margin-top: 0;
+  }
+
+  .column-sm-4 {
+    min-width: 100%;
+    padding-right: 0;
+  }
+  
+  .filter-group p {
+    font-size: 17px;
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-filters-section {
+    padding: 50px 18px;
+  }
+  
+  .research-filters {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 25px;
+    row-gap: 5px;
+    margin-bottom: 35px;
+  }
+
+  .category-filters {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .date-filters {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .language-filters-mobile {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+  }
+
+  .filter-buttons {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .apply_filter_btn,
+  .clear_filter_btn {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .filter-group p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .field {
+    margin-bottom: 12px;
+  }
+  
+  .field input[type="checkbox"],
+  .field input[type="radio"] {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .field label {
+    font-size: 15px;
+  }
+
+  .apply_filter_btn,
+  .clear_filter_btn {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .blog-filters-section {
+    padding: 40px 16px;
+  }
+  
+  .research-filters {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    row-gap: 4px;
+    margin-bottom: 30px;
+  }
+
+  .category-filters {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .date-filters {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .language-filters-mobile {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+  }
+
+  .filter-buttons {
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .apply_filter_btn,
+  .clear_filter_btn {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  
+  .row {
+    gap: 15px;
+  }
+  
+  .fields {
+    gap: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-filters-section {
+    padding: 35px 14px;
+  }
+  
+  .research-filters {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 18px;
+    row-gap: 4px;
+    margin-bottom: 25px;
+  }
+
+  .category-filters {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .date-filters {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .language-filters-mobile {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+  }
+
+  .filter-buttons {
+    grid-column: 1 / -1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .apply_filter_btn,
+  .clear_filter_btn {
+    margin-left: 0;
+    margin-right: auto;
+    width: auto;
+  }
+
+  .filter-group p {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+
+  .field {
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+  
+  .field input[type="checkbox"],
+  .field input[type="radio"] {
+    width: 15px;
+    height: 15px;
+  }
+
+  .field label {
+    font-size: 14px;
+  }
+  
+  .apply_filter_btn,
+  .clear_filter_btn {
+    width: 100%;
+    padding: 9px 18px;
+    font-size: 15px;
+  }
+}
+
+

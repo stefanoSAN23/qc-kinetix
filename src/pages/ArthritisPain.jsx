@@ -1,10 +1,10 @@
-import ArthritisPainHero from '../components/Sections/ArthritisPainHero';
-import RegenerativeTherapyForArthritisPain from '../components/Sections/RegenerativeTherapyForArthritisPain';
-import WhatIsRegenerativeArthritisPainTherapy from '../components/Sections/WhatIsRegenerativeArthritisPainTherapy';
-import ArthritisCandidate from '../components/Sections/ArthritisCandidate';
-import SectionDivider from '../components/Sections/SectionDivider';
-import BenefitsOfNonsurgicalArthritisTreatments from '../components/Sections/BenefitsOfNonsurgicalArthritisTreatments';
-import ReadyToReduceArthritisPain from '../components/Sections/ReadyToReduceArthritisPain';
+import ArthritisPainHero from '../components/Sections/ArthritisPain/ArthritisPainHero';
+import RegenerativeTherapyForArthritisPain from '../components/Sections/ArthritisPain/RegenerativeTherapyForArthritisPain';
+import WhatIsRegenerativeArthritisPainTherapy from '../components/Sections/ArthritisPain/WhatIsRegenerativeArthritisPainTherapy';
+import ArthritisCandidate from '../components/Sections/ArthritisPain/ArthritisCandidate';
+import SectionDivider from '../components/Sections/ArthritisPain/SectionDivider';
+import BenefitsOfNonsurgicalArthritisTreatments from '../components/Sections/ArthritisPain/BenefitsOfNonsurgicalArthritisTreatments';
+import ReadyToReduceArthritisPain from '../components/Sections/ArthritisPain/ReadyToReduceArthritisPain';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
 
