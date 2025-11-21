@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import '../StemCellFAQs.css';
+import '../StemCellTreatments/StemCellFAQs.css';
 import './WhatToExpectFAQs.css';
 
 const faqs = [

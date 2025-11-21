@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import './BlogResults.css';
 
 const BlogResults = ({ filters }) => {
@@ -11,7 +12,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 1,
       title: "Combat & Service-Related Back Pain: Regenerative Treatment for Veterans",
-      url: "/blog/veteran-back-pain-without-surgery/",
+      url: "/blog/veteran-back-pain-without-surgery",
       image: "https://qckinetix.com/wp-content/uploads/2025/04/back-pain-6949392_1920.png",
       imageWidth: 453,
       imageHeight: 632,
@@ -21,7 +22,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 2,
       title: "Advanced Neck Pain Relief: How Regenerative Medicine Outperforms Surgery",
-      url: "/blog/neck-pain-relief-near-me-regenerative-solutions/",
+      url: "/blog/neck-pain-relief-near-me-regenerative-solutions",
       image: "https://qckinetix.com/wp-content/uploads/2025/10/AdobeStock_127286389-scaled.jpeg",
       imageWidth: 2560,
       imageHeight: 1810,
@@ -31,7 +32,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 3,
       title: "How to Soothe Achilles Tendon Pain Fast: Regenerative Medicine Solutions",
-      url: "/blog/non-surgical-achilles-tendonitis-treatment/",
+      url: "/blog/non-surgical-achilles-tendonitis-treatment",
       image: "https://qckinetix.com/wp-content/uploads/2025/09/achilles-tendonities-001.jpg",
       imageWidth: 1000,
       imageHeight: 667,
@@ -41,7 +42,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 4,
       title: "Runner's Knee Treatment: Regenerative Sports Medicine Solutions for Fall Marathon Training",
-      url: "/blog/runners-knee-regenerative-sports-medicine/",
+      url: "/blog/runners-knee-regenerative-sports-medicine",
       image: "https://qckinetix.com/wp-content/uploads/2025/09/knee-pain-01.jpg",
       imageWidth: 945,
       imageHeight: 650,
@@ -51,7 +52,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 5,
       title: "Regenerative Sciatica Therapy: Natural Relief Without Surgery or Medication",
-      url: "/blog/non-surgical-sciatica-treatment-regenerative-medicine/",
+      url: "/blog/non-surgical-sciatica-treatment-regenerative-medicine",
       image: "https://qckinetix.com/wp-content/uploads/2025/08/sciatica-image.jpg",
       imageWidth: 1200,
       imageHeight: 658,
@@ -61,7 +62,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 6,
       title: "PRP Injection vs. Cortisone: The Natural Path to Long-Term Joint Health",
-      url: "/blog/prp-vs-cortisone-regenerative-medicine/",
+      url: "/blog/prp-vs-cortisone-regenerative-medicine",
       image: "https://qckinetix.com/wp-content/uploads/2025/08/prp-treatment.jpg",
       imageWidth: 1000,
       imageHeight: 668,
@@ -71,7 +72,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 7,
       title: "Tennis Elbow of the Knee: Understanding Medial Knee Pain",
-      url: "/blog/tennis-elbow-of-the-knee/",
+      url: "/blog/tennis-elbow-of-the-knee",
       image: "https://qckinetix.com/wp-content/uploads/2025/07/knee-pain.jpg",
       imageWidth: 512,
       imageHeight: 236,
@@ -81,7 +82,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 8,
       title: "Non-Surgical Regenerative Treatments for Carpal Tunnel Syndrome",
-      url: "/blog/non-surgical-regenerative-carpal-tunnel-treatment/",
+      url: "/blog/non-surgical-regenerative-carpal-tunnel-treatment",
       image: "https://qckinetix.com/wp-content/uploads/2025/07/carpal-tunnel-image.jpg",
       imageWidth: 512,
       imageHeight: 341,
@@ -91,7 +92,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 9,
       title: "QC Kinetix Sponsors National Pickleball League",
-      url: "https://qckinetix.com/blog/qc-kinetix-sponsors-national-pickleball-league/",
+      url: "/blog/qc-kinetix-sponsors-national-pickleball-league",
       image: "https://qckinetix.com/wp-content/uploads/2025/07/pickleball.jpg",
       imageWidth: 512,
       imageHeight: 341,
@@ -101,7 +102,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 10,
       title: "Regenerative Medicine Statistics & Facts 2025: Market Size, Growth & Outcomes",
-      url: "https://qckinetix.com/blog/regenerative-medicine-statistics/",
+      url: "/blog/regenerative-medicine-statistics",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/QC-Kinetix-What-Is-Regenerative-Medicine-Used-For-Blog-Image-1536x864-1.webp",
       imageWidth: 1536,
       imageHeight: 864,
@@ -111,7 +112,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 11,
       title: "Safety & Side Effects of Regenerative Injections: What Patients Should Know",
-      url: "https://qckinetix.com/blog/regenerative-medicine-safety-side-effects/",
+      url: "/blog/regenerative-medicine-safety-side-effects",
       image: "https://qckinetix.com/wp-content/uploads/2025/06/knee-joint-injection.jpg",
       imageWidth: 800,
       imageHeight: 533,
@@ -121,7 +122,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 12,
       title: "6 Myths About Regenerative Medicine You Need to Know",
-      url: "https://qckinetix.com/blog/6-regenerative-medicine-myths/",
+      url: "/blog/6-regenerative-medicine-myths",
       image: "https://qckinetix.com/wp-content/uploads/2025/04/Mask-Group-47.png",
       imageWidth: 690,
       imageHeight: 607,
@@ -131,7 +132,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 13,
       title: "Regenerative Therapy Aftercare: Best Practices & Exercises for Long-Term Pain Relief",
-      url: "https://qckinetix.com/blog/regenerative-therapy-aftercare/",
+      url: "/blog/regenerative-therapy-aftercare",
       image: "https://qckinetix.com/wp-content/uploads/2025/06/AdobeStock_545046120-fotor.jpg",
       imageWidth: 1000,
       imageHeight: 624,
@@ -141,17 +142,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 14,
       title: "Sports Injury Statistics 2025: Trends, Rates & Facts",
-      url: "https://qckinetix.com/blog/sports-injury-statistics/",
-      image: "https://qckinetix.com/wp-content/uploads/2025/06/AdobeStock_570149247.jpeg",
-      imageWidth: 8192,
-      imageHeight: 4253,
+      url: "/blog/sports-injury-statistics",
+      image: "https://qckinetix.com/wp-content/uploads/2025/06/AdobeStock_570149247-1024x532.jpeg",
+      imageWidth: 1024,
+      imageHeight: 532,
       author: "QC Kinetix",
       date: "June 1, 2025"
     },
     {
       id: 15,
       title: "Why Your Back Makes Your IT Band Hurt",
-      url: "https://qckinetix.com/blog/why-your-back-makes-your-it-band-hurt/",
+      url: "/blog/why-your-back-makes-your-it-band-hurt",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/lower-back-pain-in-the-morning-2048x1366.jpg.webp",
       imageWidth: 2048,
       imageHeight: 1366,
@@ -171,17 +172,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 17,
       title: "Back Pain Statistics & Facts You Need to Know in 2025",
-      url: "https://qckinetix.com/blog/back-pain-statistics/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/03/back-pain-1-2048x1365.jpg.webp",
-      imageWidth: 2048,
-      imageHeight: 1365,
+      url: "/blog/back-pain-statistics",
+      image: "https://qckinetix.com/wp-content/uploads/2024/03/back-pain-1-2048x1365.jpg-1024x683.webp",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "May 14, 2025"
     },
     {
       id: 18,
       title: "Can Interstitial Cystitis Cause Back Pain?",
-      url: "https://qckinetix.com/blog/lower-back-pain-and-interstitial-cystitis/",
+      url: "/blog/lower-back-pain-and-interstitial-cystitis",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/back-pain-supplements.jpg-1.webp",
       imageWidth: 1430,
       imageHeight: 928,
@@ -191,7 +192,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 19,
       title: "How Much Does Regenerative Medicine Cost?",
-      url: "https://qckinetix.com/blog/how-much-does-regenerative-medicine-cost/",
+      url: "/blog/how-much-does-regenerative-medicine-cost",
       image: "https://qckinetix.com/wp-content/uploads/2025/05/regenerative.jpg",
       imageWidth: 1000,
       imageHeight: 800,
@@ -201,7 +202,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 20,
       title: "What is PRP Therapy?",
-      url: "https://qckinetix.com/blog/blog-what-is-prp-therapy/",
+      url: "/blog/blog-what-is-prp-therapy",
       image: "https://qckinetix.com/wp-content/uploads/2025/05/prp-therapy-fotor.jpg",
       imageWidth: 1012,
       imageHeight: 746,
@@ -211,7 +212,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 21,
       title: "What is Stem Cell Therapy?",
-      url: "https://qckinetix.com/blog/blog-what-is-stem-cell-therapy/",
+      url: "/blog/blog-what-is-stem-cell-therapy",
       image: "https://qckinetix.com/wp-content/uploads/2025/05/DSC_4237-fotor-2025050712212.jpg",
       imageWidth: 1200,
       imageHeight: 798,
@@ -221,17 +222,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 22,
       title: "Joint Pain Relief in Bentonville",
-      url: "https://qckinetix.com/blog/joint-pain-relief-in-bentonville/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/04/iStock-1471995039-scaled-1-scaled.jpg",
-      imageWidth: 2560,
-      imageHeight: 1707,
+      url: "/blog/joint-pain-relief-in-bentonville",
+      image: "https://qckinetix.com/wp-content/uploads/2024/04/iStock-1471995039-scaled-1-1024x683.jpg",
+      imageWidth: 1024,
+      imageHeight: 683,
       author: "QC Kinetix",
       date: "April 19, 2025"
     },
     {
       id: 23,
       title: "Knee Pain Statistics & Facts You Need to Know in 2025",
-      url: "https://qckinetix.com/blog/knee-pain-statistics-facts/",
+      url: "/blog/knee-pain-statistics-facts",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/Who-To-See-for-Knee-Pain.jpg.webp",
       imageWidth: 936,
       imageHeight: 614,
@@ -241,27 +242,27 @@ const BlogResults = ({ filters }) => {
     {
       id: 24,
       title: "Using Your HSA or FSA to Pay for QC Kinetix Regenerative Treatments",
-      url: "https://qckinetix.com/blog/using-your-hsa-or-fsa-to-pay-for-qc-kinetix-regenerative-treatments/",
-      image: "https://qckinetix.com/wp-content/uploads/2025/02/HSA-Blog-Photo-1.jpg",
-      imageWidth: 2048,
-      imageHeight: 1366,
+      url: "/blog/using-your-hsa-or-fsa-to-pay-for-qc-kinetix-regenerative-treatments",
+      image: "https://qckinetix.com/wp-content/uploads/2025/02/HSA-Blog-Photo-1-1024x683.jpg",
+      imageWidth: 1024,
+      imageHeight: 683,
       author: "QC Kinetix",
       date: "February 28, 2025"
     },
     {
       id: 25,
       title: "The Most Common Uses of PRP: Pain Relief & Regenerative Health",
-      url: "https://qckinetix.com/blog/the-most-common-uses-of-prp/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/04/iStock-1471995039-scaled-1-scaled.jpg",
-      imageWidth: 2560,
-      imageHeight: 1707,
+      url: "/blog/the-most-common-uses-of-prp",
+      image: "https://qckinetix.com/wp-content/uploads/2024/04/iStock-1471995039-scaled-1-1024x683.jpg",
+      imageWidth: 1024,
+      imageHeight: 683,
       author: "QC Kinetix",
       date: "January 28, 2025"
     },
     {
       id: 26,
       title: "Platelet-Rich Plasma: What is PRP?",
-      url: "https://qckinetix.com/blog/what-is-prp/",
+      url: "/blog/what-is-prp",
       image: "https://qckinetix.com/wp-content/uploads/2025/01/what-is-prp.jpg",
       imageWidth: 1000,
       imageHeight: 667,
@@ -271,7 +272,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 27,
       title: "Why Patients are Choosing Regenerative Over Surgery",
-      url: "https://qckinetix.com/blog/why-patients-are-choosing-regenerative-over-surgery/",
+      url: "/blog/why-patients-are-choosing-regenerative-over-surgery",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/torn-labrum-shoulder-recovery-without-surgery-1024x683.jpg.webp",
       imageWidth: 1024,
       imageHeight: 683,
@@ -281,7 +282,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 28,
       title: "Why Does Your Shoulder Hurt When You Sleep and What Helps?",
-      url: "https://qckinetix.com/blog/why-does-your-shoulder-hurt-when-you-sleep-and-what-helps/",
+      url: "/blog/why-does-your-shoulder-hurt-when-you-sleep-and-what-helps",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/shoulder-bursitis-1-1024x744-1.jpg",
       imageWidth: 1024,
       imageHeight: 744,
@@ -291,7 +292,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 29,
       title: "Back Pain from Sitting at Your Desk: What to Do About It",
-      url: "https://qckinetix.com/blog/back-pain-from-sitting-at-your-desk-what-to-do-about-it/",
+      url: "/blog/back-pain-from-sitting-at-your-desk-what-to-do-about-it",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/back-pain-1-2048x1365.jpg.webp",
       imageWidth: 2048,
       imageHeight: 1365,
@@ -301,7 +302,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 30,
       title: "9 Early Signs of Arthritis You Should Never Ignore",
-      url: "https://qckinetix.com/blog/9-early-signs-of-arthritis-you-should-never-ignore/",
+      url: "/blog/9-early-signs-of-arthritis-you-should-never-ignore",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/tingling-in-hands-1024x683.jpg.webp",
       imageWidth: 1024,
       imageHeight: 683,
@@ -311,7 +312,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 31,
       title: "How Long Does Wrist Surgery Take to Heal",
-      url: "https://qckinetix.com/blog/how-long-does-wrist-surgery-take-to-heal/",
+      url: "/blog/how-long-does-wrist-surgery-take-to-heal",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/arthritis-pain-circle-73e45dc5d2c4961820fecc72ea47a8c7-1bho35deurmp.jpg",
       imageWidth: 667,
       imageHeight: 667,
@@ -321,7 +322,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 32,
       title: "How Much Does Wrist Surgery Cost",
-      url: "https://qckinetix.com/blog/how-much-does-wrist-surgery-cost/",
+      url: "/blog/how-much-does-wrist-surgery-cost",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/joint-pain-2048x2048.jpg.webp",
       imageWidth: 2048,
       imageHeight: 2048,
@@ -331,7 +332,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 33,
       title: "What Causes Wrist Pain",
-      url: "https://qckinetix.com/blog/what-causes-wrist-pain/",
+      url: "/blog/what-causes-wrist-pain",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/sports-franchise-1024x685.jpg.webp",
       imageWidth: 1024,
       imageHeight: 685,
@@ -341,7 +342,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 34,
       title: "Medicina Regenerativa: Cómo puede ayudarle y qué debe sabe",
-      url: "https://qckinetix.com/blog/el-medico-de-cabecera-que-es-y-como-funciona/",
+      url: "/blog/el-medico-de-cabecera-que-es-y-como-funciona",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/regenerative-therapy.jpg.webp",
       imageWidth: 1430,
       imageHeight: 1078,
@@ -350,8 +351,8 @@ const BlogResults = ({ filters }) => {
     },
     {
       id: 35,
-      title: "Medicina Regenerativa: Cómo puede ayudarle y qué debe sabe",
-      url: "https://qckinetix.com/blog/alternativas-a-nsaids/",
+      title: "Alternativas a los AINEs",
+      url: "/blog/alternativas-a-nsaids",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/regenerative-therapy.jpg.webp",
       imageWidth: 1430,
       imageHeight: 1078,
@@ -361,7 +362,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 36,
       title: "¿Cuánto cuesta un trasplante de pelo y es su mejor opción?",
-      url: "https://qckinetix.com/blog/coste-del-trasplante-capilar/",
+      url: "/blog/coste-del-trasplante-capilar",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/hair-transplant-cost.jpg.jpg",
       imageWidth: 1100,
       imageHeight: 1100,
@@ -371,7 +372,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 37,
       title: "Is Elbow Surgery Painful? What You Need to Know",
-      url: "https://qckinetix.com/blog/is-elbow-surgery-painful/",
+      url: "/blog/is-elbow-surgery-painful",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/pexels-shvetsa-4483327-scaled-1.jpg",
       imageWidth: 2560,
       imageHeight: 1706,
@@ -381,7 +382,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 38,
       title: "Esteemed Orthopedic Surgeon Joins QC Kinetix as National Medical Director",
-      url: "https://qckinetix.com/blog/esteemed-orthopedic-surgeon-joins-qc-kinetix-as-national-medical-director/",
+      url: "/blog/esteemed-orthopedic-surgeon-joins-qc-kinetix-as-national-medical-director",
       image: "https://qckinetix.com/wp-content/uploads/2024/04/qckinetix_dr_sheinkop.webp",
       imageWidth: 600,
       imageHeight: 900,
@@ -391,7 +392,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 39,
       title: "How Much Does Elbow Surgery Cost?",
-      url: "https://qckinetix.com/blog/how-much-does-elbow-surgery-cost/",
+      url: "/blog/how-much-does-elbow-surgery-cost",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/pexels-1222300-2324837-scaled-1.jpg",
       imageWidth: 2560,
       imageHeight: 1707,
@@ -401,7 +402,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 40,
       title: "Why Biofreeze Isn't the Best Choice for Long-term Pain Relief (& What Is)",
-      url: "https://qckinetix.com/blog/why-biofreeze-isnt-the-best-choice-for-long-term-pain-relief-what-is/",
+      url: "/blog/why-biofreeze-isnt-the-best-choice-for-long-term-pain-relief-what-is",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/biofreeze-1024x685.jpg.webp",
       imageWidth: 1024,
       imageHeight: 685,
@@ -411,7 +412,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 41,
       title: "What Is Regenerative Medicine Used For? – QC Kinetix",
-      url: "https://qckinetix.com/blog/what-is-regenerative-medicine-used-for/",
+      url: "/blog/what-is-regenerative-medicine-used-for",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/QC-Kinetix-What-Is-Regenerative-Medicine-Used-For-Blog-Image-1024x576-1.webp",
       imageWidth: 1024,
       imageHeight: 576,
@@ -421,7 +422,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 42,
       title: "Tingling in Hands: What Could It Be? – QC Kinetix",
-      url: "https://qckinetix.com/blog/tingling-in-hands/",
+      url: "/blog/tingling-in-hands",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/tingling-in-hands-1024x683.jpg.webp",
       imageWidth: 1024,
       imageHeight: 683,
@@ -431,7 +432,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 43,
       title: "Tennis Elbow Treatment: Why Regenerative Medicine Works",
-      url: "https://qckinetix.com/blog/tennis-elbow-treatment/",
+      url: "/blog/tennis-elbow-treatment",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/tennis-elbow-treatment-1024x771.jpg.webp",
       imageWidth: 1024,
       imageHeight: 771,
@@ -441,7 +442,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 44,
       title: "Shoulder Pain Supplement: What Ingredients to Look For & Which to Avoid",
-      url: "https://qckinetix.com/blog/shoulder-pain-supplement/",
+      url: "/blog/shoulder-pain-supplement",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/shoulder-pain-supplement-1024x684.jpg.webp",
       imageWidth: 1024,
       imageHeight: 684,
@@ -451,7 +452,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 45,
       title: "Shoulder Bursitis: Symptoms, Causes, and Treatment Options",
-      url: "https://qckinetix.com/blog/shoulder-bursitis/",
+      url: "/blog/shoulder-bursitis",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/shoulder-bursitis-1-1024x744-1.jpg",
       imageWidth: 1024,
       imageHeight: 744,
@@ -471,7 +472,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 47,
       title: "Regenerative Medicine: How It Can Help You and What You Should Know",
-      url: "https://qckinetix.com/blog/regenerative-medicine-how-it-can-help-you-and-what-you-should-know/",
+      url: "/blog/regenerative-medicine-how-it-can-help-you-and-what-you-should-know",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/Regenerative-Medicine-How-It-Can-Help-You-and-What-You-Should-Know.webp",
       imageWidth: 1024,
       imageHeight: 772,
@@ -481,7 +482,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 48,
       title: "Examples of Regenerative Medicine",
-      url: "https://qckinetix.com/blog/regenerative-medicine-examples/",
+      url: "/blog/regenerative-medicine-examples",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/Regenerative-Medicine-2048x1365.jpg.webp",
       imageWidth: 2048,
       imageHeight: 1365,
@@ -491,7 +492,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 49,
       title: "Recovery Time of Torn Meniscus: How It Varies and Alternatives to Surgery",
-      url: "https://qckinetix.com/blog/recovery-time-of-torn-meniscus/",
+      url: "/blog/recovery-time-of-torn-meniscus",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/recovery-time-of-torn-meniscus.jpg.webp",
       imageWidth: 1430,
       imageHeight: 825,
@@ -501,7 +502,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 50,
       title: "QC Kinetix Debuts on Franchise Times Top 500 List",
-      url: "https://qckinetix.com/blog/qc-kinetix-debuts-on-franchise-times-top-500-list/",
+      url: "/blog/qc-kinetix-debuts-on-franchise-times-top-500-list",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/franchise-times-top-500-2048x684.png.webp",
       imageWidth: 2048,
       imageHeight: 684,
@@ -511,7 +512,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 51,
       title: "QC Kinetix Celebrates 100th Clinic Opening! – QC Kinetix",
-      url: "https://qckinetix.com/blog/qc-kinetix-celebrates-100th-clinic-opening/",
+      url: "/blog/qc-kinetix-celebrates-100th-clinic-opening",
       image: "",
       imageWidth: 0,
       imageHeight: 0,
@@ -521,7 +522,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 52,
       title: "Plantar Fasciitis Physical Therapy: Does It Help?",
-      url: "https://qckinetix.com/blog/plantar-fasciitis-physical-therapy/",
+      url: "/blog/plantar-fasciitis-physical-therapy",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/plantar-fasciitis-physical-therapy.jpg.webp",
       imageWidth: 1924,
       imageHeight: 849,
@@ -531,7 +532,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 53,
       title: "Osteoarthritis Physical Therapy: What Are My Options?",
-      url: "https://qckinetix.com/blog/osteoarthritis-physical-therapy/",
+      url: "/blog/osteoarthritis-physical-therapy",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/arthritis-pain-circle-73e45dc5d2c4961820fecc72ea47a8c7-1bho35deurmp.jpg",
       imageWidth: 667,
       imageHeight: 667,
@@ -541,7 +542,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 54,
       title: "Orthobiologics Can Help You Heal Faster: Here's How – QC Kinetix",
-      url: "https://qckinetix.com/blog/orthobiologics/",
+      url: "/blog/orthobiologics",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/orthopedic-business-1024x656.jpg.webp",
       imageWidth: 1024,
       imageHeight: 656,
@@ -551,7 +552,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 55,
       title: "Lumbar Rhizotomy: Risks & Alternatives to Surgery",
-      url: "https://qckinetix.com/blog/lumbar-rhizotomy/",
+      url: "/blog/lumbar-rhizotomy",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/lumbar-rhizotomy.jpg.webp",
       imageWidth: 1692,
       imageHeight: 1084,
@@ -561,7 +562,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 56,
       title: "Lower Back Pain in the Morning: What Could It Be & How Do You Treat It?",
-      url: "https://qckinetix.com/blog/lower-back-pain-in-the-morning/",
+      url: "/blog/lower-back-pain-in-the-morning",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/lower-back-pain-in-the-morning-2048x1366.jpg.webp",
       imageWidth: 2048,
       imageHeight: 1366,
@@ -571,7 +572,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 57,
       title: "Knee Replacement Alternatives: What to Know",
-      url: "https://qckinetix.com/blog/knee-replacement-alternatives/",
+      url: "/blog/knee-replacement-alternatives",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/knee-replacement-alternatives.jpg.webp",
       imageWidth: 1411,
       imageHeight: 944,
@@ -581,7 +582,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 58,
       title: "Knee Pain Supplements: A Guide to Choosing",
-      url: "https://qckinetix.com/blog/knee-pain-supplements/",
+      url: "/blog/knee-pain-supplements",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/JOINT-BONE-HEALTH.jpg",
       imageWidth: 1263,
       imageHeight: 1200,
@@ -591,17 +592,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 59,
       title: "What to Do When Your Knee Is Locking Up – Could It Be Something Serious?",
-      url: "https://qckinetix.com/blog/knee-is-locking-up/",
-      image: "",
-      imageWidth: 0,
-      imageHeight: 0,
+      url: "/blog/knee-is-locking-up",
+      image: "https://qckinetix.com/wp-content/uploads/2024/02/blog1-copia.png",
+      imageWidth: 727,
+      imageHeight: 698,
       author: "QC Kinetix",
       date: "February 3, 2024"
     },
     {
       id: 60,
       title: "Joint Health Supplements | QC Kinetix",
-      url: "https://qckinetix.com/blog/joint-health-supplements/",
+      url: "/blog/joint-health-supplements",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/YellowQuickStartJointBoneHealthProductPage_720x.webp",
       imageWidth: 720,
       imageHeight: 720,
@@ -611,7 +612,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 61,
       title: "Is Regenerative Medicine Legitimate?",
-      url: "https://qckinetix.com/blog/is-regenerative-medicine-legitimate/",
+      url: "/blog/is-regenerative-medicine-legitimate",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/knee-replacement-alternatives.jpg.webp",
       imageWidth: 1411,
       imageHeight: 944,
@@ -621,7 +622,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 62,
       title: "Hip Pain in Women: Possible Causes & Treatment Options",
-      url: "https://qckinetix.com/blog/hip-pain-in-women/",
+      url: "/blog/hip-pain-in-women",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/Hip-pain-in-women-2048x1368.jpg.webp",
       imageWidth: 2048,
       imageHeight: 1368,
@@ -631,7 +632,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 63,
       title: "Hair Health Supplements | QC Kinetix",
-      url: "https://qckinetix.com/blog/hair-health-supplements/",
+      url: "/blog/hair-health-supplements",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/YellowQuickStartHairHealthProductPage_720x.webp",
       imageWidth: 720,
       imageHeight: 720,
@@ -641,7 +642,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 64,
       title: "Gluteal Tendinopathy: Description and Treatment Options",
-      url: "https://qckinetix.com/blog/gluteal-tendinopathy/",
+      url: "/blog/gluteal-tendinopathy",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/shutterstock_1318269503-2.png",
       imageWidth: 674,
       imageHeight: 577,
@@ -651,7 +652,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 65,
       title: "Disc Arthroplasty Surgery: Risks, Recovery, and Other Options",
-      url: "https://qckinetix.com/blog/disc-arthroplasty/",
+      url: "/blog/disc-arthroplasty",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/arthritis-pain-circle-73e45dc5d2c4961820fecc72ea47a8c7-1bho35deurmp.jpg",
       imageWidth: 667,
       imageHeight: 667,
@@ -661,7 +662,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 66,
       title: "CBD Pain Relief Cream | QC Kinetix",
-      url: "https://qckinetix.com/blog/cbd-pain-relief-cream/",
+      url: "/blog/cbd-pain-relief-cream",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/CBD.jpg",
       imageWidth: 1263,
       imageHeight: 1200,
@@ -671,7 +672,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 67,
       title: "Concierge Doctor: What is It and How Does It Work?",
-      url: "https://qckinetix.com/blog/concierge-doctor/",
+      url: "/blog/concierge-doctor",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/Screenshot-2023-12-27-231522.png",
       imageWidth: 806,
       imageHeight: 737,
@@ -681,7 +682,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 68,
       title: "Can Tendons Heal Naturally? 4 Myths and Truths",
-      url: "https://qckinetix.com/blog/can-tendons-heal-naturally/",
+      url: "/blog/can-tendons-heal-naturally",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/gluteal-tendinopathy.jpg-1.webp",
       imageWidth: 800,
       imageHeight: 534,
@@ -691,7 +692,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 69,
       title: "Can a Torn Rotator Cuff Heal on Its Own? Four Treatments for Shoulder Pain",
-      url: "https://qckinetix.com/blog/can-a-torn-rotator-cuff-heal-on-its-own/",
+      url: "/blog/can-a-torn-rotator-cuff-heal-on-its-own",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/shutterstock_2040685961.png",
       imageWidth: 325,
       imageHeight: 207,
@@ -701,7 +702,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 70,
       title: "All Bone Health Supplements Are NOT the Same: Here's How to Choose",
-      url: "https://qckinetix.com/blog/bone-health-supplements/",
+      url: "/blog/bone-health-supplements",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/shutterstock_1318269503-2.png",
       imageWidth: 674,
       imageHeight: 577,
@@ -711,7 +712,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 71,
       title: "Best Supplements for Men: What to Take for Bone & Joint Health",
-      url: "https://qckinetix.com/blog/best-supplements-for-men/",
+      url: "/blog/best-supplements-for-men",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/shutterstock_735675031.png",
       imageWidth: 325,
       imageHeight: 207,
@@ -721,7 +722,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 72,
       title: "Benefits of Regenerative Medicine",
-      url: "https://qckinetix.com/blog/benefits-of-regenerative-medicine/",
+      url: "/blog/benefits-of-regenerative-medicine",
       image: "https://qckinetix.com/wp-content/uploads/2024/04/tingling-in-hands-2048x1366.jpg.webp",
       imageWidth: 2048,
       imageHeight: 1366,
@@ -730,8 +731,8 @@ const BlogResults = ({ filters }) => {
     },
     {
       id: 73,
-      title: "Back Pain Supplements: What to Know & How They Can Help You",
-      url: "https://qckinetix.com/blog/back-pain-supplements/",
+      title: "Alternatives to NSAIDS: 6 Options Instead of Ibuprofen",
+      url: "/blog/alternatives-to-nsaids",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/Alternatives-to-NSAIDS-6-Options-Instead-of-Ibuprofen.png",
       imageWidth: 536,
       imageHeight: 447,
@@ -740,8 +741,8 @@ const BlogResults = ({ filters }) => {
     },
     {
       id: 74,
-      title: "Alternatives to NSAIDS: 6 Options Instead of Ibuprofen",
-      url: "https://qckinetix.com/blog/alternatives-to-nsaids/",
+      title: "Back Pain Supplements: What to Know & How They Can Help You",
+      url: "/blog/back-pain-supplements",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/Alternatives-to-NSAIDS-6-Options-Instead-of-Ibuprofen.png",
       imageWidth: 536,
       imageHeight: 447,
@@ -751,7 +752,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 75,
       title: "How Can QC Kinetix Help?",
-      url: "https://qckinetix.com/blog/advancing-patient-care-through-regenerative-medicine/",
+      url: "/blog/advancing-patient-care-through-regenerative-medicine",
       image: "https://qckinetix.com/wp-content/uploads/2023/12/d1c82d7e2d0307b5240a39f315505280.png",
       imageWidth: 324,
       imageHeight: 238,
@@ -761,7 +762,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 76,
       title: "What Causes Elbow Pain?",
-      url: "https://qckinetix.com/blog/what-causes-elbow-pain/",
+      url: "/blog/what-causes-elbow-pain",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/QC_Kinetix_Cheyenne_clinic_sign.jpg.webp",
       imageWidth: 640,
       imageHeight: 427,
@@ -771,37 +772,37 @@ const BlogResults = ({ filters }) => {
     {
       id: 77,
       title: "What Causes Numbness in Hands While Sleeping?",
-      url: "https://qckinetix.com/blog/what-causes-numbness-in-hands-while-sleeping/",
+      url: "/blog/what-causes-numbness-in-hands-while-sleeping",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/pexels-juanpphotoandvideo-1257770-1-scaled-1.jpg",
-      imageWidth: 2560,
-      imageHeight: 1707,
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "January 31, 2024"
     },
     {
       id: 78,
       title: "How Much Does Shoulder Surgery Cost?",
-      url: "https://qckinetix.com/blog/how-much-does-shoulder-surgery-cost/",
+      url: "/blog/how-much-does-shoulder-surgery-cost",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/pexels-karolina-grabowska-4968630-scaled-1.jpg",
-      imageWidth: 2560,
-      imageHeight: 1707,
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "January 21, 2024"
     },
     {
       id: 79,
       title: "What Can Cause Shoulder Joint Pain Without Injury?",
-      url: "https://qckinetix.com/blog/what-can-cause-shoulder-joint-pain/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/01/pexels-kampus-8638036-scaled-1.jpg",
-      imageWidth: 2560,
-      imageHeight: 1707,
+      url: "/blog/what-can-cause-shoulder-joint-pain",
+      image: "https://qckinetix.com/wp-content/uploads/2024/01/pexels-kampus-8638036-scaled-1-1024x683.jpg",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "January 1, 2024"
     },
     {
       id: 80,
       title: "Suplementos para la salud articular",
-      url: "https://qckinetix.com/blog/suplementos-para-las-articulaciones/",
+      url: "/blog/suplementos-para-las-articulaciones",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/gluteal-tendinopathy.jpg-1.webp",
       imageWidth: 800,
       imageHeight: 534,
@@ -811,17 +812,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 81,
       title: "What Causes Pain on the Top of the Foot?",
-      url: "https://qckinetix.com/blog/what-causes-pain-on-the-top-of-the-foot/",
-      image: "https://qckinetix.com/wp-content/uploads/2023/12/pexels-katya-wolf-8728667-scaled-1.jpg",
-      imageWidth: 2560,
-      imageHeight: 1707,
+      url: "/blog/what-causes-pain-on-the-top-of-the-foot",
+      image: "https://qckinetix.com/wp-content/uploads/2023/12/pexels-katya-wolf-8728667-scaled-1-1024x683.jpg",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "December 12, 2023"
     },
     {
       id: 82,
       title: "What Causes Stabbing Pain in the Ankle?",
-      url: "https://qckinetix.com/blog/what-causes-stabbing-pain-in-the-ankle/",
+      url: "/blog/what-causes-stabbing-pain-in-the-ankle",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/plantar-fasciitis-physical-therapy.jpg.webp",
       imageWidth: 1924,
       imageHeight: 849,
@@ -831,27 +832,27 @@ const BlogResults = ({ filters }) => {
     {
       id: 83,
       title: "Who To See for Ankle Pain",
-      url: "https://qckinetix.com/blog/who-to-see-for-ankle-pain/",
-      image: "https://qckinetix.com/wp-content/uploads/2023/12/pexels-kindelmedia-7298678-scaled-1.jpg",
-      imageWidth: 2560,
-      imageHeight: 1442,
+      url: "/blog/who-to-see-for-ankle-pain",
+      image: "https://qckinetix.com/wp-content/uploads/2023/12/pexels-kindelmedia-7298678-scaled-1-1024x577.jpg",
+      imageWidth: 800,
+      imageHeight: 451,
       author: "QC Kinetix",
       date: "December 1, 2023"
     },
     {
       id: 84,
       title: "What Does Ligament Pain Feel Like",
-      url: "https://qckinetix.com/blog/what-does-ligament-pain-feel-like/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/04/pexels-shvets-production-6991889-scaled-1.jpg",
-      imageWidth: 1709,
-      imageHeight: 2560,
+      url: "/blog/what-does-ligament-pain-feel-like",
+      image: "https://qckinetix.com/wp-content/uploads/2024/04/pexels-shvets-production-6991889-scaled-1-684x1024.jpg",
+      imageWidth: 684,
+      imageHeight: 1024,
       author: "QC Kinetix",
       date: "November 29, 2023"
     },
     {
       id: 85,
       title: "¿La prótesis de rodilla es ambulatoria?",
-      url: "https://qckinetix.com/blog/la-protesis-de-rodilla-es-ambulatoria/",
+      url: "/blog/la-protesis-de-rodilla-es-ambulatoria",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/Is-Knee-Replacement-Outpatient.jpg.webp",
       imageWidth: 936,
       imageHeight: 636,
@@ -861,7 +862,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 86,
       title: "Cómo evitar la artroplastia de rodilla",
-      url: "https://qckinetix.com/blog/como-evitar-la-protesis-de-rodilla/",
+      url: "/blog/como-evitar-la-protesis-de-rodilla",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/b1a7845e08c732574739e67b6752b565.png",
       imageWidth: 536,
       imageHeight: 447,
@@ -871,7 +872,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 87,
       title: "¿Es legítima la medicina regenerativa?",
-      url: "https://qckinetix.com/blog/legitima-la-medicina-regenerativa/",
+      url: "/blog/legitima-la-medicina-regenerativa",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/Is-Regenerative-Medicine-Legit.png.webp",
       imageWidth: 1248,
       imageHeight: 710,
@@ -881,7 +882,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 88,
       title: "Crema analgésica de CBD",
-      url: "https://qckinetix.com/blog/crema-analgesica-de-cbd/",
+      url: "/blog/crema-analgesica-de-cbd",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/SorenessCream-mockup_1oz-2oz-bowl.png.webp",
       imageWidth: 1440,
       imageHeight: 1800,
@@ -891,17 +892,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 89,
       title: "What Causes Round Ligament Pain?",
-      url: "https://qckinetix.com/blog/what-causes-round-ligament-pain/",
-      image: "https://qckinetix.com/wp-content/uploads/2023/11/pexels-mart-production-7088530-scaled-1.jpg",
-      imageWidth: 2560,
-      imageHeight: 1707,
+      url: "/blog/what-causes-round-ligament-pain",
+      image: "https://qckinetix.com/wp-content/uploads/2023/11/pexels-mart-production-7088530-scaled-1-1024x683.jpg",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "November 11, 2023"
     },
     {
       id: 90,
       title: "Why Do Tendons Take So Long To Heal?",
-      url: "https://qckinetix.com/blog/why-do-tendons-take-so-long-to-heal/",
+      url: "/blog/why-do-tendons-take-so-long-to-heal",
       image: "https://qckinetix.com/wp-content/uploads/2024/01/7a5041d5fb808fe25b46ed1b1f19e62f.png",
       imageWidth: 324,
       imageHeight: 238,
@@ -911,17 +912,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 91,
       title: "Who To See for Knee Pain",
-      url: "https://qckinetix.com/blog/who-to-see-for-knee-pain/",
-      image: "https://qckinetix.com/wp-content/uploads/2023/10/elderly-man-having-knee-injury-scaled-1.jpg",
-      imageWidth: 2560,
-      imageHeight: 1708,
+      url: "/blog/who-to-see-for-knee-pain",
+      image: "https://qckinetix.com/wp-content/uploads/2023/10/elderly-man-having-knee-injury-scaled-1-1024x683.jpg",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "October 21, 2023"
     },
     {
       id: 92,
       title: "Is Knee Replacement Outpatient?",
-      url: "https://qckinetix.com/blog/is-knee-replacement-outpatient/",
+      url: "/blog/is-knee-replacement-outpatient",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/orthopedic-business-1024x656.jpg.webp",
       imageWidth: 1024,
       imageHeight: 656,
@@ -931,7 +932,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 93,
       title: "How To Avoid Knee Replacement",
-      url: "https://qckinetix.com/blog/how-to-avoid-knee-replacement/",
+      url: "/blog/how-to-avoid-knee-replacement",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/sports-franchise-1024x685.jpg.webp",
       imageWidth: 1024,
       imageHeight: 685,
@@ -941,7 +942,7 @@ const BlogResults = ({ filters }) => {
     {
       id: 94,
       title: "Torn Labrum Shoulder Recovery Without Surgery: 6 Alternatives",
-      url: "https://qckinetix.com/blog/torn-labrum-shoulder-recovery-without-surgery/",
+      url: "/blog/torn-labrum-shoulder-recovery-without-surgery",
       image: "https://qckinetix.com/wp-content/uploads/2024/02/torn-labrum-shoulder-recovery-without-surgery-1024x683.jpg.webp",
       imageWidth: 1024,
       imageHeight: 683,
@@ -951,17 +952,17 @@ const BlogResults = ({ filters }) => {
     {
       id: 95,
       title: "Hormigueo en las manos: ¿Qué puede ser?",
-      url: "https://qckinetix.com/blog/hormigueo-en-las-manos/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/04/tingling-in-hands-2048x1366.jpg.webp",
-      imageWidth: 2048,
-      imageHeight: 1366,
+      url: "/blog/hormigueo-en-las-manos",
+      image: "https://qckinetix.com/wp-content/uploads/2024/04/tingling-in-hands-2048x1366.jpg-1024x683.webp",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "August 31, 2023"
     },
     {
       id: 96,
       title: "Alternativas a la prótesis de rodilla: Lo que hay que saber",
-      url: "https://qckinetix.com/blog/protesis-de-rodilla-alternativas/",
+      url: "/blog/protesis-de-rodilla-alternativas",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/knee-replacement-alternatives.jpg.webp",
       imageWidth: 1411,
       imageHeight: 944,
@@ -969,29 +970,29 @@ const BlogResults = ({ filters }) => {
       date: "July 26, 2023"
     },
     {
-      id: 97,
+      id: 100,
       title: "Dolor de espalda por las mañanas: ¿Qué puede ser y cómo tratarlo?",
-      url: "https://qckinetix.com/blog/dolor-lumbar-matutino/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/03/lower-back-pain-in-the-morning-2048x1366.jpg.webp",
-      imageWidth: 2048,
-      imageHeight: 1366,
+      url: "/blog/dolor-lumbar-matutino",
+      image: "https://qckinetix.com/wp-content/uploads/2024/03/lower-back-pain-in-the-morning-2048x1366.jpg-1024x683.webp",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "June 23, 2023"
     },
     {
-      id: 98,
+      id: 99,
       title: "Dolor de cadera en las mujeres: Posibles causas y opciones de tratamiento",
-      url: "https://qckinetix.com/blog/dolor-de-cadera-en-las-mujeres/",
-      image: "https://qckinetix.com/wp-content/uploads/2024/03/Hip-pain-in-women-2048x1368.jpg.webp",
-      imageWidth: 2048,
-      imageHeight: 1368,
+      url: "/blog/dolor-de-cadera-en-las-mujeres",
+      image: "https://qckinetix.com/wp-content/uploads/2024/03/Hip-pain-in-women-2048x1368.jpg-1024x684.webp",
+      imageWidth: 800,
+      imageHeight: 534,
       author: "QC Kinetix",
       date: "June 5, 2023"
     },
     {
-      id: 99,
+      id: 98,
       title: "Bursitis de hombro: Síntomas, causas y opciones de tratamiento",
-      url: "https://qckinetix.com/blog/hombro-bursitis/",
+      url: "/blog/hombro-bursitis",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/shoulder-bursitis-1-1.jpg",
       imageWidth: 1417,
       imageHeight: 1029,
@@ -999,9 +1000,9 @@ const BlogResults = ({ filters }) => {
       date: "April 19, 2023"
     },
     {
-      id: 100,
+      id: 97,
       title: "Suplemento para el dolor de hombro: Qué ingredientes buscar y cuáles evitar",
-      url: "https://qckinetix.com/blog/suplemento-para-el-dolor-de-hombro/",
+      url: "/blog/suplemento-para-el-dolor-de-hombro",
       image: "https://qckinetix.com/wp-content/uploads/2024/04/shoulder-pain-supplement.jpg.webp",
       imageWidth: 1870,
       imageHeight: 1249,
@@ -1009,9 +1010,9 @@ const BlogResults = ({ filters }) => {
       date: "April 6, 2023"
     },
     {
-      id: 101,
+      id: 96,
       title: "Lumbar rhizotomy: Risks and alternatives to surgery",
-      url: "https://qckinetix.com/blog/rizotomia-lumbar/",
+      url: "/blog/rizotomia-lumbar",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/lumbar-rhizotomy.jpg.webp",
       imageWidth: 1692,
       imageHeight: 1084,
@@ -1019,9 +1020,9 @@ const BlogResults = ({ filters }) => {
       date: "February 22, 2023"
     },
     {
-      id: 102,
+      id: 95,
       title: "Tendinopatía glútea: Descripción y opciones de tratamiento",
-      url: "https://qckinetix.com/blog/gluteo-tendinopatia/",
+      url: "/blog/gluteo-tendinopatia",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/gluteal-tendinopathy.jpg-1.webp",
       imageWidth: 800,
       imageHeight: 534,
@@ -1029,9 +1030,9 @@ const BlogResults = ({ filters }) => {
       date: "December 8, 2022"
     },
     {
-      id: 103,
+      id: 94,
       title: "Tiempo de recuperación de la rotura de menisco: Cómo varía y alternativas a la cirugía",
-      url: "https://qckinetix.com/blog/recuperacion-tiempo-de-menisco-roto/",
+      url: "/blog/recuperacion-tiempo-de-menisco-roto",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/recovery-time-of-torn-meniscus.jpg.webp",
       imageWidth: 1430,
       imageHeight: 825,
@@ -1039,9 +1040,9 @@ const BlogResults = ({ filters }) => {
       date: "November 14, 2022"
     },
     {
-      id: 104,
+      id: 93,
       title: "Fisioterapia para la fascitis plantar: ¿Ayuda?",
-      url: "https://qckinetix.com/blog/terapia-fisica-de-la-fascitis-plantar/",
+      url: "/blog/terapia-fisica-de-la-fascitis-plantar",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/plantar-fasciitis-physical-therapy.jpg.webp",
       imageWidth: 1924,
       imageHeight: 849,
@@ -1049,9 +1050,9 @@ const BlogResults = ({ filters }) => {
       date: "October 21, 2022"
     },
     {
-      id: 105,
+      id: 92,
       title: "Todos los suplementos para la salud ósea NO son iguales: así se elige",
-      url: "https://qckinetix.com/blog/suplementos-para-la-salud-osea/",
+      url: "/blog/suplementos-para-la-salud-osea",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/bone-health-supplements.jpg-1.webp",
       imageWidth: 1524,
       imageHeight: 1014,
@@ -1059,9 +1060,9 @@ const BlogResults = ({ filters }) => {
       date: "October 20, 2022"
     },
     {
-      id: 106,
+      id: 91,
       title: "Supplements for Back Pain: What You Need to Know and How They Can Help You",
-      url: "https://qckinetix.com/blog/complementos-dolor-de-espalda/",
+      url: "/blog/complementos-dolor-de-espalda",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/back-pain-supplements.jpg-1.webp",
       imageWidth: 1430,
       imageHeight: 928,
@@ -1069,9 +1070,9 @@ const BlogResults = ({ filters }) => {
       date: "September 22, 2022"
     },
     {
-      id: 107,
+      id: 90,
       title: "Medicina Regenerativa: Cómo puede ayudarle y qué debe saber",
-      url: "https://qckinetix.com/blog/medicina-regenerativa-como-puede-ayudarle-y-lo-que-debe-saber/",
+      url: "/blog/medicina-regenerativa-como-puede-ayudarle-y-lo-que-debe-saber",
       image: "https://qckinetix.com/wp-content/uploads/2024/03/regenerative-therapy.jpg.webp",
       imageWidth: 1430,
       imageHeight: 1078,
@@ -1079,9 +1080,9 @@ const BlogResults = ({ filters }) => {
       date: "July 26, 2022"
     },
     {
-      id: 108,
+      id: 89,
       title: "QC Kinetix celebra la apertura de su clínica número 100",
-      url: "https://qckinetix.com/blog/qc-kinetix-celebra-la-apertura-de-su-clinica-numero-100/",
+      url: "/blog/qc-kinetix-celebra-la-apertura-de-su-clinica-numero-100",
       image: "",
       imageWidth: 0,
       imageHeight: 0,
@@ -1282,37 +1283,69 @@ const BlogResults = ({ filters }) => {
       <div className="blog-results-container">
         <div id="filter-results" style={{ opacity: 1 }}>
           <div className="posts-grid">
-            {currentPosts.map((post) => (
-              <div key={post.id} className="post-item">
-                <div className="thumbnail">
-                  {post.image && (
-                    <a href={post.url}>
+            {currentPosts.map((post) => {
+              const isExternal = post.url.startsWith('http');
+              const cleanUrl = isExternal ? post.url : post.url.replace(/\/$/, '');
+              
+              return (
+                <div key={post.id} className="post-item">
+                  <div className="thumbnail">
+                    {post.image && (
+                      isExternal ? (
+                        <a href={cleanUrl} target="_blank" rel="noopener noreferrer">
+                          <img
+                            src={post.image}
+                            className="attachment-full size-full wp-post-image"
+                            alt={post.title || 'Blog post image'}
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </a>
+                      ) : (
+                        <Link to={cleanUrl}>
+                          <img
+                            src={post.image}
+                            className="attachment-full size-full wp-post-image"
+                            alt={post.title || 'Blog post image'}
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </Link>
+                      )
+                    )}
+                  </div>
+                  <h3 className="title">
+                    {isExternal ? (
+                      <a href={cleanUrl} target="_blank" rel="noopener noreferrer" dangerouslySetInnerHTML={{ __html: post.title }} />
+                    ) : (
+                      <Link to={cleanUrl} dangerouslySetInnerHTML={{ __html: post.title }} />
+                    )}
+                  </h3>
+                  <div className="meta">
+                    <span className="author">{post.author}</span> | <span className="date">{post.date}</span>
+                  </div>
+                  {isExternal ? (
+                    <a href={cleanUrl} target="_blank" rel="noopener noreferrer" className="read-more">
+                      Read More{' '}
                       <img
-                        src={post.image}
-                        className="attachment-full size-full wp-post-image"
-                        alt=""
-                        decoding="async"
-                        loading="lazy"
+                        src="https://qckinetix.com/wp-content/uploads/2025/04/Group-503.svg"
+                        alt="Arrow Icon"
+                        style={{ marginLeft: '8px', width: '13px', height: '11px' }}
                       />
                     </a>
+                  ) : (
+                    <Link className="read-more" to={cleanUrl}>
+                      Read More{' '}
+                      <img
+                        src="https://qckinetix.com/wp-content/uploads/2025/04/Group-503.svg"
+                        alt="Arrow Icon"
+                        style={{ marginLeft: '8px', width: '13px', height: '11px' }}
+                      />
+                    </Link>
                   )}
                 </div>
-                <h3 className="title">
-                  <a href={post.url} dangerouslySetInnerHTML={{ __html: post.title }} />
-                </h3>
-                <div className="meta">
-                  <span className="author">{post.author}</span> | <span className="date">{post.date}</span>
-                </div>
-                <a className="read-more" href={post.url}>
-                  Read More{' '}
-                  <img
-                    src="https://qckinetix.com/wp-content/uploads/2025/04/Group-503.svg"
-                    alt="Arrow Icon"
-                    style={{ marginLeft: '8px', width: '13px', height: '11px' }}
-                  />
-                </a>
-              </div>
-            ))}
+              );
+            })}
           </div>
           <div className="pagination">{renderPagination()}</div>
         </div>

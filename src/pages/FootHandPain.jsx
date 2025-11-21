@@ -1,16 +1,19 @@
-import FootHandPainHero from '../components/Sections/FootHandPainHero';
-import RegenerativeTherapyForFootHandPain from '../components/Sections/RegenerativeTherapyForFootHandPain';
-import WhatIsRegenerativeFootHandPainTherapy from '../components/Sections/WhatIsRegenerativeFootHandPainTherapy';
-import FootHandCandidate from '../components/Sections/FootHandCandidate';
-import SectionDivider from '../components/Sections/SectionDivider';
-import BenefitsOfNonsurgicalFootHandTreatments from '../components/Sections/BenefitsOfNonsurgicalFootHandTreatments';
-import ReadyToReduceFootHandPain from '../components/Sections/ReadyToReduceFootHandPain';
+import SEO from '../components/SEO/SEO';
+import FootHandPainHero from '../components/Sections/FootHandPain/FootHandPainHero';
+import RegenerativeTherapyForFootHandPain from '../components/Sections/FootHandPain/RegenerativeTherapyForFootHandPain';
+import WhatIsRegenerativeFootHandPainTherapy from '../components/Sections/FootHandPain/WhatIsRegenerativeFootHandPainTherapy';
+import FootHandCandidate from '../components/Sections/FootHandPain/FootHandCandidate';
+import SectionDivider from '../components/Sections/FootHandPain/SectionDivider';
+import BenefitsOfNonsurgicalFootHandTreatments from '../components/Sections/FootHandPain/BenefitsOfNonsurgicalFootHandTreatments';
+import ReadyToReduceFootHandPain from '../components/Sections/FootHandPain/ReadyToReduceFootHandPain';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
 
 const FootHandPain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <FootHandPainHero />
       <RegenerativeTherapyForFootHandPain />
       <WhatIsRegenerativeFootHandPainTherapy />
@@ -20,7 +23,8 @@ const FootHandPain = () => {
       <ReadyToReduceFootHandPain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

@@ -70,15 +70,19 @@
 }
 
 .quote-icon {
-  font-size: 100px;
-  line-height: 1;       /* keep within container without overflow */
-  color: #159a00;
+  flex-shrink: 0;
   margin: 0;            /* no extra margins */
   display: inline-block;/* avoid extra height per line */
 }
 
+.quote-icon img {
+  width: 30px;
+  height: auto;
+  display: block;
+}
+
 .success-quote {
-  margin: 50px 0 0; /* lower text relative to icon */
+  margin: 0; /* no top margin needed with icon image */
   color: #213b55;
   font-size: 15px; /* slightly larger text */
   max-width: 340px; /* narrower to reduce visual extension */
@@ -98,7 +102,7 @@
     padding-top: 0;
     column-gap: 8px;
   }
-  .quote-icon { font-size: 64px; }
+  .quote-icon img { width: 24px; }
   .success-quote {
     margin: 8px 0 0;
     max-width: 100%; /* in responsive use available width */
@@ -113,13 +117,13 @@
   .success-story-card { gap: 12px; padding: 16px; }
   .person-name { font-size: 18px; }
   .person-role { font-size: 14px; }
-  .quote-icon { font-size: 48px; }
+  .quote-icon img { width: 20px; }
   .success-quote { font-size: 14px; }
 }
 
 @media (max-width: 400px) {
   .success-story-card { padding: 14px; }
-  .quote-icon { font-size: 40px; }
+  .quote-icon img { width: 18px; }
   .success-quote { font-size: 13px; }
 }
 

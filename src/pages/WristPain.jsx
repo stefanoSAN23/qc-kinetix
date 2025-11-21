@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import WristPainHero from '../components/Sections/WristPain/WristPainHero';
 import NonsurgicalWristTreatments from '../components/Sections/WristPain/NonsurgicalWristTreatments';
 import WhatIsRegenerativeWristTherapy from '../components/Sections/WristPain/WhatIsRegenerativeWristTherapy';
@@ -10,7 +11,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const WristPain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <WristPainHero />
       <NonsurgicalWristTreatments />
       <WhatIsRegenerativeWristTherapy />
@@ -20,7 +23,8 @@ const WristPain = () => {
       <ReadyToReduceWristPain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

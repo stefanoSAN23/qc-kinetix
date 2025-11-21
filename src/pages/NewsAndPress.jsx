@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import SEO from '../components/SEO/SEO';
 import NewsHero from '../components/Sections/News/NewsHero';
 import NewsResults from '../components/Sections/News/NewsResults';
 import ContactForm from '../components/Forms/ContactForm';
@@ -10,11 +11,14 @@ const NewsAndPress = () => {
   }, []);
 
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <NewsHero />
       <NewsResults />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

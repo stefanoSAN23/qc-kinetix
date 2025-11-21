@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import ConditionsHero from '../components/Sections/Conditions/ConditionsHero';
 import HowRegenerativeTreatsPain from '../components/Sections/Conditions/HowRegenerativeTreatsPain';
 import AllConditionsTreated from '../components/Sections/Conditions/AllConditionsTreated';
@@ -9,7 +10,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 function Conditions() {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <ConditionsHero />
       <HowRegenerativeTreatsPain />
       <AllConditionsTreated />
@@ -18,7 +21,8 @@ function Conditions() {
       <ConditionsFAQs />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 }
 

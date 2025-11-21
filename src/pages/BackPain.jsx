@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import BackPainHero from '../components/Sections/BackPain/BackPainHero';
 import RegenerativeTherapyForBackPain from '../components/Sections/BackPain/RegenerativeTherapyForBackPain';
 import WhatIsRegenerativeBackPainTherapy from '../components/Sections/BackPain/WhatIsRegenerativeBackPainTherapy';
@@ -10,7 +11,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const BackPain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <BackPainHero />
       <RegenerativeTherapyForBackPain />
       <WhatIsRegenerativeBackPainTherapy />
@@ -20,7 +23,8 @@ const BackPain = () => {
       <ReadyToReduceBackPain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

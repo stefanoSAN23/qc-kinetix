@@ -1,16 +1,19 @@
-import FingerToePainHero from '../components/Sections/FingerToePainHero';
-import RegenerativeTherapyForFingerToePain from '../components/Sections/RegenerativeTherapyForFingerToePain';
-import WhatIsRegenerativeFingerToePainTherapy from '../components/Sections/WhatIsRegenerativeFingerToePainTherapy';
-import FingerToeCandidate from '../components/Sections/FingerToeCandidate';
-import SectionDivider from '../components/Sections/SectionDivider';
-import BenefitsOfNonsurgicalFingerToeTreatments from '../components/Sections/BenefitsOfNonsurgicalFingerToeTreatments';
-import ReadyToReduceFingerToePain from '../components/Sections/ReadyToReduceFingerToePain';
+import SEO from '../components/SEO/SEO';
+import FingerToePainHero from '../components/Sections/FingerToePain/FingerToePainHero';
+import RegenerativeTherapyForFingerToePain from '../components/Sections/FingerToePain/RegenerativeTherapyForFingerToePain';
+import WhatIsRegenerativeFingerToePainTherapy from '../components/Sections/FingerToePain/WhatIsRegenerativeFingerToePainTherapy';
+import FingerToeCandidate from '../components/Sections/FingerToePain/FingerToeCandidate';
+import SectionDivider from '../components/Sections/FingerToePain/SectionDivider';
+import BenefitsOfNonsurgicalFingerToeTreatments from '../components/Sections/FingerToePain/BenefitsOfNonsurgicalFingerToeTreatments';
+import ReadyToReduceFingerToePain from '../components/Sections/FingerToePain/ReadyToReduceFingerToePain';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
 
 const FingerToePain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <FingerToePainHero />
       <RegenerativeTherapyForFingerToePain />
       <WhatIsRegenerativeFingerToePainTherapy />
@@ -20,7 +23,8 @@ const FingerToePain = () => {
       <ReadyToReduceFingerToePain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

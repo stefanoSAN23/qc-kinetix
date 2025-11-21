@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import SEO from '../components/SEO/SEO';
 import BlogHero from '../components/Sections/Blog/BlogHero';
 import BlogFilters from '../components/Sections/Blog/BlogFilters';
 import BlogResults from '../components/Sections/Blog/BlogResults';
@@ -21,12 +22,15 @@ const RegenerativeMedicineBlog = () => {
   }, []);
 
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <BlogHero />
       <BlogFilters onFilterChange={handleFilterChange} />
       <BlogResults filters={filters} />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

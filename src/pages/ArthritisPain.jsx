@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import ArthritisPainHero from '../components/Sections/ArthritisPain/ArthritisPainHero';
 import RegenerativeTherapyForArthritisPain from '../components/Sections/ArthritisPain/RegenerativeTherapyForArthritisPain';
 import WhatIsRegenerativeArthritisPainTherapy from '../components/Sections/ArthritisPain/WhatIsRegenerativeArthritisPainTherapy';
@@ -10,7 +11,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const ArthritisPain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <ArthritisPainHero />
       <RegenerativeTherapyForArthritisPain />
       <WhatIsRegenerativeArthritisPainTherapy />
@@ -20,7 +23,8 @@ const ArthritisPain = () => {
       <ReadyToReduceArthritisPain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

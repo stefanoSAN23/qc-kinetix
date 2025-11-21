@@ -1,0 +1,412 @@
+.post-content-section {
+  padding: 1px 20px 60px;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.post-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post-title {
+  font-size: clamp(32px, 4vw, 50px);
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.0;
+  margin: 0 auto 40px;
+  text-align: center;
+  max-width: 900px;
+}
+
+.post-article-content {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.post-article-content p {
+  margin: 0 0 24px;
+  color: #333;
+}
+
+.post-article-content a {
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.post-article-content a:hover {
+  color: #0d6e00;
+}
+
+.post-article-content strong {
+  font-weight: 700;
+  color: #000;
+}
+
+.post-article-content h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+  margin: 40px 0 24px;
+}
+
+.post-article-content h2:first-of-type {
+  margin-top: 0;
+}
+
+.post-article-content h3 {
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+  margin: 35px 0 20px;
+}
+
+.post-article-content ul,
+.post-article-content ol {
+  margin: 24px 0;
+  padding-left: 30px;
+  list-style-type: disc;
+}
+
+.post-article-content ol {
+  list-style-type: decimal;
+}
+
+.post-article-content li {
+  margin: 12px 0;
+  color: #333;
+  line-height: 1.8;
+}
+
+.post-article-content hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 40px 0 24px;
+}
+
+.post-article-content .post-faq,
+.post-article-content [class*="post-faq"] {
+  margin: 40px 0;
+}
+
+.post-article-content .post-faq-item,
+.post-article-content [class*="post-faq-item"] {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.post-article-content .post-faq-item:last-child,
+.post-article-content [class*="post-faq-item"]:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.post-article-content .post-faq-item h3,
+.post-article-content [class*="post-faq-item"] h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 16px;
+  line-height: 1.4;
+}
+
+.post-article-content .post-faq-answer,
+.post-article-content [class*="post-faq-answer"] {
+  color: #333;
+  line-height: 1.8;
+}
+
+.post-article-content .post-faq-answer p,
+.post-article-content [class*="post-faq-answer"] p {
+  margin: 0;
+}
+
+.post-article-content .post-separator,
+.post-article-content [class*="post-separator"] {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 40px 0 24px;
+}
+
+.post-article-content .post-disclaimer,
+.post-article-content [class*="post-disclaimer"] {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0;
+}
+
+.post-categories {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.post-categories-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.post-category-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.post-category-prefix {
+  color: #666;
+}
+
+.post-categories-list-items {
+  color: #333;
+}
+
+.post-category-tag {
+  color: #159A00;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .post-content-section {
+    padding: 35px 20px 50px;
+  }
+  
+  .post-content-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .post-title {
+    margin-bottom: 35px;
+  }
+  
+  .post-article-content {
+    font-size: 17px;
+  }
+  
+  .post-article-content h2 {
+    margin: 35px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-content-section {
+    padding: 30px 18px 40px;
+  }
+  
+  .post-title {
+    margin-bottom: 30px;
+    font-size: clamp(28px, 5vw, 36px);
+  }
+  
+  .post-article-content {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  
+  .post-article-content p {
+    margin-bottom: 20px;
+  }
+  
+  .post-article-content h2 {
+    font-size: clamp(22px, 4vw, 28px);
+    margin: 30px 0 18px;
+  }
+  
+  .post-article-content ul,
+  .post-article-content ol {
+    margin: 20px 0;
+    padding-left: 25px;
+  }
+  
+  .post-article-content li {
+    margin: 10px 0;
+  }
+  
+  .post-categories {
+    margin-top: 35px;
+    padding-top: 25px;
+  }
+  
+  .post-category-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .post-content-section {
+    padding: 25px 16px 35px;
+  }
+  
+  .post-title {
+    margin-bottom: 25px;
+  }
+  
+  .post-article-content {
+    font-size: 15px;
+  }
+  
+  .post-article-content p {
+    margin-bottom: 18px;
+  }
+  
+  .post-article-content h2 {
+    margin: 25px 0 16px;
+  }
+  
+  .post-article-content ul,
+  .post-article-content ol {
+    margin: 18px 0;
+    padding-left: 20px;
+  }
+  
+  .post-article-content li {
+    margin: 8px 0;
+  }
+  
+  .post-category-item {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-content-section {
+    padding: 20px 14px 30px;
+  }
+  
+  .post-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .post-article-content {
+    font-size: 14px;
+  }
+  
+  .post-article-content p {
+    margin-bottom: 16px;
+  }
+  
+  .post-article-content h2 {
+    font-size: 20px;
+    margin: 20px 0 14px;
+  }
+  
+  .post-article-content ul,
+  .post-article-content ol {
+    margin: 16px 0;
+    padding-left: 18px;
+  }
+  
+  .post-article-content li {
+    margin: 6px 0;
+  }
+  
+  .post-category-item {
+    font-size: 12px;
+  }
+}
+
+/* Specific styles for "the-most-common-uses-of-prp" post columns section */
+.post-article-content .prp-uses-columns {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+
+.post-article-content .prp-uses-image-column {
+  flex: 0 0 auto;
+  width: 40%;
+  max-width: 400px;
+}
+
+.post-article-content .prp-uses-image-column img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.post-article-content .prp-uses-text-column {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.post-article-content .prp-uses-text-column h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .post-article-content .prp-uses-columns {
+    gap: 30px;
+  }
+  
+  .post-article-content .prp-uses-image-column {
+    width: 45%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .post-article-content .prp-uses-columns {
+    flex-direction: column;
+    gap: 24px;
+    margin: 30px 0;
+  }
+  
+  .post-article-content .prp-uses-image-column {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .post-article-content .prp-uses-image-column img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .post-article-content .prp-uses-text-column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .post-article-content .prp-uses-columns {
+    gap: 20px;
+    margin: 25px 0;
+  }
+  
+  .post-article-content .prp-uses-image-column img {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-article-content .prp-uses-columns {
+    gap: 18px;
+    margin: 20px 0;
+  }
+  
+  .post-article-content .prp-uses-image-column img {
+    max-width: 90%;
+  }
+}
+

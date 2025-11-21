@@ -36,13 +36,13 @@ const HipPainHero = () => {
           <div className="hip-pain-breadcrumb">
             <a href="/conditions/">Conditions Treated</a> &gt; Hip Pain Relief
           </div>
-          <h2
+          <h1
             className="hip-pain-title animated fadeInDown"
             data-animate-immediate="true"
             ref={titleRef}
           >
             Hip Pain Relief
-          </h2>
+          </h1>
         </div>
       </div>
     </section>

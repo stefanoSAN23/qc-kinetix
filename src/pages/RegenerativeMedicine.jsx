@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import RegenerativeHero from '../components/Sections/RegenerativeMedicine/RegenerativeHero';
 import WhatIsRegenerativeUsedFor from '../components/Sections/RegenerativeMedicine/WhatIsRegenerativeUsedFor';
 import AlternativesToSurgery from '../components/Sections/RegenerativeMedicine/AlternativesToSurgery';
@@ -9,16 +10,19 @@ import ContactForm from '../components/Forms/ContactForm';
 
 function RegenerativeMedicine() {
   return (
-    <main>
-      <RegenerativeHero />
-      <WhatIsRegenerativeUsedFor />
-      <AlternativesToSurgery />
-      <RegenerativeProcess />
-      <Benefits />
-      <GreatCandidate />
-      <FAQs />
-      <ContactForm />
-    </main>
+    <>
+      <SEO />
+      <main>
+        <RegenerativeHero />
+        <WhatIsRegenerativeUsedFor />
+        <AlternativesToSurgery />
+        <RegenerativeProcess />
+        <Benefits />
+        <GreatCandidate />
+        <FAQs />
+        <ContactForm />
+      </main>
+    </>
   );
 }
 

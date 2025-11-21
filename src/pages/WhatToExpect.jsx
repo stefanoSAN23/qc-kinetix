@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import WhatToExpectHero from '../components/Sections/WhatToExpect/WhatToExpectHero';
 import PainReliefJourney from '../components/Sections/WhatToExpect/PainReliefJourney';
 import BodyPainMap from '../components/Sections/BodyPainMap';
@@ -8,7 +9,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const WhatToExpect = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <WhatToExpectHero />
       <PainReliefJourney />
       <BodyPainMap hideConsultationButton />
@@ -16,7 +19,8 @@ const WhatToExpect = () => {
       <Testimonials />
       <WhatToExpectFAQs />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

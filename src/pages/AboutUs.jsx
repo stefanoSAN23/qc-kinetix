@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import AboutHero from '../components/Sections/AboutUs/AboutHero';
 import QCKinetixDifference from '../components/Sections/QCKinetixDifference';
 import RegenerativeProviders from '../components/Sections/AboutUs/RegenerativeProviders';
@@ -10,7 +11,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const AboutUs = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <AboutHero />
       <QCKinetixDifference hideButton />
       <RegenerativeProviders />
@@ -20,7 +23,8 @@ const AboutUs = () => {
           <FindLocation />
       <NewsStoryHighlight />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

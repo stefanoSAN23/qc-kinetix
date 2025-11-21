@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import KneePainHero from '../components/Sections/KneePain/KneePainHero';
 import RegenerativeTherapyForKneePain from '../components/Sections/KneePain/RegenerativeTherapyForKneePain';
 import WhatIsRegenerativeKneePainTherapy from '../components/Sections/KneePain/WhatIsRegenerativeKneePainTherapy';
@@ -10,17 +11,20 @@ import ContactForm from '../components/Forms/ContactForm';
 
 function KneePain() {
   return (
-    <main>
-      <KneePainHero />
-      <RegenerativeTherapyForKneePain />
-      <WhatIsRegenerativeKneePainTherapy />
-      <AreYouACandidate />
-      <SectionDivider />
-      <BenefitsOfNonsurgicalKneeTreatments />
-      <ReadyToReduceKneePain />
-      <Testimonials />
-      <ContactForm />
-    </main>
+    <>
+      <SEO />
+      <main>
+        <KneePainHero />
+        <RegenerativeTherapyForKneePain />
+        <WhatIsRegenerativeKneePainTherapy />
+        <AreYouACandidate />
+        <SectionDivider />
+        <BenefitsOfNonsurgicalKneeTreatments />
+        <ReadyToReduceKneePain />
+        <Testimonials />
+        <ContactForm />
+      </main>
+    </>
   );
 }
 

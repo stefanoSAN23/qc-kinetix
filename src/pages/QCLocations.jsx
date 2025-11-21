@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import SEO from '../components/SEO/SEO';
 import QCLocationsHero from '../components/Sections/Locations/QCLocationsHero';
 import QCLocationsInfo from '../components/Sections/Locations/QCLocationsInfo';
 import QCKinetixDifference from '../components/Sections/QCKinetixDifference';
@@ -10,12 +11,15 @@ const QCLocations = () => {
   }, []);
 
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <QCLocationsHero />
       <QCLocationsInfo />
       <QCKinetixDifference />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

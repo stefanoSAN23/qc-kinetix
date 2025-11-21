@@ -65,7 +65,15 @@ const SuccessStoriesGrid = () => {
               </div>
             </div>
             <div className="success-card-content">
-              <div className="quote-icon" aria-hidden="true">"</div>
+              <div className="quote-icon" aria-hidden="true">
+                <img 
+                  src="https://qckinetix.com/wp-content/smush-webp/2025/03/Group-293.png.webp" 
+                  alt="Quote icon" 
+                  width="60" 
+                  height="60"
+                  loading="lazy"
+                />
+              </div>
               <p className="success-quote">{s.quote}</p>
             </div>
           </article>

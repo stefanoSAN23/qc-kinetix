@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import LaserTherapyHero from '../components/Sections/ClassIVLaserTreatment/LaserTherapyHero';
 import WhatIsLaserTherapy from '../components/Sections/ClassIVLaserTreatment/WhatIsLaserTherapy';
 import LaserTherapyCandidate from '../components/Sections/ClassIVLaserTreatment/LaserTherapyCandidate';
@@ -7,14 +8,17 @@ import ContactForm from '../components/Forms/ContactForm';
 
 function ClassIVLaserTreatment() {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <LaserTherapyHero />
       <WhatIsLaserTherapy />
       <LaserTherapyCandidate />
       <BenefitsOfLaserTherapy />
       <LaserTherapyResults />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 }
 

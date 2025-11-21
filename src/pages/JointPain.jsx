@@ -1,16 +1,19 @@
-import JointPainHero from '../components/Sections/JointPainHero';
-import RegenerativeTherapyForJointPain from '../components/Sections/RegenerativeTherapyForJointPain';
-import WhatIsRegenerativeJointPainTherapy from '../components/Sections/WhatIsRegenerativeJointPainTherapy';
-import JointCandidate from '../components/Sections/JointCandidate';
-import SectionDivider from '../components/Sections/SectionDivider';
-import BenefitsOfNonsurgicalJointTreatments from '../components/Sections/BenefitsOfNonsurgicalJointTreatments';
-import ReadyToReduceJointPain from '../components/Sections/ReadyToReduceJointPain';
+import SEO from '../components/SEO/SEO';
+import JointPainHero from '../components/Sections/JointPain/JointPainHero';
+import RegenerativeTherapyForJointPain from '../components/Sections/JointPain/RegenerativeTherapyForJointPain';
+import WhatIsRegenerativeJointPainTherapy from '../components/Sections/JointPain/WhatIsRegenerativeJointPainTherapy';
+import JointCandidate from '../components/Sections/JointPain/JointCandidate';
+import SectionDivider from '../components/Sections/JointPain/SectionDivider';
+import BenefitsOfNonsurgicalJointTreatments from '../components/Sections/JointPain/BenefitsOfNonsurgicalJointTreatments';
+import ReadyToReduceJointPain from '../components/Sections/JointPain/ReadyToReduceJointPain';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
 
 const JointPain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <JointPainHero />
       <RegenerativeTherapyForJointPain />
       <WhatIsRegenerativeJointPainTherapy />
@@ -20,7 +23,8 @@ const JointPain = () => {
       <ReadyToReduceJointPain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

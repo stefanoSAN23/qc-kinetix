@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import SEO from '../components/SEO/SEO';
 import FAQHero from '../components/Sections/FAQ/FAQHero';
 import FAQAccordion from '../components/Sections/FAQ/FAQAccordion';
 import FAQImageSection from '../components/Sections/FAQ/FAQImageSection';
@@ -107,7 +108,9 @@ const FAQ = () => {
   ];
 
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <FAQHero />
       <FAQAccordion
         title="FAQs About Our Clinic"
@@ -127,7 +130,8 @@ const FAQ = () => {
       />
       <FAQResources />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

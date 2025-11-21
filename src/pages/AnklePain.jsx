@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import AnklePainHero from '../components/Sections/AnklePain/AnklePainHero';
 import RegenerativeTherapyForAnklePain from '../components/Sections/AnklePain/RegenerativeTherapyForAnklePain';
 import WhatIsRegenerativeAnklePainTherapy from '../components/Sections/AnklePain/WhatIsRegenerativeAnklePainTherapy';
@@ -10,7 +11,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const AnklePain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <AnklePainHero />
       <RegenerativeTherapyForAnklePain />
       <WhatIsRegenerativeAnklePainTherapy />
@@ -20,7 +23,8 @@ const AnklePain = () => {
       <ReadyToReduceAnklePain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

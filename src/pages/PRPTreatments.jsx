@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import PRPHero from '../components/Sections/PRPTreatments/PRPHero';
 import WhatIsPRP from '../components/Sections/PRPTreatments/WhatIsPRP';
 import PRPForBackPain from '../components/Sections/PRPTreatments/PRPForBackPain';
@@ -9,16 +10,19 @@ import ContactForm from '../components/Forms/ContactForm';
 
 function PRPTreatments() {
   return (
-    <main>
-      <PRPHero />
-      <WhatIsPRP />
-      <PRPForBackPain />
-      <PRPForKneePain />
-      <FindPRPTreatment />
-      <BenefitsOfPRP />
-      <WhyConsiderPRP />
-      <ContactForm />
-    </main>
+    <>
+      <SEO />
+      <main>
+        <PRPHero />
+        <WhatIsPRP />
+        <PRPForBackPain />
+        <PRPForKneePain />
+        <FindPRPTreatment />
+        <BenefitsOfPRP />
+        <WhyConsiderPRP />
+        <ContactForm />
+      </main>
+    </>
   );
 }
 

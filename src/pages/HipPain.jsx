@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import HipPainHero from '../components/Sections/HipPain/HipPainHero';
 import RegenerativeTherapyForHipPain from '../components/Sections/HipPain/RegenerativeTherapyForHipPain';
 import WhatIsRegenerativeHipPainTherapy from '../components/Sections/HipPain/WhatIsRegenerativeHipPainTherapy';
@@ -10,7 +11,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const HipPain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <HipPainHero />
       <RegenerativeTherapyForHipPain />
       <WhatIsRegenerativeHipPainTherapy />
@@ -20,7 +23,8 @@ const HipPain = () => {
       <ReadyToReduceHipPain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 

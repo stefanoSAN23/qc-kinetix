@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header/Header';
 import Hero from './components/Sections/Home/Hero';
 import Stats from './components/Sections/Home/Stats';
@@ -12,6 +13,7 @@ import ContactForm from './components/Forms/ContactForm';
 import Footer from './components/Footer/Footer';
 import FloatingBanner from './components/Common/FloatingBanner';
 import ScrollToTop from './components/Common/ScrollToTop';
+import SEO from './components/SEO/SEO';
 import RegenerativeMedicine from './pages/RegenerativeMedicine';
 import StemCellTreatments from './pages/StemCellTreatments';
 import PRPTreatments from './pages/PRPTreatments';
@@ -38,14 +40,7 @@ import FAQ from './pages/FAQ';
 import Webinars from './pages/Webinars';
 import QCLocations from './pages/QCLocations';
 import RequestAppointmentPage from './pages/RequestAppointment';
-import VeteranBackPain from './pages/VeteranBackPain';
-import NeckPain from './pages/NeckPain';
-import AchillesTendonitis from './pages/AchillesTendonitis';
-import RunnersKnee from './pages/RunnersKnee';
-import Sciatica from './pages/Sciatica';
-import PRPVsCortisone from './pages/PRPVsCortisone';
-import TennisElbowOfTheKnee from './pages/TennisElbowOfTheKnee';
-import CarpalTunnel from './pages/CarpalTunnel';
+import PostPage from './pages/PostPage';
 import './App.css';
 
 const HeaderManager = () => {
@@ -57,6 +52,7 @@ const HeaderManager = () => {
 function HomePage() {
   return (
     <>
+      <SEO />
       <main>
         <Hero />
         <Stats />
@@ -187,13 +183,14 @@ const AnimationInitializer = () => {
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="App">
-        <FloatingBanner />
-        <HeaderManager />
-        <AnimationInitializer />
-        <Routes>
+    <HelmetProvider>
+      <Router>
+        <ScrollToTop />
+        <div className="App">
+          <FloatingBanner />
+          <HeaderManager />
+          <AnimationInitializer />
+          <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/regenerative-medicine" element={<RegenerativeMedicine />} />
           <Route path="/regenerative-medicine/stem-cell-treatments" element={<StemCellTreatments />} />
@@ -221,18 +218,13 @@ function App() {
               <Route path="/webinars/" element={<Webinars />} />
               <Route path="/qc-locations/" element={<QCLocations />} />
               <Route path="/request-your-first-appointment/" element={<RequestAppointmentPage />} />
-              <Route path="/blog/veteran-back-pain-without-surgery/" element={<VeteranBackPain />} />
-              <Route path="/blog/neck-pain-relief-near-me-regenerative-solutions/" element={<NeckPain />} />
-              <Route path="/blog/non-surgical-achilles-tendonitis-treatment/" element={<AchillesTendonitis />} />
-              <Route path="/blog/runners-knee-regenerative-sports-medicine/" element={<RunnersKnee />} />
-              <Route path="/blog/non-surgical-sciatica-treatment-regenerative-medicine/" element={<Sciatica />} />
-              <Route path="/blog/prp-vs-cortisone-regenerative-medicine/" element={<PRPVsCortisone />} />
-              <Route path="/blog/tennis-elbow-of-the-knee/" element={<TennisElbowOfTheKnee />} />
-              <Route path="/blog/non-surgical-regenerative-carpal-tunnel-treatment/" element={<CarpalTunnel />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+              <Route path="/blog/:slug" element={<PostPage />} />
+              <Route path="/blog/:slug/" element={<PostPage />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 

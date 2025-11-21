@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import ShoulderPainHero from '../components/Sections/ShoulderPain/ShoulderPainHero';
 import NonsurgicalShoulderTreatments from '../components/Sections/ShoulderPain/NonsurgicalShoulderTreatments';
 import WhatIsRegenerativeShoulderTherapy from '../components/Sections/ShoulderPain/WhatIsRegenerativeShoulderTherapy';
@@ -10,17 +11,20 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const ShoulderPain = () => {
   return (
-    <main>
-      <ShoulderPainHero />
-      <NonsurgicalShoulderTreatments />
-      <WhatIsRegenerativeShoulderTherapy />
-      <ShoulderCandidate />
-      <SectionDivider />
-      <BenefitsOfNonsurgicalShoulderTreatments />
-      <ReadyToReduceShoulderPain />
-      <Testimonials />
-      <ContactForm />
-    </main>
+    <>
+      <SEO />
+      <main>
+        <ShoulderPainHero />
+        <NonsurgicalShoulderTreatments />
+        <WhatIsRegenerativeShoulderTherapy />
+        <ShoulderCandidate />
+        <SectionDivider />
+        <BenefitsOfNonsurgicalShoulderTreatments />
+        <ReadyToReduceShoulderPain />
+        <Testimonials />
+        <ContactForm />
+      </main>
+    </>
   );
 };
 

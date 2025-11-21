@@ -1,3 +1,4 @@
+import SEO from '../components/SEO/SEO';
 import ElbowPainHero from '../components/Sections/ElbowPain/ElbowPainHero';
 import NonsurgicalElbowTreatments from '../components/Sections/ElbowPain/NonsurgicalElbowTreatments';
 import WhatIsRegenerativeElbowTherapy from '../components/Sections/ElbowPain/WhatIsRegenerativeElbowTherapy';
@@ -10,7 +11,9 @@ import ContactForm from '../components/Forms/ContactForm';
 
 const ElbowPain = () => {
   return (
-    <main>
+    <>
+      <SEO />
+      <main>
       <ElbowPainHero />
       <NonsurgicalElbowTreatments />
       <WhatIsRegenerativeElbowTherapy />
@@ -20,7 +23,8 @@ const ElbowPain = () => {
       <ReadyToReduceElbowPain />
       <Testimonials />
       <ContactForm />
-    </main>
+      </main>
+    </>
   );
 };
 
