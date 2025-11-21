@@ -1,97 +1,97 @@
 # QC Kinetix Clone - React
 
-Este proyecto es una réplica completa de la página web de QC Kinetix, convertida de HTML/WordPress a React con Vite.
+This project is a complete replica of the QC Kinetix website, converted from HTML/WordPress to React with Vite.
 
-## 🚀 Características
+## 🚀 Features
 
-- ✅ Header completo con navegación sticky y menús desplegables
-- ✅ Hero section con video de fondo
-- ✅ Sección de estadísticas (10 Billion, 35,000+, 170+)
-- ✅ Sección "What is Regenerative Medicine"
-- ✅ Mapa interactivo del cuerpo humano
-- ✅ Sección "QC Kinetix Difference"
-- ✅ Sección "Benefits of Regenerative Medicine"
-- ✅ Carrusel de testimonios (Success Stories)
-- ✅ Formulario de contacto completo
-- ✅ Footer completo con búsqueda de ubicaciones
-- ✅ Floating Banner con persistencia en localStorage
-- ✅ Diseño responsive para móvil, tablet y desktop
-- ✅ Animaciones y efectos hover idénticos al original
+- ✅ Complete header with sticky navigation and dropdown menus
+- ✅ Hero section with background video
+- ✅ Statistics section (10 Billion, 35,000+, 170+)
+- ✅ "What is Regenerative Medicine" section
+- ✅ Interactive human body map
+- ✅ "QC Kinetix Difference" section
+- ✅ "Benefits of Regenerative Medicine" section
+- ✅ Testimonials carousel (Success Stories)
+- ✅ Complete contact form
+- ✅ Complete footer with location search
+- ✅ Floating Banner with localStorage persistence
+- ✅ Responsive design for mobile, tablet and desktop
+- ✅ Animations and hover effects identical to the original
 
-## 📦 Instalación
+## 📦 Installation
 
 ```bash
 npm install
 ```
 
-## 🛠️ Desarrollo
+## 🛠️ Development
 
 ```bash
 npm run dev
 ```
 
-El proyecto se ejecutará en `http://localhost:5173`
+The project will run on `http://localhost:5173`
 
-## 🏗️ Estructura del Proyecto
+## 🏗️ Project Structure
 
 ```
 src/
 ├── components/
-│   ├── Header/          # Header con navegación
-│   ├── Hero/            # Hero section con video
-│   ├── Stats/           # Sección de estadísticas
-│   ├── Sections/        # Todas las secciones de contenido
+│   ├── Header/          # Header with navigation
+│   ├── Hero/            # Hero section with video
+│   ├── Stats/           # Statistics section
+│   ├── Sections/        # All content sections
 │   │   ├── WhatIsRegenerative.jsx
 │   │   ├── BodyPainMap.jsx
 │   │   ├── QCKinetixDifference.jsx
 │   │   ├── Benefits.jsx
 │   │   └── Testimonials.jsx
-│   ├── Forms/           # Formularios
+│   ├── Forms/           # Forms
 │   │   └── ContactForm.jsx
-│   ├── Footer/          # Footer completo
-│   └── Common/          # Componentes comunes
+│   ├── Footer/          # Complete footer
+│   └── Common/          # Common components
 │       └── FloatingBanner.jsx
 ├── styles/
-│   └── global.css       # Estilos globales
-├── App.jsx              # Componente principal
-└── main.jsx             # Punto de entrada
+│   └── global.css       # Global styles
+├── App.jsx              # Main component
+└── main.jsx             # Entry point
 ```
 
-## 🎨 Tecnologías Utilizadas
+## 🎨 Technologies Used
 
 - React 19
 - Vite
 - Tailwind CSS
-- Swiper (para el carrusel de testimonios)
+- Swiper (for testimonials carousel)
 - CSS Modules
 
-## 📝 Notas
+## 📝 Notes
 
-- Todas las imágenes y recursos están referenciados desde la URL original de QC Kinetix
-- El formulario de contacto necesita una integración con un backend para funcionar completamente
-- El mapa del cuerpo humano tiene funcionalidad de hover para resaltar las partes del cuerpo
-- El Floating Banner se oculta automáticamente por 30 días después de ser cerrado
+- All images and resources are referenced from the original QC Kinetix URL
+- The contact form needs backend integration to work completely
+- The human body map has hover functionality to highlight body parts
+- The Floating Banner automatically hides for 30 days after being closed
 
-## 🔧 Personalización
+## 🔧 Customization
 
-Para cambiar colores, fuentes u otros estilos, edita:
-- `src/styles/global.css` - Estilos globales
-- Variables CSS en `:root` dentro de `global.css`
-- Cada componente tiene su propio archivo CSS en su carpeta
+To change colors, fonts or other styles, edit:
+- `src/styles/global.css` - Global styles
+- CSS variables in `:root` within `global.css`
+- Each component has its own CSS file in its folder
 
 ## 📱 Responsive
 
-El diseño es completamente responsive y se adapta a:
-- Móvil (< 768px)
+The design is fully responsive and adapts to:
+- Mobile (< 768px)
 - Tablet (768px - 1024px)
 - Desktop (> 1024px)
 
-## 🐛 Solución de Problemas
+## 🐛 Troubleshooting
 
-Si encuentras problemas con las imágenes:
-- Verifica que las URLs de las imágenes sean accesibles
-- Algunas imágenes pueden requerir CORS habilitado
+If you encounter issues with images:
+- Verify that image URLs are accessible
+- Some images may require CORS enabled
 
-Si el video no se reproduce:
-- Verifica que el navegador permita autoplay
-- Algunos navegadores requieren interacción del usuario primero
+If the video doesn't play:
+- Verify that the browser allows autoplay
+- Some browsers require user interaction first

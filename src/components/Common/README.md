@@ -1,15 +1,15 @@
-# Componentes Comunes Reutilizables
+# Reusable Common Components
 
 ## Button Component
 
-Componente de botón reutilizable que se puede usar en toda la aplicación.
+Reusable button component that can be used throughout the application.
 
-### Uso:
+### Usage:
 
 ```jsx
 import Button from '../Common/Button';
 
-// Botón básico
+// Basic button
 <Button 
   text="Request an Appointment" 
   href="#contact" 
@@ -17,7 +17,7 @@ import Button from '../Common/Button';
   size="small"
 />
 
-// Con onClick en lugar de href
+// With onClick instead of href
 <Button 
   text="Click me" 
   onClick={() => console.log('clicked')}
@@ -28,18 +28,18 @@ import Button from '../Common/Button';
 
 ### Props:
 
-- `text` (string): Texto del botón (default: "Request an Appointment")
-- `href` (string): URL de destino (default: "#contact")
-- `variant` (string): Estilo del botón - "primary" | "secondary" (default: "primary")
-- `size` (string): Tamaño del botón - "small" | "medium" | "large" (default: "medium")
-- `className` (string): Clases CSS adicionales
-- `onClick` (function): Función a ejecutar al hacer click (si se proporciona, se usa button en lugar de anchor)
+- `text` (string): Button text (default: "Request an Appointment")
+- `href` (string): Destination URL (default: "#contact")
+- `variant` (string): Button style - "primary" | "secondary" (default: "primary")
+- `size` (string): Button size - "small" | "medium" | "large" (default: "medium")
+- `className` (string): Additional CSS classes
+- `onClick` (function): Function to execute on click (if provided, uses button instead of anchor)
 
 ## SectionContainer Component
 
-Componente contenedor reutilizable para secciones.
+Reusable container component for sections.
 
-### Uso:
+### Usage:
 
 ```jsx
 import SectionContainer from '../Common/SectionContainer';
@@ -49,15 +49,15 @@ import SectionContainer from '../Common/SectionContainer';
   padding="80px 20px"
   background="#fff"
 >
-  {/* Contenido de la sección */}
+  {/* Section content */}
 </SectionContainer>
 ```
 
 ### Props:
 
-- `children` (ReactNode): Contenido de la sección
-- `className` (string): Clases CSS adicionales
-- `maxWidth` (string): Ancho máximo del contenedor (default: "1400px")
-- `padding` (string): Padding de la sección (default: "80px 20px")
-- `background` (string): Color de fondo (default: "#fff")
+- `children` (ReactNode): Section content
+- `className` (string): Additional CSS classes
+- `maxWidth` (string): Maximum container width (default: "1400px")
+- `padding` (string): Section padding (default: "80px 20px")
+- `background` (string): Background color (default: "#fff")
 

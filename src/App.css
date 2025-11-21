@@ -16,7 +16,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Asegurar que las imágenes se carguen correctamente */
+/* Ensure images load correctly */
 img {
   max-width: 100%;
   height: auto;

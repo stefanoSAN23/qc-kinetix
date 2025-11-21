@@ -7,7 +7,7 @@ const BlogResults = ({ filters }) => {
   const postsPerPage = 8;
   const resultsSectionRef = useRef(null);
 
-  // Todos los posts del blog
+  // All blog posts
   const allPosts = [
     {
       id: 1,

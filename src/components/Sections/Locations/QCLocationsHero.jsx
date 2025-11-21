@@ -1,29 +1,29 @@
 import { useEffect } from 'react';
 import './QCLocationsHero.css';
 
-// Configuración del mapa - EDITABLE
+// Map configuration - EDITABLE
 const MAP_CONFIG = {
-  // ID del mapa de Storepoint (cambiar este valor para usar otro mapa)
+  // Storepoint map ID (change this value to use another map)
   mapId: '1661e94a9c91e8',
   
-  // Título de la sección (puedes cambiar el texto)
+  // Section title (you can change the text)
   title: 'Find Your Nearest QC Kinetix Location',
   
-  // URL del script de Storepoint (normalmente no necesitas cambiarla)
+  // Storepoint script URL (usually you don't need to change it)
   scriptUrl: 'https://cdn.storepoint.co/api/v1/js',
   
-  // Tipo de mapa: 'storepoint' | 'google' | 'mapbox' | 'custom'
+  // Map type: 'storepoint' | 'google' | 'mapbox' | 'custom'
   mapType: 'storepoint'
 };
 
 const QCLocationsHero = ({ 
-  // Props opcionales para sobrescribir la configuración
+  // Optional props to override configuration
   mapId = MAP_CONFIG.mapId,
   title = MAP_CONFIG.title,
   mapType = MAP_CONFIG.mapType
 }) => {
   useEffect(() => {
-    // Solo cargar Storepoint si se usa ese tipo de mapa
+    // Only load Storepoint if that map type is used
     if (mapType !== 'storepoint') {
       return;
     }
@@ -69,8 +69,8 @@ const QCLocationsHero = ({
             <div id="storepoint-container" data-map-id={mapId}></div>
           ) : (
             <div className="custom-map-container">
-              {/* Aquí puedes agregar otros tipos de mapas (Google Maps, Mapbox, etc.) */}
-              <p>Mapa personalizado - Implementar según necesidad</p>
+              {/* You can add other map types here (Google Maps, Mapbox, etc.) */}
+              <p>Custom map - Implement as needed</p>
             </div>
           )}
         </div>
