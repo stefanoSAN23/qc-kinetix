@@ -157,11 +157,11 @@
 }
 
 .swiper-pagination-bullet {
-  background: var(--e-global-color-accent);
+  background: var(--qc-primary-color);
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--e-global-color-accent);
+  background: var(--qc-primary-color);
 }
 
 /* Animations */

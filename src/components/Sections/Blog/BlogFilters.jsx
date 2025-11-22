@@ -1,12 +1,22 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './BlogFilters.css';
 
-const BlogFilters = ({ onFilterChange }) => {
-  const [tempConditions, setTempConditions] = useState([]);
+const BlogFilters = ({ onFilterChange, customCategories, hideDateFilters = false, hideLanguageFilters = false, horizontalCategories = false, initialConditions = [] }) => {
+  const [tempConditions, setTempConditions] = useState(initialConditions || []);
   const [tempDateOrder, setTempDateOrder] = useState('');
   const [tempLanguages, setTempLanguages] = useState([]);
 
-  const conditionOptions = [
+  // Sync tempConditions with initialConditions when they change (from URL parameters)
+  useEffect(() => {
+    if (initialConditions && Array.isArray(initialConditions)) {
+      setTempConditions([...initialConditions]);
+    } else if (!initialConditions || initialConditions.length === 0) {
+      setTempConditions([]);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [JSON.stringify(initialConditions)]);
+
+  const defaultConditionOptions = [
     { id: 'knee-pain', label: 'Knee Pain', value: 'knee-pain' },
     { id: 'shoulder-pain', label: 'Shoulder Pain', value: 'shoulder-pain' },
     { id: 'back-pain', label: 'Back Pain', value: 'back-pain' },
@@ -21,6 +31,9 @@ const BlogFilters = ({ onFilterChange }) => {
     { id: 'foot-pain', label: 'Foot Pain', value: 'foot-pain' },
     { id: 'wrist-pain', label: 'Wrist Pain', value: 'wrist-pain' }
   ];
+
+  // Use custom categories if provided, otherwise use default
+  const conditionOptions = customCategories || defaultConditionOptions;
 
   const handleConditionChange = (value) => {
     setTempConditions(prev => {
@@ -70,14 +83,15 @@ const BlogFilters = ({ onFilterChange }) => {
   return (
     <section className="blog-filters-section">
       <div className="blog-filters-container">
-        <div className="research-filters">
+        <div className={`research-filters ${hideDateFilters && hideLanguageFilters ? 'categories-only' : ''}`}>
           {/* Sort Condition */}
-          <div className="filter-group category-filters">
+          <div className={`filter-group category-filters ${horizontalCategories ? 'horizontal-layout' : ''}`}>
             <p>Sort Condition</p>
             <div className="row">
-              <div className="fields category-fields">
-                <div className="column-sm-4">
-                  {conditionOptions.slice(0, 4).map(option => (
+              <div className={`fields category-fields ${horizontalCategories ? 'horizontal-fields' : ''}`}>
+                {horizontalCategories ? (
+                  // Horizontal layout - all categories in a single row
+                  conditionOptions.map(option => (
                     <div key={option.id} className="field">
                       <input
                         type="checkbox"
@@ -89,140 +103,165 @@ const BlogFilters = ({ onFilterChange }) => {
                       />
                       <label htmlFor={option.id}>{option.label}</label>
                     </div>
-                  ))}
-                </div>
-                <div className="column-sm-4">
-                  {conditionOptions.slice(4, 8).map(option => (
-                    <div key={option.id} className="field">
-                      <input
-                        type="checkbox"
-                        id={option.id}
-                        value={option.value}
-                        className="category"
-                        checked={tempConditions.includes(option.value)}
-                        onChange={() => handleConditionChange(option.value)}
-                      />
-                      <label htmlFor={option.id}>{option.label}</label>
+                  ))
+                ) : (
+                  // Default layout - three columns
+                  <>
+                    <div className="column-sm-4">
+                      {conditionOptions.slice(0, 4).map(option => (
+                        <div key={option.id} className="field">
+                          <input
+                            type="checkbox"
+                            id={option.id}
+                            value={option.value}
+                            className="category"
+                            checked={tempConditions.includes(option.value)}
+                            onChange={() => handleConditionChange(option.value)}
+                          />
+                          <label htmlFor={option.id}>{option.label}</label>
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
-                <div className="column-sm-4">
-                  {conditionOptions.slice(8).map(option => (
-                    <div key={option.id} className="field">
-                      <input
-                        type="checkbox"
-                        id={option.id}
-                        value={option.value}
-                        className="category"
-                        checked={tempConditions.includes(option.value)}
-                        onChange={() => handleConditionChange(option.value)}
-                      />
-                      <label htmlFor={option.id}>{option.label}</label>
+                    <div className="column-sm-4">
+                      {conditionOptions.slice(4, 8).map(option => (
+                        <div key={option.id} className="field">
+                          <input
+                            type="checkbox"
+                            id={option.id}
+                            value={option.value}
+                            className="category"
+                            checked={tempConditions.includes(option.value)}
+                            onChange={() => handleConditionChange(option.value)}
+                          />
+                          <label htmlFor={option.id}>{option.label}</label>
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
+                    <div className="column-sm-4">
+                      {conditionOptions.slice(8).map(option => (
+                        <div key={option.id} className="field">
+                          <input
+                            type="checkbox"
+                            id={option.id}
+                            value={option.value}
+                            className="category"
+                            checked={tempConditions.includes(option.value)}
+                            onChange={() => handleConditionChange(option.value)}
+                          />
+                          <label htmlFor={option.id}>{option.label}</label>
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           </div>
 
           {/* Sort Date */}
-          <div className="filter-group date-filters">
-            <p>Sort Date</p>
-            <div className="row">
-              <div className="fields date-fields">
-                <div className="column-sm-12">
-                  <div className="field">
-                    <input
-                      type="radio"
-                      name="dateOrder"
-                      value="newest"
-                      id="newest"
-                      checked={tempDateOrder === 'newest'}
-                      onChange={(e) => handleDateOrderChange(e.target.value)}
-                    />
-                    <label htmlFor="newest">Newest</label>
-                  </div>
-                  <div className="field">
-                    <input
-                      type="radio"
-                      name="dateOrder"
-                      value="oldest"
-                      id="oldest"
-                      checked={tempDateOrder === 'oldest'}
-                      onChange={(e) => handleDateOrderChange(e.target.value)}
-                    />
-                    <label htmlFor="oldest">Oldest</label>
+          {!hideDateFilters && (
+            <div className="filter-group date-filters">
+              <p>Sort Date</p>
+              <div className="row">
+                <div className="fields date-fields">
+                  <div className="column-sm-12">
+                    <div className="field">
+                      <input
+                        type="radio"
+                        name="dateOrder"
+                        value="newest"
+                        id="newest"
+                        checked={tempDateOrder === 'newest'}
+                        onChange={(e) => handleDateOrderChange(e.target.value)}
+                      />
+                      <label htmlFor="newest">Newest</label>
+                    </div>
+                    <div className="field">
+                      <input
+                        type="radio"
+                        name="dateOrder"
+                        value="oldest"
+                        id="oldest"
+                        checked={tempDateOrder === 'oldest'}
+                        onChange={(e) => handleDateOrderChange(e.target.value)}
+                      />
+                      <label htmlFor="oldest">Oldest</label>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          )}
 
           {/* Sort Language - Desktop */}
-          <div className="filter-group language-filters language-filters-desktop">
-            <p>Sort Language</p>
-            <div className="row">
-              <div className="fields language-fields">
-                <div className="column-sm-12">
-                  <div className="field">
-                    <input
-                      type="checkbox"
-                      id="espanol"
-                      value="espanol"
-                      className="category"
-                      checked={tempLanguages.includes('espanol')}
-                      onChange={() => handleLanguageChange('espanol')}
-                    />
-                    <label htmlFor="espanol">Español</label>
-                  </div>
-                  <div className="field">
-                    <input
-                      type="checkbox"
-                      id="english"
-                      value="english"
-                      className="category"
-                      checked={tempLanguages.includes('english')}
-                      onChange={() => handleLanguageChange('english')}
-                    />
-                    <label htmlFor="english">English</label>
+          {!hideLanguageFilters && (
+            <div className="filter-group language-filters language-filters-desktop">
+              <p>Sort Language</p>
+              <div className="row">
+                <div className="fields language-fields">
+                  <div className="column-sm-12">
+                    <div className="field">
+                      <input
+                        type="checkbox"
+                        id="espanol"
+                        value="espanol"
+                        className="category"
+                        checked={tempLanguages.includes('espanol')}
+                        onChange={() => handleLanguageChange('espanol')}
+                      />
+                      <label htmlFor="espanol">Español</label>
+                    </div>
+                    <div className="field">
+                      <input
+                        type="checkbox"
+                        id="english"
+                        value="english"
+                        className="category"
+                        checked={tempLanguages.includes('english')}
+                        onChange={() => handleLanguageChange('english')}
+                      />
+                      <label htmlFor="english">English</label>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          )}
 
           {/* Sort Language - Mobile */}
-          <div className="filter-group language-filters language-filters-mobile">
-            <p>Sort Language</p>
-            <div className="row">
-              <div className="fields language-fields">
-                <div className="column-sm-12">
-                  <div className="field">
-                    <input
-                      type="checkbox"
-                      id="espanol-mobile"
-                      value="espanol"
-                      className="category"
-                      checked={tempLanguages.includes('espanol')}
-                      onChange={() => handleLanguageChange('espanol')}
-                    />
-                    <label htmlFor="espanol-mobile">Español</label>
-                  </div>
-                  <div className="field">
-                    <input
-                      type="checkbox"
-                      id="english-mobile"
-                      value="english"
-                      className="category"
-                      checked={tempLanguages.includes('english')}
-                      onChange={() => handleLanguageChange('english')}
-                    />
-                    <label htmlFor="english-mobile">English</label>
+          {!hideLanguageFilters && (
+            <div className="filter-group language-filters language-filters-mobile">
+              <p>Sort Language</p>
+              <div className="row">
+                <div className="fields language-fields">
+                  <div className="column-sm-12">
+                    <div className="field">
+                      <input
+                        type="checkbox"
+                        id="espanol-mobile"
+                        value="espanol"
+                        className="category"
+                        checked={tempLanguages.includes('espanol')}
+                        onChange={() => handleLanguageChange('espanol')}
+                      />
+                      <label htmlFor="espanol-mobile">Español</label>
+                    </div>
+                    <div className="field">
+                      <input
+                        type="checkbox"
+                        id="english-mobile"
+                        value="english"
+                        className="category"
+                        checked={tempLanguages.includes('english')}
+                        onChange={() => handleLanguageChange('english')}
+                      />
+                      <label htmlFor="english-mobile">English</label>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          )}
 
           {/* Filter Buttons */}
           <div className="filter-buttons">

@@ -78,14 +78,14 @@
 }
 
 .btn-primary {
-  background-color: var(--e-global-color-accent);
+  background-color: var(--qc-primary-color);
   color: #fff;
   font-size: 18px;
   font-weight: 700;
   padding: 15px 35px;
   border-radius: 5px;
   text-decoration: none;
-  border: 1px solid var(--e-global-color-accent);
+  border: 1px solid var(--qc-primary-color);
   transition: all 0.3s ease;
   display: inline-block;
 }
@@ -93,7 +93,7 @@
 .btn-primary:hover {
   background: #fff;
   color: #172028;
-  border-color: var(--e-global-color-accent);
+  border-color: var(--qc-primary-color);
 }
 
 /* Animations */

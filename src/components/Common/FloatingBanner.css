@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background: var(--e-global-color-accent);
+  background: var(--qc-primary-color);
   color: #fff;
   z-index: 10001;
   padding: 15px 20px;
@@ -55,7 +55,7 @@
 
 .floating-banner-link:hover {
   background: #fff;
-  color: var(--e-global-color-accent);
+  color: var(--qc-primary-color);
 }
 
 .floating-banner-close {

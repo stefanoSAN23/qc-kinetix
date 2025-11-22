@@ -82,11 +82,11 @@
 
 .find-prp-section .search-input:focus {
   outline: none;
-  border-color: var(--e-global-color-accent);
+  border-color: var(--qc-primary-color);
 }
 
 .find-prp-section .search-button {
-  background: var(--e-global-color-accent);
+  background: var(--qc-primary-color);
   border: none;
   padding: 10px 15px;
   border-radius: 4px;

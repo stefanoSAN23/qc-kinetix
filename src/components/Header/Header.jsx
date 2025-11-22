@@ -87,6 +87,16 @@ const Header = ({ variant = 'auto' }) => {
       ]
     },
     {
+      title: 'Stem Cell Category Treatment Protocol',
+      href: '/stem-cell-category-treatment-protocol',
+      submenu: [
+        { title: 'Stem Cell Articulation Treatments', href: '/stem-cell-category-treatment-protocol?category=stem-cell-articulation' },
+        { title: 'Stem Cell Autoimmune & Chronic Degenerative Treatments', href: '/stem-cell-category-treatment-protocol?category=stem-cell-autoimmune' },
+        { title: 'Stem Cell Anti-Aging Treatments', href: '/stem-cell-category-treatment-protocol?category=stem-cell-anti-aging' },
+        { title: 'Regenerative Medications for Legal Fly and Buy Program', href: '/stem-cell-category-treatment-protocol?category=regenerative-medications' }
+      ]
+    },
+    {
       title: 'Conditions Treated',
       href: '/conditions/',
       className: 'treatmentMegaMenu',
@@ -317,7 +327,7 @@ const Header = ({ variant = 'auto' }) => {
                           toggleSubmenu(idx);
                         }}
                         aria-expanded={!!openSubmenus[idx]}
-                        aria-label={`Mostrar opciones para ${item.title}`}
+                        aria-label={`Show options for ${item.title}`}
                       >
                         <svg viewBox="0 0 24 24" aria-hidden="true">
                           <path d="M12 15.5L4.5 8l1.41-1.41L12 12.67l6.09-6.08L19.5 8z"></path>

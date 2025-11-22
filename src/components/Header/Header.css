@@ -108,7 +108,7 @@
 }
 
 .menu-link:hover {
-  color: var(--e-global-color-accent);
+  color: var(--qc-primary-color);
   text-decoration: underline;
 }
 
@@ -197,12 +197,12 @@
 }
 
 .header-actions .req-btn {
-  background-color: var(--e-global-color-accent) !important;
+  background-color: var(--qc-primary-color) !important;
   font-size: 16px;
   font-weight: 500 !important;
   color: #fff !important;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
-  border: 1px solid var(--e-global-color-accent);
+  border: 1px solid var(--qc-primary-color);
   border-radius: 5px;
   padding: 8px 14px;
   display: inline-block;
@@ -214,7 +214,7 @@
 .header-actions .req-btn:hover {
   background: #fff !important;
   color: #172028 !important;
-  border-color: var(--e-global-color-accent);
+  border-color: var(--qc-primary-color);
 }
 
 .phone-icon a,
@@ -241,7 +241,7 @@
 }
 
 .phone-icon .phone-svg {
-  fill: var(--e-global-color-accent);
+  fill: var(--qc-primary-color);
 }
 
 
@@ -279,14 +279,14 @@
 
 .mobile-actions .req-btn,
 .mobile-header-top .req-btn {
-  background-color: var(--e-global-color-accent) !important;
+  background-color: var(--qc-primary-color) !important;
   font-size: 16px;
   font-weight: 700 !important;
   color: #fff !important;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
   border-style: solid;
   border-width: 1px;
-  border-color: var(--e-global-color-accent);
+  border-color: var(--qc-primary-color);
   border-radius: 5px;
   padding: 8px 20px;
   display: inline-block;
@@ -298,7 +298,7 @@
 .mobile-header-top .req-btn:hover {
   background: #fff !important;
   color: #172028 !important;
-  border-color: var(--e-global-color-accent);
+  border-color: var(--qc-primary-color);
 }
 
 .mobile-nav {
@@ -314,7 +314,7 @@
 .menu-toggle {
   background: transparent;
   border: none;
-  color: var(--e-global-color-accent);
+  color: var(--qc-primary-color);
   cursor: pointer;
   padding: 10px;
   display: flex;
@@ -330,7 +330,7 @@
 }
 
 .close-icon {
-  color: var(--e-global-color-accent);
+  color: var(--qc-primary-color);
 }
 
 .mobile-menu {
@@ -404,7 +404,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--e-global-color-accent);
+  color: var(--qc-primary-color);
 }
 
 .submenu-toggle svg {
@@ -424,7 +424,7 @@
 }
 
 .mobile-menu-item.req-btn a {
-  background-color: var(--e-global-color-accent) !important;
+  background-color: var(--qc-primary-color) !important;
   color: #fff !important;
   font-weight: 700 !important;
   border-radius: 5px;
@@ -447,7 +447,7 @@
   }
 
   .header:not(.regenerative-page) .mobile-actions .phone-svg {
-    fill: var(--e-global-color-accent);
+    fill: var(--qc-primary-color);
   }
 
   .header.regenerative-page.scrolled,
@@ -462,7 +462,7 @@
   }
 
   .header.regenerative-page.scrolled .mobile-actions .phone-svg {
-    fill: var(--e-global-color-accent);
+    fill: var(--qc-primary-color);
   }
 
   .header-container {
@@ -544,7 +544,7 @@
   .mobile-actions .phone-svg {
     width: 14px;
     height: 14px;
-    fill: var(--e-global-color-accent);
+    fill: var(--qc-primary-color);
   }
   
   .mobile-actions .phone-icon span {
@@ -720,6 +720,6 @@
 }
 
 .header.regenerative-page.scrolled .phone-svg {
-  fill: var(--e-global-color-accent);
+  fill: var(--qc-primary-color);
 }
 

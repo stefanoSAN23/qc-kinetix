@@ -35,12 +35,14 @@ import WhatToExpect from './pages/WhatToExpect';
 import AboutUs from './pages/AboutUs';
 import SuccessStories from './pages/SuccessStories';
 import RegenerativeMedicineBlog from './pages/RegenerativeMedicineBlog';
+import StemCellCategoryTreatmentProtocol from './pages/StemCellCategoryTreatmentProtocol';
 import NewsAndPress from './pages/NewsAndPress';
 import FAQ from './pages/FAQ';
 import Webinars from './pages/Webinars';
 import QCLocations from './pages/QCLocations';
 import RequestAppointmentPage from './pages/RequestAppointment';
 import PostPage from './pages/PostPage';
+import TreatmentPage from './pages/TreatmentPage';
 import './App.css';
 
 const HeaderManager = () => {
@@ -213,6 +215,7 @@ function App() {
               <Route path="/about-us/" element={<AboutUs />} />
               <Route path="/success-stories/" element={<SuccessStories />} />
               <Route path="/regenerative-medicine-blog/" element={<RegenerativeMedicineBlog />} />
+              <Route path="/stem-cell-category-treatment-protocol" element={<StemCellCategoryTreatmentProtocol />} />
               <Route path="/news-and-press/" element={<NewsAndPress />} />
               <Route path="/faq/" element={<FAQ />} />
               <Route path="/webinars/" element={<Webinars />} />
@@ -220,6 +223,8 @@ function App() {
               <Route path="/request-your-first-appointment/" element={<RequestAppointmentPage />} />
               <Route path="/blog/:slug" element={<PostPage />} />
               <Route path="/blog/:slug/" element={<PostPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/stem-cell-articulation-treatments/:slug" element={<TreatmentPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/stem-cell-articulation-treatments/:slug/" element={<TreatmentPage />} />
           </Routes>
           <Footer />
         </div>

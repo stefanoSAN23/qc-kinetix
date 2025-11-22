@@ -144,7 +144,7 @@
 }
 
 .submit-button {
-  background-color: var(--e-global-color-accent);
+  background-color: var(--qc-primary-color);
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;

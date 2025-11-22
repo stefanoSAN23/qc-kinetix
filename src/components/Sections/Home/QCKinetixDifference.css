@@ -70,7 +70,7 @@
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(to right, transparent 0%, var(--e-global-color-accent) 20%, var(--e-global-color-accent) 80%, transparent 100%);
+  background: linear-gradient(to right, transparent 0%, var(--qc-primary-color) 20%, var(--qc-primary-color) 80%, transparent 100%);
   border-radius: 0 0 5px 5px;
 }
 

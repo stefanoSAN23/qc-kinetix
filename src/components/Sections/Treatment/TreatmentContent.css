@@ -1,0 +1,457 @@
+/* Treatment content styles - similar to PostContent but adapted for treatment pages */
+.treatment-content-section {
+  padding: 1px 20px 60px;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.treatment-content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.treatment-title {
+  font-size: clamp(32px, 4vw, 50px);
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.0;
+  margin: 0 auto 40px;
+  margin-top: 150px; /* Move hero/title down even more */
+  text-align: center;
+  max-width: 900px;
+}
+
+.treatment-article-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #333;
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.treatment-article-content p {
+  margin: 0 0 12px; /* Reduced spacing between paragraphs */
+  color: #333;
+}
+
+.treatment-article-content a {
+  color: #159A00;
+  transition: color 0.3s ease;
+}
+
+.treatment-article-content a:hover {
+  color: #0d6e00;
+}
+
+/* Force green color for specific headings with cyan/orange colors */
+.treatment-article-content h1 span[style*="#00ccff"],
+.treatment-article-content h1 span[style*="#ff9900"],
+.treatment-article-content h2 span[style*="#00ccff"],
+.treatment-article-content h2 span[style*="#ff9900"],
+.treatment-article-content h2 a[style*="#00ccff"],
+.treatment-article-content h2 a[style*="#ff9900"] {
+  color: #159A00 !important;
+}
+
+/* Force green color for links in the studies list section (c1c6b61) */
+.treatment-article-content .component-c1c6b61 a,
+.treatment-article-content [data-id="c1c6b61"] a {
+  color: #159A00 !important;
+}
+
+.treatment-article-content .component-c1c6b61 a:hover,
+.treatment-article-content [data-id="c1c6b61"] a:hover {
+  color: #0d6e00 !important;
+}
+
+/* Legacy support */
+.treatment-article-content .elementor-element-c1c6b61 a,
+.treatment-article-content .elementor-element-c1c6b61 a:hover {
+  color: #159A00 !important;
+}
+.treatment-article-content .elementor-element-c1c6b61 a:hover {
+  color: #0d6e00 !important;
+}
+
+.treatment-article-content strong {
+  font-weight: 700;
+  color: #000;
+}
+
+.treatment-article-content h1,
+.treatment-article-content h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+  margin: 15px 0 10px; /* Reduced spacing */
+}
+
+.treatment-article-content h1:first-of-type,
+.treatment-article-content h2:first-of-type {
+  margin-top: 10px; /* Minimal top margin */
+}
+
+.treatment-article-content h3 {
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+  margin: 12px 0 8px; /* Reduced spacing */
+}
+
+.treatment-article-content ul,
+.treatment-article-content ol {
+  margin: 10px 0; /* Reduced spacing */
+  padding-left: 30px;
+  list-style-type: disc;
+}
+
+.treatment-article-content ol {
+  list-style-type: decimal;
+}
+
+.treatment-article-content li {
+  margin: 6px 0; /* Reduced spacing between list items */
+  color: #333;
+  line-height: 1.8;
+}
+
+.treatment-article-content hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 40px 0 24px;
+}
+
+/* Content section styles - minimize spacing between sections */
+.treatment-article-content .content-section {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 10px !important; /* Minimal spacing between sections */
+}
+
+.treatment-article-content .content-section:last-child {
+  margin-bottom: 0 !important;
+}
+
+.treatment-article-content .content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.treatment-article-content .content-column {
+  padding: 0;
+}
+
+.treatment-article-content .component-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Reduce spacing in text components */
+.treatment-article-content .text-component {
+  margin: 0 !important;
+}
+
+.treatment-article-content .heading-component {
+  margin: 0 !important;
+}
+
+/* Reduce spacing between headings and content */
+.treatment-article-content .section-heading-title {
+  margin-bottom: 10px !important;
+  margin-top: 20px !important;
+}
+
+.treatment-article-content .section-heading-title:first-child {
+  margin-top: 10px !important;
+}
+
+/* Make images in 50% columns a bit larger */
+.treatment-article-content .content-column.column-50 img {
+  max-width: 400px !important;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Specific styling for the first section image (bd30fd8 column) - make it a bit larger */
+.treatment-article-content .component-bd30fd8 img,
+.treatment-article-content .content-column[data-id="bd30fd8"] img {
+  max-width: 350px !important;
+  width: 100%;
+  height: auto;
+}
+
+/* Legacy support for Elementor classes */
+.treatment-article-content .elementor-section {
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: 10px !important;
+}
+.treatment-article-content .elementor-section:last-child {
+  margin-bottom: 0 !important;
+}
+.treatment-article-content .elementor-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.treatment-article-content .elementor-column {
+  padding: 0;
+}
+.treatment-article-content .elementor-widget-container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.treatment-article-content .elementor-widget-text-editor {
+  margin: 0 !important;
+}
+.treatment-article-content .elementor-widget-heading {
+  margin: 0 !important;
+}
+.treatment-article-content .elementor-heading-title {
+  margin-bottom: 10px !important;
+  margin-top: 20px !important;
+}
+.treatment-article-content .elementor-heading-title:first-child {
+  margin-top: 10px !important;
+}
+.treatment-article-content .elementor-column.elementor-col-50 img {
+  max-width: 400px !important;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+.treatment-article-content .elementor-element-bd30fd8 img,
+.treatment-article-content .elementor-column[data-id="bd30fd8"] img {
+  max-width: 350px !important;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive adjustments for images */
+@media (max-width: 1024px) {
+  .treatment-title {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .treatment-title {
+    margin-top: 100px;
+  }
+  
+  .treatment-article-content .content-column.column-50 img {
+    max-width: 280px !important;
+  }
+  
+  .treatment-article-content .component-bd30fd8 img,
+  .treatment-article-content .content-column[data-id="bd30fd8"] img {
+    max-width: 250px !important;
+  }
+  
+  /* Legacy support */
+  .treatment-article-content .elementor-column.elementor-col-50 img {
+    max-width: 280px !important;
+  }
+  .treatment-article-content .elementor-element-bd30fd8 img,
+  .treatment-article-content .elementor-column[data-id="bd30fd8"] img {
+    max-width: 250px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .treatment-title {
+    margin-top: 80px;
+  }
+  
+  .treatment-article-content .content-column.column-50 img {
+    max-width: 220px !important;
+  }
+  
+  .treatment-article-content .component-bd30fd8 img,
+  .treatment-article-content .content-column[data-id="bd30fd8"] img {
+    max-width: 200px !important;
+  }
+  
+  /* Legacy support */
+  .treatment-article-content .elementor-column.elementor-col-50 img {
+    max-width: 220px !important;
+  }
+  .treatment-article-content .elementor-element-bd30fd8 img,
+  .treatment-article-content .elementor-column[data-id="bd30fd8"] img {
+    max-width: 200px !important;
+  }
+}
+
+/* Rumble video embeds - reduced spacing */
+.treatment-article-content [id^="rumble_"] {
+  width: 100%;
+  max-width: 100%;
+  min-height: 360px;
+  margin: 10px 0; /* Reduced spacing */
+}
+
+.treatment-article-content iframe.rumble {
+  width: 100%;
+  height: 360px;
+  border: 0;
+  margin: 10px 0; /* Reduced spacing */
+}
+
+/* Image styles - reduced spacing */
+.treatment-article-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Reduced spacing */
+}
+
+/* Reduce spacing for images in columns */
+.treatment-article-content .elementor-column.elementor-col-50 img {
+  margin: 10px auto; /* Reduced spacing */
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .treatment-content-section {
+    padding: 35px 20px 50px;
+  }
+  
+  .treatment-content-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .treatment-title {
+    margin-bottom: 35px;
+  }
+  
+  .treatment-article-content {
+    font-size: 17px;
+  }
+  
+  .treatment-article-content h1,
+  .treatment-article-content h2 {
+    margin: 35px 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .treatment-content-section {
+    padding: 30px 18px 40px;
+  }
+  
+  .treatment-title {
+    margin-bottom: 30px;
+    font-size: clamp(28px, 5vw, 36px);
+  }
+  
+  .treatment-article-content {
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  
+  .treatment-article-content p {
+    margin-bottom: 20px;
+  }
+  
+  .treatment-article-content h1,
+  .treatment-article-content h2 {
+    font-size: clamp(22px, 4vw, 28px);
+    margin: 30px 0 18px;
+  }
+  
+  .treatment-article-content ul,
+  .treatment-article-content ol {
+    margin: 20px 0;
+    padding-left: 25px;
+  }
+  
+  .treatment-article-content li {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .treatment-content-section {
+    padding: 25px 16px 35px;
+  }
+  
+  .treatment-title {
+    margin-bottom: 25px;
+  }
+  
+  .treatment-article-content {
+    font-size: 15px;
+  }
+  
+  .treatment-article-content p {
+    margin-bottom: 18px;
+  }
+  
+  .treatment-article-content h1,
+  .treatment-article-content h2 {
+    margin: 25px 0 16px;
+  }
+  
+  .treatment-article-content ul,
+  .treatment-article-content ol {
+    margin: 18px 0;
+    padding-left: 20px;
+  }
+  
+  .treatment-article-content li {
+    margin: 8px 0;
+  }
+  
+  .treatment-article-content iframe.rumble {
+    height: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .treatment-content-section {
+    padding: 20px 14px 30px;
+  }
+  
+  .treatment-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .treatment-article-content {
+    font-size: 14px;
+  }
+  
+  .treatment-article-content p {
+    margin-bottom: 16px;
+  }
+  
+  .treatment-article-content h1,
+  .treatment-article-content h2 {
+    font-size: 20px;
+    margin: 20px 0 14px;
+  }
+  
+  .treatment-article-content ul,
+  .treatment-article-content ol {
+    margin: 16px 0;
+    padding-left: 18px;
+  }
+  
+  .treatment-article-content li {
+    margin: 6px 0;
+  }
+  
+  .treatment-article-content iframe.rumble {
+    height: 240px;
+  }
+}
+

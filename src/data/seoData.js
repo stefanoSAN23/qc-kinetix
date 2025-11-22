@@ -400,6 +400,22 @@ export const seoData = {
     }
   },
 
+  // Stem Cell Category Treatment Protocol
+  '/stem-cell-category-treatment-protocol': {
+    title: 'Stem Cell Category Treatment Protocol | QC Kinetix',
+    description: 'Explore our comprehensive stem cell category treatment protocols including articulation treatments, autoimmune treatments, anti-aging treatments, and regenerative medications.',
+    keywords: 'stem cell treatment protocol, stem cell articulation treatments, stem cell autoimmune treatments, stem cell anti-aging, regenerative medications, legal fly and buy program',
+    canonical: `${baseUrl}/stem-cell-category-treatment-protocol`,
+    ogImage: defaultImage,
+    ogType: 'website',
+    schema: {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: 'Stem Cell Category Treatment Protocol',
+      description: 'Stem cell category treatment protocols and regenerative medicine treatments'
+    }
+  },
+
   // News and Press
   '/news-and-press/': {
     title: 'News & Press | QC Kinetix',

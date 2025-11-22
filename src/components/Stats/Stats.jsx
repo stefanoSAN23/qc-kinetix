@@ -34,10 +34,10 @@ const Stats = ({ animateImmediate = false }) => {
 
   return (
     <section className="stats-section" ref={sectionRef}>
-      <div className="stats-container e-flex e-con-boxed e-con e-parent">
-        <div className="e-con-inner">
+      <div className="stats-container flex-layout boxed-container flex-container flex-parent">
+        <div className="flex-inner">
           {/* First Stat Item */}
-          <div className="stat-item e-con-full e-flex e-con e-child">
+          <div className="stat-item full-width flex-layout flex-container flex-child">
             <div className="stat-heading animated fadeInDown" data-animate-immediate={animateImmediate ? 'true' : undefined}>
               <h2 className="stat-number">
                 Up to 10 Billion
@@ -45,8 +45,8 @@ const Stats = ({ animateImmediate = false }) => {
             </div>
             
             <div className="stat-divider animated fadeInLeft" data-animate-immediate={animateImmediate ? 'true' : undefined}>
-              <div className="elementor-divider">
-                <span className="elementor-divider-separator"></span>
+              <div className="content-divider">
+                <span className="content-divider-separator"></span>
               </div>
             </div>
             
@@ -60,14 +60,14 @@ const Stats = ({ animateImmediate = false }) => {
           </div>
 
           {/* Second Stat Item */}
-          <div className="stat-item e-con-full e-flex e-con e-child">
+          <div className="stat-item full-width flex-layout flex-container flex-child">
             <div className="stat-heading animated fadeInDown" data-animate-immediate={animateImmediate ? 'true' : undefined}>
               <h2 className="stat-number">35,000+</h2>
             </div>
             
             <div className="stat-divider animated fadeInLeft" data-animate-immediate={animateImmediate ? 'true' : undefined}>
-              <div className="elementor-divider">
-                <span className="elementor-divider-separator"></span>
+              <div className="content-divider">
+                <span className="content-divider-separator"></span>
               </div>
             </div>
             
@@ -77,14 +77,14 @@ const Stats = ({ animateImmediate = false }) => {
           </div>
 
           {/* Third Stat Item */}
-          <div className="stat-item e-con-full e-flex e-con e-child">
+          <div className="stat-item full-width flex-layout flex-container flex-child">
             <div className="stat-heading animated fadeInDown" data-animate-immediate={animateImmediate ? 'true' : undefined}>
               <h2 className="stat-number">170+</h2>
             </div>
             
             <div className="stat-divider animated fadeInRight" data-animate-immediate={animateImmediate ? 'true' : undefined}>
-              <div className="elementor-divider">
-                <span className="elementor-divider-separator"></span>
+              <div className="content-divider">
+                <span className="content-divider-separator"></span>
               </div>
             </div>
             
@@ -93,9 +93,9 @@ const Stats = ({ animateImmediate = false }) => {
             </div>
             
             <div className="stat-button animated fadeInUp" data-animate-immediate={animateImmediate ? 'true' : undefined}>
-              <a href="/qc-locations/" className="elementor-button elementor-button-link elementor-size-lg">
-                <span className="elementor-button-content-wrapper">
-                  <span className="elementor-button-text">Find a Location</span>
+              <a href="/qc-locations/" className="primary-button primary-button-link button-size-lg">
+                <span className="button-content-wrapper">
+                  <span className="button-text">Find a Location</span>
                 </span>
               </a>
             </div>

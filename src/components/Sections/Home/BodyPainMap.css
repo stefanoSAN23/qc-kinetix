@@ -184,12 +184,12 @@
 }
 
 .body-pain-consultation-button .req-btn {
-  background-color: var(--e-global-color-accent) !important;
+  background-color: var(--qc-primary-color) !important;
   font-size: 16px;
   font-weight: 700 !important;
   color: #fff !important;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
-  border: 1px solid var(--e-global-color-accent);
+  border: 1px solid var(--qc-primary-color);
   border-radius: 5px;
   padding: 10px 18px;
   display: inline-block;
@@ -200,7 +200,7 @@
 .body-pain-consultation-button .req-btn:hover {
   background: #fff !important;
   color: #172028 !important;
-  border-color: var(--e-global-color-accent);
+  border-color: var(--qc-primary-color);
 }
 
 .desktop-only {

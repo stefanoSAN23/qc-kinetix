@@ -1,10 +1,14 @@
 /* Global styles extracted from the original HTML */
 
 :root {
-  --e-global-color-accent: #159A00;
-  --wp--preset--color--black: #000000;
-  --wp--preset--color--white: #ffffff;
+  --qc-primary-color: #159A00;
+  --qc-color-black: #000000;
+  --qc-color-white: #ffffff;
   --condition-header-offset: 0px;
+  /* Legacy support - will be removed */
+  --e-global-color-accent: var(--qc-primary-color);
+  --wp--preset--color--black: var(--qc-color-black);
+  --wp--preset--color--white: var(--qc-color-white);
 }
 
 * {
@@ -41,7 +45,7 @@ img {
 }
 
 .green-dash {
-  background-color: var(--e-global-color-accent);
+  background-color: var(--qc-primary-color);
   width: 20px;
   height: 3px;
   margin-bottom: 10px;
@@ -50,14 +54,14 @@ img {
 .req-btn a,
 .req-appointment {
   margin: 20px 0;
-  background-color: var(--e-global-color-accent) !important;
+  background-color: var(--qc-primary-color) !important;
   font-size: 18px;
   font-weight: 700 !important;
   color: #fff !important;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1) !important;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
-  border-color: var(--e-global-color-accent);
+  border-color: var(--qc-primary-color);
   border-radius: 5px;
   padding: 10px 35px;
   display: inline-block;
@@ -93,13 +97,22 @@ img {
   }
 }
 
-.elementor-sticky.elementor-sticky--active.elementor-sticky--effects {
+.sticky-header.sticky-header--active.sticky-header--effects {
   top: 0 !important;
   background: #000;
 }
 
+.sticky-header {
+  top: 5px !important;
+}
+
+/* Legacy support */
 .elementor-sticky {
   top: 5px !important;
+}
+.elementor-sticky.elementor-sticky--active.elementor-sticky--effects {
+  top: 0 !important;
+  background: #000;
 }
 
 .knee-pain-btn {

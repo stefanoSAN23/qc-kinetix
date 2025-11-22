@@ -27,11 +27,11 @@
   margin: 0 auto;
 }
 
-.e-con-boxed {
+.boxed-container {
   width: 100%;
 }
 
-.e-con-inner {
+.flex-inner {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
@@ -50,18 +50,43 @@
   align-items: center;
 }
 
-.e-con-full {
+.full-width {
   width: 100%;
 }
 
-.e-flex {
+.flex-layout {
   display: flex;
 }
 
-.e-con {
+.flex-container {
   position: relative;
 }
 
+.flex-container.flex-child {
+  flex: 1;
+}
+
+/* Legacy support */
+.e-con-boxed {
+  width: 100%;
+}
+.e-con-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.e-con-full {
+  width: 100%;
+}
+.e-flex {
+  display: flex;
+}
+.e-con {
+  position: relative;
+}
 .e-con.e-child {
   flex: 1;
 }
@@ -91,13 +116,28 @@
   align-items: center;
 }
 
-.elementor-divider {
+.content-divider {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.content-divider-separator {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--qc-primary-color);
+  margin: 0 auto;
+}
+
+/* Legacy support */
+.elementor-divider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .elementor-divider-separator {
   display: block;
   width: 60px;
@@ -152,6 +192,41 @@
   align-items: center;
 }
 
+.primary-button {
+  display: inline-block;
+  background-color: var(--qc-primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 35px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid var(--qc-primary-color);
+  transition: all 0.3s ease;
+}
+
+.primary-button:hover {
+  background: #fff;
+  color: #172028;
+  border-color: var(--qc-primary-color);
+}
+
+.button-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-text {
+  display: inline-block;
+}
+
+.button-size-lg {
+  font-size: 18px;
+  padding: 15px 35px;
+}
+
+/* Legacy support */
 .elementor-button {
   display: inline-block;
   background-color: var(--e-global-color-accent);
@@ -164,23 +239,19 @@
   border: 1px solid var(--e-global-color-accent);
   transition: all 0.3s ease;
 }
-
 .elementor-button:hover {
   background: #fff;
   color: #172028;
   border-color: var(--e-global-color-accent);
 }
-
 .elementor-button-content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .elementor-button-text {
   display: inline-block;
 }
-
 .elementor-size-lg {
   font-size: 18px;
   padding: 15px 35px;
@@ -276,6 +347,11 @@
     padding: 60px 20px;
   }
   
+  .flex-inner {
+    gap: 50px;
+  }
+  
+  /* Legacy support */
   .e-con-inner {
     gap: 50px;
   }
@@ -305,6 +381,12 @@
     padding: 50px 15px;
   }
   
+  .flex-inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  /* Legacy support */
   .e-con-inner {
     flex-direction: column;
     gap: 40px;
@@ -339,6 +421,11 @@
     padding: 40px 10px;
   }
   
+  .flex-inner {
+    gap: 30px;
+  }
+  
+  /* Legacy support */
   .e-con-inner {
     gap: 30px;
   }
