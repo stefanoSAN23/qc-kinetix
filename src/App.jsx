@@ -225,6 +225,12 @@ function App() {
               <Route path="/blog/:slug/" element={<PostPage />} />
               <Route path="/stem-cell-category-treatment-protocol/stem-cell-articulation-treatments/:slug" element={<TreatmentPage />} />
               <Route path="/stem-cell-category-treatment-protocol/stem-cell-articulation-treatments/:slug/" element={<TreatmentPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/:slug" element={<TreatmentPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/:slug/" element={<TreatmentPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/:slug" element={<TreatmentPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/:slug/" element={<TreatmentPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/regenerative-medications/:slug" element={<TreatmentPage />} />
+              <Route path="/stem-cell-category-treatment-protocol/regenerative-medications/:slug/" element={<TreatmentPage />} />
           </Routes>
           <Footer />
         </div>

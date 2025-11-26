@@ -44,6 +44,17 @@ img {
   height: auto;
 }
 
+/* Legacy treatment content images */
+.dbc-widget-image img,
+.dbc-image {
+  width: auto !important;
+  max-width: 320px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  padding-bottom: 20px;
+}
+
 .green-dash {
   background-color: var(--qc-primary-color);
   width: 20px;
@@ -280,3 +291,6 @@ img {
   animation-duration: 1.6s;
 }
 
+/* ------------------------------------------------------------------
+   Legacy layout support for imported treatment markup (Elementor -> DBC)
+-------------------------------------------------------------------*/

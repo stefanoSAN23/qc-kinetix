@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { getTreatmentBySlug } from '../data/treatmentsData';
 import TreatmentContent from '../components/Sections/Treatment/TreatmentContent';
@@ -56,6 +56,7 @@ const extractFirstParagraph = (htmlContent) => {
 
 const TreatmentPage = () => {
   const { slug } = useParams();
+  const location = useLocation();
   
   // Ensure page starts from top on load
   useEffect(() => {
@@ -66,13 +67,31 @@ const TreatmentPage = () => {
   const cleanSlug = slug?.replace(/\/$/, '') || '';
   const treatment = getTreatmentBySlug(cleanSlug);
 
+  // Extract category from URL path
+  const getCategoryFromPath = () => {
+    const path = location.pathname;
+    if (path.includes('/stem-cell-articulation-treatments/')) {
+      return { category: 'stem-cell-articulation', pathSegment: 'stem-cell-articulation-treatments' };
+    } else if (path.includes('/stem-cell-autoimmune-treatments/')) {
+      return { category: 'stem-cell-autoimmune', pathSegment: 'stem-cell-autoimmune-treatments' };
+    } else if (path.includes('/stem-cell-anti-aging-treatments/')) {
+      return { category: 'stem-cell-anti-aging', pathSegment: 'stem-cell-anti-aging-treatments' };
+    } else if (path.includes('/regenerative-medications/')) {
+      return { category: 'regenerative-medications', pathSegment: 'regenerative-medications' };
+    }
+    // Default fallback
+    return { category: 'stem-cell-articulation', pathSegment: 'stem-cell-articulation-treatments' };
+  };
+
+  const { category, pathSegment } = getCategoryFromPath();
+
   // Extract meta description from content
   const metaDescription = useMemo(() => {
     return treatment ? extractFirstParagraph(treatment.content) : '';
   }, [treatment]);
 
-  // Generate canonical URL
-  const canonicalUrl = `https://qckinetix.com/stem-cell-category-treatment-protocol/stem-cell-articulation-treatments/${cleanSlug}`;
+  // Generate canonical URL based on category
+  const canonicalUrl = `https://qckinetix.com/stem-cell-category-treatment-protocol/${pathSegment}/${cleanSlug}`;
   
   // Generate full image URL if relative
   const imageUrl = treatment?.image 
@@ -81,7 +100,7 @@ const TreatmentPage = () => {
 
   // If treatment not found, redirect to category page
   if (!treatment) {
-    return <Navigate to="/stem-cell-category-treatment-protocol?category=stem-cell-articulation" replace />;
+    return <Navigate to={`/stem-cell-category-treatment-protocol?category=${category}`} replace />;
   }
 
   // Generate Schema.org JSON-LD for Article

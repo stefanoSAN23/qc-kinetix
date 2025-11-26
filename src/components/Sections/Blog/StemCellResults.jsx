@@ -141,6 +141,439 @@ const stemCellArticulationTreatments = [
   }
 ];
 
+const stemCellAutoimmuneTreatments = [
+  {
+    id: 18,
+    title: 'Alcoholic Liver Disease Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/alcoholic-liver-disease-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 19,
+    title: 'ARDS Stem Cell Treatment (Acute Respiratory Distress Syndrome)',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/ards-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 20,
+    title: 'Congestive Heart Failure or Heart Attack Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/congestive-heart-failure-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 21,
+    title: 'COPD Stem Cell Treatment (Chronic Obstructive Pulmonary Disease)',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/copd-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 22,
+    title: 'Crohn\'s Disease Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/crohns-disease-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 23,
+    title: 'Early Onset Dementia Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/early-onset-dementia-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 24,
+    title: 'Fatty Liver Disease Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/fatty-liver-disease-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 25,
+    title: 'Fibromyalgia Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/fibromyalgia-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 26,
+    title: 'Hashimoto\'s Disease Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/hashimotos-disease-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 27,
+    title: 'Hereditary Spastic Paraplegia Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/hereditary-spastic-paraplegia-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 28,
+    title: 'High Blood Pressure Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/high-blood-pressure-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 29,
+    title: 'Hypertension Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/hypertension-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 30,
+    title: 'Irritable Bowel Syndrome – IBS Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/irritable-bowel-syndrome-ibs-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 31,
+    title: 'Kidney Disease Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/kidney-disease-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 32,
+    title: 'Liver Disease Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/liver-disease-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 33,
+    title: 'Liver Cirrhosis Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/liver-cirrhosis-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 34,
+    title: 'Lupus Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/lupus-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 35,
+    title: 'Multiple Sclerosis Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/multiple-sclerosis-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 36,
+    title: 'Myasthenia Gravis Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/myasthenia-gravis-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 37,
+    title: 'Nerve Repair Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/nerve-repair-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 38,
+    title: 'Peripheral Neuropathy stem cell treatment to Heal Nerve Pain',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/peripheral-neuropathy-stem-cell-treatment-to-heal-nerve-pain',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 39,
+    title: 'Post Heart Attack stem cell treatment for Fast Recovery',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/post-heart-attack-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 40,
+    title: 'Primary Sclerosing Cholangitis Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/primary-sclerosing-cholangitis-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 41,
+    title: 'Psoriasis Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/psoriasis-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 42,
+    title: 'Renal Failure Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/renal-failure-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 43,
+    title: 'Rheumatoid Arthritis Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/rheumatoid-arthritis-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 44,
+    title: 'Stroke Stem Cell Therapy',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/stroke-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 45,
+    title: 'Traumatic Brain Injury Stem Cell Treatment (TBI)',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/traumatic-brain-injury-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 46,
+    title: 'Trigeminal Neuralgia Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/trigeminal-neuralgia-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 47,
+    title: 'Type 2 Diabetes Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/type-2-diabetes-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 48,
+    title: 'Ulcerative Colitis Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-autoimmune-treatments/ulcerative-colitis-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-2.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  }
+];
+
+const stemCellAntiAgingTreatments = [
+  {
+    id: 49,
+    title: '100 Million Stem Cell IV – Stem Cells to Reverse Aging: Anti-Aging Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/stem-cells-to-reverse-aging-anti-aging-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 50,
+    title: '200 Million Mesenchymal Stem Cell IV',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/200-million-stem-cell-iv',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 51,
+    title: '300 Million Stem Cell IV Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/300-million-stem-cell-iv-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 52,
+    title: 'Facial Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/stem-cell-facial-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 53,
+    title: 'Hair Restoration Stem Cell Treatment 2025',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/hair-restoration-stem-cell-treatment-2025',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 54,
+    title: 'Penis P Shot Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/stem-cell-p-shot',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 55,
+    title: 'Vagina V Shot Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/stem-cell-v-shot',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 56,
+    title: 'Prostate Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/enlarged-prostate-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 57,
+    title: 'Intrathecal Stem Cell Treatment For Brain Optimization',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/intrathecal-stem-cell-injection-treatment-for-brain-optimization',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 58,
+    title: 'Nebulized Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/nebulized-mesenchymal-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 59,
+    title: 'Receding Gums Stem Cell Treatment',
+    url: '/stem-cell-category-treatment-protocol/stem-cell-anti-aging-treatments/receding-gums-stem-cell-treatment',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-Stem-Cell-Treatment-Banner-3.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  }
+];
+
+const regenerativeMedicationsTreatments = [
+  {
+    id: 60,
+    title: 'NGENLA HGH 1 Year Package – New Once a Week Injection HGH',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/hgh-pfizer-ngenla-somatrogon-ghla',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 61,
+    title: 'HGH – Merck Saizen 1 Year HGH Package (240mg/720IU)',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/merck-saizen-hgh-legal-fly-and-buy-package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 62,
+    title: 'Pfizer Genotropin HGH Pen 1 Year HGH Package (720IU)',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/buy-the-pfizer-genotropin-hgh-pen-package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 63,
+    title: 'Modafinil 200mg – The Smart Drug',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/modafinil-for-sale',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 64,
+    title: 'Rybelsus Semaglutide Pills for Rapid Weight Loss Package',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/rybelsus-semaglutide-pills-package-6-months',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 65,
+    title: 'Cerebrolysin – Brain Regeneration and Optimization',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/cerebrolysin-for-brain-optimization',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 66,
+    title: 'Metformin for Anti-Aging and Weight Loss',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/metformin-weight-loss-package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 67,
+    title: 'Testosterone Cream 150mg for 1 Year TRT Package',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/testosterone-cream-150mg-for-1-year-trt-package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 68,
+    title: 'Sostenon 250 TRT for 1 Year Package',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/sustenon-250-trt-1-year-package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 69,
+    title: 'Primoteston Testosterone Enanthate TRT for 1 Year Package',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/trt-enanthate-with-primoteston-for-1-year-package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  },
+  {
+    id: 70,
+    title: 'Progesterone Cream 50mg',
+    url: '/stem-cell-category-treatment-protocol/regenerative-medications/progesterone-cream-50mg',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/11/Dream-Body-Clinic-HGH-and-TRT-Banner-1.webp',
+    imageWidth: 1200,
+    imageHeight: 300
+  }
+];
+
 const StemCellResults = ({ filters }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 8;
@@ -148,20 +581,31 @@ const StemCellResults = ({ filters }) => {
 
   // Filter posts by selected category
   const getFilteredPosts = () => {
-    let filtered = [...stemCellArticulationTreatments];
-    
-    // Show all posts if no filter is selected, or if stem-cell-articulation is selected
-    if (filters && filters.conditions && filters.conditions.length > 0) {
-      // Only show if stem-cell-articulation is selected
-      if (!filters.conditions.includes('stem-cell-articulation')) {
-        return []; // Return empty if not the right category
-      }
-    } else {
-      // If no filters selected, show all posts (they are all stem cell articulation treatments)
-      return filtered;
+    // If no filters selected, show ALL treatments from all categories
+    if (!filters || !filters.conditions || filters.conditions.length === 0) {
+      return [
+        ...stemCellArticulationTreatments,
+        ...stemCellAutoimmuneTreatments,
+        ...stemCellAntiAgingTreatments,
+        ...regenerativeMedicationsTreatments
+      ];
     }
     
-    return filtered;
+    const selectedCategory = filters.conditions[0];
+    
+    // Return appropriate array based on selected category
+    if (selectedCategory === 'stem-cell-articulation') {
+      return [...stemCellArticulationTreatments];
+    } else if (selectedCategory === 'stem-cell-autoimmune') {
+      return [...stemCellAutoimmuneTreatments];
+    } else if (selectedCategory === 'stem-cell-anti-aging') {
+      return [...stemCellAntiAgingTreatments];
+    } else if (selectedCategory === 'regenerative-medications') {
+      return [...regenerativeMedicationsTreatments];
+    } else {
+      // For unknown categories, return empty array
+      return [];
+    }
   };
 
   const filteredPosts = getFilteredPosts();
