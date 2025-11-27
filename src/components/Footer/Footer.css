@@ -264,6 +264,153 @@
   margin: 0;
 }
 
+/* MacBook / Small Laptop Responsive Styles (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .footer-section {
+    padding: 50px 20px 35px;
+  }
+
+  .footer-logo-container {
+    left: 20px;
+    top: 50px;
+  }
+
+  .footer-logo {
+    max-width: 220px;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+  }
+
+  .footer-main-content {
+    margin-left: 280px;
+    gap: 10px 40px;
+  }
+
+  .footer-column-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .footer-nav-menu a {
+    font-size: 13px;
+  }
+
+  .footer-nav-menu-right {
+    left: 150px;
+  }
+
+  .footer-view-all {
+    font-size: 12px;
+    margin-left: 120px;
+  }
+
+  .footer-supplements-join-wrapper {
+    gap: 40px;
+  }
+
+  .search-container {
+    width: 260px;
+  }
+
+  .search-input {
+    font-size: 12px;
+    padding: 7px 10px;
+  }
+
+  .search-button {
+    padding: 8px 12px;
+    min-width: 40px;
+  }
+
+  .footer-bottom-links a {
+    font-size: 11px;
+  }
+
+  .footer-disclaimer p {
+    font-size: 11px;
+  }
+
+  /* Treatment Mega Menu adjustments */
+  .treatmentMegaMenu .sub-menu {
+    min-width: 520px;
+  }
+}
+
+/* Extra Small Laptops / MacBook Air 11" (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .footer-logo-container {
+    left: 15px;
+    top: 45px;
+  }
+
+  .footer-logo {
+    max-width: 180px;
+  }
+
+  .footer-copyright {
+    font-size: 11px;
+  }
+
+  .footer-main-content {
+    margin-left: 220px;
+    gap: 8px 30px;
+  }
+
+  .footer-column-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .footer-nav-menu a {
+    font-size: 12px;
+  }
+
+  .footer-nav-menu li {
+    margin-bottom: 6px;
+  }
+
+  .footer-nav-menu-right {
+    left: 130px;
+  }
+
+  .footer-view-all {
+    font-size: 11px;
+    margin-left: 100px;
+  }
+
+  .footer-supplements-section {
+    margin-left: -30px;
+  }
+
+  .footer-supplements-join-wrapper {
+    gap: 30px;
+  }
+
+  .search-container {
+    width: 220px;
+  }
+
+  .search-input {
+    font-size: 11px;
+    padding: 6px 8px;
+  }
+
+  .search-button {
+    padding: 7px 10px;
+    min-width: 35px;
+  }
+
+  .footer-bottom-links a {
+    font-size: 10px;
+  }
+
+  .footer-disclaimer p {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 1024px) {
   .footer-section {
     padding: 50px 20px 30px;

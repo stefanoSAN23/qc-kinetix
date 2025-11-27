@@ -619,11 +619,8 @@ const StemCellResults = ({ filters }) => {
   const endIndex = startIndex + postsPerPage;
   const currentPosts = filteredPosts.slice(startIndex, endIndex);
 
-  // When filters change, scroll to results section
+  // Reset to first page when filters change (no auto-scroll)
   useEffect(() => {
-    if (resultsSectionRef.current && filters) {
-      resultsSectionRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
     setCurrentPage(1);
   }, [filters]);
 

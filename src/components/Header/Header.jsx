@@ -90,10 +90,10 @@ const Header = ({ variant = 'auto' }) => {
       title: 'Stem Cell Category Treatment Protocol',
       href: '/stem-cell-category-treatment-protocol',
       submenu: [
-        { title: 'Stem Cell Articulation Treatments', href: '/stem-cell-category-treatment-protocol?category=stem-cell-articulation' },
-        { title: 'Stem Cell Autoimmune & Chronic Degenerative Treatments', href: '/stem-cell-category-treatment-protocol?category=stem-cell-autoimmune' },
-        { title: 'Stem Cell Anti-Aging Treatments', href: '/stem-cell-category-treatment-protocol?category=stem-cell-anti-aging' },
-        { title: 'Regenerative Medications for Legal Fly and Buy Program', href: '/stem-cell-category-treatment-protocol?category=regenerative-medications' }
+        { title: 'Stem Cell Articulation Treatments', href: '/stem-cell-category-treatment-protocol?categories=stem-cell-articulation' },
+        { title: 'Stem Cell Autoimmune & Chronic Degenerative Treatments', href: '/stem-cell-category-treatment-protocol?categories=stem-cell-autoimmune' },
+        { title: 'Stem Cell Anti-Aging Treatments', href: '/stem-cell-category-treatment-protocol?categories=stem-cell-anti-aging' },
+        { title: 'Regenerative Medications for Legal Fly and Buy Program', href: '/stem-cell-category-treatment-protocol?categories=regenerative-medications' }
       ]
     },
     {

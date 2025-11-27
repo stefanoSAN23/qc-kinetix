@@ -57,7 +57,7 @@ const WhyConsiderPRP = () => {
             <p>By opting for PRP therapy, patients can get to the root cause of their pain and stimulate natural healing without the need for an invasive procedure. It offers a more natural, less risky path to lasting pain relief.</p>
           </div>
           <div className="why-consider-prp-button animated fadeInUp" ref={buttonRef}>
-            <a href="/request-your-first-appointment/" className="knee-pain-btn">
+            <a href="/request-your-first-appointment/" className="qc-btn">
               Request an Appointment
             </a>
           </div>

@@ -70,7 +70,7 @@ const FindLocation = () => {
           <div className="find-location-button animated bounce" ref={buttonRef}>
             <a 
               href="/qc-locations/" 
-              className="knee-pain-btn"
+              className="qc-btn"
               onClick={(e) => {
                 e.preventDefault();
                 window.location.href = '/qc-locations/';

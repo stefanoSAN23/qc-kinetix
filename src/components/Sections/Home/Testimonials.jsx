@@ -138,7 +138,7 @@ const Testimonials = () => {
         <div className="testimonials-button animated fadeInUp" ref={buttonRef}>
           <a 
             href="/success-stories/" 
-            className="knee-pain-btn"
+            className="qc-btn"
             onClick={(e) => {
               e.preventDefault();
               window.location.href = '/success-stories/';

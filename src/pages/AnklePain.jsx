@@ -1,9 +1,9 @@
 import SEO from '../components/SEO/SEO';
+import { Divider } from '../components/Common';
 import AnklePainHero from '../components/Sections/AnklePain/AnklePainHero';
 import RegenerativeTherapyForAnklePain from '../components/Sections/AnklePain/RegenerativeTherapyForAnklePain';
 import WhatIsRegenerativeAnklePainTherapy from '../components/Sections/AnklePain/WhatIsRegenerativeAnklePainTherapy';
 import AnkleCandidate from '../components/Sections/AnklePain/AnkleCandidate';
-import SectionDivider from '../components/Sections/AnklePain/SectionDivider';
 import BenefitsOfNonsurgicalAnkleTreatments from '../components/Sections/AnklePain/BenefitsOfNonsurgicalAnkleTreatments';
 import ReadyToReduceAnklePain from '../components/Sections/AnklePain/ReadyToReduceAnklePain';
 import Testimonials from '../components/Sections/Testimonials';
@@ -18,7 +18,7 @@ const AnklePain = () => {
       <RegenerativeTherapyForAnklePain />
       <WhatIsRegenerativeAnklePainTherapy />
       <AnkleCandidate />
-      <SectionDivider />
+      <Divider variant="default" />
       <BenefitsOfNonsurgicalAnkleTreatments />
       <ReadyToReduceAnklePain />
       <Testimonials />

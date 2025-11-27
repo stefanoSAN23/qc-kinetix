@@ -83,7 +83,7 @@ const BodyPainMap = ({ hideConsultationButton = false }) => {
             We offer various nonsurgical regenerative treatments that stimulate the body's natural healing mechanisms rather than simply masking symptoms or resorting to surgery.
           </p>
           <div className="body-pain-button desktop-only animated fadeInUp" ref={button1Ref}>
-            <a href="/conditions/" className="knee-pain-btn">
+            <a href="/conditions/" className="qc-btn">
               View All Conditions Treated
             </a>
           </div>
@@ -124,12 +124,12 @@ const BodyPainMap = ({ hideConsultationButton = false }) => {
         )}
 
         <div className="body-pain-button mobile-only">
-          <a href="/conditions/" className="knee-pain-btn">
+          <a href="/conditions/" className="qc-btn">
             View All Conditions Treated
           </a>
         </div>
         <div className="body-pain-button mobile-only">
-          <a href="/request-your-first-appointment/" className="knee-pain-btn">
+          <a href="/request-your-first-appointment/" className="qc-btn">
             Request a Consultation
           </a>
         </div>

@@ -91,20 +91,13 @@
   align-items: center;
 }
 
-.elementor-divider {
+.qc-stat-divider {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.content-divider-separator {
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: var(--qc-primary-color);
-  margin: 0 auto;
-}
 
 .stat-text {
   width: 100%;
@@ -171,8 +164,7 @@
   border-color: var(--qc-primary-color);
 }
 
-/* Legacy support */
-.elementor-divider-separator {
+.qc-stat-divider-line {
   display: block;
   width: 60px;
   height: 3px;

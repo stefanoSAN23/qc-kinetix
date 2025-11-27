@@ -110,7 +110,7 @@ const StemCellProcess = () => {
               <p>Throughout the treatment plan, which can span several weeks to months, you will receive follow-up care to monitor your progress. The goal is to stimulate your body's natural healing processes and provide long-lasting pain relief and improved function without the need for surgery or medication. Many patients report experiencing some reduction in pain after their first appointment. Pain relief and improved quality of life increases as you progress through your treatment protocol.</p>
             </div>
             <div className="stem-cell-after-button animated fadeInUp" ref={afterButtonRef}>
-              <a href="#contact" className="knee-pain-btn">
+              <a href="#contact" className="qc-btn">
                 Book a Consultation
               </a>
             </div>

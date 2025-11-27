@@ -1,9 +1,9 @@
 import SEO from '../components/SEO/SEO';
+import { Divider } from '../components/Common';
 import BackPainHero from '../components/Sections/BackPain/BackPainHero';
 import RegenerativeTherapyForBackPain from '../components/Sections/BackPain/RegenerativeTherapyForBackPain';
 import WhatIsRegenerativeBackPainTherapy from '../components/Sections/BackPain/WhatIsRegenerativeBackPainTherapy';
 import BackCandidate from '../components/Sections/BackPain/BackCandidate';
-import SectionDivider from '../components/Sections/BackPain/SectionDivider';
 import BenefitsOfNonsurgicalBackTreatments from '../components/Sections/BackPain/BenefitsOfNonsurgicalBackTreatments';
 import ReadyToReduceBackPain from '../components/Sections/BackPain/ReadyToReduceBackPain';
 import Testimonials from '../components/Sections/Testimonials';
@@ -18,7 +18,7 @@ const BackPain = () => {
       <RegenerativeTherapyForBackPain />
       <WhatIsRegenerativeBackPainTherapy />
       <BackCandidate />
-      <SectionDivider />
+      <Divider variant="default" />
       <BenefitsOfNonsurgicalBackTreatments />
       <ReadyToReduceBackPain />
       <Testimonials />

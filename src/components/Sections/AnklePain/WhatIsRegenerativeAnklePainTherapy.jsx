@@ -81,7 +81,7 @@ const WhatIsRegenerativeAnklePainTherapy = () => {
               <div className="what-is-ankle-therapy-button animated fadeInUp" ref={buttonRef}>
                 <a
                   href="/request-your-first-appointment/"
-                  className="knee-pain-btn"
+                  className="qc-btn"
                   onClick={(event) => {
                     event.preventDefault();
                     window.location.href = '/request-your-first-appointment/';

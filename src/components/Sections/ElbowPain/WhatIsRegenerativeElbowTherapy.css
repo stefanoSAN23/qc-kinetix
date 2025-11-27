@@ -193,7 +193,7 @@
   margin-top: 4px;
 }
 
-.what-is-elbow-therapy-button .knee-pain-btn {
+.what-is-elbow-therapy-button .qc-btn {
   background-color: #159A00;
   font-family: 'Mulish', Sans-serif;
   font-size: 17px;
@@ -208,7 +208,7 @@
   transition: all 0.3s ease;
 }
 
-.what-is-elbow-therapy-button .knee-pain-btn:hover {
+.what-is-elbow-therapy-button .qc-btn:hover {
   background-color: #fff;
   color: #000 !important;
   border-color: #159a00;
@@ -303,7 +303,7 @@
     text-align: left;
   }
 
-  .what-is-elbow-therapy-button .knee-pain-btn {
+  .what-is-elbow-therapy-button .qc-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -336,7 +336,7 @@
     height: 210px;
   }
 
-  .what-is-elbow-therapy-button .knee-pain-btn {
+  .what-is-elbow-therapy-button .qc-btn {
     width: auto;
     max-width: 100%;
     padding: 12px 22px;
@@ -362,7 +362,7 @@
     height: 190px;
   }
 
-  .what-is-elbow-therapy-button .knee-pain-btn {
+  .what-is-elbow-therapy-button .qc-btn {
     padding: 12px 20px;
   }
 }

@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider } from '../../Common';
 import './StemCellHero.css';
 
 const StemCellHero = () => {

@@ -145,7 +145,7 @@
   transform: translateY(0);
 }
 
-.why-choose-non-surgical-button .knee-pain-btn {
+.why-choose-non-surgical-button .qc-btn {
   background-color: #159A00;
   color: #fff;
   border-color: #159A00;
@@ -153,7 +153,7 @@
   padding: 12px 28px;
 }
 
-.why-choose-non-surgical-button .knee-pain-btn:hover {
+.why-choose-non-surgical-button .qc-btn:hover {
   background-color: #0d7a00;
   border-color: #0d7a00;
   color: #fff;

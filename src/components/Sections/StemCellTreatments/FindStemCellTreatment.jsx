@@ -73,7 +73,7 @@ const FindStemCellTreatment = () => {
           </div>
 
           <div className="find-stem-cell-button animated bounce" ref={buttonRef}>
-            <a href="/qc-locations/" className="knee-pain-btn">
+            <a href="/qc-locations/" className="qc-btn">
               View All Locations
             </a>
           </div>

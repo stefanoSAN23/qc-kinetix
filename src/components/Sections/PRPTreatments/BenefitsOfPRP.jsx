@@ -89,7 +89,7 @@ const BenefitsOfPRP = () => {
             </div>
 
             <div className="benefits-of-prp-button animated fadeInUp" ref={buttonRef}>
-              <a href="/request-your-first-appointment/" className="knee-pain-btn">
+              <a href="/request-your-first-appointment/" className="qc-btn">
                 Request an Appointment
               </a>
             </div>

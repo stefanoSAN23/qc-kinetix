@@ -118,7 +118,7 @@
   padding-top: 40px;
 }
 
-.regenerative-therapy-knee-button .knee-pain-btn {
+.regenerative-therapy-knee-button .qc-btn {
   background-color: #159A00;
   font-family: "Mulish", Sans-serif;
   font-size: 18px;
@@ -134,7 +134,7 @@
   margin-bottom: 10px;
 }
 
-.regenerative-therapy-knee-button .knee-pain-btn:hover {
+.regenerative-therapy-knee-button .qc-btn:hover {
   background-color: #fff;
   color: #000 !important;
   border-color: #159a00;
@@ -231,7 +231,7 @@
     column-count: 1;
   }
 
-  .regenerative-therapy-knee-button .knee-pain-btn {
+  .regenerative-therapy-knee-button .qc-btn {
     font-size: 15px;
     padding: 10px 24px;
   }

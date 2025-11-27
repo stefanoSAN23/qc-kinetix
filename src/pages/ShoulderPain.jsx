@@ -1,9 +1,9 @@
 import SEO from '../components/SEO/SEO';
+import { Divider } from '../components/Common';
 import ShoulderPainHero from '../components/Sections/ShoulderPain/ShoulderPainHero';
 import NonsurgicalShoulderTreatments from '../components/Sections/ShoulderPain/NonsurgicalShoulderTreatments';
 import WhatIsRegenerativeShoulderTherapy from '../components/Sections/ShoulderPain/WhatIsRegenerativeShoulderTherapy';
 import ShoulderCandidate from '../components/Sections/ShoulderPain/ShoulderCandidate';
-import SectionDivider from '../components/Sections/ShoulderPain/SectionDivider';
 import BenefitsOfNonsurgicalShoulderTreatments from '../components/Sections/ShoulderPain/BenefitsOfNonsurgicalShoulderTreatments';
 import ReadyToReduceShoulderPain from '../components/Sections/ShoulderPain/ReadyToReduceShoulderPain';
 import Testimonials from '../components/Sections/Testimonials';
@@ -18,7 +18,7 @@ const ShoulderPain = () => {
         <NonsurgicalShoulderTreatments />
         <WhatIsRegenerativeShoulderTherapy />
         <ShoulderCandidate />
-        <SectionDivider />
+        <Divider variant="default" />
         <BenefitsOfNonsurgicalShoulderTreatments />
         <ReadyToReduceShoulderPain />
         <Testimonials />

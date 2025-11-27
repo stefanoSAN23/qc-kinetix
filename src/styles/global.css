@@ -126,7 +126,8 @@ img {
   background: #000;
 }
 
-.knee-pain-btn {
+/* QC Button - Estilo principal global */
+.qc-btn {
   background-color: #159A00;
   font-family: "Mulish", Sans-serif;
   font-size: 18px;
@@ -135,16 +136,16 @@ img {
   color: #fff !important;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
+  border-width: 1px;
   border-color: #159a00;
-  border-radius: 5px 5px 5px 5px;
-  padding: 15px 35px 15px 35px;
+  border-radius: 5px;
+  padding: 15px 35px;
   text-decoration: none;
   display: inline-block;
   transition: all 0.3s ease;
 }
 
-.knee-pain-btn:hover {
+.qc-btn:hover {
   background-color: #fff;
   color: #000 !important;
   border-color: #159a00;
@@ -294,3 +295,349 @@ img {
 /* ------------------------------------------------------------------
    Legacy layout support for imported treatment markup (Elementor -> DBC)
 -------------------------------------------------------------------*/
+
+/* ===========================================
+   COMPONENTES REUTILIZABLES GLOBALES
+   =========================================== */
+
+/* -------------------------------------------
+   QC Button - Componente Reutilizable
+   ------------------------------------------- */
+
+.qc-button {
+  font-family: "Mulish", Sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.qc-button:focus {
+  outline: 2px solid var(--qc-primary-color);
+  outline-offset: 2px;
+}
+
+/* Button Variants */
+.qc-button-primary {
+  background-color: var(--qc-primary-color);
+  border-color: var(--qc-primary-color);
+  color: #fff !important;
+}
+
+.qc-button-primary:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: var(--qc-primary-color);
+}
+
+.qc-button-secondary {
+  background-color: transparent;
+  border-color: var(--qc-primary-color);
+  color: var(--qc-primary-color) !important;
+}
+
+.qc-button-secondary:hover {
+  background-color: var(--qc-primary-color);
+  color: #fff !important;
+}
+
+.qc-button-outline {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff !important;
+}
+
+.qc-button-outline:hover {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+.qc-button-ghost {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: var(--qc-primary-color) !important;
+}
+
+.qc-button-ghost:hover {
+  background-color: rgba(21, 154, 0, 0.1);
+  color: var(--qc-primary-color) !important;
+}
+
+.qc-button-header {
+  background-color: var(--qc-primary-color);
+  border-color: var(--qc-primary-color);
+  color: #fff !important;
+}
+
+.qc-button-header:hover {
+  background-color: #fff;
+  color: #172028 !important;
+  border-color: var(--qc-primary-color);
+}
+
+.qc-button-dark {
+  background-color: #000;
+  border-color: #000;
+  color: #fff !important;
+}
+
+.qc-button-dark:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #000;
+}
+
+.qc-button-white {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000 !important;
+}
+
+.qc-button-white:hover {
+  background-color: transparent;
+  color: #fff !important;
+  border-color: #fff;
+}
+
+/* Button Sizes */
+.qc-button-small {
+  font-size: 14px;
+  padding: 8px 18px;
+}
+
+.qc-button-medium {
+  font-size: 16px;
+  padding: 12px 28px;
+}
+
+.qc-button-large {
+  font-size: 18px;
+  padding: 15px 35px;
+}
+
+.qc-button-hero {
+  font-size: 18px;
+  padding: 15px 50px;
+}
+
+/* Button Modifiers */
+.qc-button-full-width {
+  width: 100%;
+  display: block;
+}
+
+.qc-button-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* -------------------------------------------
+   QC Divider - Componente Reutilizable
+   ------------------------------------------- */
+
+.qc-divider {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.qc-divider-line {
+  width: 100%;
+  max-width: 1400px;
+  border-top: 2px solid #000;
+  display: block;
+  background: none !important;
+  height: 0;
+}
+
+/* Divider Variants */
+.qc-divider-default {
+  background-color: #f6fafc;
+}
+
+.qc-divider-default .qc-divider-line {
+  border-top-color: #000;
+}
+
+.qc-divider-dark {
+  background-color: #18212A;
+}
+
+.qc-divider-dark .qc-divider-line {
+  border-top-color: #fff;
+}
+
+.qc-divider-light {
+  background-color: #fff;
+}
+
+.qc-divider-light .qc-divider-line {
+  border-top-color: #e0e0e0;
+}
+
+.qc-divider-transparent {
+  background-color: transparent;
+}
+
+.qc-divider-transparent .qc-divider-line {
+  border-top-color: #000;
+}
+
+.qc-divider-primary {
+  background-color: transparent;
+}
+
+.qc-divider-primary .qc-divider-line {
+  border-top-color: var(--qc-primary-color);
+}
+
+/* -------------------------------------------
+   QC Image Divider - Componente Reutilizable
+   ------------------------------------------- */
+
+.qc-image-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.qc-image-divider img {
+  display: block;
+  height: auto;
+}
+
+.qc-image-divider-white img {
+  filter: brightness(0) invert(1);
+}
+
+.qc-image-divider-green img {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(95%) saturate(1500%) hue-rotate(75deg) brightness(0.95) contrast(105%);
+}
+
+/* -------------------------------------------
+   Responsive para Componentes Reutilizables
+   ------------------------------------------- */
+
+/* MacBook / Small Laptop (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .qc-button-hero {
+    font-size: 15px;
+    padding: 12px 40px;
+  }
+
+  .qc-button-large {
+    font-size: 16px;
+    padding: 13px 30px;
+  }
+}
+
+/* Extra Small Laptops (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .qc-button-hero {
+    font-size: 14px;
+    padding: 10px 35px;
+  }
+
+  .qc-button-large {
+    font-size: 15px;
+    padding: 12px 28px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .qc-button-hero {
+    font-size: 17px;
+    padding: 14px 32px;
+  }
+
+  .qc-button-large {
+    font-size: 17px;
+    padding: 14px 32px;
+  }
+
+  .qc-button-medium {
+    font-size: 15px;
+    padding: 11px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .qc-button-hero {
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+
+  .qc-button-large {
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+
+  .qc-button-medium {
+    font-size: 14px;
+    padding: 10px 22px;
+  }
+
+  .qc-button-small {
+    font-size: 13px;
+    padding: 7px 15px;
+  }
+
+  .qc-divider {
+    padding: 15px 0;
+  }
+
+  .qc-image-divider {
+    margin: 8px auto;
+  }
+
+  .qc-image-divider img {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 480px) {
+  .qc-button-hero {
+    font-size: 15px;
+    padding: 10px 24px;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .qc-button-large {
+    font-size: 15px;
+    padding: 10px 24px;
+  }
+
+  .qc-button-medium {
+    font-size: 13px;
+    padding: 9px 20px;
+  }
+
+  .qc-button-small {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .qc-divider {
+    padding: 12px 0;
+  }
+
+  .qc-image-divider {
+    margin: 6px auto;
+  }
+
+  .qc-image-divider img {
+    max-width: 120px;
+  }
+}

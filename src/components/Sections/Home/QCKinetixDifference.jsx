@@ -89,7 +89,7 @@ const QCKinetixDifference = ({ hideButton = false }) => {
 
         {!hideButton && (
           <div className="qc-difference-button animated fadeInUp" ref={buttonRef}>
-            <a href="/about-us/" className="knee-pain-btn">
+            <a href="/about-us/" className="qc-btn">
               Learn More
             </a>
           </div>

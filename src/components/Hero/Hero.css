@@ -94,7 +94,7 @@
   animation: fadeInUp 1s ease-out 0.6s both;
 }
 
-.hero-button .knee-pain-btn {
+.hero-button .qc-btn {
   padding: 15px 50px;
 }
 
@@ -143,6 +143,59 @@
   animation: fadeInUp 1s ease-out 0.6s both;
 }
 
+/* MacBook / Small Laptop Responsive Styles (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .hero-section {
+    min-height: 85vh;
+  }
+
+  .hero-content {
+    padding: 0 30px;
+  }
+
+  .hero-text {
+    gap: 15px;
+  }
+
+  .hero-title {
+    font-size: 55px;
+    letter-spacing: 0.5px;
+  }
+
+  .hero-description {
+    font-size: 24px;
+  }
+
+  .hero-button {
+    margin-top: 20px;
+  }
+
+  .hero-button .qc-btn {
+    padding: 12px 40px;
+    font-size: 15px;
+  }
+}
+
+/* Extra Small Laptops / MacBook Air 11" (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+  }
+
+  .hero-button .qc-btn {
+    padding: 10px 35px;
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-section {
     min-height: 70vh;
@@ -172,7 +225,7 @@
     max-width: 100%;
   }
   
-  .hero-button .knee-pain-btn {
+  .hero-button .qc-btn {
     font-size: 17px;
     padding: 14px 32px;
   }
@@ -208,7 +261,7 @@
     max-width: 100%;
   }
   
-  .hero-button .knee-pain-btn {
+  .hero-button .qc-btn {
     font-size: 16px;
     padding: 12px 28px;
   }
@@ -244,7 +297,7 @@
     max-width: 100%;
   }
   
-  .hero-button .knee-pain-btn {
+  .hero-button .qc-btn {
     font-size: 15px;
     padding: 10px 24px;
     width: 100%;

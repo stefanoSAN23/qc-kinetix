@@ -1,9 +1,9 @@
 import SEO from '../components/SEO/SEO';
+import { Divider } from '../components/Common';
 import ElbowPainHero from '../components/Sections/ElbowPain/ElbowPainHero';
 import NonsurgicalElbowTreatments from '../components/Sections/ElbowPain/NonsurgicalElbowTreatments';
 import WhatIsRegenerativeElbowTherapy from '../components/Sections/ElbowPain/WhatIsRegenerativeElbowTherapy';
 import ElbowCandidate from '../components/Sections/ElbowPain/ElbowCandidate';
-import SectionDivider from '../components/Sections/ElbowPain/SectionDivider';
 import BenefitsOfNonsurgicalElbowTreatments from '../components/Sections/ElbowPain/BenefitsOfNonsurgicalElbowTreatments';
 import ReadyToReduceElbowPain from '../components/Sections/ElbowPain/ReadyToReduceElbowPain';
 import Testimonials from '../components/Sections/Testimonials';
@@ -18,7 +18,7 @@ const ElbowPain = () => {
       <NonsurgicalElbowTreatments />
       <WhatIsRegenerativeElbowTherapy />
       <ElbowCandidate />
-      <SectionDivider />
+      <Divider variant="default" />
       <BenefitsOfNonsurgicalElbowTreatments />
       <ReadyToReduceElbowPain />
       <Testimonials />

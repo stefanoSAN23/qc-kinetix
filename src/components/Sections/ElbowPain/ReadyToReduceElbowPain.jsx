@@ -45,7 +45,7 @@ const ReadyToReduceElbowPain = () => {
           <div className="ready-reduce-elbow-button animated fadeInUp" ref={buttonRef}>
             <a
               href="/request-your-first-appointment/"
-              className="knee-pain-btn"
+              className="qc-btn"
               onClick={(e) => {
                 e.preventDefault();
                 window.location.href = '/request-your-first-appointment/';

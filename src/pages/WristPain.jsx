@@ -1,9 +1,9 @@
 import SEO from '../components/SEO/SEO';
+import { Divider } from '../components/Common';
 import WristPainHero from '../components/Sections/WristPain/WristPainHero';
 import NonsurgicalWristTreatments from '../components/Sections/WristPain/NonsurgicalWristTreatments';
 import WhatIsRegenerativeWristTherapy from '../components/Sections/WristPain/WhatIsRegenerativeWristTherapy';
 import WristCandidate from '../components/Sections/WristPain/WristCandidate';
-import SectionDivider from '../components/Sections/WristPain/SectionDivider';
 import BenefitsOfNonsurgicalWristTreatments from '../components/Sections/WristPain/BenefitsOfNonsurgicalWristTreatments';
 import ReadyToReduceWristPain from '../components/Sections/WristPain/ReadyToReduceWristPain';
 import Testimonials from '../components/Sections/Testimonials';
@@ -18,7 +18,7 @@ const WristPain = () => {
       <NonsurgicalWristTreatments />
       <WhatIsRegenerativeWristTherapy />
       <WristCandidate />
-      <SectionDivider />
+      <Divider variant="default" />
       <BenefitsOfNonsurgicalWristTreatments />
       <ReadyToReduceWristPain />
       <Testimonials />

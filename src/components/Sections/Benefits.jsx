@@ -82,7 +82,7 @@ const Benefits = () => {
           </ul>
 
           <div className="benefits-button mobile-only">
-            <a href="#contact" className="knee-pain-btn">
+            <a href="#contact" className="qc-btn">
               Book a Consultation
             </a>
           </div>

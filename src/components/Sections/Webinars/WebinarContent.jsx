@@ -12,14 +12,14 @@ const WebinarContent = () => {
             QC Kinetix Webinar: The Truth About Stem Cells and PRP: Hype or Hope? Why surgery isn't your only option for joint pain.
           </h2>
           
-          <div className="webinar-content-divider"></div>
+          <div className="qc-webinar-divider"></div>
           
           <h2 className="webinar-content-date">
             Date & Time Sep 23, 2025 01:00 PM<br />
             Eastern Time (US and Canada)
           </h2>
           
-          <div className="webinar-content-divider"></div>
+          <div className="qc-webinar-divider"></div>
           
           <div className="webinar-content-text">
             <p><strong>QC Kinetix Webinar: The Truth About Stem Cells and PRP: Hype or Hope? Why surgery isn't your only option for joint pain.</strong></p>
@@ -37,7 +37,7 @@ const WebinarContent = () => {
             <p>Better starts TODAY.</p>
           </div>
           
-          <div className="webinar-content-divider"></div>
+          <div className="qc-webinar-divider"></div>
           
           <div className="webinar-share-buttons-desktop">
             <WebinarShareButtons />

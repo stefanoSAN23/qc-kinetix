@@ -193,7 +193,7 @@
   margin-top: 10px;
 }
 
-.what-is-arthritis-therapy-button .knee-pain-btn {
+.what-is-arthritis-therapy-button .qc-btn {
   background-color: #159a00;
   font-family: 'Mulish', sans-serif;
   font-size: 18px;
@@ -208,7 +208,7 @@
   transition: all 0.3s ease;
 }
 
-.what-is-arthritis-therapy-button .knee-pain-btn:hover {
+.what-is-arthritis-therapy-button .qc-btn:hover {
   background-color: #fff;
   color: #000 !important;
   border-color: #159a00;
@@ -304,7 +304,7 @@
     text-align: left;
   }
 
-  .what-is-arthritis-therapy-button .knee-pain-btn {
+  .what-is-arthritis-therapy-button .qc-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -342,7 +342,7 @@
     height: 210px;
   }
 
-  .what-is-arthritis-therapy-button .knee-pain-btn {
+  .what-is-arthritis-therapy-button .qc-btn {
     font-size: 15px;
     padding: 10px 24px;
   }

@@ -124,7 +124,7 @@
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.faqs-button .knee-pain-btn {
+.faqs-button .qc-btn {
   font-size: 16px;
   padding: 12px 28px;
 }
@@ -134,7 +134,7 @@
   transform: translateY(0);
 }
 
-.knee-pain-btn {
+.qc-btn {
   background-color: #159A00;
   font-size: 18px;
   font-weight: 700;
@@ -148,7 +148,7 @@
   transition: all 0.3s ease;
 }
 
-.knee-pain-btn:hover {
+.qc-btn:hover {
   background-color: #fff;
   color: #000 !important;
   border-color: #159a00;
@@ -222,7 +222,7 @@
     margin-top: 35px;
   }
 
-  .faqs-button .knee-pain-btn {
+  .faqs-button .qc-btn {
     font-size: 14px;
     padding: 10px 20px;
   }

@@ -72,7 +72,7 @@
   margin-top: 10px;
 }
 
-.arthritis-candidate-button .knee-pain-btn {
+.arthritis-candidate-button .qc-btn {
   background-color: #fff;
   font-family: 'Mulish', sans-serif;
   font-size: 18px;
@@ -87,7 +87,7 @@
   transition: all 0.3s ease;
 }
 
-.arthritis-candidate-button .knee-pain-btn:hover {
+.arthritis-candidate-button .qc-btn:hover {
   background-color: #159a00;
   color: #fff !important;
   border-color: #159a00;
@@ -164,7 +164,7 @@
     width: 100%;
   }
 
-  .arthritis-candidate-button .knee-pain-btn {
+  .arthritis-candidate-button .qc-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -188,7 +188,7 @@
     font-size: 16px;
   }
 
-  .arthritis-candidate-button .knee-pain-btn {
+  .arthritis-candidate-button .qc-btn {
     font-size: 16px;
     padding: 12px 28px;
     display: inline-flex;

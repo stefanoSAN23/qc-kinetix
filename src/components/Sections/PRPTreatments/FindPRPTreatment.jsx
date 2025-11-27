@@ -69,7 +69,7 @@ const FindPRPTreatment = () => {
           </div>
 
           <div className="find-prp-button animated bounce" ref={buttonRef}>
-            <a href="/qc-locations/" className="knee-pain-btn">
+            <a href="/qc-locations/" className="qc-btn">
               View All Locations
             </a>
           </div>

@@ -723,3 +723,146 @@
   fill: var(--qc-primary-color);
 }
 
+/* MacBook / Small Laptop Responsive Styles (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .header-container {
+    padding: 10px 20px 10px 15px;
+  }
+
+  .logo-container {
+    left: 15px;
+    top: 12px;
+  }
+
+  .logo {
+    height: 45px;
+  }
+
+  .nav-menu-desktop {
+    margin-top: 5px;
+  }
+
+  .menu-list {
+    gap: 8px;
+  }
+
+  .menu-link {
+    font-size: 12px;
+    padding: 8px 0;
+  }
+
+  .menu-item.has-children::after {
+    margin-left: 3px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #fff;
+  }
+
+  .header.regenerative-page .menu-item.has-children::after {
+    border-top-color: #000;
+  }
+
+  .header-actions {
+    gap: 10px;
+    margin-left: 12px;
+  }
+
+  .header-actions .req-btn {
+    font-size: 11px;
+    padding: 6px 10px;
+    margin-top: 5px;
+  }
+
+  .phone-icon a {
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  .phone-svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  .phone-icon span {
+    font-size: 11px;
+  }
+
+  /* Submenu adjustments */
+  .sub-menu {
+    min-width: 180px;
+    padding: 10px 0;
+  }
+
+  .sub-menu-link {
+    font-size: 11px;
+    padding: 5px 14px;
+  }
+
+  /* Treatment Mega Menu adjustments */
+  .treatmentMegaMenu .sub-menu {
+    min-width: 520px;
+    padding: 12px 15px;
+    column-gap: 25px;
+  }
+
+  .treatmentMegaMenu .sub-menu-link {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+}
+
+/* Extra Small Laptops / MacBook Air 11" (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .header-container {
+    padding: 8px 15px 8px 10px;
+  }
+
+  .logo-container {
+    left: 10px;
+    top: 10px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .menu-list {
+    gap: 5px;
+  }
+
+  .menu-link {
+    font-size: 11px;
+    padding: 6px 0;
+  }
+
+  .header-actions {
+    gap: 8px;
+    margin-left: 8px;
+  }
+
+  .header-actions .req-btn {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+
+  .phone-icon span {
+    font-size: 10px;
+  }
+
+  .phone-svg {
+    width: 11px;
+    height: 11px;
+  }
+
+  /* Treatment Mega Menu for smaller screens */
+  .treatmentMegaMenu .sub-menu {
+    min-width: 450px;
+    column-gap: 20px;
+  }
+
+  .treatmentMegaMenu .sub-menu-link {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+}
+

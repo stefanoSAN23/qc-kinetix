@@ -1,9 +1,9 @@
 import SEO from '../components/SEO/SEO';
+import { Divider } from '../components/Common';
 import FootHandPainHero from '../components/Sections/FootHandPain/FootHandPainHero';
 import RegenerativeTherapyForFootHandPain from '../components/Sections/FootHandPain/RegenerativeTherapyForFootHandPain';
 import WhatIsRegenerativeFootHandPainTherapy from '../components/Sections/FootHandPain/WhatIsRegenerativeFootHandPainTherapy';
 import FootHandCandidate from '../components/Sections/FootHandPain/FootHandCandidate';
-import SectionDivider from '../components/Sections/FootHandPain/SectionDivider';
 import BenefitsOfNonsurgicalFootHandTreatments from '../components/Sections/FootHandPain/BenefitsOfNonsurgicalFootHandTreatments';
 import ReadyToReduceFootHandPain from '../components/Sections/FootHandPain/ReadyToReduceFootHandPain';
 import Testimonials from '../components/Sections/Testimonials';
@@ -18,7 +18,7 @@ const FootHandPain = () => {
       <RegenerativeTherapyForFootHandPain />
       <WhatIsRegenerativeFootHandPainTherapy />
       <FootHandCandidate />
-      <SectionDivider />
+      <Divider variant="default" />
       <BenefitsOfNonsurgicalFootHandTreatments />
       <ReadyToReduceFootHandPain />
       <Testimonials />

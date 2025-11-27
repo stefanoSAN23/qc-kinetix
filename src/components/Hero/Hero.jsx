@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider, Button } from '../Common';
 import './Hero.css';
 
 const Hero = () => {
@@ -38,16 +39,10 @@ const Hero = () => {
             Feel Better. Move Better. Live Better.
           </h1>
           
-          <div className="hero-divider fade-in-left">
-            <img 
-              src="https://qckinetix.com/wp-content/uploads/2025/03/Group-69.svg" 
-              alt="Decorative divider line" 
-              width="176" 
-              height="7"
-              loading="eager"
-              fetchPriority="high"
-            />
-          </div>
+          <ImageDivider 
+            className="hero-divider fade-in-left"
+            loading="eager"
+          />
           
           <p className="hero-description">
             Regenerative medicine using your body's own healing abilities for natural pain relief. <br />
@@ -55,9 +50,13 @@ const Hero = () => {
           </p>
           
           <div className="hero-button fade-in-up">
-            <a href="/about-us/" className="knee-pain-btn">
-              Learn More
-            </a>
+            <Button 
+              text="Learn More"
+              href="/about-us/"
+              variant="primary"
+              size="hero"
+              className="qc-btn"
+            />
           </div>
         </div>
       </div>

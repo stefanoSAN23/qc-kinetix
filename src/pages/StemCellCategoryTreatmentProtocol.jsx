@@ -19,6 +19,11 @@ const StemCellCategoryTreatmentProtocol = () => {
     languages: []
   });
 
+  // ALWAYS scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, []);
+
   // Update filters when URL parameter changes
   useEffect(() => {
     if (categoriesFromUrl) {
@@ -52,11 +57,6 @@ const StemCellCategoryTreatmentProtocol = () => {
     { id: 'stem-cell-anti-aging', label: 'Stem Cell Anti-Aging Treatments', value: 'stem-cell-anti-aging' },
     { id: 'regenerative-medications', label: 'Regenerative Medications for Legal Fly and Buy Program', value: 'regenerative-medications' }
   ];
-
-  // Ensure page starts from top on load, especially for responsive
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'instant' });
-  }, []);
 
   return (
     <>

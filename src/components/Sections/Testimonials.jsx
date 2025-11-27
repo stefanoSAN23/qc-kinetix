@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
+import { Button } from '../Common';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './Testimonials.css';
@@ -136,16 +137,13 @@ const Testimonials = () => {
         </div>
 
         <div className="testimonials-button animated fadeInUp" ref={buttonRef}>
-          <a 
-            href="/success-stories/" 
-            className="knee-pain-btn"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = '/success-stories/';
-            }}
-          >
-            View All Success Stories
-          </a>
+          <Button 
+            text="View All Success Stories"
+            href="/success-stories/"
+            variant="primary"
+            size="medium"
+            className="qc-btn"
+          />
         </div>
       </div>
     </section>

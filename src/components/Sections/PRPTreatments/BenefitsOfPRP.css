@@ -133,7 +133,7 @@
   width: 100%;
 }
 
-.benefits-of-prp-button .knee-pain-btn {
+.benefits-of-prp-button .qc-btn {
   display: inline-block;
   padding: 10px 20px;
   background-color: #159A00;
@@ -147,7 +147,7 @@
   visibility: visible !important;
 }
 
-.benefits-of-prp-button .knee-pain-btn:hover {
+.benefits-of-prp-button .qc-btn:hover {
   background-color: #0d7a00;
 }
 

@@ -115,7 +115,7 @@ const FAQs = () => {
         </div>
 
         <div className="faqs-button animated fadeInUp" ref={buttonRef}>
-          <a href="/faq/" className="knee-pain-btn">
+          <a href="/faq/" className="qc-btn">
             All FAQs
           </a>
         </div>

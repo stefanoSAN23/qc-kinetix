@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider, Button } from '../../Common';
 import './PRPHero.css';
 
 const PRPHero = () => {
@@ -75,9 +76,13 @@ const PRPHero = () => {
             data-animate-immediate="true"
             ref={buttonRef}
           >
-            <a href="/request-your-first-appointment/" className="knee-pain-btn">
-              Request an Appointment
-            </a>
+            <Button 
+              text="Request an Appointment"
+              href="/request-your-first-appointment/"
+              variant="primary"
+              size="medium"
+              className="qc-btn"
+            />
           </div>
         </div>
 

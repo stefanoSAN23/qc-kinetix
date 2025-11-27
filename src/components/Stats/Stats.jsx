@@ -45,8 +45,8 @@ const Stats = ({ animateImmediate = false }) => {
             </div>
             
             <div className="stat-divider animated fadeInLeft" data-animate-immediate={animateImmediate ? 'true' : undefined}>
-              <div className="content-divider">
-                <span className="content-divider-separator"></span>
+              <div className="qc-stat-divider">
+                <span className="qc-stat-divider-line"></span>
               </div>
             </div>
             
@@ -66,8 +66,8 @@ const Stats = ({ animateImmediate = false }) => {
             </div>
             
             <div className="stat-divider animated fadeInLeft" data-animate-immediate={animateImmediate ? 'true' : undefined}>
-              <div className="content-divider">
-                <span className="content-divider-separator"></span>
+              <div className="qc-stat-divider">
+                <span className="qc-stat-divider-line"></span>
               </div>
             </div>
             
@@ -83,8 +83,8 @@ const Stats = ({ animateImmediate = false }) => {
             </div>
             
             <div className="stat-divider animated fadeInRight" data-animate-immediate={animateImmediate ? 'true' : undefined}>
-              <div className="content-divider">
-                <span className="content-divider-separator"></span>
+              <div className="qc-stat-divider">
+                <span className="qc-stat-divider-line"></span>
               </div>
             </div>
             

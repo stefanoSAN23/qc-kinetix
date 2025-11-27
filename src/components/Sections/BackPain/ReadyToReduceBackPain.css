@@ -61,7 +61,7 @@
   margin-top: 10px;
 }
 
-.ready-reduce-back-button .knee-pain-btn {
+.ready-reduce-back-button .qc-btn {
   background-color: #159a00;
   font-family: "Mulish", Sans-serif;
   font-size: 18px;
@@ -76,7 +76,7 @@
   transition: all 0.3s ease;
 }
 
-.ready-reduce-back-button .knee-pain-btn:hover {
+.ready-reduce-back-button .qc-btn:hover {
   background-color: #fff;
   color: #000 !important;
   border-color: #159a00;
@@ -131,7 +131,7 @@
     font-size: 22px;
   }
 
-  .ready-reduce-back-button .knee-pain-btn {
+  .ready-reduce-back-button .qc-btn {
     font-size: 16px;
     padding: 12px 30px;
   }

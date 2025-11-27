@@ -36,7 +36,7 @@ const AreStemCellTreatmentsRight = () => {
             Are Stem Cell Treatments<br />at QC Kinetix Right for You?
           </h2>
           <div className="are-stem-cell-right-button animated fadeInUp" ref={buttonRef}>
-            <a href="/request-your-first-appointment/" className="knee-pain-btn">
+            <a href="/request-your-first-appointment/" className="qc-btn">
               Request an Appointment
             </a>
           </div>

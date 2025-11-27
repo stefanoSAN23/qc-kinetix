@@ -75,7 +75,7 @@ const RegenerativeTherapyForHipPain = () => {
           <div className="regenerative-therapy-hip-button animated fadeInUp" ref={buttonRef}>
             <a
               href="/request-your-first-appointment/"
-              className="knee-pain-btn"
+              className="qc-btn"
               onClick={(event) => {
                 event.preventDefault();
                 window.location.href = '/request-your-first-appointment/';
