@@ -8,29 +8,38 @@ import '../components/Sections/Blog/BlogHero.css';
 
 const StemCellCategoryTreatmentProtocol = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const categoryFromUrl = searchParams.get('category');
+  
+  // Get multiple categories from URL (comma-separated)
+  const categoriesFromUrl = searchParams.get('categories');
+  const initialCategories = categoriesFromUrl ? categoriesFromUrl.split(',').filter(c => c) : [];
 
   const [filters, setFilters] = useState({
-    conditions: categoryFromUrl ? [categoryFromUrl] : [],
+    conditions: initialCategories,
     dateOrder: '',
     languages: []
   });
 
   // Update filters when URL parameter changes
   useEffect(() => {
-    if (categoryFromUrl) {
+    if (categoriesFromUrl) {
+      const categories = categoriesFromUrl.split(',').filter(c => c);
       setFilters(prev => ({
         ...prev,
-        conditions: [categoryFromUrl]
+        conditions: categories
+      }));
+    } else {
+      setFilters(prev => ({
+        ...prev,
+        conditions: []
       }));
     }
-  }, [categoryFromUrl]);
+  }, [categoriesFromUrl]);
 
   const handleFilterChange = (newFilters) => {
     setFilters(newFilters);
-    // Update URL when filters change
+    // Update URL when filters change - support multiple categories
     if (newFilters.conditions && newFilters.conditions.length > 0) {
-      setSearchParams({ category: newFilters.conditions[0] });
+      setSearchParams({ categories: newFilters.conditions.join(',') });
     } else {
       setSearchParams({});
     }

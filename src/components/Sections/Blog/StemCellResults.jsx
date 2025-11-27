@@ -579,7 +579,7 @@ const StemCellResults = ({ filters }) => {
   const postsPerPage = 8;
   const resultsSectionRef = useRef(null);
 
-  // Filter posts by selected category
+  // Filter posts by selected categories (supports multiple categories)
   const getFilteredPosts = () => {
     // If no filters selected, show ALL treatments from all categories
     if (!filters || !filters.conditions || filters.conditions.length === 0) {
@@ -591,21 +591,26 @@ const StemCellResults = ({ filters }) => {
       ];
     }
     
-    const selectedCategory = filters.conditions[0];
+    // Support multiple selected categories - combine results from all selected
+    const selectedCategories = filters.conditions;
+    let combinedResults = [];
     
-    // Return appropriate array based on selected category
-    if (selectedCategory === 'stem-cell-articulation') {
-      return [...stemCellArticulationTreatments];
-    } else if (selectedCategory === 'stem-cell-autoimmune') {
-      return [...stemCellAutoimmuneTreatments];
-    } else if (selectedCategory === 'stem-cell-anti-aging') {
-      return [...stemCellAntiAgingTreatments];
-    } else if (selectedCategory === 'regenerative-medications') {
-      return [...regenerativeMedicationsTreatments];
-    } else {
-      // For unknown categories, return empty array
-      return [];
+    // Add treatments from each selected category
+    if (selectedCategories.includes('stem-cell-articulation')) {
+      combinedResults = [...combinedResults, ...stemCellArticulationTreatments];
     }
+    if (selectedCategories.includes('stem-cell-autoimmune')) {
+      combinedResults = [...combinedResults, ...stemCellAutoimmuneTreatments];
+    }
+    if (selectedCategories.includes('stem-cell-anti-aging')) {
+      combinedResults = [...combinedResults, ...stemCellAntiAgingTreatments];
+    }
+    if (selectedCategories.includes('regenerative-medications')) {
+      combinedResults = [...combinedResults, ...regenerativeMedicationsTreatments];
+    }
+    
+    // If no matching categories found, return empty array
+    return combinedResults;
   };
 
   const filteredPosts = getFilteredPosts();

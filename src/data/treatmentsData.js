@@ -22987,6 +22987,4321 @@ export const treatmentsData = {
         </div>
       </section>
     `
+  },
+
+  'hgh-pfizer-ngenla-somatrogon-ghla': {
+    slug: 'hgh-pfizer-ngenla-somatrogon-ghla',
+    title: 'NGENLA HGH 1 Year Package – New Once a Week Injection HGH',
+    image: 'https://dreambody.clinic/wp-content/uploads/2025/05/Ngenla-60mg-somatrogon-ghla-HGH-box-scaled.webp',
+    imageWidth: 1920,
+    imageHeight: 1440,
+    imageAlt: 'Ngenla 60mg somatrogon-ghla HGH box',
+    content: `
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-id="ngenla-top" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-image" data-element_type="widget" data-widget_type="image.default">
+                <div class="dbc-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="531" src="https://dreambody.clinic/wp-content/uploads/2025/05/Ngenla-60mg-somatrogon-ghla-HGH-box-and-pen-1024x531.webp" class="attachment-large size-large" alt="Ngenla 60mg somatrogon-ghla HGH box and pen" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h2><span style="color: #000000;">The NGENLA HGH Legal Fly & Buy Program:</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">12 NGENLA (somatrogon-ghla) Pens (60mg = 180IU) For Once a Week Injections of 15mg. Equivalent to 2.25IU daily with traditional HGH like Genotropin or Saizen</span></h3></li>
+                    <li><h3><span style="color: #000000;">Full Blood Panel</span></h3></li>
+                    <li><h3><span style="color: #000000;">All Documentation to Fly Home Legally</span></h3></li>
+                  </ul>
+                  <div>&nbsp;</div>
+                  <h2><span style="color: #000000;">PRICE: $10,000 USD</span></h2>
+                  <ul>
+                    <li><span style="color: #000000;">Day 1: Arrive and Rest</span></li>
+                    <li><span style="color: #000000;">Day 2: Bloodwork and Payment</span></li>
+                    <li><span style="color: #000000;">Day 3: Consultation and Medication delivery</span></li>
+                    <li><span style="color: #000000;">Day 4: Fly Home</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">How to Get the Pfizer NGENLA HGH Pen Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Welcome to Dream Body Clinic – the ultimate destination for those looking to achieve their dream body with the best possible products and solutions out there. Today, we are excited to present to you our Pfizer NGENLA HGH Pen Package – the perfect solution for anyone looking to enhance their athletic performance, build lean muscle, and stay young and healthy.</span></p>
+                  <p><span style="color: #000000;">Our Pfizer NGENLA HGH Fly & Buy Package contains the highest quality human growth hormone (HGH) available on the market. NGENLA is Pfizer's newest HGH product. It is a new compound called somatrogon-ghla which makes it a slow release HGH product. This means <strong>it only requires an injection once a week instead of daily like traditional HGH medications</strong>.</span></p>
+                  <p><span style="color: #000000;">HGH is a naturally occurring hormone that plays a crucial role in the growth and regeneration of cells in the human body. However, the production of HGH declines as we age, which can lead to a variety of health problems and a decline in physical performance.</span></p>
+                  <p><span style="color: #000000;">Fortunately, with Dream Body Clinic's Pfizer NGENLA HGH Pen Package, you can replenish your body's supply of HGH and experience a whole host of benefits such as:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">Increased muscle mass and strength</span></li>
+                    <li><span style="color: #000000;">Enhanced athletic performance</span></li>
+                    <li><span style="color: #000000;">Reduced body fat</span></li>
+                    <li><span style="color: #000000;">Improved bone density</span></li>
+                    <li><span style="color: #000000;">Younger looking skin</span></li>
+                    <li><span style="color: #000000;">Improved immune function</span></li>
+                  </ul>
+                  <p><span style="color: #000000;">Our Pfizer Genotropin HGH Fly & Buy Package is also incredibly convenient and cost-effective. With this package, you will receive a years' supply of Pfizer NGENLA HGH Pens. You will also get a full blood panel, doctors consultation and all paperwork needed for safe and legal travel home.</span></p>
+                  <p><span style="color: #000000;">At Dream Body Clinic, we are committed to helping our patients achieve their dream body and live their best life. We pride ourselves on offering only the highest quality true pharmaceutical medications and treatments. Our Pfizer NGENLA HGH Pen Package is no exception. So why wait? Place your order now and experience the transformative power of HGH for yourself!</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-video" data-element_type="widget" data-widget_type="video.default">
+                <div class="dbc-widget-container">
+                  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/4Vza1HRgaKU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">The Pfizer NGENLA HGH Pen Packages</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Pfizer NGENLA HGH Fly & Buy Package is available for those interested in feeling amazing or for children that want to grow taller. Pfizer NGENLA is the newest and best HGH product from Pfizer. In the USA, Canada and most of the world HGH is highly regulated. Fortunately Dreambody Clinic is in Mexico where it is legal. We prepare all the documentation needed so you can fly home legally.</span></p>
+                  <h2><span style="color: #000000;">All Packages Include HGH + Cooler with Gel Icepacks + Full Blood Panel + Doctor Consult + Prescription + All Documentation for Legal Travel</span></h2>
+                  <div>
+                    <p><span style="color: #000000;">The 1 year supply of 2,160IU is the maximum we can send you home with legally. Some patients prefer a lower amount so those packages are listed below. We do not recommend getting anything less than a 6 month supply. This is because HGH at a weekly dose of 15mg will hit it's peak, cumulative results at the 6 month mark. After 6 months those results will last, but stay at that level if the HGH use is continued. Results will only increase if the dose increases at that point. It is our opinion that doing anything less than 6 months is not worth trying.</span></p>
+                  </div>
+                  <h1><span style="color: #000000;">1 Year 2160IU – $10,000</span></h1>
+                  <h1><span style="color: #000000;"><strong>6 Month 1080IU – $5,500</strong></span></h1>
+                  <ul>
+                    <li><span style="color: #000000;">Package length based on the user administering 60IU (15mg) per week</span></li>
+                    <li><span style="color: #000000;">We don't sell anything less than a 6 month supply</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">HGH Studies</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h2><span style="color: #000000;">HGH Study on Men over age 60</span></h2>
+                  <p><a href="https://dreambody.clinic/wp-content/uploads/2018/03/Dr_Rudman-HGH-Research.pdf" rel="nofollow">Dr_Rudman-HGH-Research – EFFECTS OF HUMAN GROWTH HORMONE IN MEN OVER 60 YEARS OLD</a></p>
+                  <ul>
+                    <li><span style="color: #000000;">HGH Treatment was given for six months</span></li>
+                    <li><span style="color: #000000;">Ages ranged from 61 to 81 years</span></li>
+                    <li><span style="color: #000000;">Men were injected at 8:00 AM, with intervals between HGH injections of only 1 or 2 days</span></li>
+                    <li><span style="color: #000000;">The men followed a healthy diet</span></li>
+                    <li><span style="color: #000000;">The study found no significant change in body weight</span></li>
+                    <li><span style="color: #000000;">Lean body mass increased by 8.8%</span></li>
+                    <li><span style="color: #000000;">Fat decreased by 14.4%</span></li>
+                    <li><span style="color: #000000;">Skin thickness increased by 7.1%</span></li>
+                    <li><span style="color: #000000;">Bone density increased by 1.7%</span></li>
+                  </ul>
+                  <h2><span style="color: #000000;">GENOTROPIN HGH STUDIES</span></h2>
+                  <ul>
+                    <li><a href="http://sci-hub.tw/10.1515/jpem.2010.092" rel="nofollow">Systematic Review of the Clinical Effectiveness of Genotropin (Somatropin) in Children with Short Stature</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.biologicals.2005.08.019" rel="nofollow">Somatonorm (somatrem) and Genotropin (somatropin): Two case studies</a></li>
+                    <li><a href="http://sci-hub.tw/10.1056/NEJMra1817346" rel="nofollow">Growth Hormone Deficiency in Adults</a></li>
+                    <li><a href="http://sci-hub.tw/10.1007/BF03346653" rel="nofollow">HGH and IGF-1 axis in neurodegenerative diseases</a></li>
+                    <li><a href="http://sci-hub.tw/10.1210/jc.2005-0916" rel="nofollow">HGH Effects on Athletic Performance – Effects of High-Dose Growth Hormone on Glucose and Glycerol Metabolism at Rest and during Exercise in Endurance-Trained Athletes</a></li>
+                    <li><a href="http://sci-hub.tw/10.1210/jc.2002-021872" rel="nofollow">High Dose Growth Hormone Exerts an Anabolic Effect at Rest and during Exercise in Endurance-Trained Athletes</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000452913" rel="nofollow">HGH Boosts the immune system</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000183770" rel="nofollow">growth hormone and diabetes mellitus – HGH at low doses is beneficial for type 2 diabetics</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000185029" rel="nofollow">A history of growth Hormone</a></li>
+                    <li><a href="http://sci-hub.tw/10.1507/endocrj.45.suppl_s53" rel="nofollow">Treatment with HGH for male subfertility</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.beem.2015.04.009" rel="nofollow">Hormone replacement therapy in children: The use of HGH</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.beem.2014.09.006" rel="nofollow">Growth Hormone Replacement in Adults – Current Standards and New Perspectives</a></li>
+                    <li><a href="http://sci-hub.tw/10.1155/2014/235060" rel="nofollow">Effect of GH/IGF-1 on Bone Metabolism and Osteoporosis</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/24870842/" rel="nofollow">Effects of Growth Hormone Replacement Therapy on Bone Metabolism</a></li>
+                    <li><a href="http://sci-hub.tw/10.18632/aging.100262" rel="nofollow">Rejuvenating somatotropic signaling: a therapeutical opportunity for premature aging?</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/28477727/" rel="nofollow">HGH and Ageing</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.ghir.2016.02.002" rel="nofollow">The somatotropic Axis and Aging: Benefits of endocrine defect</a></li>
+                    <li><a href="http://sci-hub.tw/10.1530/REP-14-0494" rel="nofollow">A Direct Action for GH in Improvement of Oocyte Quality in Poor-Responder Patients</a></li>
+                    <li><a href="http://sci-hub.tw/10.1097/MD.0000000000006443" rel="nofollow">The Influence of Different Growth Hormone Addition Protocols to Poor Ovarian Responders on Clinical Outcomes in Controlled Ovary Stimulation Cycles: A Systematic Review and Meta-Analysis</a>
+                      <p><span style="color: #000000;"><strong>Conclusion of the HGH Study:</strong> The growth hormone addition can significantly improve the clinical pregnancy rate and live birth rate. Furthermore, the HGH addition time and collocation of medications may affect the pregnancy outcome</span></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">What Benefits Can I Expect From using HGH?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Injecting human growth hormone (HGH) daily can provide a range of benefits, including:</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Increased muscle mass and strength:</strong> HGH stimulates the growth and regeneration of muscle tissue, promoting an increase in muscle mass, strength, and endurance. It does this primarily through muscle retention. Muscle cells have receptors for HGH and when it binds it prevents muscle loss. This is huge as most of us have experienced what it is like to push hard in the gym for a few months and to then lose all our gains after taking a week or two off at the gym. HGH prevents this and keeps the muscle that you gained in the gym.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Decreased body fat:</strong> HGH helps to increase metabolism and fat burning, leading to a decrease in body fat and an increase in lean muscle mass. It does this by binding to fat cells. Fat cells have receptors for HGH and when injected they bind in great numbers. This then begins a process called lipolysis. Lipolysis is the breaking down of fat which you can then process and breathe out. This still takes work to lose fat, but it becomes easy like when you were in your 20's.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved bone density:</strong> HGH stimulates the production of bone cells, which leads to an increase in bone density and a decrease in the risk of fractures and osteoporosis.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Increased energy levels:</strong> HGH can help improve energy levels and reduce fatigue, leading to improved physical performance and cognitive function.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved skin health:</strong> HGH can help improve skin texture and reduce the appearance of wrinkles, promoting a more youthful appearance.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved immune function:</strong> HGH can help improve immune function by promoting the production of immune cells, leading to a reduced risk of infections and illnesses.</span></p>
+                    </li>
+                    <li><span style="color: #000000;"><strong>Improved Memory:</strong> Some memory cells have receptors for HGH. When you inject HGH it will go through the blood stream in the brain and attach to these memory cells. It helps them to live longer and retain more memories.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that while HGH injections can provide a range of benefits, they should only be used under the supervision of a qualified healthcare professional and in accordance with their instructions. Traditional medicine practitioners will tell you that HGH injections should only be used for approved medical purposes, and not for athletic or anti-aging purposes, but there is enough evidence out there to show it is a powerful tool for aesthetic, athletic and anti-aging purposes.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">Should HGH be taken in Combination with TRT?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">It is our belief at Dream Body Clinic that HGH and Testosterone Replacement Therapy (TRT) were designed to go together for adult patients. The results in regards to athletic performance, aesthetics, fat loss and anti-aging benefits are tripled when combined. TRT will help build muscle fast and improve mood. When HGH is added you will be able to keep those new muscle gains. TRT and HGH both increase your metabolism so when used together they synergize. We like to think of the life cycle when explaining this. We are designed to grow up, have kids, raise those kids and then slowly taken out of the life cycle. Our bodies do this primarily by down regulating our hormones over time. We can now replace these key hormones with TRT and HGH Therapy.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">What are the Possible Side Effects from using NGENLA?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Human growth hormone (HGH) supplementation can cause a number of side effects. Some of these side effects are more common than others, and the severity of the side effects can vary depending on the individual and the dosage of HGH used. Dream Body Clinic has been treating patients with HGH for 10 years now. In that time the most common side effect has been mild carpal tunnel syndrome. It is easily dealt with by stopping the use of HGH for 2 weeks and then starting again.</span></p>
+                  <p><span style="color: #000000;">Possible Side effects of HGH supplementation may include:</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">Joint pain – <span style="color: #3366ff;">We have found this side effect to be very uncommon. Very few patients have ever reported joint pain while most patients have reported joint pain relief. Joint pain relief is a very common effect from taking HGH.</span></span></li>
+                    <li><span style="color: #000000;">Swelling and pain at the injection site – <span style="color: #3366ff;">We have only seen this occur when the patient made the mistake of re-using needles. Any injection runs the risk of infection so we recommend using sterile practices when injecting to avoid this. That means using a new needle every time and using a sterilizing agent like alcohol to the injection site first.</span></span></li>
+                    <li><span style="color: #000000;">Fluid retention and swelling, particularly in the hands and feet – <span style="color: #3366ff;">This is a more common side effect and is a good thing in most cases. The HGH lubricates joints by adding more fluid to those areas. This often reduces joint pain. The few patients that report fluid retention in the stomach fat area have been able to fix the issue through diet.</span></span></li>
+                    <li><span style="color: #000000;">Carpal tunnel syndrome (numbness or tingling in the hand and fingers) – <span style="color: #3366ff;">This is the only real negative side effect we have seen occur. It usually only occurs with higher doses of 4IU per day or higher. It is easily fixed by reducing the HGH dose or stopping use for 2 weeks and then starting again.</span></span></li>
+                    <li><span style="color: #000000;">Increased risk of diabetes – <span style="color: #3366ff;">This side effect is misleading. We have many Type 2 diabetic patients that use 2IU per day of HGH to improve their glucose levels. HGH if administered at 6IU per day or higher will cause insulin sensitivity which can lead to type 2 diabetes. Doses under that have been found to actually help prevent Type 2 diabetes.</span></span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's worth noting that the risks and benefits of HGH supplementation can vary depending on the individual and the specific medical condition being treated. Before starting HGH supplementation, it's important to discuss the potential side effects with a healthcare professional and undergo regular monitoring to detect any potential complications.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">HGH and Cancer</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Doctors in the USA are trained to tell patients that the reason they can't prescribe HGH for aesthetic, athletic or anti-aging benefits is because HGH increases IGF-1 Levels and certain tumors feed off of IGF-1. We find this approach to be misleading for a few reasons:</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">HGH stimulates the production of insulin-like growth factor (IGF) in the liver, which promotes the growth and regeneration of cells in various tissues and organs throughout the body, including bones, muscles, and skin. You already have IGF-1 in your bloodstream and it is considered beneficial. You would have to know you had cancer and continue to use HGH to have any potential for an issue. Even then it has not been studied to see if HGH would speed up cancer.</span></li>
+                    <li><span style="color: #000000;">In addition, HGH has been shown to have antioxidant and anti-inflammatory effects that can help protect cells and tissues from damage caused by oxidative stress and inflammation. This is the opposite of cancer and can actually be preventative to developing cancer.</span></li>
+                    <li><span style="color: #000000;">HGH has also been found to stimulate the production of white blood cells, which help protect against infections and illnesses. This also helps prevent cancer.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">Overall, HGH is an important hormone that plays a crucial role in promoting the growth and health of cells throughout the body.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">Does NGENLA Use Down Regulate Pituitary Gland Function?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">The idea that HGH down regulates pituitary gland function has been a favorite quote by many people that claim to be experts on HGH use, but what is the truth. According to studies on HGH use this is only true at excessive doses.</span></p>
+                  <p><span style="color: #000000;">Most studies suggest that long-term and excessive use of HGH at doses above 1.0-1.5 IU/kg/day can significantly increase the risk of hypopituitarism and other adverse effects. Those are extremely large doses. That means a 100kg (220 lbs) man would have to inject 100IU per day to cause down regulation of the pituitary gland. At Dream Body Clinic we recommend a daily dose of 1.8IU for the majority of patients.</span></p>
+                  <p><span style="color: #000000;">Josh, the founder of Dream Body Clinic is 40 years old. He has been on 1.8IU of Genotropin HGH for 10 years now. In those 10 years his resting IGF-1 levels have remained at 150 ng/ml. This year his IGF-1 was recently down regulated and reported at 130 ng/ml and this was to be expected. People naturally down regulate over time at a rate of about 20% every 10 years after the age of 30. So Josh's resting IGF-1 has only dropped 14% which is less than the average even after a decade of HGH use.</span></p>
+                  <p><span style="color: #000000;">Sources:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">Molitch ME, Clemmons DR, Malozowski S, et al. Evaluation and treatment of adult growth hormone deficiency: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(6):1587-1609.</span></li>
+                    <li><span style="color: #000000;">Rosenfeld RG, Bakker B. Compliance and persistence in pediatric and adult patients receiving growth hormone therapy. Endocr Pract. 2008;14(2):143-154.</span></li>
+                    <li><span style="color: #000000;">Savage MO, Ranke MB. Diagnosis and management of growth hormone deficiency in childhood and adolescence – recent advances and current perspectives. Horm Res Paediatr. 2019;91(6):329-340.</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">What is the Best Dose to Take of NGENLA?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">To dose NGENLA is a bit different from taking standard HGH like <a href="https://dreambody.clinic/index.php/buy-the-pfizer-genotropin-hgh-pen-package/">Genotropin</a> or <a href="https://dreambody.clinic/merck-saizen-hgh-legal-fly-and-buy-package/">Saizen</a>. According to <a style="color: #3366ff;" href="https://www.ngenla.com/about">https://www.ngenla.com/about</a> the dosing for children is 0.66mg per kg of body weight once a week. While traditional HGH they recommend 0.033mg daily per kg of body weight.</span></p>
+                  <p><span style="color: #000000;">This is too high of a dose for adults, but we can derive the comparable dose based on this. 0.66mg/kg would be too high for adults because doses over 6IU of HGH per day will cause insulin sensitivity, which can lead to Type 2 diabetes. Doses under 6IU per day actually help reduce insulin sensitivity and we have many type 2 diabetic patients that use HGH. Low dose HGH, long term is the secret to health and longevity for many.</span></p>
+                  <p><span style="color: #000000;">0.66mg once a week is equal to 0.033mg daily for 7 days. So we need the 7 day dose to compare which is 0.033 x 7 = 0.231.</span></p>
+                  <p><span style="color: #000000;">Now we need to divide 0.66mg / 0.231 = 2.85</span></p>
+                  <p><span style="color: #000000;">So a dose 2.85 times higher of NGENLA is needed to achieve the same results as standard daily injections of HGH.</span></p>
+                  <p><span style="color: #000000;">To make this easy we will assume a dose of 0.75mg (2.25IU) per day.</span></p>
+                  <p><span style="color: #000000;">0.75mg x 7 = 5.25mg</span></p>
+                  <p><span style="color: #000000;">5.25mg x 2.85 = 14.96mg once a week for the equivalent dose of 2.25IU per day</span></p>
+                  <p><span style="color: #000000;">So this package is a one year supply NGENLA that will provide the same benefits of 2.25IU used daily with a traditional HGH like <a href="https://dreambody.clinic/index.php/buy-the-pfizer-genotropin-hgh-pen-package/">Genotropin</a> or <a href="https://dreambody.clinic/merck-saizen-hgh-legal-fly-and-buy-package/">Saizen</a>.</span></p>
+                  <p><span style="color: #000000;">The NGENLA pens come in 60mg presentation, but they are only viable for 28 days once activated according to their website. So a dose of 15mg injected once a week means each pen will last 28 days. We can provide up to 12 of the NGENLA 60mg pens which equates to a year supply at this dose.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">How to Buy The Pfizer NGENLA HGH Pen Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Simply click on the image below to learn how to book Treatment. We cannot ship HGH as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year.</span></p>
+                  <p><span style="color: #000000;">Call us anytime at (888) 704-3977 from the USA or Canada. Our Mexico number is +523222321055 and is on whatsapp, telegram or signal. Email us at</span> <span style="color: #3366ff;">info@dreambodyclinic.net</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-image" data-element_type="widget" data-widget_type="image.default">
+                <div class="dbc-widget-container">
+                  <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                    <img decoding="async" width="300" height="300" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" class="attachment-medium size-medium" alt="How to Book Medication Treatments" srcset="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic.webp 1080w" sizes="(max-width: 300px) 100vw, 300px" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+
+  'merck-saizen-hgh-legal-fly-and-buy-package': {
+    slug: 'merck-saizen-hgh-legal-fly-and-buy-package',
+    title: 'HGH – Merck Saizen 1 Year HGH Package (240mg/720IU)',
+    image: 'https://dreambody.clinic/wp-content/uploads/2024/04/Merck-Saizen-HGH-Fly-and-Buy-Program-Dream-Body-Clinic-Front-scaled.webp',
+    imageWidth: 1920,
+    imageHeight: 1440,
+    imageAlt: 'Merck Saizen HGH Fly and Buy Program Dream Body Clinic Front',
+    content: `
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-id="saizen-top" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-image" data-element_type="widget" data-widget_type="image.default">
+                <div class="dbc-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2024/04/Merck-Saizen-HGH-Fly-and-Buy-Program-Dream-Body-Clinic-Package-1024x768.webp" class="attachment-large size-large" alt="Merck Saizen HGH Fly and Buy Program Dream Body Clinic Package" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h2><span style="color: #000000;">The Merck Saizen HGH Legal Fly & Buy Program:</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">12 Saizen Vials (20mg/60IU) for a Total of (240mg/720IU) For Daily Injections</span></h3></li>
+                    <li><h3><span style="color: #000000;">Full Blood Panel</span></h3></li>
+                    <li><h3><span style="color: #000000;">All Documentation to Fly Home Legally</span></h3></li>
+                  </ul>
+                  <div>&nbsp;</div>
+                  <h2><span style="color: #000000;">PRICE: $6,600 USD</span></h2>
+                  <ul>
+                    <li><span style="color: #000000;">Day 1: Arrive and Rest</span></li>
+                    <li><span style="color: #000000;">Day 2: Bloodwork and Payment</span></li>
+                    <li><span style="color: #000000;">Day 3: Consultation and Medication delivery</span></li>
+                    <li><span style="color: #000000;">Day 4: Fly Home</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center; color: #00ccff;">Buy The Merck Saizen Legal Fly & Buy Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Welcome to Dream Body Clinic – the ultimate destination for those looking to achieve their dream body with the best possible products and solutions out there. Today, we are excited to present to you our Merck Saizen HGH vial Package – the perfect solution for anyone looking to enhance their athletic performance, build lean muscle, and stay young and healthy.</span></p>
+                  <p><span style="color: #000000;">Our Merck Saizen HGH legal Fly & Buy Package contains the highest quality human growth hormone (HGH) available on the market. HGH is a naturally occurring hormone that plays a crucial role in the growth and regeneration of cells in the human body. However, the production of HGH declines as we age, which can lead to a variety of health problems and a decline in physical performance.</span></p>
+                  <p><span style="color: #000000;">Fortunately, with Dream Body Clinic's Merck Saizen HGH vial Package, you can replenish your body's supply of HGH and experience a whole host of benefits such as:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">Increased muscle mass and strength</span></li>
+                    <li><span style="color: #000000;">Enhanced athletic performance</span></li>
+                    <li><span style="color: #000000;">Reduced body fat</span></li>
+                    <li><span style="color: #000000;">Improved bone density</span></li>
+                    <li><span style="color: #000000;">Younger looking skin</span></li>
+                    <li><span style="color: #000000;">Improved immune function</span></li>
+                  </ul>
+                  <p><span style="color: #000000;">Our Merck Saizen HGH legal Fly & Buy Package is also incredibly convenient and cost-effective. With this package, you will receive a years' supply of Merck Saizen HGH vials. You will also get a full blood panel, doctors consultation and all paperwork needed for safe and legal travel home.</span></p>
+                  <p><span style="color: #000000;">At Dream Body Clinic, we are committed to helping our patients achieve their dream body and live their best life. We pride ourselves on offering only the highest quality true pharmaceutical medications and treatments. Our Merck Saizen HGH vial Package is no exception. So why wait? Place your order now and experience the transformative power of HGH for yourself!</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-25 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-image" data-element_type="widget" data-widget_type="image.default">
+                <div class="dbc-widget-container">
+                  <img decoding="async" width="768" height="1024" src="https://dreambody.clinic/wp-content/uploads/2024/03/Merck-Saizen-20mg-60IU-Cartridge-at-Dream-Body-6Clinic-768x1024.webp" class="attachment-large size-large" alt="Merck Saizen 20mg 60IU Cartridge" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dbc-column dbc-col-25 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-image" data-element_type="widget" data-widget_type="image.default">
+                <div class="dbc-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2024/04/Merck-Saizen-HGH-Fly-and-Buy-Program-Dream-Body-Clinic-Front-1024x768.webp" class="attachment-large size-large" alt="Merck Saizen HGH Fly and Buy Program Dream Body Clinic Front" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dbc-column dbc-col-25 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-image" data-element_type="widget" data-widget_type="image.default">
+                <div class="dbc-widget-container">
+                  <img loading="lazy" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2024/04/Merck-Saizen-HGH-Fly-and-Buy-Program-Dream-Body-Clinic-Back-1024x768.webp" class="attachment-large size-large" alt="Merck Saizen HGH Fly and Buy Program Dream Body Clinic Back" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-video" data-element_type="widget" data-widget_type="video.default">
+                <div class="dbc-widget-container">
+                  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/Fb9YqS3vkyU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-video" data-element_type="widget" data-widget_type="video.default">
+                <div class="dbc-widget-container">
+                  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/PxLpHCeE2y0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-video" data-element_type="widget" data-widget_type="video.default">
+                <div class="dbc-widget-container">
+                  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/6nqPoS5WCtM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-video" data-element_type="widget" data-widget_type="video.default">
+                <div class="dbc-widget-container">
+                  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/0fMwTKCJgQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-video" data-element_type="widget" data-widget_type="video.default">
+                <div class="dbc-widget-container">
+                  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/G5Ck_dyJ4OA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dbc-column dbc-col-50 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-video" data-element_type="widget" data-widget_type="video.default">
+                <div class="dbc-widget-container">
+                  <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/CdypNhrevy4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h2><span style="color: #000000;">All Packages Include HGH + Cooler with Gel Icepacks + Full Blood Panel + Doctor Consult + Prescription + All Documentation for Legal Travel</span></h2>
+                  <div>
+                    <p><span style="color: #000000;">The 1 year supply of 720IU is the maximum we can send you home with legally. Some patients prefer a lower amount so those packages are listed below. We do not recommend getting anything less than a 6 month supply. This is because HGH at 2IU a day will hit it's peak, cumulative results at the 6 month mark. After 6 months those results will last, but stay at that level if the HGH use is continued. Results will only increase if the dose increases at that point. It is our opinion that doing anything less than 6 months is not worth trying.</span></p>
+                  </div>
+                  <h1><span style="color: #000000;"><strong>1 Year 720IU – $6,600</strong></span></h1>
+                  <h1><span style="color: #000000;">9 Month 540IU – $5,400</span></h1>
+                  <h1><span style="color: #000000;">6 Month 360IU – $3,600</span></h1>
+                  <ul>
+                    <li><span style="color: #000000;">Package length based on the user administering 2IU per day</span></li>
+                    <li><span style="color: #000000;">We typically don't sell any less than a 6 month supply, but in special cases if we do it is at $600 USD per cartridge.</span></li>
+                  </ul>
+                  <h3 style="text-align: center;"><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">HGH Studies</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h2><span style="color: #000000;">HGH Study on Men over age 60</span></h2>
+                  <p><a href="https://dreambody.clinic/wp-content/uploads/2018/03/Dr_Rudman-HGH-Research.pdf" rel="nofollow">Dr_Rudman-HGH-Research – EFFECTS OF HUMAN GROWTH HORMONE IN MEN OVER 60 YEARS OLD</a></p>
+                  <ul>
+                    <li><span style="color: #000000;">HGH Treatment was given for six months</span></li>
+                    <li><span style="color: #000000;">Ages ranged from 61 to 81 years</span></li>
+                    <li><span style="color: #000000;">Men were injected at 8:00 AM, with intervals between HGH injections of only 1 or 2 days</span></li>
+                    <li><span style="color: #000000;">The men followed a healthy diet</span></li>
+                    <li><span style="color: #000000;">The study found no significant change in body weight</span></li>
+                    <li><span style="color: #000000;">Lean body mass increased by 8.8%</span></li>
+                    <li><span style="color: #000000;">Fat decreased by 14.4%</span></li>
+                    <li><span style="color: #000000;">Skin thickness increased by 7.1%</span></li>
+                    <li><span style="color: #000000;">Bone density increased by 1.7%</span></li>
+                  </ul>
+                  <h2><span style="color: #000000;">HGH STUDIES</span></h2>
+                  <ul>
+                    <li><a href="http://sci-hub.tw/10.1056/NEJMra1817346" rel="nofollow">Growth Hormone Deficiency in Adults</a></li>
+                    <li><a href="http://sci-hub.tw/10.1007/BF03346653" rel="nofollow">HGH and IGF-1 axis in neurodegenerative diseases</a></li>
+                    <li><a href="http://sci-hub.tw/10.1210/jc.2005-0916" rel="nofollow">HGH Effects on Athletic Performance – Effects of High-Dose Growth Hormone on Glucose and Glycerol Metabolism at Rest and during Exercise in Endurance-Trained Athletes</a></li>
+                    <li><a href="http://sci-hub.tw/10.1210/jc.2002-021872" rel="nofollow">High Dose Growth Hormone Exerts an Anabolic Effect at Rest and during Exercise in Endurance-Trained Athletes</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000452913" rel="nofollow">HGH Boosts the immune system</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000183770" rel="nofollow">growth hormone and diabetes mellitus – HGH at low doses is beneficial for type 2 diabetics</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000185029" rel="nofollow">A history of growth Hormone</a></li>
+                    <li><a href="http://sci-hub.tw/10.1507/endocrj.45.suppl_s53" rel="nofollow">Treatment with HGH for male subfertility</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.beem.2015.04.009" rel="nofollow">Hormone replacement therapy in children: The use of HGH</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.beem.2014.09.006" rel="nofollow">Growth Hormone Replacement in Adults – Current Standards and New Perspectives</a></li>
+                    <li><a href="http://sci-hub.tw/10.1155/2014/235060" rel="nofollow">Effect of GH/IGF-1 on Bone Metabolism and Osteoporosis</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/24870842/" rel="nofollow">Effects of Growth Hormone Replacement Therapy on Bone Metabolism</a></li>
+                    <li><a href="http://sci-hub.tw/10.18632/aging.100262" rel="nofollow">Rejuvenating somatotropic signaling: a therapeutical opportunity for premature aging?</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/28477727/" rel="nofollow">HGH and Ageing</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.ghir.2016.02.002" rel="nofollow">The somatotropic Axis and Aging: Benefits of endocrine defect</a></li>
+                    <li><a href="http://sci-hub.tw/10.1530/REP-14-0494" rel="nofollow">A Direct Action for GH in Improvement of Oocyte Quality in Poor-Responder Patients</a></li>
+                    <li><a href="http://sci-hub.tw/10.1097/MD.0000000000006443" rel="nofollow">The Influence of Different Growth Hormone Addition Protocols to Poor Ovarian Responders on Clinical Outcomes in Controlled Ovary Stimulation Cycles: A Systematic Review and Meta-Analysis</a>
+                      <p><span style="color: #000000;"><strong>Conclusion of the HGH Study:</strong> The growth hormone addition can significantly improve the clinical pregnancy rate and live birth rate. Furthermore, the HGH addition time and collocation of medications may affect the pregnancy outcome</span></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">What Benefits Can I Expect From using HGH?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Injecting human growth hormone (HGH) daily can provide a range of benefits, including:</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Increased muscle mass and strength:</strong> HGH stimulates the growth and regeneration of muscle tissue, promoting an increase in muscle mass, strength, and endurance. It does this primarily through muscle retention. Muscle cells have receptors for HGH and when it binds it prevents muscle loss. This is huge as most of us have experienced what it is like to push hard in the gym for a few months and to then lose all our gains after taking a week or two off at the gym. HGH prevents this and keeps the muscle that you gained in the gym.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Decreased body fat:</strong> HGH helps to increase metabolism and fat burning, leading to a decrease in body fat and an increase in lean muscle mass. It does this by binding to fat cells. Fat cells have receptors for HGH and when injected they bind in great numbers. This then begins a process called lipolysis. Lipolysis is the breaking down of fat which you can then process and breathe out. This still takes work to lose fat, but it becomes easy like when you were in your 20's.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved bone density:</strong> HGH stimulates the production of bone cells, which leads to an increase in bone density and a decrease in the risk of fractures and osteoporosis.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Increased energy levels:</strong> HGH can help improve energy levels and reduce fatigue, leading to improved physical performance and cognitive function.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved skin health:</strong> HGH can help improve skin texture and reduce the appearance of wrinkles, promoting a more youthful appearance.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved immune function:</strong> HGH can help improve immune function by promoting the production of immune cells, leading to a reduced risk of infections and illnesses.</span></p>
+                    </li>
+                    <li><span style="color: #000000;"><strong>Improved Memory:</strong> Some memory cells have receptors for HGH. When you inject HGH it will go through the blood stream in the brain and attach to these memory cells. It helps them to live longer and retain more memories.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that while HGH injections can provide a range of benefits, they should only be used under the supervision of a qualified healthcare professional and in accordance with their instructions. Traditional medicine practitioners will tell you that HGH injections should only be used for approved medical purposes, and not for athletic or anti-aging purposes, but there is enough evidence out there to show it is a powerful tool for aesthetic, athletic and anti-aging purposes.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">Should HGH be taken in Combination with TRT?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">It is our belief at Dream Body Clinic that HGH and Testosterone Replacement Therapy (TRT) were designed to go together for adult patients. The results in regards to athletic performance, aesthetics, fat loss and anti-aging benefits are tripled when combined. TRT will help build muscle fast and improve mood. When HGH is added you will be able to keep those new muscle gains. TRT and HGH both increase your metabolism so when used together they synergize. We like to think of the life cycle when explaining this. We are designed to grow up, have kids, raise those kids and then slowly taken out of the life cycle. Our bodies do this primarily by down regulating our hormones over time. We can now replace these key hormones with TRT and HGH Therapy.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">What are the Possible Side Effects from using HGH?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Human growth hormone (HGH) supplementation can cause a number of side effects. Some of these side effects are more common than others, and the severity of the side effects can vary depending on the individual and the dosage of HGH used. Dream Body Clinic has been treating patients with HGH for 10 years now. In that time the most common side effect has been mild carpal tunnel syndrome. It is easily dealt with by stopping the use of HGH for 2 weeks and then starting again.</span></p>
+                  <p><span style="color: #000000;">Possible Side effects of HGH supplementation may include:</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">Joint pain – We have found this side effect to be very uncommon. Very few patients have ever reported joint pain while most patients have reported joint pain relief. Joint pain relief is a very common effect from taking HGH.</span></li>
+                    <li><span style="color: #000000;">Swelling and pain at the injection site – We have only seen this occur when the patient made the mistake of re-using needles. Any injection runs the risk of infection so we recommend using sterile practices when injecting to avoid this. That means using a new needle every time and using a sterilizing agent like alcohol to the injection site first.</span></li>
+                    <li><span style="color: #000000;">Fluid retention and swelling, particularly in the hands and feet – This is a more common side effect and is a good thing in most cases. The HGH lubricates joints by adding more fluid to those areas. This often reduces joint pain. The few patients that report fluid retention in the stomach fat area have been able to fix the issue through diet.</span></li>
+                    <li><span style="color: #000000;">Carpal tunnel syndrome (numbness or tingling in the hand and fingers) – This is the only real negative side effect we have seen occur. It usually only occurs with higher doses of 4IU per day or higher. It is easily fixed by reducing the HGH dose or stopping use for 2 weeks and then starting again.</span></li>
+                    <li><span style="color: #000000;">Increased risk of diabetes – This side effect is misleading. We have many Type 2 diabetic patients that use 2IU per day of HGH to improve their glucose levels. HGH if administered at 6IU per day or higher will cause insulin sensitivity which can lead to type 2 diabetes. Doses under that have been found to actually help prevent Type 2 diabetes.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's worth noting that the risks and benefits of HGH supplementation can vary depending on the individual and the specific medical condition being treated. Before starting HGH supplementation, it's important to discuss the potential side effects with a healthcare professional and undergo regular monitoring to detect any potential complications.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">HGH and Cancer</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Doctors in the USA are trained to tell patients that the reason they can't prescribe HGH for aesthetic, athletic or anti-aging benefits is because HGH increases IGF-1 Levels and certain tumors feed off of IGF-1. We find this approach to be misleading for a few reasons:</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">HGH stimulates the production of insulin-like growth factor (IGF) in the liver, which promotes the growth and regeneration of cells in various tissues and organs throughout the body, including bones, muscles, and skin. You already have IGF-1 in your bloodstream and it is considered beneficial. You would have to know you had cancer and continue to use HGH to have any potential for an issue. Even then it has not been studied to see if HGH would speed up cancer.</span></li>
+                    <li><span style="color: #000000;">In addition, HGH has been shown to have antioxidant and anti-inflammatory effects that can help protect cells and tissues from damage caused by oxidative stress and inflammation. This is the opposite of cancer and can actually be preventative to developing cancer.</span></li>
+                    <li><span style="color: #000000;">HGH has also been found to stimulate the production of white blood cells, which help protect against infections and illnesses. This also helps prevent cancer.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">Overall, HGH is an important hormone that plays a crucial role in promoting the growth and health of cells throughout the body.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">Does HGH Use Down Regulate Pituitary Gland Function?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">The idea that HGH down regulates pituitary gland function has been a favorite quote by many people that claim to be experts on HGH use, but what is the truth. According to studies on HGH use this is only true at excessive doses.</span></p>
+                  <p><span style="color: #000000;">Most studies suggest that long-term and excessive use of HGH at doses above 1.0-1.5 IU/kg/day can significantly increase the risk of hypopituitarism and other adverse effects. Those are extremely large doses. That means a 100kg (220 lbs) man would have to inject 100IU per day to cause down regulation of the pituitary gland. At Dream Body Clinic we recommend a daily dose of 1.8IU for the majority of patients.</span></p>
+                  <p><span style="color: #000000;">Josh, the founder of Dream Body Clinic is 40 years old. He has been on 1.8IU of HGH for 10 years now. In those 10 years his resting IGF-1 levels have remained at 150 ng/ml. This year his IGF-1 was recently down regulated and reported at 130 ng/ml and this was to be expected. People naturally down regulate over time at a rate of about 20% every 10 years after the age of 30. So Josh's resting IGF-1 has only dropped 14% which is less than the average even after a decade of HGH use.</span></p>
+                  <p><span style="color: #000000;">Sources:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">Molitch ME, Clemmons DR, Malozowski S, et al. Evaluation and treatment of adult growth hormone deficiency: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(6):1587-1609.</span></li>
+                    <li><span style="color: #000000;">Rosenfeld RG, Bakker B. Compliance and persistence in pediatric and adult patients receiving growth hormone therapy. Endocr Pract. 2008;14(2):143-154.</span></li>
+                    <li><span style="color: #000000;">Savage MO, Ranke MB. Diagnosis and management of growth hormone deficiency in childhood and adolescence – recent advances and current perspectives. Horm Res Paediatr. 2019;91(6):329-340.</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">What is the Best Dose to Take of HGH?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">At Dream Body Clinic we recommend 1.8IU (0.06mg) per day for people weighing less than 250 lbs (113kg). This applies to men or women. The reason women need to take the same dose or higher than a man is because women produce much more estrogen than men and estrogen allows less IGF-1 to be produced in the liver when HGH is processed. So a 100lb women will get nearly the same IGF-1 conversion as a 200 lbs man at the same dose of HGH.</span></p>
+                  <p><span style="color: #000000;">For Athletic Performance or for Children trying to grow taller we sometimes recommend a higher dose of 3.9IU (1.3mg) per day. This dose is typically the highest we recommend because doses of 6iu (2mg) per day or higher can cause insulin sensitivity which will lead to type 2 diabetes. This is why bodybuilders that do 10IU to 30IU per day have to inject insulin with it to prevent those issues. Do not inject insulin with HGH as it is extremely dangerous.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">How to Use a Merck Saizen Cartridge</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Unfortunately the Merck Saizen pen is not available, but we have the cartridges which are easy to use without a pen. You simply use an insulin needle to draw out the liquid.</span></p>
+                  <p><span style="color: #000000;">The cartridge has 2.5ml of solution with 20mg of HGH. So the math for an insulin needle is 250 / 20 = 12.5 tics on the insulin needle per mg. Most people measure in IU so that would be 250 / 60 = 4.16</span></p>
+                  <p><span style="color: #000000;">So draw out 4 tics on the insulin needle for just under 1IU</span></p>
+                  <p><span style="color: #000000;">We typically recommend 2IU per day so that would be 8 tics on the insulin needle. It is a very small amount of liquid.</span></p>
+                  <p><span style="color: #000000;">It is best to inject subcutaneously into the stomach fat. Be sure to use a new syringe every time and always sterilize the cartridge and the area you will be injecting with a disinfectant such as alcohol.</span></p>
+                  <p><img loading="lazy" decoding="async" src="https://dreambody.clinic/wp-content/uploads/2024/03/Merck-Saizen-20mg-60IU-Cartridge-at-Dream-Body-6Clinic-225x300.webp" alt="Merck Saizen 20mg 60IU Cartridge" width="225" height="300" /></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="dbc-widget-container">
+                  <h2 class="dbc-heading-title dbc-size-default" style="text-align: center;">How to Buy The Merck Saizen HGH Legal Fly and Buy Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <p><span style="color: #000000;">Simply click on the image below to learn how to book Treatment. We cannot ship HGH as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year.</span></p>
+                  <p><span style="color: #000000;">Call us anytime at (888) 704-3977 from the USA or Canada. Email us at <a href="mailto:info@dreambodyclinic.net">info@dreambodyclinic.net</a></span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-image" data-element_type="widget" data-widget_type="image.default">
+                <div class="dbc-widget-container" style="text-align: center;">
+                  <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                    <img loading="lazy" decoding="async" width="300" height="300" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" class="attachment-medium size-medium" alt="How to Book Medication Treatments" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="dbc-section dbc-top-section dbc-element dbc-section-boxed dbc-section-height-default" data-element_type="section">
+        <div class="dbc-container dbc-column-gap-default">
+          <div class="dbc-column dbc-col-100 dbc-top-column dbc-element" data-element_type="column">
+            <div class="dbc-widget-wrap dbc-element-populated">
+              <div class="dbc-element dbc-widget dbc-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="dbc-widget-container">
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'buy-the-pfizer-genotropin-hgh-pen-package': {
+    slug: 'buy-the-pfizer-genotropin-hgh-pen-package',
+    title: 'Pfizer Genotropin HGH Pen 1 Year HGH Package (720IU)',
+    image: 'https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box-1024x768.webp',
+    imageWidth: 1024,
+    imageHeight: 768,
+    imageAlt: '2023 Pfizer Genotropin Pen 36IU 12mg Box',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-8275555 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8275555" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-210bd4d" data-id="210bd4d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-746fae7 elementor-widget elementor-widget-image" data-id="746fae7" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box-1024x768.webp" class="attachment-large size-large wp-image-15026" alt="2023 Pfizer Genotropin Pen 36IU 12mg Box" srcset="https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box-600x450.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/06/New-2023-Pfizer-Genotropin-Pen-36IU-12mg-Box.webp 1600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3a67deb" data-id="3a67deb" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-ad1e802 elementor-widget elementor-widget-text-editor" data-id="ad1e802" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Genotropin HGH Legal Fly &amp; Buy Program:</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">20 Genotropin Pens (12mg = 36IU) For Daily Injections</span></h3></li>
+                    <li><h3><span style="color: #000000;">Full Blood Panel</span></h3></li>
+                    <li><h3><span style="color: #000000;">All Documentation to Fly Home Legally</span></h3></li>
+                  </ul>
+                  <div> </div>
+                  <h2><span style="color: #000000;">PRICE: $6,500 USD</span></h2>
+                  <ul>
+                    <li><span style="color: #000000;">Day 1: Arrive and Rest</span></li>
+                    <li><span style="color: #000000;">Day 2: Bloodwork and Payment</span></li>
+                    <li><span style="color: #000000;">Day 3: Consultation and Medication delivery</span></li>
+                    <li><span style="color: #000000;">Day 4: Fly Home</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-9ae9ac4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9ae9ac4" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7461f36" data-id="7461f36" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1ff93c6 elementor-widget elementor-widget-heading" data-id="1ff93c6" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Buy The Pfizer Genotropin HGH Pen Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-265788a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="265788a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-351b422" data-id="351b422" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-c89f903 elementor-widget elementor-widget-text-editor" data-id="c89f903" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Welcome to Dream Body Clinic – the ultimate destination for those looking to achieve their dream body with the best possible products and solutions out there. Today, we are excited to present to you our Pfizer Genotropin HGH Pen Package – the perfect solution for anyone looking to enhance their athletic performance, build lean muscle, and stay young and healthy.</span></p>
+                  <p><span style="color: #000000;">Our Pfizer Genotropin HGH Pen Fly &amp; Buy Package contains the highest quality human growth hormone (HGH) available on the market. HGH is a naturally occurring hormone that plays a crucial role in the growth and regeneration of cells in the human body. However, the production of HGH declines as we age, which can lead to a variety of health problems and a decline in physical performance.</span></p>
+                  <p><span style="color: #000000;">Fortunately, with Dream Body Clinic's Pfizer Genotropin HGH Pen Package, you can replenish your body's supply of HGH and experience a whole host of benefits such as:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">Increased muscle mass and strength</span></li>
+                    <li><span style="color: #000000;">Enhanced athletic performance</span></li>
+                    <li><span style="color: #000000;">Reduced body fat</span></li>
+                    <li><span style="color: #000000;">Improved bone density</span></li>
+                    <li><span style="color: #000000;">Younger looking skin</span></li>
+                    <li><span style="color: #000000;">Improved immune function</span></li>
+                  </ul>
+                  <p><span style="color: #000000;">Our Pfizer Genotropin HGH Fly &amp; Buy Package is also incredibly convenient and cost-effective. With this package, you will receive a years' supply of Pfizer Genotropin HGH Pens. You will also get a full blood panel, doctors consultation and all paperwork needed for safe and legal travel home.</span></p>
+                  <p><span style="color: #000000;">At Dream Body Clinic, we are committed to helping our patients achieve their dream body and live their best life. We pride ourselves on offering only the highest quality true pharmaceutical medications and treatments. Our Pfizer Genotropin HGH Pen Package is no exception. So why wait? Place your order now and experience the transformative power of HGH for yourself!</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-391f74c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="391f74c" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4f6826e" data-id="4f6826e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-190948b elementor-widget elementor-widget-image" data-id="190948b" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-3-1024x768.webp" class="attachment-large size-large wp-image-21929" alt="Genotropin HGH 1 yr fly and buy package dream body clinic 3" srcset="https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-3-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-3-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-3-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-3-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-3.webp 1600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-90ef73f" data-id="90ef73f" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-2efb169 elementor-widget elementor-widget-image" data-id="2efb169" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-2-1024x768.webp" class="attachment-large size-large wp-image-21928" alt="" srcset="https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-2-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-2-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-2-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-2-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2025/02/Genotropin-HGH-1-yr-fly-and-buy-package-dream-body-clinic-2.webp 1600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-cdc7a6f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cdc7a6f" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ea667d4" data-id="ea667d4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9aa0eaf elementor-widget elementor-widget-heading" data-id="9aa0eaf" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to Determine if a Genotropin Pen is Fake</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c7dc54a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c7dc54a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aff1b9b" data-id="aff1b9b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-121e5b0 elementor-widget elementor-widget-text-editor" data-id="121e5b0" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">At Dream Body Clinic we only offer real, pharmaceutical grade human growth hormone. We have a pharmacy license and work directly with Pfizer representatives. Unfortunately the bodybuilding market has few ethics when it comes to getting or selling HGH and they often resort to fakes being sold online. The link below is our guide for how to spot a fake Genotropin Pen</span></p>
+                  <p style="text-align: center;"><strong><span style="color: #0000ff;"><a style="color: #0000ff;" href="https://dreambody.clinic/how-to-determine-if-genotropin-hgh-is-real-or-fake/">How to Determine if a Genotropin Pen is Fake Page</a></span></strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-90443ca elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="90443ca" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cce6b71" data-id="cce6b71" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-21d4016 elementor-widget elementor-widget-text-editor" data-id="21d4016" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">Pfizer Genotropin HGH 36IU Pen Packages</span></h2>
+                  <p><span style="color: #000000;">Pfizer Genotropin HGH Fly &amp; Buy Package is available for those interested in feeling amazing. Pfizer Genotropin is considered by many to be the best HGH on the market today. In the USA, Canada and most of the world HGH is highly regulated. Fortunately Dreambody Clinic is in Mexico where it is legal. We prepare all the documentation needed so you can fly home legally.</span></p>
+                  <h2><span style="color: #000000;">All Packages Include HGH + Cooler with Gel Icepacks + Full Blood Panel + Doctor Consult + Prescription + All Documentation for Legal Travel</span></h2>
+                  <div>
+                    <p><span style="color: #000000;">The 1 year supply of 720IU is the maximum we can send you home with legally. Some patients prefer a lower amount so those packages are listed below. We do not recommend getting anything less than a 6 month supply. This is because HGH at 2IU a day will hit it's peak, cumulative results at the 6 month mark. After 6 months those results will last, but stay at that level if the HGH use is continued. Results will only increase if the dose increases at that point. It is our opinion that doing anything less than 6 months is not worth trying.</span></p>
+                  </div>
+                  <h1><span style="color: #000000;">1 Year 720IU – $6,500</span></h1>
+                  <div>
+                    <h1 style="margin-bottom: var(--the7-h1-spacing); color: #7a7a7a; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; text-transform: none; letter-spacing: normal; word-spacing: 0px;"><span style="color: #000000;">9 Month 540IU – $5,250</span></h1>
+                  </div>
+                  <h1><span style="color: #000000;"><strong>6 Month 360IU – $3,500</strong></span></h1>
+                  <ul>
+                    <li><span style="color: #000000;">Package length based on the user administering 2IU per day</span></li>
+                    <li><span style="color: #000000;">We typically don't sell any less than a 6 month supply, but in special cases if we do it is at $350 USD per pen.</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-51cfc33 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="51cfc33" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ca5de21" data-id="ca5de21" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-c3f7ed6 elementor-widget elementor-widget-heading" data-id="c3f7ed6" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">HGH Studies</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f72a443 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f72a443" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5c5b577" data-id="5c5b577" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-e27ffec elementor-widget elementor-widget-text-editor" data-id="e27ffec" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">HGH Study on Men over age 60</span></h2>
+                  <p><a href="https://dreambody.clinic/wp-content/uploads/2018/03/Dr_Rudman-HGH-Research.pdf" rel="nofollow">Dr_Rudman-HGH-Research – EFFECTS OF HUMAN GROWTH HORMONE IN MEN OVER 60 YEARS OLD</a></p>
+                  <ul>
+                    <li><span style="color: #000000;">HGH Treatment was given for six months</span></li>
+                    <li><span style="color: #000000;">Ages ranged from 61 to 81 years</span></li>
+                    <li><span style="color: #000000;">Men were injected at 8:00 AM, with intervals between HGH injections of only 1 or 2 days</span></li>
+                    <li><span style="color: #000000;">The men followed a healthy diet</span></li>
+                    <li><span style="color: #000000;">The study found no significant change in body weight</span></li>
+                    <li><span style="color: #000000;">Lean body mass increased by 8.8%</span></li>
+                    <li><span style="color: #000000;">Fat decreased by 14.4%</span></li>
+                    <li><span style="color: #000000;">Skin thickness increased by 7.1%</span></li>
+                    <li><span style="color: #000000;">Bone density increased by 1.7%</span></li>
+                  </ul>
+                  <h2><span style="color: #000000;">GENOTROPIN HGH STUDIES</span></h2>
+                  <ul>
+                    <li><a href="http://sci-hub.tw/10.1515/jpem.2010.092" rel="nofollow">Systematic Review of the Clinical Effectiveness of Genotropin (Somatropin) in Children with Short Stature</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.biologicals.2005.08.019" rel="nofollow">Somatonorm (somatrem) and Genotropin (somatropin): Two case studies</a></li>
+                    <li><a href="http://sci-hub.tw/10.1056/NEJMra1817346" rel="nofollow">Growth Hormone Deficiency in Adults</a></li>
+                    <li><a href="http://sci-hub.tw/10.1007/BF03346653" rel="nofollow">HGH and IGF-1 axis in neurodegenerative diseases</a></li>
+                    <li><a href="http://sci-hub.tw/10.1210/jc.2005-0916" rel="nofollow">HGH Effects on Athletic Performance – Effects of High-Dose Growth Hormone on Glucose and Glycerol Metabolism at Rest and during Exercise in Endurance-Trained Athletes</a></li>
+                    <li><a href="http://sci-hub.tw/10.1210/jc.2002-021872" rel="nofollow">High Dose Growth Hormone Exerts an Anabolic Effect at Rest and during Exercise in Endurance-Trained Athletes</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000452913" rel="nofollow">HGH Boosts the immune system</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000183770" rel="nofollow">growth hormone and diabetes mellitus – HGH at low doses is beneficial for type 2 diabetics</a></li>
+                    <li><a href="http://sci-hub.tw/10.1159/000185029" rel="nofollow">A history of growth Hormone</a></li>
+                    <li><a href="http://sci-hub.tw/10.1507/endocrj.45.suppl_s53" rel="nofollow">Treatment with HGH for male subfertility</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.beem.2015.04.009" rel="nofollow">Hormone replacement therapy in children: The use of HGH</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.beem.2014.09.006" rel="nofollow">Growth Hormone Replacement in Adults – Current Standards and New Perspectives</a></li>
+                    <li><a href="http://sci-hub.tw/10.1155/2014/235060" rel="nofollow">Effect of GH/IGF-1 on Bone Metabolism and Osteoporsosis</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/24870842/" rel="nofollow">Effects of Growth Hormone Replacement Therapy on Bone Metabolism</a></li>
+                    <li><a href="http://sci-hub.tw/10.18632/aging.100262" rel="nofollow">Rejuvenating somatotropic signaling: a therapeutical opportunity for premature aging?</a></li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/28477727/" rel="nofollow">HGH and Ageing</a></li>
+                    <li><a href="http://sci-hub.tw/10.1016/j.ghir.2016.02.002" rel="nofollow">The somatotropic Axis and Aging: Benefits of endocrine defect</a></li>
+                    <li><a href="http://sci-hub.tw/10.1530/REP-14-0494" rel="nofollow">A Direct Action for GH in Improvement of Oocyte Quality in Poor-Responder Patients</a></li>
+                    <li><a href="http://sci-hub.tw/10.1097/MD.0000000000006443" rel="nofollow">The Influence of Different Growth Hormone Addition Protocols to Poor Ovarian Responders on Clinical Outcomes in Controlled Ovary Stimulation Cycles: A Systematic Review and Meta-Analysis</a>
+                      <p><span style="color: #000000;"><strong class="sub-title">Conclusion of the HGH Study:</strong> The growth hormone addition can significantly improve the clinical pregnancy rate and live birth rate. Furthermore, the HGH addition time and collocation of medications may affect the pregnancy outcome</span></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-b3267a8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b3267a8" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4ffc2e9" data-id="4ffc2e9" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-004320d elementor-widget elementor-widget-heading" data-id="004320d" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">What Benefits Can I Expect From using HGH?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-e80b77f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e80b77f" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3815971" data-id="3815971" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-54bba77 elementor-widget elementor-widget-text-editor" data-id="54bba77" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Injecting human growth hormone (HGH) daily can provide a range of benefits, including:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;">Increased muscle mass and strength: HGH stimulates the growth and regeneration of muscle tissue, promoting an increase in muscle mass, strength, and endurance. It does this primarily through muscle retention. Muscle cells have receptors for HGH and when it binds it prevents muscle loss. This is huge as most of us have experienced what it is like to push hard in the gym for a few months and to then lose all our gains after taking a week or two off at the gym. HGH prevents this and keeps the muscle that you gained in the gym.</span></p></li>
+                    <li><p><span style="color: #000000;">Decreased body fat: HGH helps to increase metabolism and fat burning, leading to a decrease in body fat and an increase in lean muscle mass. It does this by binding to fat cells. Fat cells have receptors for HGH and when injected they bind in great numbers. This then begins a process called lipolysis. Lipolysis is the breaking down of fat which you can then process and breathe out. This still takes work to lose fat, but it becomes easy like when you were in your 20's.</span></p></li>
+                    <li><p><span style="color: #000000;">Improved bone density: HGH stimulates the production of bone cells, which leads to an increase in bone density and a decrease in the risk of fractures and osteoporosis.</span></p></li>
+                    <li><p><span style="color: #000000;">Increased energy levels: HGH can help improve energy levels and reduce fatigue, leading to improved physical performance and cognitive function.</span></p></li>
+                    <li><p><span style="color: #000000;">Improved skin health: HGH can help improve skin texture and reduce the appearance of wrinkles, promoting a more youthful appearance.</span></p></li>
+                    <li><p><span style="color: #000000;">Improved immune function: HGH can help improve immune function by promoting the production of immune cells, leading to a reduced risk of infections and illnesses.</span></p></li>
+                    <li><span style="color: #000000;">Improved Memory: Some memory cells have receptors for HGH. When you inject HGH it will go through the blood stream in the brain and attach to these memory cells. It helps them to live longer and retain more memories.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that while HGH injections can provide a range of benefits, they should only be used under the supervision of a qualified healthcare professional and in accordance with their instructions. Traditional medicine practitioners will tell you that HGH injections should only be used for approved medical purposes, and not for athletic or anti-aging purposes, but there is enough evidence out there to show it is a powerful tool for aesthetic, athletic and anti-aging purposes.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-56870a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="56870a0" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-669f71d" data-id="669f71d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-aa67d14 elementor-widget elementor-widget-heading" data-id="aa67d14" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Should HGH be taken in Combination with TRT?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-88cf7ea elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="88cf7ea" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-652f428" data-id="652f428" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-bd0e75d elementor-widget elementor-widget-text-editor" data-id="bd0e75d" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">It is our belief at Dream Body Clinic that HGH and Testosterone Replacement Therapy (TRT) were designed to go together for adult patients. The results in regards to athletic performance, aesthetics, fat loss and anti-aging benefits are tripled when combined. TRT will help build muscle fast and improve mood. When HGH is added you will be able to keep those new muscle gains. TRT and HGH both increase your metabolism so when used together they synergize. We like to think of the life cycle when explaining this. We are designed to grow up, have kids, raise those kids and then slowly taken out of the life cycle. Our bodies do this primarily by down regulating our hormones over time. We can now replace these key hormones with TRT and HGH Therapy.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-489ac65 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="489ac65" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5decc13" data-id="5decc13" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-b3ab81d elementor-widget elementor-widget-heading" data-id="b3ab81d" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">What are the Possible Side Effects from using HGH?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-2ab2a40 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2ab2a40" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cb57a72" data-id="cb57a72" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f315ee5 elementor-widget elementor-widget-text-editor" data-id="f315ee5" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Human growth hormone (HGH) supplementation can cause a number of side effects. Some of these side effects are more common than others, and the severity of the side effects can vary depending on the individual and the dosage of HGH used. Dream Body Clinic has been treating patients with HGH for 10 years now. In that time the most common side effect has been mild carpal tunnel syndrome. It is easily dealt with by stopping the use of HGH for 2 weeks and then starting again.</span></p>
+                  <p><span style="color: #000000;">Possible Side effects of HGH supplementation may include:</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">Joint pain – <span style="color: #3366ff;">We have found this side effect to be very uncommon. Very few patients have ever reported joint pain while most patients have reported joint pain relief. Joint pain relief is a very common effect from taking HGH.</span></span></li>
+                    <li><span style="color: #000000;">Swelling and pain at the injection site – <span style="color: #3366ff;">We have only seen this occur when the patient made the mistake of re-using needles. Any injection runs the risk of infection so we recommend using sterile practices when injecting to avoid this. That means using a new needle every time and using a sterilizing agent like alcohol to the injection site first.</span></span></li>
+                    <li><span style="color: #000000;">Fluid retention and swelling, particularly in the hands and feet – <span style="color: #3366ff;">This is a more common side effect and is a good thing in most cases. The HGH lubricates joints by adding more fluid to those areas. This often reduces joint pain. The few patients that report fluid retention in the stomach fat area have been able to fix the issue through diet.</span></span></li>
+                    <li><span style="color: #000000;">Carpal tunnel syndrome (numbness or tingling in the hand and fingers) – <span style="color: #3366ff;">This is the only real negative side effect we have seen occur. It usually only occurs with higher doses of 4IU per day or higher. It is easily fixed by reducing the HGH dose or stopping use for 2 weeks and then starting again.</span></span></li>
+                    <li><span style="color: #000000;">Increased risk of diabetes – <span style="color: #3366ff;">This side effect is misleading. We have many Type 2 diabetic patients that use 2IU per day of HGH to improve their glucose levels. HGH if administered at 6IU per day or higher will cause insulin sensitivity which can lead to type 2 diabetes. Doses under that have been found to actually help prevent Type 2 diabetes.</span></span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's worth noting that the risks and benefits of HGH supplementation can vary depending on the individual and the specific medical condition being treated. Before starting HGH supplementation, it's important to discuss the potential side effects with a healthcare professional and undergo regular monitoring to detect any potential complications.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-98187d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="98187d7" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dc93393" data-id="dc93393" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-906a330 elementor-widget elementor-widget-heading" data-id="906a330" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">HGH and Cancer</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-0fd5638 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0fd5638" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f5b3c7d" data-id="f5b3c7d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-dd7586b elementor-widget elementor-widget-text-editor" data-id="dd7586b" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Doctors in the USA are trained to tell patients that the reason they can't prescribe HGH for aesthetic, athletic or anti-aging benefits is because HGH increases IGF-1 Levels and certain tumors feed off of IGF-1. We find this approach to be misleading for a few reasons:</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">HGH stimulates the production of insulin-like growth factor (IGF) in the liver, which promotes the growth and regeneration of cells in various tissues and organs throughout the body, including bones, muscles, and skin. You already have IGF-1 in your bloodstream and it is considered beneficial. You would have to know you had cancer and continue to use HGH to have any potential for an issue. Even then it has not been studied to see if HGH would speed up cancer.</span></li>
+                    <li><span style="color: #000000;">In addition, HGH has been shown to have antioxidant and anti-inflammatory effects that can help protect cells and tissues from damage caused by oxidative stress and inflammation. This is the opposite of cancer and can actually be preventative to developing cancer.</span></li>
+                    <li><span style="color: #000000;">HGH has also been found to stimulate the production of white blood cells, which help protect against infections and illnesses. This also helps prevent cancer.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">Overall, HGH is an important hormone that plays a crucial role in promoting the growth and health of cells throughout the body.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-2241ee7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2241ee7" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-70f5605" data-id="70f5605" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-51d3a94 elementor-widget elementor-widget-heading" data-id="51d3a94" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Does HGH Use Down Regulate Pituitary Gland Function?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-d556341 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d556341" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4436a47" data-id="4436a47" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1be8849 elementor-widget elementor-widget-text-editor" data-id="1be8849" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The idea that HGH down regulates pituitary gland function has been a favorite quote by many people that claim to be experts on HGH use, but what is the truth. According to studies on HGH use this is only true at excessive doses.</span></p>
+                  <p><span style="color: #000000;">Most studies suggest that long-term and excessive use of HGH at doses above 1.0-1.5 IU/kg/day can significantly increase the risk of hypopituitarism and other adverse effects. Those are extremely large doses. That means a 100kg (220 lbs) man would have to inject 100IU per day to cause down regulation of the pituitary gland. At Dream Body Clinic we recommend a daily dose of 1.8IU for the majority of patients.</span></p>
+                  <p><span style="color: #000000;">Josh, the found of Dream Body Clinic is 40 years old. He has been on 1.8IU of Genotropin HGH for 10 years now. In those 10 years his resting IGF-1 levels have remained at 150 ng/ml. This year his IGF-1 was recently down regulated and reported at 130 ng/ml and this was to be expected. People naturally down regulate over time at a rate of about 20% every 10 years after the age of 30. So Josh's resting IGF-1 has only dropped 14% which is less than the average even after a decade of HGH use.</span></p>
+                  <p><span style="color: #000000;">Sources:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">Molitch ME, Clemmons DR, Malozowski S, et al. Evaluation and treatment of adult growth hormone deficiency: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(6):1587-1609.</span></li>
+                    <li><span style="color: #000000;">Rosenfeld RG, Bakker B. Compliance and persistence in pediatric and adult patients receiving growth hormone therapy. Endocr Pract. 2008;14(2):143-154.</span></li>
+                    <li><span style="color: #000000;">Savage MO, Ranke MB. Diagnosis and management of growth hormone deficiency in childhood and adolescence – recent advances and current perspectives. Horm Res Paediatr. 2019;91(6):329-340.</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-02cdd50 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="02cdd50" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61dd789" data-id="61dd789" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-94c7787 elementor-widget elementor-widget-heading" data-id="94c7787" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">What is the Best Dose to Take of HGH?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-2377a2a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2377a2a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b2e4990" data-id="b2e4990" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-c39632e elementor-widget elementor-widget-text-editor" data-id="c39632e" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">At Dream Body Clinic we recommend 1.8IU (0.06mg) per day for people weighing less than 250 lbs (113kg). This applies to men or women. The reason women need to take the same dose or higher than a man is because women produce much more estrogen than men and estrogen allows less IGF-1 to be produced in the liver when HGH is processed. So a 100lb women will get nearly the same IGF-1 conversion as a 200 lbs man at the same dose of HGH.</span></p>
+                  <p><span style="color: #000000;">For Athletic Performance or for Children trying to grow taller we sometimes recommend a higher dose of 3.9IU (1.3mg) per day. This dose is typically the highest we recommend because doses of 6iu (2mg) per day or higher can cause insulin sensitivity which will lead to type 2 diabetes. This is why bodybuilders that do 10IU to 30IU per day have to inject insulin with it to prevent those issues. Do not inject insulin with HGH as it is extremely dangerous.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-fbb2faa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fbb2faa" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ec2aefb" data-id="ec2aefb" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-265b984 elementor-widget elementor-widget-heading" data-id="265b984" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to Activate a Pfizer Genotropin HGH Pen</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-58e34fe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="58e34fe" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3958a10" data-id="3958a10" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-01b2258 elementor-widget elementor-widget-text-editor" data-id="01b2258" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Pfizer Genotropin HGH comes in an easy to use Go Quick pen presentation. It is a lyophilized powder that is the HGH and a separate section with bacteriostatic water. You simply twist the body of the Genotropin go quick pen from point A to point B, then point B to point C. Instructions are included by Pfizer in each box. This breaks a barrier between the bacteriostatic water and the HGH powder. You then lightly mix the contents by moving the go quick pen from right side up to upside down a few times until the solution is only liquid. Now you screw on one of the needle adaptors to the end. On the back of the go quick pen is a dial. It is in MG and we need to do the math to know how many IU to set it for. 0.3 is = 1IU, 0.7 = 2IU, 1 = 3IU and 1.3 = 4IU. This is because there are 12mg of HGH powder and 36IU so the ratio is 3 to 1. Now you twist the dial on the end of the Pfizer go quick pen, then inject into your belly fat and press down on the end to inject the <a style="color: #000000;" href="https://dreambody.clinic/index.php/2018/07/10/puerto-vallarta-hgh/" rel="nofollow">HGH</a>. Below is a video showing how to do it.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-e2eb855 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e2eb855" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b43c89" data-id="7b43c89" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-13879ed elementor-widget elementor-widget-heading" data-id="13879ed" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to Buy The Pfizer Genotropin HGH Pen Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-97e4dbe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="97e4dbe" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-87f5c55" data-id="87f5c55" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7d61106 elementor-widget elementor-widget-text-editor" data-id="7d61106" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Simply click on the image below to learn how to book Treatment. We cannot ship HGH as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year.</span></p>
+                  <p><span style="color: #000000;">Call us anytime at (888) 704-3977 from the USA or Canada. Our Mexico number is +523222321055 and is on whatsapp, telegram or signal. Email us at</span> <span style="color: #3366ff;">info@dreambodyclinic.net</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-7208ad6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7208ad6" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-985e80e" data-id="985e80e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-53b7ecc elementor-widget elementor-widget-image" data-id="53b7ecc" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                    <img loading="lazy" decoding="async" width="300" height="300" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" class="attachment-medium size-medium wp-image-14263" alt="How to Book Medication Treatments" srcset="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic.webp 1080w" sizes="(max-width: 300px) 100vw, 300px" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'modafinil-for-sale': {
+    slug: 'modafinil-for-sale',
+    title: 'Modafinil 200mg – The Smart Drug',
+    image: 'https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-1024x768.webp',
+    imageWidth: 1024,
+    imageHeight: 768,
+    imageAlt: 'Teva Modafinil 200mg Dream Body Clinic',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-7f7b907 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7f7b907" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e65296e" data-id="e65296e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-2b9d1fc elementor-widget elementor-widget-image" data-id="2b9d1fc" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-1024x768.webp" class="attachment-large size-large wp-image-20676" alt="Teva Modafinil 200mg Dream Body Clinic" srcset="https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-scaled.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-51218e4" data-id="51218e4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f6e5c82 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="f6e5c82" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Modafinil 200mg Legal Fly &amp; Buy Program:</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">1 Box (200mg, 28 Pills)</span></h3></li>
+                    <li><h3><span style="color: #000000;">All Documentation to Fly Home Legally</span></h3></li>
+                  </ul>
+                  <h2><span style="color: #000000;">PRICE: $150 USD</span></h2>
+                  <div><span style="color: #000000;">Most people use 1/4 to 1/2 a pill per day and most don't take it daily. So each box can last a few months. We can send you home with up to 8 boxes per person.</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-7021a92 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7021a92" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-25b105c" data-id="25b105c" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-003135a elementor-widget elementor-widget-heading" data-id="003135a" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">The Modafinil For Sale Fly &amp; Buy Program at Dream Body Clinic</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-0dedc3a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0dedc3a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8730bd1" data-id="8730bd1" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7580385 elementor-widget elementor-widget-text-editor" data-id="7580385" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;"><strong>Modafinil:</strong> Unlock Your Potential and Stay Ahead of the Game!</span></p>
+                  <p><span style="color: #000000;">Are you tired of feeling groggy, sluggish, and lacking focus? Do you struggle to stay awake during important moments, hindering your productivity and success? It's time to discover the game-changing benefits of Modafinil – the ultimate secret weapon for unlocking your true potential.</span></p>
+                  <p><span style="color: #000000;">At Dream Body Clinic, we understand the importance of peak performance in today's fast-paced world. That's why we are thrilled to offer Modafinil for sale. With our high-quality, prescription-grade Modafinil, you can experience a whole new level of wakefulness, focus, and productivity.</span></p>
+                  <p><span style="color: #000000;">Why choose Modafinil from Dream Body Clinic?</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Superior Quality:</strong> Rest assured that when you purchase Modafinil from us, you're getting a premium product. We have a licensed pharmacy and source our medication from the most reputable manufacturer to ensure safety, purity, and effectiveness. There is no comparison for Teva Modafinil versus junk from India or China.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Ultimate Focus:</strong> Say goodbye to distractions and hello to unwavering concentration. Modafinil is renowned for enhancing focus and mental clarity, allowing you to tackle even the most demanding tasks with ease.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Skyrocket Productivity:</strong> Imagine having unlimited energy reserves at your disposal. Modafinil can help combat fatigue, boost energy levels, and supercharge your productivity, making every day your most productive one yet.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Stay Ahead of the Competition:</strong> In a competitive world, staying ahead is crucial. Modafinil helps you gain an edge, providing the mental stamina you need to outperform your competitors and achieve your goals.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Customized Solutions:</strong> At Dream Body Clinic, we understand that everyone's needs are unique. Whether you're a busy professional, a student striving for academic excellence, or someone working demanding shifts, our team of experts will guide you to find the optimal Modafinil dosage and regimen that suits your lifestyle.</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">Don't let fatigue and lack of focus hold you back from achieving greatness. Experience the transformative power of Modafinil from Dream Body Clinic and unlock your true potential. Join the countless individuals who have already experienced the life-changing benefits of this remarkable medication.</span></p>
+                  <p><span style="color: #000000;">Take the first step towards a energized and focused future by contacting us today for a free consultation. With Dream Body Clinic, your success story begins here. Step into a world of limitless possibilities with Modafinil at Dream Body Clinic!</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-465b705 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="465b705" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7ad5bc8" data-id="7ad5bc8" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-0a91889 elementor-widget elementor-widget-image" data-id="0a91889" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="300" height="225" src="https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-2-300x225.webp" class="attachment-medium size-medium wp-image-20680" alt="" srcset="https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-2-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-2-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-2-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-2-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2024/09/Teva-Modafinil-200mg-Dream-Body-Clinic-2-scaled.webp 1920w" sizes="(max-width: 300px) 100vw, 300px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-fad79db elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fad79db" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-854aa01" data-id="854aa01" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-78c8e8a elementor-widget elementor-widget-heading" data-id="78c8e8a" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">What is Modafinil?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f9ab09d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f9ab09d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0a66632" data-id="0a66632" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-652311a elementor-widget elementor-widget-text-editor" data-id="652311a" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Modafinil is a medication that is primarily used to promote wakefulness and improve alertness in individuals with sleep disorders such as narcolepsy, obstructive sleep apnea, and shift work sleep disorder. It has been discovered by biohackers to be the ultimate focus drug on the market. Students at Ivy League Schools and elite Computer Programmers have been using it for decades to stay focused and get better work done. It is classified as a wakefulness-promoting agent and is considered a eugeroic. Modafinil is thought to work by enhancing the activity of certain chemicals (neurotransmitters) in the brain that regulate sleep and wakefulness. It is available only by prescription in most countries but is an over the counter medicine in Mexico. It should be used under medical supervision due to potential side effects and interactions with other medications. Modafinil is not a substitute for sleep.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-0141615 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0141615" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6966909" data-id="6966909" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7ff2885 elementor-widget elementor-widget-heading" data-id="7ff2885" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How Does Modafinil Enhance Focus?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-21e501b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="21e501b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d700d31" data-id="d700d31" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-19fdc69 elementor-widget elementor-widget-text-editor" data-id="19fdc69" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The exact mechanism by which modafinil enhances focus is not fully understood. However, it is believed to work on multiple neurotransmitter systems in the brain, including dopamine, norepinephrine, serotonin, glutamate, and orexin/hypocretin.</span></p>
+                  <p><span style="color: #000000;">One proposed mechanism is that modafinil increases the release and inhibits the reuptake of dopamine, which is a neurotransmitter involved in motivation, reward, and focus. By increasing dopamine levels, modafinil may enhance focus and concentration. To learn more about dopamine check out the book, <a href="https://www.amazon.com/The-Molecule-of-More-audiobook/dp/B07HS138YS/ref=sr_1_1?crid=OU2C3YZQLZQB&keywords=The+Molecule+of+More&qid=1688173759&sprefix=the+molecule+of+more%2Caps%2C294&sr=8-1">The Molecule of More</a>. It is a real eye opener on how important dopamine is for humans.</span></p>
+                  <p><span style="color: #000000;">Modafinil is also thought to activate norepinephrine, another neurotransmitter involved in attention and focus. By increasing norepinephrine levels, modafinil may improve alertness and cognitive performance.</span></p>
+                  <p><span style="color: #000000;">Furthermore, modafinil may affect the levels of other neurotransmitters such as serotonin and glutamate, which are involved in regulating mood, cognition, and attention.</span></p>
+                  <p><span style="color: #000000;">It's important to note that while modafinil can enhance focus and wakefulness, it does not necessarily improve cognitive abilities or intelligence. It is primarily used to treat sleep disorders, and its off-label use as a cognitive enhancer or for improving focus has been enjoyed by patients at Dream Body Clinic.</span></p>
+                  <p><span style="color: #000000;"><b>Modafinil</b> is a wakefulness-promoting agent used for treatment of disorders such as narcolepsy, shift work sleep disorder, and excessive daytime sleepiness associated with obstructive sleep apnea. It has also seen widespread off-label use as a purported <strong>cognition-enhancing agent</strong>. We like it because it does not effect appetite like so many other focus medications and caffeine based pills. Eating is very important to lifting weights so this is a great alternative to adderall, ritalin, coffee or energy drinks.</span></p>
+                  <p><span style="color: #000000;">Modafinil is the smart drug that Ivy League students and Silicon Valley Tech wizards are taking to stay ahead of everyone else. Many are calling it the new adderall. The advantage to armodafinil is that it is not a meth based stimulant like adderall and ritalin.</span></p>
+                  <p><span style="color: #000000;">This study done by Oxford University shows that it really does enhance cognition and is safe.</span> <a href="http://www.ox.ac.uk/news/2015-08-20-review-%E2%80%98smart-drug%E2%80%99-shows-modafinil-does-enhance-cognition" rel="nofollow">http://www.ox.ac.uk/news/2015-08-20-review-%E2%80%98smart-drug%E2%80%99-shows-modafinil-does-enhance-cognition</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-71d31b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="71d31b9" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f3b3a7" data-id="5f3b3a7" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-e72ef43 elementor-widget elementor-widget-heading" data-id="e72ef43" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Does Modafinil Have Positive Benefits on Brain Health?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-a04b888 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a04b888" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b915674" data-id="b915674" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-c1328c2 elementor-widget elementor-widget-text-editor" data-id="c1328c2" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">While modafinil is primarily used for its wakefulness-promoting effects and to treat sleep disorders, some studies suggest that it may have certain positive effects on brain health. However, more research is needed to fully understand these potential benefits.</span></p>
+                  <p><span style="color: #000000;">Here are a few ways in which modafinil may be associated with positive effects on brain health:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Cognitive Enhancement:</strong> Modafinil has been found to potentially enhance cognitive function, including improvements in memory, attention, and executive function. This could be beneficial for individuals undertaking demanding cognitive tasks or those experiencing cognitive decline.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Neuroprotection:</strong> Some animal studies suggest that modafinil may have neuroprotective properties, protecting brain cells from damage and potentially reducing the risk of neurodegenerative disorders. However, more research is needed to confirm these findings in humans.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Neuroplasticity:</strong> Modafinil has been shown to potentially enhance neuroplasticity, which is the brain's ability to reorganize and form new connections, potentially leading to improved learning and adaptability.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Mood Modulation:</strong> Modafinil has been reported to have positive effects on mood, potentially reducing symptoms of depression and enhancing motivation and well-being. However, it is worth noting that individual responses may vary.</span></p></li>
+                    <li><span style="color: #000000;"><strong>Reduces Oxidative Stress in the Brain:</strong></span>
+                      <p><span style="color: #000000;">There is some preliminary research suggesting that modafinil may have a positive impact on reducing oxidative stress in the brain. Oxidative stress occurs when there is an imbalance between reactive oxygen species (ROS) and the body's antioxidant defenses, which can lead to damage to cells and tissues.</span></p>
+                      <p><span style="color: #000000;">Studies conducted on animal models have shown that modafinil has antioxidant properties and can help reduce oxidative stress markers in the brain. For example, research with rats has shown that modafinil can decrease the levels of ROS and increase antioxidant enzyme activity, thus potentially providing neuroprotective effects against oxidative damage.</span></p>
+                    </li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to keep in mind that while modafinil may have potential benefits on brain health, it should only be used as prescribed and under medical supervision like that at Dream Body Clinic.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-72829f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="72829f3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1433f06" data-id="1433f06" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-8aaf4ca elementor-widget elementor-widget-heading" data-id="8aaf4ca" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Can Modafinil Be Used For Sports Performance?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-4017b5e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4017b5e" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c3d59c4" data-id="c3d59c4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-80ca097 elementor-widget elementor-widget-text-editor" data-id="80ca097" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The use of modafinil as a performance-enhancing drug in sports is prohibited by various sporting organizations, such as the World Anti-Doping Agency (WADA) and the International Olympic Committee (IOC). Modafinil is classified as a "Prohibited Substance in-competition" by WADA.</span></p>
+                  <p><span style="color: #000000;">If WADA has prohibited it then that is usually a good indicator that it works for sports performance. We have found at Dream Body Clinic that it is a great tool in the gym for the following reasons:</span></p>
+                  <ol>
+                    <li><span style="color: #000000;"><strong>Instantly Get in the Zone:</strong> We have found that modafinil is amazing for getting into the zone for cardio sessions. For example if you take 25 to 50mg 30 minutes before a cardio session and consume a small amount of caffein then you will find that you can run, bike or swim for much longer than normal without getting bored or losing focus. The dose and timing is different for everyone, but we help our patients dial that in for peak performance.</span></li>
+                    <li><strong><span style="color: #000000;">Amazing Focus:</span></strong><span style="color: #000000;"> Staying focused in the gym or during sports in very important. Modafinil really helps athletes focus on their goals so they can accomplish them.</span></li>
+                    <li><strong><span style="color: #000000;">Increased Energy:</span></strong><span style="color: #000000;"> This is important for workouts or sports, but it also applies to hard working users. We have found that working a long and hard day can wipe a lot of people out. If modafinil was used that day it is then much easier to find the motivation and energy to get your workout in at the end of the day.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">So modafinil will probably not make you a better athlete or able to lift more weight, but it can massively help with the mental side of sports performance which is what really leads to the huge gains in the gym or athletic performance because of consistency and focused training.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-e2484e3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e2484e3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4878348" data-id="4878348" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-34988cb elementor-widget elementor-widget-heading" data-id="34988cb" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">What is the Best Dose to Take of Modafinil?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-98d9e42 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="98d9e42" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b637d6" data-id="1b637d6" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-743ee20 elementor-widget elementor-widget-text-editor" data-id="743ee20" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">At Dream Body Clinic we help customize the dose for each patient. This is because the dose you take will depend on factors such as your health, height, weight, age and goals. Most people find that half a pill will get them through the day feeling great and laser focused.</span></p>
+                  <p><span style="color: #000000;">We have found that people who take high doses of adderral or ritalin will require higher doses if their goal is to switch from those substances to modafinil for focus. This has been found to be a great way to get off of amphetamine-based drugs like Ritalin and Adderall.</span></p>
+                  <p><span style="color: #000000;">Studies have shown that 4 pills per day is the maximum amount before severe headaches and other symptoms start to make it not worth the pain.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-8d495c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8d495c6" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-aedf2a4" data-id="aedf2a4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9deb3c7 elementor-widget elementor-widget-heading" data-id="9deb3c7" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Modafinil Possible Side Effects</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-8e15b25 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8e15b25" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e0dcf8" data-id="6e0dcf8" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a469d92 elementor-widget elementor-widget-text-editor" data-id="a469d92" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Side effects from taking modafinil are very rare. Studies have found that doses of 4 pills (800mg) or higher almost always cause severe headaches, pain and nausea.</span></p>
+                  <p><span style="color: #000000;">At regular doses these are the most common side effects:</span></p>
+                  <p><span style="color: #000000;">Headache, Nausea, Nervousness or anxiety, Insomnia or difficulty sleeping, Dizziness, Dry mouth, Increased heart rate, Elevated blood pressure, Palpitations, Chest pain, Diarrhea or upset stomach, Back pain, Rash or allergic reactions (such as hives or itching), Mood changes or irritability, Depression, Hallucinations or other psychiatric symptoms, Unusual bleeding or bruising, Signs of infection (e.g., fever, sore throat).</span></p>
+                  <p><span style="color: #000000;">Please note that this is not an exhaustive list, and other side effects may occur. It's essential to consult a healthcare professional for a complete list of potential side effects and to discuss any concerns before starting or during treatment with modafinil.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c697f7d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c697f7d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e4c8e6c" data-id="e4c8e6c" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-32c3648 elementor-widget elementor-widget-heading" data-id="32c3648" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">What are the Most Common Benefits of Modafinil?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-5097ce4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5097ce4" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c5858e1" data-id="c5858e1" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a6d7b40 elementor-widget elementor-widget-text-editor" data-id="a6d7b40" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Modafinil provides several potential benefits, primarily when used as a treatment for sleep disorders such as narcolepsy, obstructive sleep apnea, and shift work sleep disorder. The benefits of modafinil typically include:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Wakefulness promotion:</strong> Modafinil is known as a wakefulness-promoting agent that helps individuals stay awake and alert, combating excessive sleepiness or fatigue. It is an amazing medication when taken on a day where you are very tired because it wakes you up like you slept perfect the night before.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Enhanced focus and concentration:</strong> Modafinil may help improve focus, attention, and concentration, making it beneficial for those who need heightened cognitive abilities during work or study.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Increased productivity:</strong> By promoting wakefulness and improving cognitive function, modafinil has the potential to enhance productivity and performance in tasks that require sustained mental effort.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Shift work sleep disorder management:</strong> Modafinil can help individuals with shift work sleep disorder adjust to shift work schedules, minimizing the impact of irregular sleep patterns and improving wakefulness during work hours.</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that the benefits of modafinil may vary between individuals, and the medication's off-label use as a cognitive enhancer or for performance enhancement is still a topic of ongoing research and debate. Moreover, it should only be used under medical supervision and as prescribed by a healthcare professional. Dream Body Clinic has an amazing medical team to help you learn about modafinil and use it properly.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-7c380de elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c380de" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d94aa2b" data-id="d94aa2b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-4cf62f6 elementor-widget elementor-widget-heading" data-id="4cf62f6" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Modafinil Studies</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-a0a7475 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a0a7475" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f878aee" data-id="f878aee" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-474980a elementor-widget elementor-widget-text-editor" data-id="474980a" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <ul>
+                    <li><a href="https://www.nature.com/articles/1301534"><b>Modafinil</b>: a review of neurochemical actions and effects on cognition</a></li>
+                    <li><a href="https://link.springer.com/article/10.1007/s00213-002-1250-8">Cognitive enhancing effects of <b>modafinil</b> in healthy volunteers</a></li>
+                    <li><a href="https://www.psychiatrist.com/read-pdf/20686/">A systematic review of <b>modafinil</b>: potential clinical uses and mechanisms of action</a></li>
+                    <li><a href="https://journals.sagepub.com/doi/pdf/10.4103/0976-500X.149149">A rare case <b>modafinil</b> dependence</a></li>
+                    <li><a href="https://n.neurology.org/content/64/7/1139.short"><b>Modafinil</b> for fatigue in MS: a randomized placebo-controlled double-blind study</a></li>
+                    <li><a href="https://link.springer.com/article/10.2165/00003495-200868130-00003">Approved and investigational uses of <b>modafinil</b>: an evidence-based review</a></li>
+                    <li><a href="https://www.sciencedirect.com/science/article/pii/S0376871609001562"><b>Modafinil</b> for the treatment of cocaine dependence</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-889d5f8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="889d5f8" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90caad9" data-id="90caad9" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a2ae46e elementor-widget elementor-widget-heading" data-id="a2ae46e" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Can Modafinil Help with Attention Deficit and Hyperactivity Disorder (ADHD)?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6c1224d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c1224d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1a0d2fc" data-id="1a0d2fc" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a0a33a5 elementor-widget elementor-widget-text-editor" data-id="a0a33a5" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Modafinil is not approved by the U.S. Food and Drug Administration (FDA) for the treatment of attention-deficit/hyperactivity disorder (ADHD). However, it has been studied as an off-label treatment option for ADHD in some cases. It was not approved by the FDA because a few of the kids in the study had headaches. So the justification for not allowing it had more to do with protecting existing medication manufacturers than because of effectiveness.</span></p>
+                  <p><span style="color: #000000;">Some research suggests that modafinil may have potential benefits for individuals with ADHD, such as improved attention, focus, and executive function. However, the evidence supporting its effectiveness for ADHD is limited and inconsistent. We believe it is a great and healthy alternative for some patients.</span></p>
+                  <p><span style="color: #000000;">Stimulant medications, such as methylphenidate (e.g., Ritalin) and amphetamines (e.g., Adderall), are the standard medications prescribed for treating ADHD. These medications have severe side effects and often lead to dependence. Modafinil rarely causes dependency.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-588bb84 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="588bb84" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-67738f4" data-id="67738f4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-396eabc elementor-widget elementor-widget-heading" data-id="396eabc" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Can Modafinil Help People Come Off of Adderall or Ritalin?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-437dcb3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="437dcb3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-63ae3f3" data-id="63ae3f3" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-c386bbc elementor-widget elementor-widget-text-editor" data-id="c386bbc" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Modafinil is sometimes considered as an alternative or adjunct to traditional stimulant medications like Adderall. While both modafinil and Adderall can enhance wakefulness and improve focus, they have different mechanisms of action and effects on neurotransmitters in the brain.</span></p>
+                  <p><span style="color: #000000;">In some cases, under medical supervision, modafinil may be prescribed as part of a tapering-off strategy to help individuals transition from Adderall or other stimulants. Modafinil's mechanism of action differs from that of Adderall, as it primarily affects dopamine receptors indirectly rather than directly increasing dopamine levels in the brain.</span></p>
+                  <p><span style="color: #000000;">We have helped many people use modafinil as a way to ween off of Adderall or Ritalin. We believe this is great for those patients as Ritalin and Adderall are amphetamines with a lot of negative side effects and negative health benefits.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-9dd1679 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9dd1679" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b194d22" data-id="b194d22" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-fbdd69e elementor-widget elementor-widget-heading" data-id="fbdd69e" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to get Modafinil with Our Legal Fly &amp; Buy Program</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-a2ef368 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a2ef368" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a2bdaf9" data-id="a2bdaf9" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-d9323f0 elementor-widget elementor-widget-text-editor" data-id="d9323f0" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p>Simply click on the image below to learn how to book Treatment. We cannot ship Modafinil as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year. We can prescribe up to 8 boxes of modafinil per person.</p>
+                  <p>Call us anytime at <span style="color: #000000;">(888) 704-3977</span> from the USA or Canada. Our Mexico number is <span style="color: #00ccff;">+523222321055</span> and is on whatsapp, telegram or signal. Email us at <a href="mailto:info@dreambodyclinic.net">info@dreambodyclinic.net</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-5ca1d7b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ca1d7b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8768ed1" data-id="8768ed1" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-8f47e8c elementor-widget elementor-widget-image" data-id="8f47e8c" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                    <img decoding="async" class="attachment-medium size-medium wp-image-14263" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" sizes="(max-width: 300px) 100vw, 300px" srcset="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic.webp 1080w" alt="How to Book Medication Treatments" width="300" height="300" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-0e322e3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0e322e3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-25796c0" data-id="25796c0" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-b441550 elementor-widget elementor-widget-text-editor" data-id="b441550" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'rybelsus-semaglutide-pills-package-6-months': {
+    slug: 'rybelsus-semaglutide-pills-package-6-months',
+    title: 'Rybelsus Semaglutide Pills for Rapid Weight Loss Package – 6 Months',
+    image: 'https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-1024x768.webp',
+    imageWidth: 1024,
+    imageHeight: 768,
+    imageAlt: 'Rybelsus Semaglutide Pills Package',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-0b2352b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0b2352b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-40c185d" data-id="40c185d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1a98cf2 elementor-widget elementor-widget-image" data-id="1a98cf2" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-1024x768.webp" class="attachment-large size-large wp-image-16753" alt="Rybelsus Semaglutide Pills Package" srcset="https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-scaled.webp 1920w, https://dreambody.clinic/wp-content/uploads/2023/08/Rybelsus-Semaglutide-Pills-Package-6-Months-600x450.webp 600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7325645" data-id="7325645" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7ef7360 elementor-widget elementor-widget-text-editor" data-id="7ef7360" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2>The Rybelsus Semaglutide Legal Fly &amp; Buy Program:</h2>
+                  <ul>
+                    <li><h3>1 Box (3mg, 30 Pills per box)</h3></li>
+                    <li><h3>5 Boxes (7mg, 30 Pills per box)</h3></li>
+                    <li><h3>All Documentation to Fly Home Legally</h3></li>
+                    <li><h3>Bloodwork</h3></li>
+                  </ul>
+                  <h2>PRICE: $2500 USD</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6c540e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c540e2" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4948634" data-id="4948634" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-18d7b31 elementor-widget elementor-widget-image" data-id="18d7b31" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-3mg-2-1024x768.webp" class="attachment-large size-large wp-image-16750" alt="Rybelsus Semaglutide 3mg Dream Body Clinic" srcset="https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-3mg-2-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-3mg-2-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-3mg-2-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-3mg-2-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-3mg-2-scaled.webp 1920w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-3mg-2-600x450.webp 600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e6561a3" data-id="e6561a3" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-395f671 elementor-widget elementor-widget-image" data-id="395f671" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-7mg-2-1024x768.webp" class="attachment-large size-large wp-image-16751" alt="Rybelsus Semaglutide 7mg Dream Body Clinic" srcset="https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-7mg-2-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-7mg-2-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-7mg-2-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-7mg-2-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-7mg-2-scaled.webp 1920w, https://dreambody.clinic/wp-content/uploads/2023/08/Semaglutide-7mg-2-600x450.webp 600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-bc99feb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bc99feb" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f6c52a3" data-id="f6c52a3" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a3eae05 elementor-widget elementor-widget-heading" data-id="a3eae05" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">The Rybelsus Semaglutide Package at Dream Body Clinic</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-d3a8edd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d3a8edd" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-35b4fe6" data-id="35b4fe6" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f5240e9 elementor-widget elementor-widget-text-editor" data-id="f5240e9" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">This package includes 1 box of Rybelsus Semaglutide 3mg and 5 boxes of the 7mg boxes. This will be a 6 month cycle for weight loss.</span></p>
+                  <p><strong><span style="color: #000000;">Recommended Dosing:</span></strong></p>
+                  <p><span style="color: #000000;">Start with the Rybelsus Semaglutide 3mg box.</span></p>
+                  <p><strong><span style="color: #000000;">Take 1 Rybelsus Semaglutide 3mg pill per day for 30 days.</span></strong></p>
+                  <p><span style="color: #000000;">This is to become accustomed to the medication. Then move on to the Rybelsus 7 mg pills.</span></p>
+                  <p><strong><span style="color: #000000;">Take 1 Rybelsus Semaglutide 7mg pill per day for the next 5 months.</span></strong></p>
+                  <p><span style="color: #000000;">At the end of the 6 month cycle it is best to take a 6 month break if using for weight loss. We recommend switching to an alternative medication like metformin for the next 6 months. We can prescribe and provide you with 6 months of metformin at dream body clinic.</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-5af0fc3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5af0fc3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-393657d" data-id="393657d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9d6d5b9 elementor-widget elementor-widget-heading" data-id="9d6d5b9" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How do Rybelsus Semaglutide Pills work?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-9e3c10a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9e3c10a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f1d3c6" data-id="5f1d3c6" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-3cddadf elementor-widget elementor-widget-text-editor" data-id="3cddadf" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Semaglutide is a medication that belongs to a class of drugs called glucagon-like peptide-1 receptor agonists (GLP-1 RAs). It is commonly used as a once-daily pill for the treatment of obesity and type 2 diabetes. Here's how semaglutide pills work:</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>GLP-1 Receptor Activation:</strong> Like other medications in the GLP-1 receptor agonist class, Rybelsus activates glucagon-like peptide-1 (GLP-1) receptors. This leads to increased insulin secretion from pancreatic beta cells in response to elevated blood sugar levels.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Suppression of Glucagon Release:</strong> Rybelsus also helps to inhibit the release of glucagon, a hormone that raises blood sugar levels. By reducing glucagon secretion, Rybelsus helps to lower fasting and postprandial (after-meal) blood sugar levels.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Delayed Gastric Emptying:</strong> Semaglutide slows down the emptying of food from the stomach into the intestines. This can help control post-meal blood sugar spikes by delaying the absorption of glucose from food.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Appetite Suppression:</strong> Rybelsus may also help to reduce appetite, leading to decreased food intake and potential weight loss in some individuals.</span></p>
+                    </li>
+                  </ol>
+                  <p><span style="color: #000000;">Rybelsus is taken once daily in tablet form and is typically used in combination with diet and exercise to help manage blood sugar levels in people with type 2 diabetes. It is important to note that Rybelsus is not a substitute for a healthy lifestyle, and adherence to a balanced diet and regular exercise routine is still essential in diabetes and weight loss management.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-5cf6bcc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5cf6bcc" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7da1849" data-id="7da1849" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-09a017b elementor-widget elementor-widget-heading" data-id="09a017b" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Rybelsus Semaglutide For Weight Loss</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c70bdc3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c70bdc3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8acf97d" data-id="8acf97d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-fa3c297 elementor-widget elementor-widget-text-editor" data-id="fa3c297" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">While Rybelsus (semaglutide) is primarily used for the management of type 2 diabetes, it has also been studied for its potential use in weight management. In certain clinical trials, semaglutide has been shown to be effective in promoting weight loss in individuals without diabetes.</span></p>
+                  <p><span style="color: #000000;">The oral form of semaglutide, such as Rybelsus, has demonstrated efficacy in assisting with weight loss when used in combination with diet and exercise. Studies have shown that individuals using semaglutide experienced significant weight loss compared to those on placebo.</span></p>
+                  <p><span style="color: #000000;">The exact mechanisms through which semaglutide promotes weight loss are not fully understood. However, it is believed to reduce appetite, increase feelings of fullness, delay gastric emptying, and potentially lead to reduced calorie intake.</span></p>
+                  <p><span style="color: #000000;">It's important to note that Rybelsus, or any other medication, should not be considered as a standalone solution for weight loss. Adopting a balanced diet and incorporating regular physical activity are crucial components of a comprehensive weight management plan. Additionally, Rybelsus should only be used under the guidance and supervision of a healthcare professional, who can assess your individual health needs and provide appropriate recommendations.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f1954bc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f1954bc" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0ba90a9" data-id="0ba90a9" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-af2e45d elementor-widget elementor-widget-heading" data-id="af2e45d" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">What is a GLP-1 receptor agonist?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-4d36597 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4d36597" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ac429a9" data-id="ac429a9" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-344d603 elementor-widget elementor-widget-text-editor" data-id="344d603" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Rybelsus Semaglutide is a GLP-1 receptor agonist. A GLP-1 receptor agonist is a type of medication used in the management of type 2 diabetes. GLP-1 stands for glucagon-like peptide-1, which is a hormone released by the intestines in response to a meal. Its main function is to regulate blood sugar levels by stimulating insulin secretion and suppressing glucagon release.</span></p>
+                  <p><span style="color: #000000;">GLP-1 receptor agonists are medications that mimic the actions of GLP-1 in the body. They bind to and activate the GLP-1 receptors on cells in the pancreas, resulting in increased insulin secretion when blood sugar levels are high. This helps to lower blood glucose levels after meals.</span></p>
+                  <p><span style="color: #000000;">In addition to their effect on insulin secretion, GLP-1 receptor agonists also slow down the emptying of the stomach, reducing food intake and promoting a feeling of fullness. This can lead to weight loss or weight management, which is beneficial for individuals with type 2 diabetes who also struggle with obesity or overweight.</span></p>
+                  <p><span style="color: #000000;">GLP-1 receptor agonists are administered by injection or, in the case of Rybelsus®, an oral tablet. They are typically used as an adjunct to diet and exercise to help improve glycemic control in individuals with type 2 diabetes.</span></p>
+                  <p><span style="color: #000000;">It's important to note that GLP-1 receptor agonists have been shown to have other potential benefits beyond blood sugar control, such as cardiovascular benefits, weight loss, and potential effects on appetite regulation. However, the specific benefits and effects may vary depending on the individual and the medication prescribed.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-2aee85c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2aee85c" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b5f1a30" data-id="b5f1a30" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-872db98 elementor-widget elementor-widget-heading" data-id="872db98" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Cardiovascular Benefits of Rybelsus Semaglutide</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-df1f7dd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="df1f7dd" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7830af9" data-id="7830af9" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-59addd2 elementor-widget elementor-widget-text-editor" data-id="59addd2" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Rybelsus Semaglutide has shown cardiovascular benefits in addition to its primary role in managing type 2 diabetes. Here are some key points regarding the cardiovascular benefits of Rybelsus:</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Reduction in Major Cardiovascular Events:</strong> Clinical studies have demonstrated that Rybelsus can reduce the risk of major cardiovascular events in individuals with type 2 diabetes. These events include heart attack, stroke, and cardiovascular death. The specific reduction in risk may vary between individuals based on their cardiovascular health and other risk factors.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved Heart Health:</strong> Rybelsus has been shown to have positive effects on various aspects of heart health. It works by reducing inflammation, improving endothelial function (the function of the inner lining of blood vessels), and reducing arterial stiffness. These benefits contribute to better overall heart health and reduce the risk of cardiovascular events.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Cardiovascular Risk Reduction:</strong> In clinical trials, Rybelsus has been associated with a significant reduction in cardiovascular risk factors such as blood pressure and cholesterol levels. By helping to manage these risk factors, Rybelsus plays an important role in overall cardiovascular risk reduction.</span></p>
+                    </li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that the cardiovascular benefits of Rybelsus have primarily been studied in individuals with type 2 diabetes. As with any medication, the specific effects can vary depending on individual circumstances, including the presence of pre-existing cardiovascular conditions or other risk factors. Therefore, it's crucial to consult with healthcare professionals who can provide personalized advice based on your unique situation.</span></p>
+                  <p><span style="color: #000000;">While Rybelsus has shown promise in terms of its cardiovascular benefits, it's essential to prioritize comprehensive cardiovascular care, including a healthy lifestyle, regular exercise, a balanced diet, and regular medical check-ups to effectively manage cardiovascular health alongside any prescribed medications.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-e0aa2df elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e0aa2df" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0b069c3" data-id="0b069c3" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9c9fcd2 elementor-widget elementor-widget-heading" data-id="9c9fcd2" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Possible Side Effects of Rybelsus Semaglutide</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-918aa01 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="918aa01" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5d6bfd2" data-id="5d6bfd2" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-693008a elementor-widget elementor-widget-text-editor" data-id="693008a" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Like any medication, Rybelsus® (semaglutide) may cause side effects. It's important to be aware of potential side effects and discuss them with your healthcare provider. Here are some possible side effects associated with Rybelsus®:</span></p>
+                  <p><span style="color: #000000;">Common side effects (may affect up to 1 in 10 people):</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">Nausea: Feeling sick or experiencing an upset stomach.</span></li>
+                    <li><span style="color: #000000;">Vomiting: The act of forcefully expelling stomach contents through the mouth.</span></li>
+                    <li><span style="color: #000000;">Diarrhea: Frequent loose or watery bowel movements.</span></li>
+                    <li><span style="color: #000000;">Constipation: Difficulty passing stools or infrequent bowel movements.</span></li>
+                    <li><span style="color: #000000;">Abdominal pain: Discomfort or cramping in the stomach area.</span></li>
+                    <li><span style="color: #000000;">Indigestion: A feeling of discomfort or burning in the upper abdomen.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">Uncommon side effects (may affect up to 1 in 100 people):</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">Hypoglycemia: Low blood sugar levels. This may occur when Rybelsus® is used in combination with other medications that can lower blood sugar levels.</span></li>
+                    <li><span style="color: #000000;">Fatigue: Feeling tired or lacking energy.</span></li>
+                    <li><span style="color: #000000;">Gallbladder disorders: Rare cases of inflammation or gallstones have been reported.</span></li>
+                    <li><span style="color: #000000;">Acute kidney injury: This is a severe but rare side effect. Seek medical attention if there are signs of kidney problems such as changes in urination or swelling in the legs.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to remember that not everyone experiences side effects, and the severity and duration of side effects may vary among individuals. If you have any concerns about potential side effects or experience any unusual symptoms while taking Rybelsus®, it's crucial to consult your healthcare provider or seek medical advice.</span></p>
+                  <p><span style="color: #000000;">Please note that this is not an exhaustive list of side effects. For a complete and detailed understanding of potential side effects, it's always recommended to review the medication's prescribing information or consult with healthcare professionals who can provide personalized advice based on your specific medical history and condition.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-849a67b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="849a67b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-420cd53" data-id="420cd53" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-ce551be elementor-widget elementor-widget-heading" data-id="ce551be" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Rybelsus Semaglutide Studies</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f9df6b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f9df6b5" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4b3cda8" data-id="4b3cda8" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-90d5368 elementor-widget elementor-widget-text-editor" data-id="90d5368" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <ul>
+                    <li><p class="gs_rt"><a id="psYtNtzqk18J" href="https://link.springer.com/article/10.1007/s13346-021-01000-w">Development and approval of <b>rybelsus </b>(oral <b>semaglutide</b>): ushering in a new era in peptide delivery</a></p></li>
+                    <li><p class="gs_rt"><a id="ruMyDQdnaHEJ" href="https://www.sciencedirect.com/science/article/pii/S1056872719311584">Oral <b>semaglutide </b>in type 2 diabetes</a></p></li>
+                    <li><p class="gs_rt"><a id="xegkoUMrSmgJ" href="https://diabetesjournals.org/clinical/article-abstract/38/1/109/32187">Oral <b>semaglutide</b></a></p></li>
+                    <li><p class="gs_rt"><a id="9g9gp7hXF3gJ" href="https://repo.lib.tokushima-u.ac.jp/116923">Remarkable efficacy of blood glucose and weight by oral <b>Semaglutide </b>(<b>Rybelsus</b>) for short period</a></p></li>
+                    <li><p class="gs_rt"><a id="7dEJq8fjHggJ" href="https://search.proquest.com/openview/8e3c30a8ff41980558581faaac4e3cd6/1?pq-origsite=gscholar&amp;cbl=136155"><b>Semaglutide </b>tablets (<b>Rybelsus</b>)</a></p></li>
+                    <li><p class="gs_rt"><a id="doAYadrXUCcJ" href="https://repo.lib.tokushima-u.ac.jp/files/public/11/116746/20220215094225775507/ijed_5_1_130.pdf">Effective oral formulation of <b>semaglutide </b>(<b>Rybelsus</b>) for diabetes and obesity due to absorption enhancer development</a></p></li>
+                    <li><p class="gs_rt"><a id="xv7dlJ74T50J" href="https://europepmc.org/article/med/36208922">Oral <b>semaglutide</b>–<b>Rybelsus</b>®, the first GLP-1 receptor agonist for oral use in clinical practice.</a></p></li>
+                    <li><p class="gs_rt"><a id="IxGnkrFiY3MJ" href="https://www.tryhabitual.com/rybelsus-tablets-uk">Everything you need to know about <b>Rybelsus </b>Prescription <b>Rybelsus </b>(<b>semaglutide</b>) in the UK</a></p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-88924b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="88924b2" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ef6092" data-id="5ef6092" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f0333fe elementor-widget elementor-widget-heading" data-id="f0333fe" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Side Effects Summary</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-2377a28 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2377a28" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-925a55b" data-id="925a55b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-27ffb70 elementor-widget elementor-widget-text-editor" data-id="27ffb70" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Like any medication, Rybelsus (semaglutide) may cause side effects. It's important to be aware of potential side effects and discuss them with your healthcare provider. Here are some possible side effects associated with Rybelsus:</span></p>
+                  <p><span style="color: #000000;">Common side effects (may affect up to 1 in 10 people):</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">Nausea: Feeling sick or experiencing an upset stomach.</span></li>
+                    <li><span style="color: #000000;">Vomiting: The act of forcefully expelling stomach contents through the mouth.</span></li>
+                    <li><span style="color: #000000;">Diarrhea: Frequent loose or watery bowel movements.</span></li>
+                    <li><span style="color: #000000;">Constipation: Difficulty passing stools or infrequent bowel movements.</span></li>
+                    <li><span style="color: #000000;">Abdominal pain: Discomfort or cramping in the stomach area.</span></li>
+                    <li><span style="color: #000000;">Indigestion: A feeling of discomfort or burning in the upper abdomen.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">Uncommon side effects (may affect up to 1 in 100 people):</span></p>
+                  <ol>
+                    <li><span style="color: #000000;">Hypoglycemia: Low blood sugar levels. This may occur when Rybelsus is used in combination with other medications that can lower blood sugar levels.</span></li>
+                    <li><span style="color: #000000;">Fatigue: Feeling tired or lacking energy.</span></li>
+                    <li><span style="color: #000000;">Gallbladder disorders: Rare cases of inflammation or gallstones have been reported.</span></li>
+                    <li><span style="color: #000000;">Acute kidney injury: This is a severe but rare side effect. Seek medical attention if there are signs of kidney problems such as changes in urination or swelling in the legs.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to remember that not everyone experiences side effects, and the severity and duration of side effects may vary among individuals. If you have any concerns about potential side effects or experience any unusual symptoms while taking Rybelsus, it's crucial to consult your healthcare provider or seek medical advice. Our physicians at Dream Body Clinic are always just a phone call away to help.</span></p>
+                  <p><span style="color: #000000;">Please note that this is not an exhaustive list of side effects. For a complete and detailed understanding of potential side effects, it's always recommended to review the medication's prescribing information or consult with healthcare professionals who can provide personalized advice based on your specific medical history and condition.</span></p>
+                  <p><span style="color: #000000;">Check out the products website for more detailed information <a href="https://www.rybelsus.com/">https://www.rybelsus.com/</a></span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-9dd1679 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9dd1679" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b194d22" data-id="b194d22" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-fbdd69e elementor-widget elementor-widget-heading" data-id="fbdd69e" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to get Rybelsus Semaglutide with Our Legal Fly &amp; Buy Program</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-8cba74b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8cba74b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d086038" data-id="d086038" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9e9cc6a elementor-widget elementor-widget-text-editor" data-id="9e9cc6a" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p>Simply click on the image below to learn how to book Treatment. We cannot ship Rybelsus Semaglutide as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year. We can prescribe up to 2 of these packages per person.</p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-5ca1d7b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ca1d7b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8768ed1" data-id="8768ed1" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-8f47e8c elementor-widget elementor-widget-image" data-id="8f47e8c" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                    <img loading="lazy" decoding="async" class="attachment-medium size-medium wp-image-14263" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" sizes="(max-width: 300px) 100vw, 300px" srcset="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic.webp 1080w" alt="How to Book Medication Treatments" width="300" height="300" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'cerebrolysin-for-brain-optimization': {
+    slug: 'cerebrolysin-for-brain-optimization',
+    title: 'Cerebrolysin – Brain Regeneration and Optimization',
+    image: 'https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-1024x1024.webp',
+    imageWidth: 1024,
+    imageHeight: 1024,
+    imageAlt: 'cerebrolysin brain medication',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-8a0ad28 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8a0ad28" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7dfc5ee" data-id="7dfc5ee" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f29e12e elementor-widget elementor-widget-image" data-id="f29e12e" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-1024x1024.webp" class="attachment-large size-large wp-image-16324" alt="cerebrolysin brain medication" srcset="https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/07/cerebrolysin-brain-medication-dream-body-clinic.webp 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-071f3e0" data-id="071f3e0" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-0596441 elementor-widget elementor-widget-text-editor" data-id="0596441" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Cerebrolysin Brain Optimization Legal Fly &amp; Buy Program:</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">2 Boxes (2152 mg/10ml, 5 Vials per box)</span></h3></li>
+                    <li><h3><span style="color: #000000;">All Documentation to Fly Home Legally</span></h3></li>
+                  </ul>
+                  <h2><span style="color: #000000;">PRICE: $600 USD</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6e135a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6e135a0" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c587e22" data-id="c587e22" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-aa41169 elementor-widget elementor-widget-heading" data-id="aa41169" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Cerebrolysin for Brain Optimization, Stroke Recovery, TBI Recovery and Alzheimer's</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-7fe813a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7fe813a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2efedaa" data-id="2efedaa" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-d408bcc elementor-widget elementor-widget-text-editor" data-id="d408bcc" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Are you or a loved one seeking a breakthrough in brain optimization, traumatic brain injury (TBI) recovery, stroke recovery or Alzheimer's?</span></p>
+                  <p><span style="color: #000000;"><strong>Unlock Your Brain's Full Potential with Cerebrolysin</strong></span></p>
+                  <p><span style="color: #000000;">At Dream Body Clinic, we understand the challenges and struggles that come with any of these ailments. That's why we're excited to offer you Cerebrolysin, a cutting-edge therapy that has shown tremendous promise in bringing about cognitive recovery and improving quality of life for brain related issues in patients.</span></p>
+                  <p><span style="color: #000000;"><strong>Why Choose Cerebrolysin?</strong></span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Accelerated Healing:</strong> Witness the power of neurotrophic effects, as Cerebrolysin stimulates the growth, survival, and differentiation of neurons. Experience accelerated healing and regeneration of damaged brain tissue like never before.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Combat Inflammation:</strong> Don't let inflammation hinder your recovery process. Cerebrolysin's remarkable anti-inflammatory properties help reduce neuroinflammation, providing a conducive environment for healing and preventing further damage.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Shield Your Brain:</strong> Protect your brain cells from secondary damage with Cerebrolysin's exceptional neuroprotective abilities. By enhancing cellular resilience to oxidative stress and excitotoxicity, Cerebrolysin shields your brain from harm.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Rewire the Neural Network:</strong> Witness the wonders of neuronal plasticity and synaptic remodeling as Cerebrolysin assists in repairing the altered neuronal connectivity and communication caused by these issues. Take a step closer to restoring optimal brain function.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Regain Cognitive Clarity:</strong> Imagine reclaiming lost cognitive abilities. Cerebrolysin has been shown in studies to improve attention, memory, and executive function following brain damage. Experience newfound cognitive clarity and enhanced mental performance.</span></p>
+                    </li>
+                  </ol>
+                  <p><span style="color: #000000;"><strong>Join the Dream Body Clinic Community for Cognitive Recovery</strong></span></p>
+                  <p><span style="color: #000000;">When you choose Dream Body Clinic, you're not just receiving a revolutionary therapy – you're gaining access to a community of individuals dedicated to cognitive recovery. Our team of experts is here to guide and support you every step of the way, ensuring your journey towards optimal brain health is a seamless one.</span></p>
+                  <p><span style="color: #000000;"><strong>Unlock Your Potential Today!</strong></span></p>
+                  <p><span style="color: #000000;">Don't let traumatic brain injury, stroke, Alzheimer's or brain fog hold you back any longer. Cerebrolysin will help you embark on your journey to cognitive recovery. Take the first step towards a brighter future by reaching out to our team of experts today.</span></p>
+                  <p><span style="color: #000000;">Remember, we're here to help you unleash your brain's true potential.</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-eed5e7d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eed5e7d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-923408f" data-id="923408f" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-b301ebd elementor-widget elementor-widget-heading" data-id="b301ebd" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How Cerebrolysin Works For Brain Optimization</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6377a68 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6377a68" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-45734d2" data-id="45734d2" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-c75795a elementor-widget elementor-widget-text-editor" data-id="c75795a" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Cerebrolysin is a medication that is believed to work through several mechanisms to optimize brain function. It is derived from a porcine (pig) brain protein extract and contains various peptides, amino acids, and other biological substances that may contribute to its effects.</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Neurotrophic effects:</strong> Cerebrolysin is thought to promote the growth, survival, and maintenance of neurons in the brain. It may enhance the production of neurotrophic factors such as brain-derived neurotrophic factor (BDNF) and nerve growth factor (NGF). These factors play a crucial role in the growth, development, and plasticity of neurons.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Neuroprotective effects:</strong> Cerebrolysin has been found to have antioxidant properties, which means it can help reduce oxidative stress and protect neurons from damage caused by free radicals. It may also inhibit certain neurotoxic processes and protect against apoptosis (programmed cell death) in the brain.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Anti-inflammatory effects:</strong> Chronic inflammation in the brain can contribute to cognitive decline and neurodegenerative disorders. Cerebrolysin has been found to have anti-inflammatory effects, potentially reducing neuroinflammation and its detrimental effects on brain function.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Enhanced neuronal connectivity:</strong> Cerebrolysin may promote the formation of new connections between neurons, a process known as synaptogenesis. By enhancing synaptic plasticity, it could potentially improve cognitive processes such as learning, memory, and information processing.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved cerebral energy metabolism:</strong> Cerebrolysin may enhance the brain's energy metabolism by increasing glucose uptake and utilization, as well as improving mitochondrial function. This can provide the brain with more energy to support its optimal functioning.</span></p>
+                    </li>
+                  </ol>
+                  <p><span style="color: #000000;">Cerebrolysin has shown promising effects in certain studies. It is a powerful tool for brain optimization and healing.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-49a05b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="49a05b2" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-13aa1d3" data-id="13aa1d3" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-60338e3 elementor-widget elementor-widget-heading" data-id="60338e3" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Cerebrolysin Uses</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-3ec26ed elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3ec26ed" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e413273" data-id="e413273" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-2f3856c elementor-widget elementor-widget-text-editor" data-id="2f3856c" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Cerebrolysin is a multi-modal neuropeptide drug with a fast onset of action that helps to regain and maintain the independence of patients suffering from stroke, Traumatic brain injury (TBI), dementia and cognitive impairment. It is produced by standardized enzymatic breakdown of lipid-free porcine brain proteins</span></p>
+                  <p><span style="color: #000000;">It acts similar to neurotrophic factors that already exist in your system in the form of promoting neuronal sprouting, stimulating neurogenesis, enhancing neuronal plasticity, and improving learning and memory.</span></p>
+                  <p><span style="color: #000000;">Several studies demonstrated that Cerebrolysin can be used safely in the management of children with any of the following medical conditions: minimal cerebral dysfunction, resistant forms of nocturnal enuresis, neurosensory hypoacusis, attention deficit hyperkinetic disorder, autism and Asperger syndrome.</span></p>
+                  <p><span style="color: #000000;">Cerebrolysin improves the brain's ability for self-repair by stimulating neuro recovery. Cerebrolysin is clinically proven by the European, Austrian, Mexican and Russian Health boards.</span></p>
+                  <p><span style="color: #000000;"><strong>Cerebrolysin – Solution for injection.</strong></span></p>
+                  <p><span style="color: #000000;"><strong>Qualitative and quantitative composition:</strong></span></p>
+                  <p><span style="color: #000000;">One ml contains 215.2 mg of Cerebrolysin concentrate in aqueous solution.</span></p>
+                  <p><span style="color: #000000;"><strong>List of excipients:</strong></span></p>
+                  <p><span style="color: #000000;">Sodium hydroxide and water for injection</span></p>
+                  <p><span style="color: #000000;"><strong>Therapeutic indications:</strong></span></p>
+                  <p><span style="color: #000000;">For treatment of cerebrovascular disorders. Especially in the following indications: Senile dementia of Alzheimer's type. Vascular dementia. Stroke. Craniocerebral trauma.</span></p>
+                  <p><span style="color: #000000;"><strong>Contraindications:</strong></span></p>
+                  <p><span style="color: #000000;">Hypersensitivity to one of the components of the drug, epilepsy, severe renal impairment.</span></p>
+                  <p><span style="color: #000000;">At dream body clinic we have found that cerebrolysin works amazingly well in conjunction with our <a href="http://Intrathecal Stem Cell Treatment – Direct into the Spinal Fluid" rel="nofollow">intrathecal mesenchymal stem cell treatment</a>.</span></p>
+                  <p><img decoding="async" class="alignnone wp-image-13610 size-large" src="https://dreambody.clinic/wp-content/uploads/2022/08/CEREBROLYSIN-Dosage-recommendation_card-722x1024.png" alt="CEREBROLYSIN Dosage-recommendation_card" width="722" height="1024" /></p>
+                  <h1><span style="color: #000000;">Cerebrolysin – Brain Regeneration Treatment Protocol</span></h1>
+                  <p><span style="color: #000000;">We typically send patients home with 2 boxes of cerebrolysin so that they can do a 20 day cycle of intramuscular injections at 5ml per day. 2 boxes costs $600 usd total. This protocol changes depending on the patient and their needs. Fortunately it is the patients right to seek medical treatment abroad and return home with up to 50 dose units of medication. This allows us to send patients home with enough cerebrolysin to do multiple cycles.</span></p>
+                  <h2><span style="color: #000000;">Cerebrolysin for Alzheimer's / Dementia</span></h2>
+                  <p><span style="color: #000000;">In the treatment of dementia, early and accurate diagnosis is one of the key issues. All pharmacological attempts to treat dementia aim to preserve and improve cognitive function and to delay progression to the later stages of the disease. Appropriate management of the disease by currently available drugs aim to stabilize the condition for a certain period, to improve cognition, to reduce behavioral disturbances and thus to delay the need for institutionalization. In spite of enormous efforts in academic and industrial research, there has still been no major breakthrough in therapies for neurodegenerative diseases.</span></p>
+                  <p><span style="color: #000000;">An alternative treatment approach in Alzheimer's disease is the use of multimodal drugs, like Cerebrolysin, that mimic the action of endogenous neurotrophic factors. A sustained neurotrophic regulation is essential for counteracting neurodegenerative processes and endogenous repair processes.</span></p>
+                  <p><span style="color: #000000;">Dream Body Clinic is taking this a step further by adding mesenchymal stem cells with Cerobrolysin to help restore brain function.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-563f3dd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="563f3dd" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6500112" data-id="6500112" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-85032a0 elementor-widget elementor-widget-heading" data-id="85032a0" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How Cerebrolysin Helps in Stroke Recovery</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c2d3a9a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c2d3a9a" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-29d620d" data-id="29d620d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-66cbe6f elementor-widget elementor-widget-text-editor" data-id="66cbe6f" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Cerebrolysin has been investigated for its potential benefits in stroke recovery and may contribute to the following mechanisms:</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Neuroprotection:</strong> Cerebrolysin exhibits neuroprotective effects by reducing neuronal death and protecting against further damage after a stroke. It can potentially limit the extent of brain tissue injury and promote the survival of neurons.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Enhanced neuronal plasticity:</strong> Cerebrolysin promotes neuronal plasticity, which is crucial for recovery after a stroke. It may stimulate the growth of new connections between neurons, allowing for rewiring of the brain and compensatory mechanisms.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved cognitive function:</strong> Stroke can lead to cognitive impairments, including memory loss and difficulties with attention and concentration. Cerebrolysin has been found to improve cognitive function and may help ameliorate these post-stroke cognitive deficits.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Anti-inflammatory effects:</strong> Stroke triggers an inflammatory response in the brain, which can contribute to secondary damage. Cerebrolysin possesses anti-inflammatory properties, which may help reduce inflammation and minimize the detrimental effects on brain tissue.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Enhanced neurotrophic support:</strong> Cerebrolysin promotes the release of neurotrophic factors, such as BDNF, which play a crucial role in neurogenesis and the survival of neurons. This can support the growth and maintenance of brain cells in the post-stroke period.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Increased blood flow and oxygen supply:</strong> Cerebrolysin has been reported to improve cerebral blood flow and oxygenation, potentially enhancing the delivery of nutrients and oxygen to the damaged brain regions. This improved blood flow can aid in the recovery process.</span></p>
+                    </li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that the effectiveness of cerebrolysin for stroke recovery may vary among individuals.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f796f1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f796f1b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d0bc40d" data-id="d0bc40d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-204b1f8 elementor-widget elementor-widget-heading" data-id="204b1f8" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Cerebrolysin Studies</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-e0a96e0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e0a96e0" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ffe820b" data-id="ffe820b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-761a89d elementor-widget elementor-widget-text-editor" data-id="761a89d" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <ul>
+                    <li><p><a id="9QWM-VrJd6kJ" href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008900.pub2/abstract"><b>Cerebrolysin </b>for vascular dementia</a></p></li>
+                    <li><p class="gs_rt"><a id="Kqk6ssyrI-IJ" href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007026.pub6/abstract"><b>Cerebrolysin </b>for acute ischaemic stroke</a></p></li>
+                    <li><p class="gs_rt"><a id="5kcDzfrmZaQJ" href="https://link.springer.com/article/10.2165/11203320-000000000-00000"><b>Cerebrolysin</b>: a review of its use in dementia</a></p></li>
+                    <li><p class="gs_rt"><a id="Yne9E8jHTGcJ" href="https://link.springer.com/article/10.1007/s00702-004-0248-2">Neuroprotective treatment with <b>cerebrolysin </b>in patients with acute stroke: a randomised controlled trial</a></p></li>
+                    <li><p class="gs_rt"><a id="XfF0yXx_V-UJ" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jnr.22495"><b>Cerebrolysin </b>enhances neurogenesis in the ischemic brain and improves functional outcome after stroke</a></p></li>
+                    <li><p class="gs_rt"><a id="DAzGK97v0u8J" href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008900.pub3/abstract"><b>Cerebrolysin </b>for vascular dementia</a></p></li>
+                    <li><p class="gs_rt"><a id="DX4tIbA7y38J" href="https://www.ahajournals.org/doi/abs/10.1161/STROKEAHA.111.628537"><b>Cerebrolysin </b>in patients with acute ischemic stroke in Asia: results of a double-blind, placebo-controlled randomized trial</a></p></li>
+                    <li><p class="gs_rt"><a id="2rUviKGiQ1EJ" href="https://www.tandfonline.com/doi/abs/10.1080/14737175.2018.1500459"><b>Cerebrolysin</b>: a multi-target drug for recovery after stroke</a></p></li>
+                    <li><p class="gs_rt"><a id="M6gsl1YGptQJ" href="https://link.springer.com/chapter/10.1007/3-211-32318-X_13">Beneficial effect of <b>cerebrolysin </b>on moderate and severe head injury patients: result of a cohort study</a></p></li>
+                    <li><p class="gs_rt"><a id="yhFA03BP0q8J" href="https://link.springer.com/chapter/10.1007/978-3-7091-6781-6_30"><b>Cerebrolysin</b>® reduces microglial activation in vivo and in vitro: a potential mechanism of neuroprotection</a></p></li>
+                    <li><p class="gs_rt"><a id="0GruizoxbDIJ" href="https://link.springer.com/chapter/10.1007/978-3-7091-6467-9_29">Antioxidant systemic effect of short-term <b>Cerebrolysin</b>® administration</a></p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-a0990d1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a0990d1" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-001c3f0" data-id="001c3f0" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f47cfe3 elementor-widget elementor-widget-text-editor" data-id="f47cfe3" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">How to Buy The Cerebrolysin Brain Optimization Package</h2>
+                  <p>Simply click on the image below to learn how to book Treatment. We cannot ship cerebrolysin as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year.</p>
+                  <p>Call us anytime at <span style="color: #000000;">(888) 704-3977</span> from the USA or Canada. Our Mexico number is +523222321055 and is on whatsapp, telegram or signal. Email us at info@dreambodyclinic.net</p>
+                  <div class="elementor-widget-container">
+                    <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                      <img decoding="async" class="attachment-medium size-medium wp-image-14263" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" sizes="(max-width: 300px) 100vw, 300px" srcset="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic.webp 1080w" alt="How to Book Medication Treatments" width="300" height="300" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-38c7db7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="38c7db7" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a652a21" data-id="a652a21" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-619073b elementor-widget elementor-widget-text-editor" data-id="619073b" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'metformin-weight-loss-package': {
+    slug: 'metformin-weight-loss-package',
+    title: 'Metformin for Anti-Aging and Weight Loss',
+    image: 'https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-2-dream-body-clinic-1024x768.webp',
+    imageWidth: 1024,
+    imageHeight: 768,
+    imageAlt: 'Dabex Meformin 500mg slow release dream body clinic',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-ec0db69 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ec0db69" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7994443" data-id="7994443" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9bcfa7c elementor-widget elementor-widget-image" data-id="9bcfa7c" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-2-dream-body-clinic-1024x768.webp" class="attachment-large size-large wp-image-21747" alt="Dabex Meformin 500mg slow release 2 dream body clinic" srcset="https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-2-dream-body-clinic-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-2-dream-body-clinic-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-2-dream-body-clinic-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-2-dream-body-clinic-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-2-dream-body-clinic-scaled.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1195efa" data-id="1195efa" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-8d606df elementor-widget elementor-widget-text-editor" data-id="8d606df" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Metformin Weight Loss Legal Fly &amp; Buy Program:</span></h2>
+                  <h2 style="text-align: center;"><span style="color: #000000;">6 Month Package</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">3 Boxes (500mg, 60 Pills per box)</span></h3></li>
+                  </ul>
+                  <h2 style="text-align: center;"><span style="color: #000000;">PRICE: $210 USD</span></h2>
+                  <h2 style="text-align: center;"><span style="color: #000000;">or</span></h2>
+                  <h2 style="text-align: center;"><span style="color: #000000;">1 Year Package</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">6 Boxes (500mg, 60 Pills per box)</span></h3></li>
+                  </ul>
+                  <h2 style="text-align: center;"><span style="color: #000000;">PRICE: $420 USD</span></h2>
+                  <ul>
+                    <li><h3><span style="color: #000000;">All Documentation to Fly Home Legally</span></h3></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-556f08f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="556f08f" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-43bb9f3" data-id="43bb9f3" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1bab32a elementor-widget elementor-widget-heading" data-id="1bab32a" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Metformin for Weight Loss</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-8dc48bf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8dc48bf" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4025bff" data-id="4025bff" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-b0c8cf7 elementor-widget elementor-widget-text-editor" data-id="b0c8cf7" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Metformin, an oral medication primarily used to manage type 2 diabetes, can often contribute to weight loss in individuals with this condition. Here are some ways in which metformin can help with weight loss:</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved insulin sensitivity</strong>: Metformin works by improving insulin sensitivity in the body. Insulin resistance is often associated with weight gain or difficulty losing weight. By enhancing insulin sensitivity, metformin helps the body better respond to insulin and utilize glucose, potentially leading to weight loss.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Reduced appetite</strong>: Metformin has been found to have an appetite-reducing effect in some individuals. It can help curb hunger sensations and promote a feeling of satiety, which can lead to reduced caloric intake and subsequently support weight loss efforts.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Decreased absorption of carbohydrates</strong>: Metformin may also reduce the absorption of carbohydrates in the gastrointestinal tract. This can help regulate blood sugar levels and decrease the number of calories derived from carbohydrates, contributing to weight loss.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Reduction in stored fat</strong>: Metformin has been associated with a decrease in the accumulation of fat</span></p>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-4ae034f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4ae034f" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3900b81" data-id="3900b81" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a12086a elementor-widget elementor-widget-heading" data-id="a12086a" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to Use Metformin for Weight Loss</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-fc12b7d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fc12b7d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4b0fd84" data-id="4b0fd84" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-ad837b0 elementor-widget elementor-widget-text-editor" data-id="ad837b0" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">At Dream Body Clinic we recommend the following dosing protocol for most patients:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">1 Dabex Metformin 500mg pill per day. This dose can be taken all at once or split up with one half dose in the morning and the other half dose in the early afternoon.</span></li>
+                  </ul>
+                  <p><span style="color: #000000;">Dosing is different for every patient and the above guidelines are simply an example of what most patients do. Our experienced medical team will assess each patient individually and help them determine the best dose for their desired results.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-bb790ae elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bb790ae" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ef2c424" data-id="ef2c424" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-6fe28c5 elementor-widget elementor-widget-heading" data-id="6fe28c5" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Metformin for Anti-Aging</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-3b15e0d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3b15e0d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1994e33" data-id="1994e33" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1c771b8 elementor-widget elementor-widget-text-editor" data-id="1c771b8" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Metformin for Anti-Aging has been a hot topic in recent years. Researchers such as Dr. Sinclair at Harvard have found solid evidence that metformin used long term at low doses can have anti-aging benefits.</span></p>
+                  <p><span style="color: #000000;">We typically recommend 500mg once or twice a day depending on the patient and desired goals. Metformin also helps keep blood sugar levels low and even which can help a lot with weight loss. There are many benefits to metformin and at Dream Body Clinic you can buy it to take home legally via our fly and buy program.</span></p>
+                  <p><span style="color: #000000;">There has been growing interest in metformin's potential impact on aging and age-related diseases. Some research studies in animals and limited human trials have shown promising results suggesting that metformin may have certain effects on various aspects of aging. These include:</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improving metabolic health:</strong> Metformin has been associated with beneficial effects on metabolism, such as reducing insulin resistance, lowering blood glucose levels, and improving lipid profiles.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Influencing cellular processes:</strong> Metformin may activate certain cellular pathways involved in the regulation of aging, such as activation of AMP-activated protein kinase (AMPK) and modulation of mammalian target of rapamycin (mTOR) pathways.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Reducing inflammation:</strong> Metformin has been shown to have anti-inflammatory effects, which can be beneficial as chronic inflammation is associated with aging and age-related diseases.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Potential cardiovascular benefits:</strong> Some studies have suggested that metformin may have protective effects on the cardiovascular system, including reducing the risk of certain age-related cardiovascular conditions.</span></p>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c99e6d2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c99e6d2" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f4371ab" data-id="f4371ab" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-aa048a2 elementor-widget elementor-widget-heading" data-id="aa048a2" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How does Metformin Work?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-e173069 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e173069" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9b527ae" data-id="9b527ae" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-8d5d6d9 elementor-widget elementor-widget-text-editor" data-id="8d5d6d9" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Metformin is a commonly prescribed medication primarily used for managing type 2 diabetes, although it may also have other clinical applications. It belongs to a class of medications known as biguanides.</span></p>
+                  <p><span style="color: #000000;">It works by reducing the production and absorption of glucose (sugar) in the liver, as well as improving insulin sensitivity, which allows the body to use glucose more effectively.</span></p>
+                  <p><span style="color: #000000;">One of the primary ways metformin works is by inhibiting the enzyme called glucose-6-phosphatase in the liver. This enzyme is involved in the process of gluconeogenesis, where the liver produces glucose from other sources, such as stored glycogen or amino acids. By lowering gluconeogenesis, metformin reduces the amount of glucose released into the bloodstream by the liver.</span></p>
+                  <p><span style="color: #000000;">Another mechanism of metformin is by activating an enzyme called adenosine monophosphate-activated protein kinase (AMPK). This enzyme plays a central role in regulating energy balance within cells. When metformin activates AMPK, it leads to increased glucose uptake by muscles, improved insulin sensitivity, and decreased fatty acid synthesis in the liver.</span></p>
+                  <p><span style="color: #000000;">Furthermore, metformin may also affect the gut microbiota, although the exact mechanisms are not yet fully understood. Some studies suggest that metformin may influence the composition of gut bacteria, which in turn could affect glucose metabolism and insulin sensitivity.</span></p>
+                  <p><span style="color: #000000;">Overall, metformin works through multiple mechanisms to improve glucose control and insulin sensitivity, helping to manage diabetes and regulate blood sugar levels.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-285988c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="285988c" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9def469" data-id="9def469" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-6037fc9 elementor-widget elementor-widget-heading" data-id="6037fc9" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Metformin Studies</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-eeecbfc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eeecbfc" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-644913d" data-id="644913d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-852d1a9 elementor-widget elementor-widget-text-editor" data-id="852d1a9" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <ul>
+                    <li><p class="gs_rt"><a id="UPdIh-bDlhkJ" href="https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0032-1327734">Effectiveness of <b>metformin</b> on <b>weight loss</b> in non-diabetic individuals with obesity</a></p></li>
+                    <li><p class="gs_rt"><a id="KT1PPRLDtTwJ" href="https://journals.lww.com/co-endocrinology/fulltext/2014/10000/effects_of_metformin_on_weight_loss__potential.3.aspx">Effects of <b>metformin</b> on <b>weight loss</b>: potential mechanisms</a></p></li>
+                    <li><p class="gs_rt"><a id="wrUs6J3KGKQJ" href="https://link.springer.com/article/10.1007/s13679-019-00335-3"><b>Metformin</b>: mechanisms in human obesity and <b>weight loss</b></a></p></li>
+                    <li><p class="gs_rt"><a id="gP3kcXgoMZIJ" href="https://www.nature.com/articles/0803695"><b>Metformin</b> and body <b>weight</b></a></p></li>
+                    <li><p class="gs_rt"><a id="7OpXkGvJi24J" href="https://diabetesjournals.org/care/article-abstract/35/4/731/38345">Long-term safety, tolerability, and <b>weight loss</b> associated with <b>metformin</b> in the Diabetes Prevention Program Outcomes Study</a></p></li>
+                    <li><p class="gs_rt"><a id="5BZIRxtC4ycJ" href="https://www.nature.com/articles/nm.3414"><b>Metformin trims</b> fats to restore insulin sensitivity</a></p></li>
+                    <li><p class="gs_rt"><a id="emKRPvKwam0J" href="https://www.cell.com/cell-metabolism/pdf/S1550-4131(16)30229-7.pdf"><b>Metformin</b> as a tool to target <b>aging</b></a></p></li>
+                    <li><p class="gs_rt"><a id="Wr769JgnpfQJ" href="https://karger.com/ger/article/65/6/581/148409"><b>Metformin</b> and <b>aging</b>: a review</a></p></li>
+                    <li><p class="gs_rt"><a id="XKfY07RrcboJ" href="https://www.cell.com/cell-metabolism/pdf/S1550-4131(20)30183-2.pdf">Benefits of <b>metformin</b> in attenuating the hallmarks of <b>aging</b></a></p></li>
+                    <li><p class="gs_rt"><a id="PN0Wt_rKfmEJ" href="https://www.cell.com/trends/endocrinology-metabolism/fulltext/S1043-2760(19)30147-X"><b>Metformin</b> as anti-<b>aging</b> therapy: is it for everyone?</a></p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-b781185 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b781185" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fed85b4" data-id="fed85b4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7c2a9a7 elementor-widget elementor-widget-text-editor" data-id="7c2a9a7" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to get Metformin for Weight Loss and Anti-Aging with Our Legal Fly &amp; Buy Program</h2>
+                  <p><span style="color: #000000;">Simply click on the image below to learn how to book Treatment. We cannot ship Metformin as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year. We can prescribe 1 of these packages per person.</span></p>
+                  <p><span style="color: #000000;">Call us anytime at (888) 704-3977 from the USA or Canada. Our Mexico number is +523222321055 and is on whatsapp, telegram or signal. Email us</span> at <a href="mailto:info@dreambodyclinic.net">info@dreambodyclinic.net</a></p>
+                  <p style="text-align: center;">
+                    <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                      <img decoding="async" class="attachment-medium size-medium wp-image-14263 aligncenter" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" sizes="(max-width: 300px) 100vw, 300px" srcset="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic.webp 1080w" alt="How to Book Medication Treatments" width="300" height="300" />
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-767532d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="767532d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29816de" data-id="29816de" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7eaa855 elementor-widget elementor-widget-image" data-id="7eaa855" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-3-dream-body-clinic-1024x768.webp" class="attachment-large size-large wp-image-21748" alt="Dabex Meformin 500mg slow release 3 dream body clinic" srcset="https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-3-dream-body-clinic-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-3-dream-body-clinic-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-3-dream-body-clinic-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-3-dream-body-clinic-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-3-dream-body-clinic-scaled.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6c18ce7" data-id="6c18ce7" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-8ee90e4 elementor-widget elementor-widget-image" data-id="8ee90e4" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img loading="lazy" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-1-dream-body-clinic-1024x768.webp" class="attachment-large size-large wp-image-21746" alt="Dabex Meformin 500mg slow release 1 dream body clinic" srcset="https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-1-dream-body-clinic-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-1-dream-body-clinic-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-1-dream-body-clinic-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-1-dream-body-clinic-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-1-dream-body-clinic-2048x1536.webp 2048w, https://dreambody.clinic/wp-content/uploads/2024/12/Dabex-Meformin-500mg-slow-release-1-dream-body-clinic-scaled.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'testosterone-cream-150mg-for-1-year-trt-package': {
+    slug: 'testosterone-cream-150mg-for-1-year-trt-package',
+    title: 'Testosterone Cream 150mg for 1 Year TRT Package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream-1024x768.webp',
+    imageWidth: 1024,
+    imageHeight: 768,
+    imageAlt: 'Testosterone cream TRT',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-7c867fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7c867fc" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c778786" data-id="c778786" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-96d16a3 elementor-widget elementor-widget-image" data-id="96d16a3" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream-1024x768.webp" class="attachment-large size-large wp-image-13885" alt="Testosterone cream trt" srcset="https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream.webp 1920w, https://dreambody.clinic/wp-content/uploads/2019/11/150mg-testosterone-replacement-therapy-trt-cream-600x450.webp 600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-58572de" data-id="58572de" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-82f87ab elementor-widget elementor-widget-text-editor" data-id="82f87ab" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Testosterone Cream TRT Legal Fly &amp; Buy Program:</span></h2>
+                  <h2 style="text-align: center;"><span style="color: #000000;">1 Year Supply</span></h2>
+                  <ul>
+                    <li><h2><span style="color: #000000;"><span style="font-size: 16.38px;">18 Bottles TRT Cream (150mg/g)</span></span></h2></li>
+                    <li><h2><span style="color: #000000;"><span style="font-size: 16.38px;">Bloodwork</span></span></h2></li>
+                  </ul>
+                  <h2 style="text-align: center;"><span style="color: #000000;">PRICE: $2,250 USD</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-83f65cc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="83f65cc" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20c0195" data-id="20c0195" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-300f34c elementor-widget elementor-widget-heading" data-id="300f34c" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Testosterone Cream 150mg for 1 Year TRT Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-b200101 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b200101" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a2cd4e4" data-id="a2cd4e4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-5abeccf elementor-widget elementor-widget-text-editor" data-id="5abeccf" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">This is a 1 year supply of 150mg Testosterone Cream for Testosterone Replacement Therapy (TRT)</span></p>
+                  <p><strong><span style="color: #000000;">Includes:</span></strong></p>
+                  <p><span style="color: #000000;">18 Bottles of 150mg Bio-Identical Testosterone, compounded into a cream</span></p>
+                  <p><span style="color: #000000;">This cream is transdermal and can be applied anywhere on the skin.</span></p>
+                  <h2><span style="color: #000000;">Tired of Injecting Testosterone?</span></h2>
+                  <p><span style="color: #000000;">Testosterone Cream is one of the best alternatives to weekly injections. You simply pump the bottle twice and apply the cream to your skin. The most effective area is your scrotum, but arms or legs work as well. The only issue with arms is that when you sweat it can rub off on others you touch. This treatment will get you up to the same total testosterone levels as injectable Testosterone.</span></p>
+                  <h2><span style="color: #000000;">Blood Analysis</span></h2>
+                  <p><span style="color: #000000;">We start with a comprehensive blood panel to check health and hormone levels. We are then able to prescribe the testosterone cream.</span></p>
+                  <h2><span style="color: #000000;">Flying Home with a Year Supply of Testosterone Cream</span></h2>
+                  <p><span style="color: #000000;">USA law allows you to seek medical treatment abroad and fly home with up to 50 dose units of medication. It does not specify what a dose unit is so we can prescribe the cream easily to meet the law requirements. For the Rest of the world it is a 90 day supply and we can easily fit the prescription to match that. The compounded testosterone cream is very stable at room temperature and will last for over a year.</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-0eb4c17 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0eb4c17" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-98d626d" data-id="98d626d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-0c39810 elementor-widget elementor-widget-heading" data-id="0c39810" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Health Benefits and Safety of Testosterone Cream for TRT</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-831a29f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="831a29f" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ceeb80" data-id="3ceeb80" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-ad520d0 elementor-widget elementor-widget-text-editor" data-id="ad520d0" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">For the longest time we have been told the horrors of steroids. The science has finally caught up to the rumors and dispelled this myth. The VA, which is the military healthcare system in the USA conducted one of the largest studies in history about 5 years ago that proved TRT can be very beneficial for men.</span></p>
+                  <p><span style="color: #000000;">"A VA database study of more than 83,000 patients found that <b>men whose low testosterone was restored to normal through gels, patches, or injections had a lower risk of heart attack, stroke, or death from any cause</b>, versus similar men who were not treated."</span></p>
+                  <p><a href="https://www.research.va.gov/currents/0815-5.cfm#:~:text=A%20VA%20database%20study%20of,men%20who%20were%20not%20treated.">CLICK HERE TO VIEW THE STUDY</a></p>
+                  <p>Surprisingly it has been found that getting our hormones back to the levels of a peak performing 25 year old can help us to live and feel like a <span style="color: #000000;">25 year old peak performing man, but with the brain we have now to control it.</span></p>
+                  <p><span style="color: #000000;">Testosterone replacement therapy (TRT) can provide several health benefits for individuals with low testosterone levels.</span></p>
+                  <ol>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Increased muscle mass and strength:</strong> Testosterone plays a crucial role in muscle development and maintenance. TRT can help improve muscle mass, strength, and physical performance.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved bone density:</strong> Testosterone is involved in the regulation of bone health. TRT can increase bone mineral density, reducing the risk of osteoporosis and fractures.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Enhanced libido and sexual function:</strong> Testosterone is essential for sexual desire and erectile function. TRT can improve libido, sexual satisfaction, and alleviate symptoms of erectile dysfunction.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Increased energy levels and reduced fatigue:</strong> Low testosterone levels can contribute to fatigue and low energy. TRT can help improve energy levels, resulting in increased vitality and reduced fatigue.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Better mood and cognitive function:</strong> Testosterone has a significant impact on mood regulation and cognitive function. TRT can improve mood, reduce depressive symptoms, and enhance cognitive abilities such as memory and concentration.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Decreased risk of cardiovascular disease:</strong> Low testosterone levels have been associated with an increased risk of cardiovascular disease. TRT can help improve cardiovascular health by reducing body fat, improving lipid profiles, and enhancing blood vessel function.</span></p>
+                    </li>
+                    <li>
+                      <p><span style="color: #000000;"><strong>Improved insulin sensitivity:</strong> Testosterone plays a role in regulating insulin sensitivity, and low testosterone levels may contribute to insulin resistance and the development of type 2 diabetes. TRT can improve insulin sensitivity and glucose metabolism.</span></p>
+                    </li>
+                  </ol>
+                  <p><span style="color: #000000;">It's crucial to emphasize that the benefits of TRT may vary depending on individual circumstances, and the therapy should only be initiated after careful evaluation, diagnosis, and ongoing medical supervision. All of which Dream Body Clinic provides.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c96efb7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c96efb7" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eaea0dd" data-id="eaea0dd" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-fbe134a elementor-widget elementor-widget-text-editor" data-id="fbe134a" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">TRT Studies</h2>
+                  <ul>
+                    <li><p class="gs_rt"><a id="GQ_oTvI96fsJ" href="https://bmjopen.bmj.com/content/7/11/e015284.abstract"><b>Testosterone therapy</b> in hypogonadal <b>men</b>: a systematic review and network meta-analysis</a></p></li>
+                    <li><p class="gs_rt"><a id="G-Q37TSFAVwJ" href="https://www.tandfonline.com/doi/full/10.2147/DDDT.S43475">Transdermal <b>testosterone replacement therapy</b> in <b>men</b></a></p></li>
+                    <li><p class="gs_rt"><a id="GMudXGmDBLAJ" href="https://www.academia.edu/download/72156275/j.1365-2265.2004.02002.x20211010-19216-24fokt.pdf">Age-related changes in <b>testosterone</b> and the role of <b>replacement therapy</b> in older <b>men</b></a></p></li>
+                    <li><p class="gs_rt"><a id="tCmNCM6H2-cJ" href="https://www.sciencedirect.com/science/article/pii/S0002934319302815">Cardiovascular and cerebrovascular safety of <b>testosterone replacement therapy</b> among aging <b>men</b> with low <b>testosterone</b> levels: a cohort study</a></p></li>
+                  </ul>
+                  <h2 class="elementor-heading-title elementor-size-default">How to get Testosterone Cream with Our Legal Fly &amp; Buy Program</h2>
+                  <p><span style="color: #000000;">Simply click on the image below to learn how to book Treatment. We cannot ship Testosterone as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year. We can prescribe 1 of these packages per person.</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                  <p style="text-align: center;">
+                    <a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/">
+                      <img decoding="async" class="attachment-medium size-medium wp-image-14263 aligncenter" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp" sizes="(max-width: 300px) 100vw, 300px" srcset="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic.webp 1080w" alt="How to Book Medication Treatments" width="300" height="300" />
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'sustenon-250-trt-1-year-package': {
+    slug: 'sustenon-250-trt-1-year-package',
+    title: 'Sustenon 250 TRT 1 Year Package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2021/07/SOSTENON-250.webp',
+    imageWidth: 400,
+    imageHeight: 400,
+    imageAlt: 'SOSTENON 250 SUSTENON 250 ASPEN LABS DREAM BODY CLINIC TRT',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-54608bb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="54608bb" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c34b3b" data-id="4c34b3b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-db33d5d elementor-widget elementor-widget-image" data-id="db33d5d" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="400" height="400" src="https://dreambody.clinic/wp-content/uploads/2021/07/SOSTENON-250.webp" class="attachment-large size-large wp-image-3863" alt="SOSTENON 250 SUSTENON 250 ASPEN LABS DREAM BODY CLINIC TRT" srcset="https://dreambody.clinic/wp-content/uploads/2021/07/SOSTENON-250.webp 400w, https://dreambody.clinic/wp-content/uploads/2021/07/SOSTENON-250-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2021/07/SOSTENON-250-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2021/07/SOSTENON-250-200x200.webp 200w" sizes="(max-width: 400px) 100vw, 400px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3d05e4e" data-id="3d05e4e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-113b0fe elementor-widget elementor-widget-text-editor" data-id="113b0fe" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Sustenon 250 TRT Legal Fly &amp; Buy Program:</span></h2>
+                  <h2 style="text-align: center;"><span style="color: #000000;">1 Year Supply</span></h2>
+                  <ul>
+                    <li><h2><span style="color: #000000;"><span style="font-size: 16.38px;">50 Boxes Sostenon 250 (250mg/ml)</span></span></h2></li>
+                    <li><h2><span style="color: #000000;"><span style="font-size: 16.38px;">Bloodwork</span></span></h2></li>
+                    <li><h2><span style="color: #000000;"><span style="font-size: 16.38px;">Prescription &amp; Documentation to Legally Return Home</span></span></h2></li>
+                  </ul>
+                  <h2 style="text-align: center;"><span style="color: #000000;">PRICE: $2,250 USD</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-b198551 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b198551" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-00e6a04" data-id="00e6a04" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-4cae71f elementor-widget elementor-widget-heading" data-id="4cae71f" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">The Sustenon 250 TRT Fly &amp; Buy Package Details</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-27df677 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27df677" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fb57088" data-id="fb57088" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-699a3a6 elementor-widget elementor-widget-text-editor" data-id="699a3a6" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Sustenon 250 has long been the gold standard for testosterone replacement therapy worldwide. This is because of it's unique composition. It is a blend of 4 testosterone esters.</span></p>
+                  <ol>
+                    <li><span style="color: #000000;"><strong>Testosterone Propionate:</strong> A short-acting ester that releases testosterone rapidly. It has a half life of 2 to 3 days so it hits hard and fast.</span></li>
+                    <li><strong style="color: #000000;">Testosterone Phenylpropionate:</strong><span style="color: #000000;"> A slightly longer-acting ester compared to propionate. The half-life of Testosterone Phenylpropionate is approximately 4-5 days. This means that it takes about 4-5 days for the concentration of the drug to reduce to half its initial value in the body. So when the Testosterone propionate is wearing off this ester kicks in.</span></li>
+                    <li><span style="color: #000000;"><strong>Testosterone Isocaproate:</strong> An intermediate-acting ester. The half-life of Testosterone Isocaproate is approximately 9 days. This means that it takes about 9 days for the concentration of this testosterone ester to reduce to half its initial level in the body. This ester takes keeps you feeling good and elevated as the propionate and phenylpropionate start to dissipate in your system.</span></li>
+                    <li><span style="color: #000000;"><strong>Testosterone Decanoate:</strong> A long-acting ester, providing a sustained release of testosterone. The half-life of Testosterone Decanoate is approximately 7 to 12 days. This means it takes about 7 to 12 days for the concentration of this testosterone ester to reduce to half its initial level in the body. This is the slow and steady ester that keeps your baseline elevated throughout the week or so to your next injection.</span></li>
+                  </ol>
+                  <p><span style="color: #000000;">Each of these esters has a different release time, which allows Sustanon to provide both immediate and prolonged testosterone supplementation. This means that it is best to inject once a week so that you are always staying at the top of the anabolic parabolic curve. We prefer to see TRT levels of total testosterone between 800 to 1200 ng/ml and one shot a week will keep most guys in this range as well as a healthy spike in total testosterone levels. Total testosterone measures what is freebound in your system for conversion into estradiol or total testosterone. It is the best marker to track to see real muscle development. Totat testosterone is the measure of what has been converted in your system and relates most to mood and sex drive. Our Sustenon TRT package will have you dialed in and feeling like a 25 year old athlete.</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-407cc1b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="407cc1b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-29b9e3e" data-id="29b9e3e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1941345 elementor-widget elementor-widget-image" data-id="1941345" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-1024x768.webp" class="attachment-large size-large wp-image-21917" alt="Aspen Sostenon 1 yr package dream body clinic" srcset="https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-768x576.jpg 768w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-1536x1152.jpg 1536w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic.webp 1600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f263cd0" data-id="f263cd0" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-2e27bd5 elementor-widget elementor-widget-image" data-id="2e27bd5" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-3-1024x768.webp" class="attachment-large size-large wp-image-21916" alt="Aspen Sostenon 1 yr package dream body clinic 3" srcset="https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-3-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-3-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-3-768x576.jpg 768w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-3-1536x1152.jpg 1536w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-3.webp 1600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1c0392e" data-id="1c0392e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-d31b496 elementor-widget elementor-widget-image" data-id="d31b496" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img loading="lazy" decoding="async" width="1024" height="768" src="https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-2-1024x768.webp" class="attachment-large size-large wp-image-21915" alt="Aspen Sostenon 1 yr package dream body clinic 2" srcset="https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-2-1024x768.webp 1024w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-2-300x225.webp 300w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-2-768x576.webp 768w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-2-1536x1152.webp 1536w, https://dreambody.clinic/wp-content/uploads/2025/02/Aspen-Sostenon-1-yr-package-dream-body-clinic-2.webp 1600w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-4051bb2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4051bb2" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7e276b7" data-id="7e276b7" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-97b7610 elementor-widget elementor-widget-html" data-id="97b7610" data-element_type="widget" data-widget_type="html.default">
+                <div class="elementor-widget-container">
+                  <iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v5cjoh1/?pub=opcxj" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="elementor-element elementor-element-86ff285 elementor-widget elementor-widget-html" data-id="86ff285" data-element_type="widget" data-widget_type="html.default">
+                <div class="elementor-widget-container">
+                  <iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v3ce88b/?pub=opcxj" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-3159483 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3159483" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5dc3930" data-id="5dc3930" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9deb7bd elementor-widget elementor-widget-heading" data-id="9deb7bd" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Is Testosterone Replacement Therapy (TRT) Safe?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-5fa5a73 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5fa5a73" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-708ef06" data-id="708ef06" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-97a9ad7 elementor-widget elementor-widget-text-editor" data-id="97a9ad7" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The Veterans Administration (VA) in the USA seems to think TRT is safe. They conducted a study 5 years ago with 83,000 participants. They found that men on TRT had a lower risk of heart attack, stroke, or death from any cause, versus similar men who were not treated. <a href="https://www.research.va.gov/currents/0815-5.cfm">READ THE STUDY BY CLICKING HERE</a>.</span></p>
+                  <p><span style="color: #000000;">Over the course of the past 10 years we have helped thousands of men with TRT. We have seen it change the lives of users for the positive in nearly every case.</span></p>
+                  <p><span style="color: #000000;">Now with any medication there comes some risk and things you need to know. TRT will shut down your natural production of testosterone and replace it with what is being injected. This means that your testicles will atrophy as they are no longer producing testosterone while on TRT. They will get a bit smaller, but they don't go away completely. Some guys don't like this, but only for aesthetic reasons as there are no real negatives to it. Having a physician that knows about TRT is crucial. You want to keep your testosterone and other hormone levels in a safe range that they have been at before. Bodybuilders get a bit crazy with testosterone and give it all a bad name. TRT is done to get you back to levels like you were at in your early 20's. For some men having increased testosterone will also increase estradiol (estrogen) levels. This can lead to gynecomastia which is when your nipples get inflamed and boob like. That can be dealt with by taking anastrozol (arimidex) or a simple surgery where they remove the glands in the nipple area. The general rule of thumb here is that if you didn't have gynecomastia issues when you went through puberty then you probably won't have them while on TRT.</span></p>
+                  <p><span style="color: #000000;">Acne on the skin or body can be attributed to TRT use. It is rare, but if it occurs then it is because of increased oil production on the skin. This can be easily remedied with a visit to your dermatologist. Some patients resolve this with low dose accutane use or other dermatological treatments.</span></p>
+                  <p><span style="color: #000000;">These possible side effects are minimal and easily treated if they occur. You can also stop doing TRT at any time to not have issues though we recommend not going cold turkey, but instead cycling off as we will explain later.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-06b486e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="06b486e" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8d71d9b" data-id="8d71d9b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-91416cc elementor-widget elementor-widget-heading" data-id="91416cc" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Is TRT a Lifetime Commitment?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f3b8a8d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f3b8a8d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ace2fb9" data-id="ace2fb9" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-89300a2 elementor-widget elementor-widget-text-editor" data-id="89300a2" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">TRT is not a lifetime commitment. This is probably the most common question and fear that people express to us. TRT will shut down your natural production once you start, but if you stop using TRT your natural production will come back anywhere from 2 weeks to 2 months later. The better way to deal with wanting to stop is to do what is called post cycle therapy. This is where you take HCG, Clomid and Nolvadex to bring your natural production back with no dip in levels. TRT is not a lifetime commitment and you can stop it at any time you want. Dream Body Clinic will help to make that as smooth a transition as possible if you decide on it.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-89169f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="89169f3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d56ab39" data-id="d56ab39" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-708d35f elementor-widget elementor-widget-heading" data-id="708d35f" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Is the Sostenon 250 Fly &amp; Buy Program Legal?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-b78cff2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b78cff2" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a6c34ac" data-id="a6c34ac" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1f1d9f7 elementor-widget elementor-widget-text-editor" data-id="1f1d9f7" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Dream Body Clinic has been offering the Sostenon 250 Fly &amp; Buy Program for 10 years. It is a legal program because it is your human right to seek medical treatment abroad and return home with that medication. The USA allows you to return home with up to 50 dose units. The law does not specify what a dose unit is so we can provide a max of 2 sustenon 250, 1 year packages to each person. This is a total of 100 units of sustenon with each unit being 1ml at 250mg of sustenon.</span></p>
+                  <p><span style="color: #000000;">Canada, UK and most of Europe allow their citizens to seek medical treatment abroad and return home with a 90 day supply. The laws don't specify what a 90 day supply is so we can write the prescription for up to 2 sustenon 250, 1 year packages to each person.</span></p>
+                  <p><span style="color: #000000;">We do blood work for all patients and then review that with our doctors the next day. We then deliver the medications with prescription and all legal documents needed to travel home safely.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-8a98987 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8a98987" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9cb03f1" data-id="9cb03f1" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-3bea494 elementor-widget elementor-widget-heading" data-id="3bea494" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How do I sign up for the Sostenon 250 TRT Package Fly &amp; Buy Program?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-1dc256f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1dc256f" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a6b2b4e" data-id="a6b2b4e" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9e43ecc elementor-widget elementor-widget-text-editor" data-id="9e43ecc" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">If you are ready to start TRT at Dream Body Clinic then we need you to call us for a preliminary consultation. We will answer any questions you have and can then determine available dates for the program. We do not provide transportation if you are only getting medication with us, but if you are doing stem cell therapy with us or HGH then we do. Once we have agreed on dates for your treatment you will need to book your airfare and accommodations. We do not provide airfare or accommodations as everyone has different preferences. Once you have flights and accommodations arranged we need you to fill out our booking form:</span></p>
+                  <p><span style="color: #000000;">This link is the best accommodation options close to us – Accommodation Options –</span> <a href="http://bit.ly/43T01Kt" target="_blank" rel="nofollow noopener">bit.ly/43T01Kt</a></p>
+                  <p><span style="color: #000000;">This link explains timeframes for the trip based on treatment type – How to Book Treatment –</span> <a href="http://bit.ly/3P4v0Pu" target="_blank" rel="nofollow noopener">bit.ly/3P4v0Pu</a></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'trt-enanthate-with-primoteston-for-1-year-package': {
+    slug: 'trt-enanthate-with-primoteston-for-1-year-package',
+    title: 'TRT Enanthate with Primoteston for 1 Year Package',
+    image: 'https://dreambody.clinic/wp-content/uploads/2023/12/primoteston-Enanthate-TRT-for-1-Year-Package-1024x1024.webp',
+    imageWidth: 1024,
+    imageHeight: 1024,
+    imageAlt: 'Primoteston Enanthate TRT',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-0b4a2fe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0b4a2fe" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2e9fc31" data-id="2e9fc31" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-2bddcb1 elementor-widget elementor-widget-image" data-id="2bddcb1" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://dreambody.clinic/wp-content/uploads/2023/12/primoteston-Enanthate-TRT-for-1-Year-Package-1024x1024.webp" class="attachment-large size-large wp-image-17399" alt="primoteston Enanthate TRT" srcset="https://dreambody.clinic/wp-content/uploads/2023/12/primoteston-Enanthate-TRT-for-1-Year-Package-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/12/primoteston-Enanthate-TRT-for-1-Year-Package-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/12/primoteston-Enanthate-TRT-for-1-Year-Package-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/12/primoteston-Enanthate-TRT-for-1-Year-Package-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/12/primoteston-Enanthate-TRT-for-1-Year-Package.webp 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-eef2d27" data-id="eef2d27" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-d577ad2 elementor-widget elementor-widget-text-editor" data-id="d577ad2" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The TRT Enanthate with Primoteston Legal Fly &amp; Buy Program:</span></h2>
+                  <h2><span style="color: #000000;">1 Year Supply</span></h2>
+                  <ul>
+                    <li><h2><span style="color: #000000;">50 Boxes Primoteson 250 (250mg/ml)</span></h2></li>
+                    <li><h2><span style="color: #000000;">Bloodwork</span></h2></li>
+                    <li><h2><span style="color: #000000;">Prescription &amp; Documentation to Legally Return Home</span></h2></li>
+                  </ul>
+                  <h2><span style="color: #000000;">PRICE: $2,250 USD</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-58c7188 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="58c7188" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1a75b3c" data-id="1a75b3c" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-e285669 elementor-widget elementor-widget-text-editor" data-id="e285669" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">The Primoteston Enanthate TRT Fly &amp; Buy Package Details</h2>
+                  <p><span style="color: #000000;">Bayer Primoteston (Testosterone Enanthate) has been a top tier choice for testosterone replacement therapy worldwide. The USA went with Testosterone Cypionate while the rest of the world chose Testosterone Enanthate. This is because of enanthate's shorter half life compared to cypionate. Enanthate has a half life of 7 to 10 days while cypionate has a half life of 8 to 12 days. This means that enanthate hits harder and faster which is great for muscle development.</span></p>
+                  <p><span style="color: #000000;">It is best to inject once a week so that you are always staying at the top of the anabolic parabolic curve. We prefer to see TRT levels of total testosterone between 800 to 1200 ng/ml and one shot a week will keep most guys in this range as well as a healthy spike in total testosterone levels. Total testosterone measures what is freebound in your system for conversion into estradiol or total testosterone. It is the best marker to track to see real muscle development. Totat testosterone is the measure of what has been converted in your system and relates most to mood and sex drive. Our Primoteston TRT package will have you dialed in and feeling like a 25 year old athlete.</span></p>
+                  <h2 class="elementor-heading-title elementor-size-default">Is Testosterone Replacement Therapy (TRT) Safe?</h2>
+                  <p><span style="color: #000000;">The Veterans Administration (VA) in the USA seems to think TRT is safe. They conducted a study 5 years ago with 83,000 participants. They found that men on TRT had a lower risk of heart attack, stroke, or death from any cause, versus similar men who were not treated.</span> <a href="https://www.research.va.gov/currents/0815-5.cfm">READ THE STUDY BY CLICKING HERE</a>.</p>
+                  <p><span style="color: #000000;">Over the course of the past 10 years we have helped thousands of men with TRT. We have seen it change the lives of users for the positive in nearly every case.</span></p>
+                  <p><span style="color: #000000;">Now with any medication there comes some risk and things you need to know. TRT will shut down your natural production of testosterone and replace it with what is being injected. This means that your testicles will atrophy as they are no longer producing testosterone while on TRT. They will get a bit smaller, but they don't go away completely. Some guys don't like this, but only for aesthetic reasons as there are no real negatives to it. Having a physician that knows about TRT is crucial. You want to keep your testosterone and other hormone levels in a safe range that they have been at before. Bodybuilders get a bit crazy with testosterone and give it all a bad name. TRT is done to get you back to levels like you were at in your early 20's. For some men having increased testosterone will also increase estradiol (estrogen) levels. This can lead to gynecomastia which is when your nipples get inflamed and boob like. That can be dealt with by taking anastrozol (arimidex) or a simple surgery where they remove the glands in the nipple area. The general rule of thumb here is that if you didn't have gynecomastia issues when you went through puberty then you probably won't have them while on TRT.</span></p>
+                  <p><span style="color: #000000;">Acne on the skin or body can be attributed to TRT use. It is rare, but if it occurs then it is because of increased oil production on the skin. This can be easily remedied with a visit to your dermatologist. Some patients resolve this with low dose accutane use or other dermatological treatments.</span></p>
+                  <p><span style="color: #000000;">These possible side effects are minimal and easily treated if they occur. You can also stop doing TRT at any time to not have issues though we recommend not going cold turkey, but instead cycling off as we will explain later.</span></p>
+                  <h2 class="elementor-heading-title elementor-size-default">Is TRT a Lifetime Commitment?</h2>
+                  <p><span style="color: #000000;">TRT is not a lifetime commitment. This is probably the most common question and fear that people express to us. TRT will shut down your natural production once you start, but if you stop using TRT your natural production will come back anywhere from 2 weeks to 2 months later. The better way to deal with wanting to stop is to do what is called post cycle therapy. This is where you take HCG, Clomid and Nolvadex to bring your natural production back with no dip in levels. TRT is not a lifetime commitment and you can stop it at any time you want. Dream Body Clinic will help to make that as smooth a transition as possible if you decide on it.</span></p>
+                  <h2 class="elementor-heading-title elementor-size-default">Is the Primoteston Enanthate TRT Fly &amp; Buy Program Legal?</h2>
+                  <p><span style="color: #000000;">Dream Body Clinic has been offering the Primoteston Enanthate TRT Fly &amp; Buy Program for 10 years. It is a legal program because it is your human right to seek medical treatment abroad and return home with that medication. The USA allows you to return home with up to 50 dose units. The law does not specify what a dose unit is so we can provide a max of 2 Primoteston Enanthate TRT for 1 year packages to each person. This is a total of 100 units of Bayer Primoteston with each unit being 1ml at 250mg of testosterone enanthate.</span></p>
+                  <p><span style="color: #000000;">Canada, UK and most of Europe allow their citizens to seek medical treatment abroad and return home with a 90 day supply. The laws don't specify what a 90 day supply is so we can write the prescription for up to 2 Primoteston Enanthate TRT for 1 year packages to each person.</span></p>
+                  <p><span style="color: #000000;">We do blood work for all patients and then review that with our doctors the next day. We then deliver the medications with prescription and all legal documents needed to travel home safely.</span></p>
+                  <h2 class="elementor-heading-title elementor-size-default">How do I sign up for the Primoteston Enanthate TRT Package Fly &amp; Buy Program?</h2>
+                  <p><span style="color: #000000;">If you are ready to start TRT at Dream Body Clinic then we need you to call us for a preliminary consultation. We will answer any questions you have and can then determine available dates for the program. We do not provide transportation if you are only getting medication with us, but if you are doing stem cell therapy with us or HGH then we do. Once we have agreed on dates for your treatment you will need to book your airfare and accommodations. We do not provide airfare or accommodations as everyone has different preferences. Once you have flights and accommodations arranged we need you to fill out our booking form:</span></p>
+                  <p><span style="color: #000000;">This link is the best accommodation options close to us – Accommodation Options –</span> <a href="http://bit.ly/43T01Kt" target="_blank" rel="nofollow noopener">bit.ly/43T01Kt</a></p>
+                  <p><span style="color: #000000;">This link explains timeframes for the trip based on treatment type – How to Book Treatment –</span> <a href="http://bit.ly/3P4v0Pu" target="_blank" rel="nofollow noopener">bit.ly/3P4v0Pu</a></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6056d09 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6056d09" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b071ac3" data-id="b071ac3" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-738d0a3 elementor-widget elementor-widget-html" data-id="738d0a3" data-element_type="widget" data-widget_type="html.default">
+                <div class="elementor-widget-container">
+                  <iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v5cjoh1/?pub=opcxj" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-2d0f669 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2d0f669" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-48ff400" data-id="48ff400" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1dff8bc elementor-widget elementor-widget-video" data-id="1dff8bc" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https://youtu.be/aui_0rTxTmw?si=WozjGyr5Wjf4c7d_&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+                <div class="elementor-widget-container">
+                  <div class="elementor-wrapper elementor-open-inline">
+                    <div class="elementor-video"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'progesterone-cream-50mg': {
+    slug: 'progesterone-cream-50mg',
+    title: 'Progesterone Cream 50mg',
+    image: 'https://dreambody.clinic/wp-content/uploads/2024/03/Progesterone-Cream-scaled.webp',
+    imageWidth: 1440,
+    imageHeight: 1920,
+    imageAlt: 'Progesterone Cream 50mg',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6f55a9d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6f55a9d" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1b50a56" data-id="1b50a56" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-25cba0f elementor-widget elementor-widget-image" data-id="25cba0f" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://dreambody.clinic/wp-content/uploads/2024/03/Progesterone-Cream-50mg-1-Year-Supply-at-Dream-Body-Clinic-1024x1024.webp" class="attachment-large size-large wp-image-18258" alt="Progesterone Cream 50mg 1 Year Supply at Dream Body Clinic" srcset="https://dreambody.clinic/wp-content/uploads/2024/03/Progesterone-Cream-50mg-1-Year-Supply-at-Dream-Body-Clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2024/03/Progesterone-Cream-50mg-1-Year-Supply-at-Dream-Body-Clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2024/03/Progesterone-Cream-50mg-1-Year-Supply-at-Dream-Body-Clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2024/03/Progesterone-Cream-50mg-1-Year-Supply-at-Dream-Body-Clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2024/03/Progesterone-Cream-50mg-1-Year-Supply-at-Dream-Body-Clinic.webp 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4c42516" data-id="4c42516" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-b39e734 elementor-widget elementor-widget-text-editor" data-id="b39e734" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Progesterone Cream 50mg Legal Fly &amp; Buy Program:</span></h2>
+                  <h2><span style="color: #000000;">1 Year Supply</span></h2>
+                  <ul>
+                    <li>
+                      <h2><span style="color: #000000;">22 Bottles TRT Cream (50mg/g)&nbsp;</span></h2>
+                    </li>
+                  </ul>
+                  <h1><span style="color: #000000; letter-spacing: var(--the7-h2-letter-spacing); text-transform: var(--the7-h2-text-transform); word-spacing: var(--the7-h2-word-spacing);">PRICE: $2000 USD</span></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-15c5259 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="15c5259" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e3b1566" data-id="e3b1566" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7d55095 elementor-widget elementor-widget-heading" data-id="7d55095" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">The Progesterone Cream 50mg 1 Year Fly &amp; Buy Package</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-d03f3c9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d03f3c9" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f5c8946" data-id="f5c8946" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-94ad8c3 elementor-widget elementor-widget-text-editor" data-id="94ad8c3" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">This is a 1 year supply of 50mg Progesterone Cream for dealing with Adrenaline related issues such as ADD, ADHD, PTSD, IBS, Fibromyalgia, Chronic Interstitial Cystitis, Restless Leg Syndrome, Hypertension, Diabetes, PMS, Alcoholism, Tinnitus, Autism, Insomnia and other issues.</span></p>
+                  <p><span style="color: #000000;"><strong>Includes:</strong></span></p>
+                  <p><span style="color: #000000;">22 Bottles of 50mg Bio-Identical Progesterone, compounded into a cream</span></p>
+                  <p><span style="color: #000000;">This cream is transdermal and can be applied anywhere on the skin. It is best to avoid areas with hair. </span></p>
+                  <h2><span style="color: #000000;">Flying Home with a Year Supply of Progesterone Cream</span></h2>
+                  <p><span style="color: #000000;">USA law allows you to seek medical treatment abroad and fly home with up to 50 dose units of medication. It does not specify what a dose unit is so we can prescribe the cream easily to meet the law requirements. For the Rest of the world it is a 90 day supply and we can easily fit the prescription to match that. The compounded progesterone cream is very stable at room temperature and will last for over a year.</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-3bb9ea3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3bb9ea3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-44eb546" data-id="44eb546" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-aadd9da elementor-widget elementor-widget-heading" data-id="aadd9da" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">The Progesterone Cream to Combat excessive Adrenaline Theory</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-db7e73c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="db7e73c" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ab09c1b" data-id="ab09c1b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-7a40466 elementor-widget elementor-widget-text-editor" data-id="7a40466" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">In contemporary society, there exists a pervasive dominance of adrenal gland stimulation, characterized by a relentless pace of life that necessitates constant urgency in our activities. This acceleration in daily routines demands metabolic adjustments facilitated by the adrenal glands, which respond by releasing adrenaline to mobilize nutrients for heightened activity. Prolonged engagement in this state can lead to the gradual erosion and depletion of essential nutrients.</span></p>
+                  <p><span style="color: #000000;">A primary catalyst for adrenal stimulation in modern society is the consumption of sugar. Frequent sugar intake can precipitate an excessive insulin response, potentially leading to hypoglycemia. This condition necessitates the activation of the adrenal glands to stabilize blood sugar levels through the release of cortisol and adrenaline. Furthermore, the prevalent consumption of caffeine exacerbates the strain on the adrenal glands.</span></p>
+                  <p><span style="color: #000000;">Various conditions, ranging from ADHD to PTSD, have been linked to adrenal dominance and may see significant improvement through targeted nutritional interventions. Conditions such as fibromyalgia, often deemed incurable, are managed with treatments aimed at mitigating symptoms rather than addressing underlying causes, including adrenal overactivity. We recommend looking into our s<a href="https://dreambody.clinic/index.php/fibromyalgia-stem-cell-treatment/">tem cell fibromyalgia treatment</a> and adding this progesterone package to it for optimal results.</span></p>
+                  <p><span style="color: #000000;">The adrenal glands play a crucial role in our survival mechanism, responding to perceived threats by increasing adrenaline secretion. This response can manifest in societal issues such as road rage. Additionally, the phenomenon of "adrenaline junkies" highlights the role of adrenaline in enhancing alertness and cognitive function, which can be particularly relevant in the context of ADHD. Children diagnosed with ADHD, who often exhibit high intelligence, may benefit from approaches that adjust their biochemistry through dietary changes and hormonal balance, rather than relying solely on medication.</span></p>
+                  <p><span style="color: #000000;">The distinction between typical hyperactivity and the creative impulsivity associated with ADHD lies in the role of adrenaline as either a hormone or a neurotransmitter. Proper nutritional support can significantly alter the management of ADHD, emphasizing the importance of understanding the biochemical underpinnings of such conditions.</span></p>
+                  <p><span style="color: #000000;">Recognizing ADHD as a potential lifelong condition underscores the necessity of addressing hormonal imbalances from an early age. Hormonal imbalances can trigger widespread reactions within the endocrine system, striving for equilibrium. The synthesis of hormones, which begins with cholesterol, underscores the interconnectedness of hormonal pathways. For instance, adrenal overload can deplete progesterone levels, affecting testosterone levels and thereby impacting a broad spectrum of bodily functions.</span></p>
+                  <p><span style="color: #000000;">Our approach, focuses on reducing sugar intake, increasing consumption of green vegetables, adding in MCT oil during meals and utilizing bio-identical progesterone cream, has shown promise in mitigating adrenal hyperactivity and reversing various conditions. This strategy highlights the potential of dietary and hormonal interventions in addressing conditions associated with adrenal dominance, such as chronic interstitial cystitis, restless leg syndrome, hypertension, diabetes, PMS, IBS, alcoholism, tinnitus, IBS, autism and insomnia, among others. This in combination with a stem cell IV can often alleviate issues that otherwise seemed hopeless.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c3b3188 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c3b3188" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-71ae817" data-id="71ae817" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f18566c elementor-widget elementor-widget-heading" data-id="f18566c" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Progesterone Can Effect Adrenaline to Help Many Issues</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-3512a0b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3512a0b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a0cbc2c" data-id="a0cbc2c" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9fc567f elementor-widget elementor-widget-text-editor" data-id="9fc567f" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Progesterone is a steroid hormone involved in the menstrual cycle, pregnancy, and embryogenesis of humans and other species. It has been over looked as way to address excess adrenaline. Most people are producing too much adrenaline and don't even know it. This is leading to surging rates of ADD, ADHD, Fibromyalgia, Chronic Fatigue Irritable Bowel Syndrome (IBS) and many other issues.</span></p>
+                  <p><span style="color: #000000;">Adrenaline is a hormone and neurotransmitter produced by the adrenal glands. It is involved in the fight-or-flight response, increasing heart rate, blood pressure, and energy supplies in response to stress.</span></p>
+                  <p><span style="color: #000000;">The relationship between progesterone and adrenaline is not direct. However, progesterone can influence the body's response to stress and, by extension, the production and effects of adrenaline in several indirect ways:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>CNS Effects</strong>: Progesterone can have calming effects on the brain. It metabolizes into neurosteroids that can modulate the activity of gamma-aminobutyric acid (GABA) receptors in the brain. GABA is the primary inhibitory neurotransmitter in the brain, and its activation can produce a calming effect, potentially counteracting some of the excitatory effects that adrenaline has on the body.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Stress Response Modulation</strong>: Progesterone might influence the hypothalamic-pituitary-adrenal (HPA) axis, which is involved in the body's response to stress. By modulating the activity of this axis, progesterone could theoretically affect the production of cortisol, another stress hormone, and indirectly influence how the body responds to adrenaline. However, the exact mechanisms and effects can vary and are complex.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Vascular Effects</strong>: Progesterone has been shown to have vasodilatory effects, meaning it can help to widen blood vessels. This action could potentially counteract some of the vasoconstrictive effects of adrenaline, which narrows blood vessels and raises blood pressure.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Receptor Sensitivity and Expression</strong>: There is some evidence to suggest that progesterone can influence the sensitivity and expression of adrenergic receptors (the receptors that adrenaline binds to). This could theoretically alter the responsiveness of various tissues to adrenaline, though the specifics of this interaction and its clinical significance remain an area for further research.</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that the interactions between hormones in the body are highly complex and subject to individual variation. The effects of progesterone on the body's response to adrenaline can depend on a variety of factors, including the levels of other hormones, the specific tissues or organs involved, and the overall physiological context.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-cbaa0cd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cbaa0cd" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6be7e2a" data-id="6be7e2a" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f3466cf elementor-widget elementor-widget-heading" data-id="f3466cf" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How Progesterone Cream Can Help Heal Fibromyalgia Symptoms</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f96d5e9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f96d5e9" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-37471cf" data-id="37471cf" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a0c36e9 elementor-widget elementor-widget-text-editor" data-id="a0c36e9" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Fibromyalgia is a complex, chronic condition characterized by widespread musculoskeletal pain, fatigue, sleep disturbances, and often, memory and mood issues. The exact cause of fibromyalgia is unknown, but it's thought to involve a combination of genetic, neurobiological, and environmental factors leading to abnormal pain processing by the central nervous system.</span></p>
+                  <p><span style="color: #000000;">The use of progesterone cream as a treatment for fibromyalgia is not widely supported in mainstream medicine, primarily because there is limited scientific evidence to directly support its effectiveness for this condition. However, some of the theoretical benefits of progesterone that could potentially relate to fibromyalgia symptoms include:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Pain Relief</strong>: Progesterone has been shown to have some anti-inflammatory properties, which might help reduce the pain associated with fibromyalgia. However, the evidence is not strong, and more research is needed to confirm this effect.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Sleep Improvement</strong>: Progesterone can have a sedative effect, potentially improving the quality of sleep for fibromyalgia patients who often suffer from sleep disturbances. Better sleep could indirectly improve pain and fatigue.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Mood Regulation</strong>: Progesterone plays a role in the brain's function and mood regulation. Since fibromyalgia patients can experience mood swings or depressive symptoms, balancing hormone levels with progesterone might offer some mood stabilization.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Hormonal Balance</strong>: Some theories suggest that hormonal imbalances may play a role in fibromyalgia. By balancing estrogen and progesterone levels, some women might experience an improvement in their symptoms. This is particularly relevant in cases where symptoms fluctuate with the menstrual cycle.</span></p></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-86d9da9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="86d9da9" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-977056d" data-id="977056d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-e53202b elementor-widget elementor-widget-heading" data-id="e53202b" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Progesterone Has Many Benefits</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-3f74556 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3f74556" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fda691b" data-id="fda691b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-dc20670 elementor-widget elementor-widget-text-editor" data-id="dc20670" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The effects of progesterone on adrenaline are significant and multifaceted. Progesterone, a hormone commonly used in hormone replacement therapy for women, can counteract the effects of excess adrenaline, which is linked to a variety of conditions including fibromyalgia, autism, ADHD, bipolar disorder, depression, anger, weight gain, and addictions.</span></p>
+                  <p><span style="color: #000000;">Progesterone works by blocking adrenaline, helping to mitigate the symptoms and underlying causes of these conditions. Progesterone can be used to treat conditions like fibromyalgia by reducing the excess adrenaline that contributes to the muscle tension and pain associated with this condition. Similarly, for ADHD, lowering adrenaline levels can help manage symptoms, suggesting that adrenaline dominance plays a significant role in these disorders.</span></p>
+                  <p><span style="color: #000000;">Furthermore, progesterone has a calming effect on the nervous system, which can be beneficial for individuals experiencing stress, anxiety, or sleep disturbances due to high levels of adrenaline. By reducing adrenaline, progesterone can help stabilize mood, improve sleep quality, and decrease overall stress levels.</span></p>
+                  <p><span style="color: #000000;">The therapeutic potential of progesterone in managing conditions associated with excess adrenaline is amazing. Progesterone's ability to counteract the effects of adrenaline underscores the importance of hormonal balance in maintaining mental and physical health.</span></p>
+                </div>
+              </div>
+              <div class="elementor-element elementor-element-a053ac5 elementor-widget elementor-widget-heading" data-id="a053ac5" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How does progesterone calm the nervous system?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-852084e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="852084e" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bbf5706" data-id="bbf5706" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a005a72 elementor-widget elementor-widget-text-editor" data-id="a005a72" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Progesterone calms the nervous system through several mechanisms, reflecting its role as a neurosteroid. Neurosteroids like progesterone influence brain function directly by interacting with neurotransmitter receptors and modulating the activity of the nervous system. Here's how progesterone can calm the nervous system:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>GABA Receptor Modulation</strong>: Progesterone enhances the action of gamma-aminobutyric acid (GABA) receptors in the brain. GABA is the primary inhibitory neurotransmitter in the central nervous system, which means it plays a key role in reducing neuronal excitability throughout the nervous system. By increasing GABA receptor activity, progesterone promotes relaxation, reduces anxiety, and improves sleep quality.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Reduction of Cortisol Levels</strong>: Progesterone can indirectly affect the nervous system by modulating the release of cortisol, a stress hormone produced by the adrenal glands. High levels of cortisol are associated with stress, anxiety, and sleep disturbances. Progesterone helps to balance cortisol levels, thereby reducing stress responses and promoting a sense of calm.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Neuroprotective Effects</strong>: Progesterone has been shown to have neuroprotective properties, meaning it can protect brain cells from damage. It does this by reducing inflammation in the brain and promoting the repair of the myelin sheath, which insulates nerve fibers. These actions can help maintain a healthy nervous system and improve its resilience to stress.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Influence on Serotonin</strong>: Some research suggests that progesterone may influence the levels of serotonin, a neurotransmitter that contributes to feelings of well-being and happiness. By potentially enhancing serotonin activity, progesterone could help improve mood and reduce anxiety.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Decrease in Neuronal Excitability</strong>: Progesterone metabolites, especially allopregnanolone, have been shown to decrease neuronal excitability. This action further contributes to the calming effect of progesterone on the nervous system, making it easier for the body to enter a state of relaxation and restfulness.</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's important to note that the calming effects of progesterone on the nervous system are part of a complex interplay of hormones and neurotransmitters. The balance between progesterone, estrogen, and other hormones is crucial for optimal nervous system function and overall well-being. Disruptions in this balance can lead to various symptoms and conditions, highlighting the importance of maintaining hormonal equilibrium.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6e52b38 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6e52b38" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f512963" data-id="f512963" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-5dfbf04 elementor-widget elementor-widget-heading" data-id="5dfbf04" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">The therapeutic potential of progesterone in managing conditions associated with excess adrenaline</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-a5ad4ab elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a5ad4ab" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7ed8f40" data-id="7ed8f40" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-d5134ce elementor-widget elementor-widget-text-editor" data-id="d5134ce" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The therapeutic potential of progesterone in managing conditions associated with excess adrenaline is significant due to its calming effect on the nervous system and its ability to modulate the stress response. Progesterone's role as a neurosteroid means it can directly influence brain function and neurotransmitter activity, offering a natural counterbalance to the effects of excess adrenaline. Here's a detailed look at how progesterone can be beneficial in such conditions:</span></p>
+                  <h3><span style="color: #000000;">1. <strong>Balancing the Stress Response:</strong></span></h3>
+                  <ul>
+                    <li><span style="color: #000000;"><strong>Modulation of Cortisol:</strong> Progesterone helps regulate the production of cortisol, a hormone that is released in response to stress. By modulating cortisol levels, progesterone can mitigate the body's stress response, which is often exacerbated by excess adrenaline.</span></li>
+                    <li><span style="color: #000000;"><strong>GABA Receptor Activation:</strong> Progesterone enhances the activity of GABA receptors in the brain. GABA is the primary inhibitory neurotransmitter, promoting relaxation and reducing anxiety. This action can help counteract the excitatory effects of adrenaline, leading to a more balanced nervous system response.</span></li>
+                  </ul>
+                  <h3><span style="color: #000000;">2. <strong>Improving Sleep Quality:</strong></span></h3>
+                  <ul>
+                    <li><span style="color: #000000;"><strong>Sedative Effects:</strong> Through its action on GABA receptors, progesterone exerts a sedative effect, which can improve sleep quality. This is particularly beneficial for individuals with conditions like insomnia, where excess adrenaline may cause hyperarousal and difficulty sleeping.</span></li>
+                  </ul>
+                  <h3><span style="color: #000000;">3. <strong>Reducing Anxiety and Mood Swings:</strong></span></h3>
+                  <ul>
+                    <li><span style="color: #000000;"><strong>Neurotransmitter Influence:</strong> By modulating neurotransmitter systems, including potentially enhancing the action of serotonin, progesterone can help improve mood and reduce anxiety. This is crucial for conditions where excess adrenaline leads to heightened anxiety or mood disturbances.</span></li>
+                  </ul>
+                  <h3><span style="color: #000000;">4. <strong>Neuroprotective Properties:</strong></span></h3>
+                  <ul>
+                    <li><span style="color: #000000;"><strong>Brain Health:</strong> Progesterone has neuroprotective effects, including reducing inflammation in the brain and promoting the repair of the myelin sheath. These actions can help protect the nervous system from the long-term effects of chronic stress and excess adrenaline.</span></li>
+                  </ul>
+                  <h3><span style="color: #000000;">5. <strong>Managing Specific Conditions:</strong></span></h3>
+                  <ul>
+                    <li><span style="color: #000000;"><strong>Fibromyalgia and Chronic Fatigue Syndrome:</strong> These conditions have been linked to dysregulation of the stress response system, including excess adrenaline. Progesterone's ability to modulate the stress response and improve sleep can be therapeutic.</span></li>
+                    <li><span style="color: #000000;"><strong>Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD):</strong> Progesterone can help manage symptoms associated with the luteal phase of the menstrual cycle, where fluctuations in hormone levels can lead to mood swings, anxiety, and sleep disturbances.</span></li>
+                    <li><span style="color: #000000;"><strong>Postpartum Depression:</strong> The rapid drop in progesterone levels after childbirth is believed to contribute to postpartum depression in some women. Supplementing with progesterone has the potential to stabilize mood and reduce anxiety during this vulnerable time.</span></li>
+                  </ul>
+                  <h3><span style="color: #000000;">The therapeutic potential of progesterone in conditions associated with excess adrenaline lies in its multifaceted ability to stabilize the stress response, improve sleep, reduce anxiety, and protect the nervous system. Its role as a natural counterbalance to adrenaline makes it a valuable tool in managing these conditions.</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-dcce975 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dcce975" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-29ed0f4" data-id="29ed0f4" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-359110f elementor-widget elementor-widget-heading" data-id="359110f" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Progesterone Replacement Therapy Possible Side Effects</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-eb25c57 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eb25c57" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5dccdcf" data-id="5dccdcf" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1b5d050 elementor-widget elementor-widget-text-editor" data-id="1b5d050" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Progesterone cream therapy, often used for hormone balance, can offer numerous benefits, including improved sleep, reduced menopausal symptoms, and enhanced mood. However, like any therapy, it may also come with potential side effects. It's important to use progesterone cream under the guidance of a healthcare professional to minimize risks. Here are some possible side effects associated with progesterone cream therapy:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Hormonal Imbalance:</strong> Overuse or incorrect application can lead to hormonal imbalances, potentially worsening symptoms it was meant to alleviate.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Mood Changes:</strong> Some individuals may experience mood swings, anxiety, or depression as a side effect of progesterone therapy.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Skin Reactions:</strong> The application site may develop reactions such as rashes, itchiness, or irritation.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Menstrual Changes:</strong> Women may notice changes in their menstrual cycle, including irregular periods, spotting, or changes in menstrual flow.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Breast Tenderness:</strong> An increase in progesterone levels can lead to breast tenderness or swelling.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Bloating and Weight Changes:</strong> Progesterone can cause water retention, leading to bloating and temporary weight gain.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Drowsiness or Fatigue:</strong> Progesterone has a sedative effect, which can be beneficial for sleep but may also cause daytime drowsiness or fatigue.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Headaches:</strong> Some individuals may experience headaches or migraines when starting progesterone cream therapy.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Nausea:</strong> Although less common, some people may feel nauseous when using progesterone cream.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Libido Changes:</strong> Progesterone therapy can affect libido, either increasing or decreasing sexual desire.</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">It's crucial to follow the prescribed dosage and application instructions provided. If you experience any adverse effects, consult us immediately. Fortunately any of these side effects are easily mitigated by simply stopping the use or adjusting the dose.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-40107e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="40107e2" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e997d19" data-id="e997d19" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-693ec2f elementor-widget elementor-widget-heading" data-id="693ec2f" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to Get Progesterone Cream Therapy at Dream Body Clinic</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-5ca13b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ca13b9" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cbab4e0" data-id="cbab4e0" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-8715a7b elementor-widget elementor-widget-text-editor" data-id="8715a7b" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Simply click on the image below to learn how to book Treatment. We cannot ship progesterone as that is illegal. It is only legal to seek medical treatment abroad and fly home with it. The USA allows you to return with up to 50 dose units while the rest of the world allows you to return with a 90 day supply. We write the prescription to match the law and then when you get home, take the suggested dose for it to last up to a year.</span></p>
+                  <h3><span style="color: #00ccff;">Call for a Free Consultation at (888) 704-3977</span> or email us at <span style="color: #00ccff;"><a style="color: #00ccff;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                  <p style="text-align: center;"><a href="https://dreambody.clinic/index.php/how-to-book-medication-treatment/"><img decoding="async" class="aligncenter" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Medication-Treatments-at-dream-body-clinic-300x300.jpg" alt="How to Book Medication Treatments" width="300" height="300" /></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  'intrathecal-stem-cell-injection-treatment-for-brain-optimization': {
+    slug: 'intrathecal-stem-cell-injection-treatment-for-brain-optimization',
+    title: 'Intrathecal Stem Cell Injection Treatment For Brain Optimization',
+    image: 'https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic.webp',
+    imageWidth: 1080,
+    imageHeight: 1080,
+    imageAlt: 'Intrathecal Stem Cell Injection Treatment For Brain Optimization',
+    content: `
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-efb1a22 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="efb1a22" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3367763" data-id="3367763" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-a1638a2 elementor-widget elementor-widget-image" data-id="a1638a2" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                  <img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic-1024x1024.webp" class="attachment-large size-large wp-image-15652" alt="Intrathecal Stem Cell Injection Treatment For Brain Optimization" srcset="https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic-1024x1024.webp 1024w, https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic-300x300.webp 300w, https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic-150x150.webp 150w, https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic-768x768.webp 768w, https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic-600x600.webp 600w, https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic-200x200.webp 200w, https://dreambody.clinic/wp-content/uploads/2023/06/Intrathecal-Stem-Cell-Injection-Treatment-For-Brain-Optimization-Dream-Body-Clinic.webp 1080w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0fe6389" data-id="0fe6389" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9de47e4 elementor-widget elementor-widget-text-editor" data-id="9de47e4" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <h2><span style="color: #000000;">The Intrathecal Stem Cell Treatment For Brain Optimization Consists of the Following:</span></h2>
+                  <ul><li><h3><span style="color: #000000;">50 Million Stem Cells via Intrathecal Injection </span></h3></li></ul>
+                  <div> </div>
+                  <h2><span style="color: #000000;">PRICE: $3,300 USD</span></h2>
+                  <div>
+                    <div><span style="color: #000000;">We require patients to be in town for at least 5 days. Below is what a typical schedule looks like, but exact details are subject to change depending on availability and schedule</span></div>
+                    <ul>
+                      <li><span style="color: #000000;">Day 1 – Arrive and rest</span></li>
+                      <li><span style="color: #000000;">Day 2 – Bloodwork &amp; Payment</span></li>
+                      <li><span style="color: #000000;">Day 3 – Treatment</span></li>
+                      <li><span style="color: #000000;">Day 4 – Rest </span></li>
+                      <li><span style="color: #000000;">Day 5 – Fly home</span></li>
+                      <li><span style="color: #000000;">If you are in town for more than 5 days then the itinerary may not be all consecutive days</span></li>
+                    </ul>
+                  </div>
+                  <p><span style="color: #993366;">The intrathecal treatment cannot be done if the patient is on blood thinners. Call for guidance if the patient is taking a blood thinner for alternative recommendations.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-c7ac817 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c7ac817" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3dd0354" data-id="3dd0354" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-3853144 elementor-widget elementor-widget-heading" data-id="3853144" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center; color: #6EC1E4;">The Intrathecal Stem Cell Treatment For Brain Optimization</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-697e837 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="697e837" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-baf4387" data-id="baf4387" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-3d182b2 elementor-widget elementor-widget-text-editor" data-id="3d182b2" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Are you looking for a safe and effective way to boost your brain function and optimize your cognitive performance? Look no further than Dreambody Clinic's intrathecal stem cell injection treatment for brain optimization.</span></p>
+                  <p><span style="color: #000000;">Our cutting-edge treatment utilizes mesenchymal stem cells (MSCs), which are known for their ability to promote neuroregeneration and improve brain function. By administering MSCs directly into the cerebrospinal fluid, our treatment allows these powerful cells to migrate to damaged or inflamed areas of the central nervous system, where they can help repair damaged neurons, promote the growth of new blood vessels, and reduce inflammation.</span></p>
+                  <p><span style="color: #000000;">Not only does our intrathecal stem cell injection treatment have the potential to help those with cognitive impairment, brain injury, or neurodegenerative disorders such as Alzheimer's or Parkinson's, but it can also offer benefits to healthy individuals looking to improve their mental performance. Whether you're an athlete looking to enhance your reaction time and decision-making abilities, or a busy professional seeking to optimize your productivity and creativity, our treatment can help.</span></p>
+                  <p><span style="color: #000000;">At Dreambody Clinic, we pride ourselves on offering safe, personalized, and affordable stem cell treatments that prioritize patient safety and comfort. Our expert medical team will work with you to develop a treatment plan tailored to your specific needs, ensuring that you receive the highest quality care and support throughout your healing journey.</span></p>
+                  <p><span style="color: #000000;">Don't settle for suboptimal brain function and limited cognitive abilities – invest in your brain health and experience the transformative benefits of our intrathecal stem cell injection treatment for brain optimization. Contact Dream Body Clinic today to schedule a consultation and take your first step towards a better, brighter future.</span></p>
+                  <p><span style="color: #000000;"><strong>Safe and Natural:</strong> Our stem cells are derived from Wharton Jelly (umbilical cord tissue) and Placenta based MSCs, ensuring a safe and natural approach to cellular regeneration. Learn about our stem cells here –</span> <strong><a href="https://dreambody.clinic/certified-stem-cells/">Certified Stem Cells</a></strong></p>
+                  <h3><span style="color: #ff6600;">Call for a Free Consultation at (888) 704-3977 or email us at <a style="color: #ff6600;" href="mailto:info@dreambodyclinic.net" target="_blank" rel="noopener">info@dreambodyclinic.net</a></span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-1a5d271 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1a5d271" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a62da1a" data-id="a62da1a" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-b3cc565 elementor-widget elementor-widget-heading" data-id="b3cc565" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;"><span style="color: #00ccff;">How do Mesenchymal Stem Cells Help with Brain Optimization?</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-bcbb753 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bcbb753" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b0a50b1" data-id="b0a50b1" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-dcb8a90 elementor-widget elementor-widget-text-editor" data-id="dcb8a90" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Mesenchymal stem cells (MSCs) have been shown to have a neuroprotective and regenerative effect in brain optimization and severe medical conditions such as <a href="https://dreambody.clinic/index.php/stroke-stem-cell-treatment/">stroke</a> recovery, MS, TBI, early onset Alzheimer's and more. The mechanisms by which MSCs exert their therapeutic effects include:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Anti-inflammatory actions:</strong> MSCs have been shown to suppress inflammation, thereby reducing the release of inflammatory cytokines and promoting tissue repair.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Neurotrophic effects:</strong> MSCs secrete various growth factors, such as brain-derived neurotrophic factor (BDNF), that promote the survival and regeneration of neurons</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Migration and homing:</strong> MSCs can migrate to the site of injury and guide differentiation and regeneration of various cell types that form the structural and functional components of the brain, including neurons, astrocytes, and oligodendrocytes.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Angiogenesis:</strong> MSCs promote the formation of new blood vessels, leading to improved blood flow and oxygen delivery to the injured area.</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">Overall, the use of MSCs in brain optimization is a highly effective approach for improving neurological function and brain function.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f2f4301 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f2f4301" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e8c052" data-id="6e8c052" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-e03bedf elementor-widget elementor-widget-heading" data-id="e03bedf" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;"><span style="color: #00ccff;">Intrathecal Injection of Mesenchymal Stem Cells for Brain</span> Optimization</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6655af3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6655af3" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6adcf73" data-id="6adcf73" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-1786c24 elementor-widget elementor-widget-text-editor" data-id="1786c24" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Intrathecal injection of mesenchymal stem cells (MSCs) has emerged as a miraculous therapy for brain optimization and the treatment of brain related issues. This method involves the injection of MSCs into the cerebrospinal fluid surrounding the spinal cord. This sounds like a very painful place to be injected, but the injection itself does not hurt much. This is because our trained anesthesiologists that apply the injection use a 30 gauge syringe.</span> <span style="color: #000000;">This syringe is as small in diameter as an insulin syringe. This small size allows it to get into the spinal cord area without risking damage to the spinal cord.</span></p>
+                  <p><span style="color: #000000;">The intrathecal injection of MSCs is based on the idea that the cells can migrate to the site of injury in the brain and promote tissue repair and regeneration. Once injected, MSCs don't have to cross the blood-brain barrier and travel through the cerebral spinal fluid directly to the brain, where they can exert their therapeutic effects.</span></p>
+                  <p><span style="color: #000000;">The mechanisms of action of intrathecal MSCs injection include:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Promoting neurogenesis:</strong> Studies indicate that MSCs have the ability to guide differentiation and regeneration of neurons. They promote neurogenesis, helping to restore damaged neural networks.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Modulating inflammation:</strong> MSCs release anti-inflammatory cytokines which attenuate inflammation in the brain and help to prevent additional neuronal damage.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Stimulating Angiogenesis:</strong> MSCs promote the growth of new blood vessels in the brain, which helps improve cerebral perfusion and oxygen supply.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Secreting trophic factors:</strong> Injection of MSCs promotes the secretion of various trophic factors, such as brain-derived neurotrophic factor (BDNF), vascular endothelial growth factor (VEGF), and insulin-like growth factor 1 (IGF-1), which exert protective and regenerative effects on neurons.</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">Overall, intrathecal injection of MSCs for brain optimization is designed to improve functional cognition.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-f83907b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f83907b" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-181f19d" data-id="181f19d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-f332368 elementor-widget elementor-widget-heading" data-id="f332368" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;"><span style="color: #00ccff;">How MSCs Help The Specialized Immune System of the Brain</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-87d4a76 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="87d4a76" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-33d4c5b" data-id="33d4c5b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-14e9167 elementor-widget elementor-widget-text-editor" data-id="14e9167" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Mesenchymal Stem Cells (MSCs). Once the MSCs get to the brain they get to work targeting inflammation. The neuropathological hallmarks of many neurological issues are often accompanied by neuroinflammation, which is intended to protect the body, but also can contribute to aggravation of damage when it becomes excessive. This is why the ability of MSCs to reduce the brain inflammation is so important.</span></p>
+                  <p><span style="color: #000000;">Mesenchymal Stem Cells have a profound effect on macrophages and in the brain these are</span> <a href="https://en.wikipedia.org/wiki/Microglia" rel="nofollow">microglia</a>.<span style="color: #000000;"> The microglia account for 10% to 15% of the cells in the brain. They are very important, so if they are not working properly then brain health will be off balance. Mesenchymal stem cells do a great job of helping the microglia function properly and proliferate. The microglia are resident</span> <a title="Macrophage" href="https://en.wikipedia.org/wiki/Macrophage" rel="nofollow">macrophage</a> <span style="color: #000000;">cells, they act as the first and main form of active immune defense in the</span> <a title="Central nervous system" href="https://en.wikipedia.org/wiki/Central_nervous_system" rel="nofollow">central nervous system</a> <span style="color: #000000;">(CNS). The microglia are responsible for removing damaged brain cells, dead blood cells, damaged or unnecessary neurons or synapses, and infectious agents. So having plenty of healthy microglia is extremely important to brain health. The MSCs have been shown in multiple studies to increase the number of microglia.</span></p>
+                  <p><span style="color: #000000;">The MSCs also help regulate</span> <a href="https://en.wikipedia.org/wiki/Astrocyte" rel="nofollow">Astrocytes</a>. <span style="color: #000000;">Astrocytes perform many functions such as biochemical support of</span> <a class="mw-redirect" title="Endothelial cell" href="https://en.wikipedia.org/wiki/Endothelial_cell" rel="nofollow">endothelial cells</a> <span style="color: #000000;">that form the</span> <a title="Blood–brain barrier" href="https://en.wikipedia.org/wiki/Blood%E2%80%93brain_barrier" rel="nofollow">blood–brain barrier</a>, <span style="color: #000000;">provision of nutrients to the nervous tissue, maintenance of extracellular ion balance and a role in the repair and scarring process of the brain and spinal cord following traumatic injuries. The brain repair role is very important for brain recovery and optimization. Making sure that your specialized immune system in the brain is working perfectly is a huge for brain optimization.</span></p>
+                  <p><span style="color: #000000;">MSCs also release neurotrophic factors that guide neural regeneration. Neuronal loss is the opposite of brain optimization. So by guiding neural regeneration we can improve cognition and mental performance.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-9c250ed elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9c250ed" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-38e2886" data-id="38e2886" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-0a97ed3 elementor-widget elementor-widget-heading" data-id="0a97ed3" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;"><span style="color: #00ccff;">How do the induced Tregs from Mesenchymal Stem Cells help Brain Related Conditions?</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-9b7d175 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9b7d175" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-06dc492" data-id="06dc492" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-b10d4e4 elementor-widget elementor-widget-text-editor" data-id="b10d4e4" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Mesenchymal stem cells (MSCs) have the ability to induce the formation of regulatory T cells (Tregs) as a part of their immunomodulatory response to brain regeneration &amp; recovery. Tregs are a type of immune cell that plays a crucial role in regulating the immune system and suppressing autoimmune responses in the body. Here are some ways in which Tregs induced by MSCs can help Brain Regeneration and Optimization:</span></p>
+                  <ol>
+                    <li><p><span style="color: #000000;"><strong>Suppressing inflammation:</strong> Tregs can suppress inflammation by inhibiting the activity of pro-inflammatory T cells such as T-helper 1 (Th1) and T-helper 17 (Th17) cells, thus helping to reduce inflammation in the nervous system and prevent damage to the myelin sheath.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Regulatory function:</strong> Tregs can regulate the immune system and restore self-tolerance by inhibiting the activation of dendritic cells and other immune cells that may initiate or maintain an autoimmune response.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Reducing immune-mediated damage:</strong> Tregs can reduce immune-mediated damage to the nervous system by suppressing the activity of T cells that attack myelin and other neural tissues.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Promoting neuroprotection:</strong> Tregs can stimulate the production of neuroprotective factors, such as nerve growth factor (NGF) and brain-derived neurotrophic factor (BDNF), which can protect the cells in the nervous system and promote their growth and regeneration.</span></p></li>
+                    <li><p><span style="color: #000000;"><strong>Inhibiting tissue destruction:</strong> Tregs can also inhibit tissue destruction and nerve cell death in MS patients by inhibiting the release of pro-inflammatory cytokines such as interferon-gamma (IFN-γ).</span></p></li>
+                  </ol>
+                  <p><span style="color: #000000;">Overall, Tregs induced by MSCs can help to restore immune balance, reduce inflammation, and protect and regenerate the nerves in the nervous system. The ability of MSCs to induce the formation of Tregs is an amazing therapeutic approach for brain regeneration and optimization.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-6d11701 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6d11701" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-48c6c6f" data-id="48c6c6f" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-d6a2d84 elementor-widget elementor-widget-heading" data-id="d6a2d84" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;"><span style="color: #00ccff;">How do intrathecal injected MSCs help oligodendrocytes?</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-oligodendrocytes elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="oligodendrocytes" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Intrathecal injected mesenchymal stem cells (MSCs) may help oligodendrocytes, which are specialized cells in the central nervous system (CNS) responsible for producing myelin, the insulating material that surrounds and protects nerve fibers.</span></p>
+                  <p><span style="color: #000000;">Several studies suggest that MSCs can promote the differentiation and maturation of oligodendrocyte progenitor cells, which are precursor cells that can develop into mature oligodendrocytes. MSCs secrete various growth factors, cytokines, and extracellular matrix molecules that can stimulate the growth and differentiation of oligodendrocyte progenitor cells.</span></p>
+                  <p><span style="color: #000000;">In addition, MSCs have been shown to produce exosomes, which are small vesicles that carry various proteins, RNA, and microRNA. These exosomes can transfer genetic material to neighboring cells, including oligodendrocytes, and promote their growth and differentiation.</span></p>
+                  <p><span style="color: #000000;">Moreover, MSCs can also provide a supportive microenvironment for oligodendrocytes by producing cytokines and other factors that can promote cell survival and prevent cell death. MSCs can also reduce inflammation in the CNS, which is known to damage oligodendrocytes and impair myelin production.</span></p>
+                  <p><span style="color: #000000;">Overall, MSCs delivered via intrathecal injection can promote oligodendrocyte survival, differentiation, and myelin production, which can potentially help in the treatment of demyelinating disorders such as multiple sclerosis.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-chemotaxis elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="chemotaxis" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;"><span style="color: #00ccff;">Intrathecal Stem Cell Treatment for Brain Optimization and Chemotaxis</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-05aa03c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="05aa03c" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-935cc67" data-id="935cc67" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-ce0b5a0 elementor-widget elementor-widget-text-editor" data-id="ce0b5a0" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Chemotaxis is the process by which cells are attracted or repelled by specific chemicals in their surrounding environment. The chemicals that act as the attractants or repellents are called chemotactic agents, or chemotaxis. Chemotaxis is an essential process for many biological functions, such as immune responses, wound healing, embryonic development, and bacterial movement.</span></p>
+                  <p><span style="color: #000000;">In the context of regenerative medicine, MSCs are often used to repair or replace damaged tissues. Chemotaxis plays an essential role in the migration of MSCs to the site of tissue damage. When an injury occurs, cells in the damaged tissue release chemotactic agents that attract MSCs to the site of the injury. Once MSCs reach the damaged tissue, they can guide differentiation and regeneration of various cell types to help repair the damaged tissue.</span></p>
+                  <p><span style="color: #000000;">Chemotaxis is regulated by several signaling pathways, including the phosphoinositide 3-kinase (PI3K)/Akt and mitogen-activated protein kinase (MAPK) pathways. These pathways help to regulate the migration and differentiation of MSCs by controlling the expression of various genes and proteins.</span></p>
+                  <p><span style="color: #000000;">Chemotaxis is also an important process in immune responses, as immune cells must be able to migrate to sites of infection or injury to fight off pathogens and repair damaged tissues. In this context, chemotaxis is regulated by various cytokines and chemokines that are produced by the tissue.</span></p>
+                  <p><span style="color: #000000;">Thus, chemotaxis is a fundamental biological process that plays a crucial role in tissue repair, immune responses, and many other physiological processes. This process is crucial for Brain Optimization.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-nootropic elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="nootropic" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;"><span style="color: #00ccff;">Do the Intrathecal Stem Cells Have Nootropic Effects or Improve Memory?</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-nootropic-content elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="nootropic-content" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">Nootropic effects are typically defined as the enhancement of cognitive function, memory, and learning ability. While mesenchymal stem cells (MSCs) have been shown to have neuroprotective and neuroregenerative effects, there is limited evidence to suggest that intrathecal injection of MSCs has direct nootropic effects on cognition or memory. This is because studies on this are just starting. We have seen many patients report back nootropic like benefits to cognition and memory.</span></p>
+                  <p><span style="color: #000000;">Most research on MSCs has focused on their potential therapeutic benefits for various neurological and autoimmune disorders, such as multiple sclerosis, spinal cord injury, and stroke. Studies have shown that MSCs can reduce inflammation, promote tissue repair, and stimulate the growth and differentiation of various types of cells in the central nervous system (CNS), such as neurons and oligodendrocytes.</span></p>
+                  <p><span style="color: #000000;">However, there is limited research on the direct effects of MSCs on cognitive function. One study published in the Journal of Neuroimmunology in 2018 reported that the intracerebroventricular injection of MSCs in rats led to improved cognitive function in a Morris water maze test, which is used to assess spatial learning and memory.</span></p>
+                  <p><span style="color: #000000;">Another study published in Stem Cells Translational Medicine in 2017 reported that MSCs implanted into the hippocampus of rats improved cognitive function in a Morris water maze test and increased the number of synaptic connections in the brain.</span></p>
+                  <p><span style="color: #000000;">Overall, while there is some limited evidence to suggest that MSCs may have indirect effects on cognitive function by promoting neuroregeneration and reducing inflammation, further research is needed to fully understand their potential nootropic effects.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-studies elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="studies" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default"><span style="color: #00ccff;">Intrathecal Stem Cell Treatment Studies</span></h2>
+                </div>
+              </div>
+              <div class="elementor-element elementor-widget elementor-widget-text-editor" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <ul>
+                    <li><p class="gs_rt"><a href="https://www.sciencedirect.com/science/article/pii/S2352396418300513">Phase I trial of intrathecal mesenchymal stem cell-derived neural progenitors in progressive multiple sclerosis</a></p></li>
+                    <li><p class="gs_rt"><a href="https://n.neurology.org/content/93/1/e77.abstract">Intrathecal administration of autologous mesenchymal stem cells in multiple system atrophy</a></p></li>
+                    <li><p class="gs_rt"><a href="https://journals.sagepub.com/doi/pdf/10.1177/1545968310369801">Case control series of intrathecal autologous bone marrow mesenchymal stem cell therapy for chronic spinal cord injury</a></p></li>
+                    <li><p class="gs_rt"><a href="https://www.tandfonline.com/doi/abs/10.1179/2045772315Y.0000000048">Intrathecal transplantation of autologous adipose-derived mesenchymal stem cells for treating spinal cord injury: a human trial</a></p></li>
+                    <li><p class="c-article-title"><a href="https://www.nature.com/articles/s41536-019-0073-8">Mesenchymal stem cells for hemorrhagic stroke: status of preclinical and clinical research</a></p></li>
+                    <li><a href="http://ousar.lib.okayama-u.ac.jp/files/public/5/55302/20170809143418175272/71_4_263.pdf" rel="nofollow">Mesenchymal Stem Cell Therapy for Ischemic Stroke</a></li>
+                    <li><p><a href="https://www.sciencedirect.com/science/article/pii/S0967586808002038">Mesenchymal stem cells for the treatment of ischemic stroke</a></p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-videos elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="videos" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-html" data-element_type="widget" data-widget_type="html.default">
+                <div class="elementor-widget-container">
+                  <iframe class="rumble" width="640" height="360" src="https://rumble.com/embed/v3gdg01/?pub=opcxj" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="elementor-column elementor-col-50 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-video" data-element_type="widget" data-settings='{"youtube_url":"https://youtu.be/fshdtmGDTds?si=xKuGzhUUdNSRKuB7","video_type":"youtube","controls":"yes"}' data-widget_type="video.default">
+                <div class="elementor-widget-container">
+                  <div class="elementor-wrapper elementor-open-inline">
+                    <div class="elementor-video"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-side-effects elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="side-effects" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">Side Effects or Risks</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-d2fd337 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d2fd337" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0b1e86b" data-id="0b1e86b" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-04838e7 elementor-widget elementor-widget-text-editor" data-id="04838e7" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The only side effects that have been documented are the following:</span></p>
+                  <ul>
+                    <li><span style="color: #000000;">Approximately 1 in 20 patients will experience a slight fever and/or headache for a few hours after treatment or the next day. We have found that 500mg of Tylenol easily resolves this issue.</span></li>
+                    <li><span style="color: #000000;">Any treatment involving an injection such as an IV runs a risk of infection. We have never had a patient experience an infection due to our sterility protocols.</span></li>
+                    <li><span style="color: #000000;">Approximately 1 in about 10 patients will experience some intense lower back pain near the intrathecal injection site that can radiate up and down the spine. It typically lasts a few hours to a few days before fully dissipating. We provide tramacet to all patients as a way to deal with this if it occurs.</span></li>
+                    <li><span style="color: #000000;">Approximately 1 in about 10 patients will experience a migraine like headache and sometimes nausea with it from the intrathecal treatment. This is called a postdural puncture headache and is caused by a change in the cerebrospinal fluid pressure. In most cases taking 1 tramacet will relieve these side effects. In some cases the headache can last a few hours to a few days. We provide tramacet to all patients just in case to deal with this.</span></li>
+                    <li><span style="color: #000000;">Dizziness and vomiting are potential side effects that affect a small percentage of patients post intrathecal treatment. The dizziness and desire to vomit can last for a few hours to a few days with most cases resolving naturally within a week.</span></li>
+                    <li><span style="color: #000000;">A very small percentage of patients for this treatment will be non-responders. As with any medication or treatment there is always a chance of no change. Tylenol does not always fix a headache as an example.</span></li>
+                    <li><span style="color: #000000;">We do not treat patients that have had cancer within the past 5 years. There is still no conclusive evidence linking stem cells to make cancer worse, but we prefer to stay on the side of safety until more information is available.</span></li>
+                  </ul>
+                  <p><span style="color: #000000;">Our lab has over 8 years of experience cultivating mesenchymal stem cells with perfect safety and efficacy.</span> <a href="https://dreambody.clinic/index.php/certified-stem-cells/" rel="nofollow">See Stem Cell Certification by Clicking Here</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-duration elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="duration" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default" style="text-align: center;">How long do the Intrathecal Stem Cell Treatment Results Last?</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-00fcc4e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="00fcc4e" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-84fcdd5" data-id="84fcdd5" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-c6e9113 elementor-widget elementor-widget-text-editor" data-id="c6e9113" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">The results from the the Intrathecal stem cell treatment can last for years or even indefinitely. This is because the stem cells are creating real neurogenesis which means new neurons. They are repairing the brain and that new tissue and neural connections will last. They are also reprogramming your immune system to work the way it was designed to work. Once the immune cells are reprogrammed and any damage is repaired at the spinal cord or brain then things will work the way they should. This will last because it is real regeneration and not just a pill to cover up symptoms.</span></p>
+                  <p><span style="color: #000000;">The mesenchymal stem cells will stay in the system for 8 months to a year. During that time they will interact with immune cells and seek out inflammation where they will guide cellular regeneration. After 8 to 12 months any MSCs that are free bound in your system will differentiate into an osteoblast (bone cell), adipocyte (fat cell) or chondrocyte (cartilage cell). They will then contain the donors HLA markers and your immune system will destroy and remove them. This is an easy process for your immune system and there is no negative reaction in your body from it. Some of the MSCs that were free bound from the IV will find capillaries to call home. They will attach and be considered a pericyte. When they do this they can live in your system indefinitely in a beneficial way to your system.</span></p>
+                  <p><span style="color: #000000;">The Intrathecal Stem Cell Treatment is allowing your body to heal like it did when you were a little kid. There are a lot of other benefits outside of just fixing your brain damage such as anti-aging.</span> <a href="https://dreambody.clinic/index.php/stem-cells-to-reverse-aging-anti-aging-stem-cell-treatment/">Click Here for An in depth look at how the stem cell IV works for Anti-Aging</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-howtoget elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="howtoget" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-widget elementor-widget-heading" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                  <h2 class="elementor-heading-title elementor-size-default">How to get the Intrathecal Stem Cell Treatment</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="elementor-section elementor-top-section elementor-element elementor-element-15ddeed elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="15ddeed" data-element_type="section">
+        <div class="elementor-container elementor-column-gap-default">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20f74db" data-id="20f74db" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+              <div class="elementor-element elementor-element-9b75be2 elementor-widget elementor-widget-text-editor" data-id="9b75be2" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                  <p><span style="color: #000000;">In conclusion, the intrathecal stem cell treatment could be a promising solution for individuals who are looking to optimize their brain function. The</span> <a href="https://www.dreambody.clinic/">Dream Body Clinic</a> <span style="color: #000000;">provides personalized treatment plans using stem cells to repair and regenerate damage to the brain and spinal cord which may lead to improved cognition and memory. While this treatment is not yet widely available, ongoing research suggests that it is a viable alternative to traditional brain optimization management methods. If you are interested in learning more about this treatment, we recommend calling us for a free consultation at (888) 704-3977. If you are ready to get the Brain Optimization Stem Cell Treatment then click the image below for details on</span> <a href="https://dreambody.clinic/index.php/how-to-book-autoimmune-stem-cell-iv-treatment/">how to book</a>.</p>
+                  <p style="text-align: center;"><a href="https://dreambody.clinic/index.php/how-to-book-for-brain-optimization-stem-cell-treatment/"><img decoding="async" class="aligncenter" src="https://dreambody.clinic/wp-content/uploads/2023/04/How-to-Book-Brain-Optimization-Stem-Cell-Treatment-at-Dream-Body-Clinic-300x300.jpg" alt="How to Book Brain Optimization Stem Cell Treatment" width="300" height="300" /></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    `
   }
 };
 
