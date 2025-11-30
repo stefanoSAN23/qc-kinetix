@@ -1,33 +1,39 @@
 import SEO from '../components/SEO/SEO';
 import { Divider } from '../components/Common';
-import FootHandPainHero from '../components/Sections/FootHandPain/FootHandPainHero';
-import RegenerativeTherapyForFootHandPain from '../components/Sections/FootHandPain/RegenerativeTherapyForFootHandPain';
-import WhatIsRegenerativeFootHandPainTherapy from '../components/Sections/FootHandPain/WhatIsRegenerativeFootHandPainTherapy';
-import FootHandCandidate from '../components/Sections/FootHandPain/FootHandCandidate';
-import BenefitsOfNonsurgicalFootHandTreatments from '../components/Sections/FootHandPain/BenefitsOfNonsurgicalFootHandTreatments';
-import ReadyToReduceFootHandPain from '../components/Sections/FootHandPain/ReadyToReduceFootHandPain';
+import {
+  ConditionHero,
+  RegenerativeTherapySection,
+  WhatIsTherapySection,
+  CandidateSection,
+  BenefitsSection,
+  ReadyToReduceSection
+} from '../components/Conditions';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
+import { conditionsData } from '../data/conditionsData';
 
 const FootHandPain = () => {
+  const data = conditionsData['foot-hand'];
+
   return (
     <>
       <SEO />
       <main>
-      <FootHandPainHero />
-      <RegenerativeTherapyForFootHandPain />
-      <WhatIsRegenerativeFootHandPainTherapy />
-      <FootHandCandidate />
-      <Divider variant="default" />
-      <BenefitsOfNonsurgicalFootHandTreatments />
-      <ReadyToReduceFootHandPain />
-      <Testimonials />
-      <ContactForm />
+        <ConditionHero 
+          title={data.title} 
+          breadcrumb={data.breadcrumb} 
+        />
+        <RegenerativeTherapySection data={data.regenerativeTherapy} />
+        <WhatIsTherapySection data={data.whatIsTherapy} />
+        <CandidateSection data={data.candidate} />
+        <Divider variant="default" />
+        <BenefitsSection data={data.benefits} />
+        <ReadyToReduceSection data={data.readyToReduce} />
+        <Testimonials />
+        <ContactForm />
       </main>
     </>
   );
 };
 
 export default FootHandPain;
-
-

@@ -50,6 +50,23 @@
   background: #6fc46a;
 }
 
+/* Estilos para el nuevo ImageDivider */
+.wte-hero-divider {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.wte-hero-divider.animated {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.wte-hero-divider.animated.animated-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .wte-hero-content p {
   font-size: 20px;
   
@@ -123,6 +140,10 @@
   }
 
   .wte-hero-dots {
+    justify-content: center;
+  }
+  
+  .wte-hero-divider {
     justify-content: center;
   }
 }

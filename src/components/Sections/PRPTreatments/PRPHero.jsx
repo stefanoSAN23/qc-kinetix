@@ -3,7 +3,6 @@ import { ImageDivider, Button } from '../../Common';
 import './PRPHero.css';
 
 const PRPHero = () => {
-  const dividerRef = useRef(null);
   const titleRef = useRef(null);
   const buttonRef = useRef(null);
   const imageRef = useRef(null);
@@ -22,13 +21,11 @@ const PRPHero = () => {
       });
     }, observerOptions);
 
-    if (dividerRef.current) observer.observe(dividerRef.current);
     if (titleRef.current) observer.observe(titleRef.current);
     if (buttonRef.current) observer.observe(buttonRef.current);
     if (imageRef.current) observer.observe(imageRef.current);
 
     return () => {
-      if (dividerRef.current) observer.unobserve(dividerRef.current);
       if (titleRef.current) observer.unobserve(titleRef.current);
       if (buttonRef.current) observer.unobserve(buttonRef.current);
       if (imageRef.current) observer.unobserve(imageRef.current);
@@ -40,18 +37,13 @@ const PRPHero = () => {
       <div className="prp-hero-container">
         <div className="prp-hero-content">
           <div className="prp-hero-header">
-            <div className="prp-hero-divider-container">
-              <img
-                src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp"
-                alt="Decorative divider"
-                width="177"
-                height="8"
-                loading="lazy"
-                className="prp-hero-divider animated fadeInDown"
-                data-animate-immediate="true"
-                ref={dividerRef}
-              />
-            </div>
+            <ImageDivider 
+              variant="green" 
+              animated={true}
+              animation="fadeInDown"
+              animateImmediate={true}
+              className="prp-hero-divider" 
+            />
             <h1
               className="prp-hero-title animated fadeInDown"
               data-animate-immediate="true"

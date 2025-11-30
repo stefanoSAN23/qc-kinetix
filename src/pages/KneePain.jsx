@@ -1,26 +1,34 @@
 import SEO from '../components/SEO/SEO';
 import { Divider } from '../components/Common';
-import KneePainHero from '../components/Sections/KneePain/KneePainHero';
-import RegenerativeTherapyForKneePain from '../components/Sections/KneePain/RegenerativeTherapyForKneePain';
-import WhatIsRegenerativeKneePainTherapy from '../components/Sections/KneePain/WhatIsRegenerativeKneePainTherapy';
-import AreYouACandidate from '../components/Sections/KneePain/AreYouACandidate';
-import BenefitsOfNonsurgicalKneeTreatments from '../components/Sections/KneePain/BenefitsOfNonsurgicalKneeTreatments';
-import ReadyToReduceKneePain from '../components/Sections/KneePain/ReadyToReduceKneePain';
+import {
+  ConditionHero,
+  RegenerativeTherapySection,
+  WhatIsTherapySection,
+  CandidateSection,
+  BenefitsSection,
+  ReadyToReduceSection
+} from '../components/Conditions';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
+import { conditionsData } from '../data/conditionsData';
 
 function KneePain() {
+  const data = conditionsData.knee;
+
   return (
     <>
       <SEO />
       <main>
-        <KneePainHero />
-        <RegenerativeTherapyForKneePain />
-        <WhatIsRegenerativeKneePainTherapy />
-        <AreYouACandidate />
+        <ConditionHero 
+          title={data.title} 
+          breadcrumb={data.breadcrumb} 
+        />
+        <RegenerativeTherapySection data={data.regenerativeTherapy} />
+        <WhatIsTherapySection data={data.whatIsTherapy} />
+        <CandidateSection data={data.candidate} />
         <Divider variant="default" />
-        <BenefitsOfNonsurgicalKneeTreatments />
-        <ReadyToReduceKneePain />
+        <BenefitsSection data={data.benefits} />
+        <ReadyToReduceSection data={data.readyToReduce} />
         <Testimonials />
         <ContactForm />
       </main>
@@ -29,4 +37,3 @@ function KneePain() {
 }
 
 export default KneePain;
-

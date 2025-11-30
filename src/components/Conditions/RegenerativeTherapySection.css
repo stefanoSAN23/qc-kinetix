@@ -1,0 +1,218 @@
+/* =============================================
+   REGENERATIVE THERAPY SECTION - Estilos originales
+   ============================================= */
+
+.regenerative-therapy-section {
+  padding: 40px 20px 120px;
+  background: #fff;
+}
+
+.regenerative-therapy-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 60px;
+  align-items: stretch;
+}
+
+.regenerative-therapy-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.regenerative-therapy-image {
+  width: 100%;
+  max-width: 453px;
+  margin-top: 100px;
+}
+
+.regenerative-therapy-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.regenerative-therapy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.regenerative-therapy-text {
+  width: 100%;
+  max-width: 1180px;
+  padding-top: 120px;
+}
+
+.regenerative-therapy-text h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 24px 0;
+}
+
+.regenerative-therapy-text p {
+  font-size: 20px;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+.regenerative-therapy-text p a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.regenerative-therapy-text p a:hover {
+  text-decoration: underline;
+}
+
+.regenerative-therapy-text ul {
+  margin: 30px 0;
+  padding: 0;
+  list-style: none;
+  column-count: 3;
+  column-gap: 35px;
+}
+
+.regenerative-therapy-text ul li {
+  font-size: 18px;
+  color: #333;
+  position: relative;
+  padding-left: 18px;
+  break-inside: avoid;
+  margin-bottom: 10px;
+}
+
+.regenerative-therapy-text ul li a {
+  color: #159A00;
+  text-decoration: none;
+}
+
+.regenerative-therapy-text ul li a:hover {
+  text-decoration: underline;
+}
+
+.regenerative-therapy-text ul li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #159A00;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+.reg-symbol {
+  font-size: 0.7em;
+  vertical-align: super;
+}
+
+.regenerative-therapy-button {
+  margin-top: auto;
+  padding-top: 40px;
+}
+
+.regenerative-therapy-button .qc-btn {
+  background-color: #159A00;
+  font-family: "Mulish", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff !important;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #159a00;
+  border-radius: 5px;
+  padding: 10px 22px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.regenerative-therapy-button .qc-btn:hover {
+  background-color: #fff;
+  color: #000 !important;
+  border-color: #159a00;
+}
+
+/* Animations */
+.regenerative-therapy-section .animated {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.regenerative-therapy-section .animated.animated-active {
+  opacity: 1;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.regenerative-therapy-section .animated-active.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .regenerative-therapy-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .regenerative-therapy-image-wrapper {
+    order: -1;
+  }
+
+  .regenerative-therapy-image {
+    margin-top: 0;
+  }
+
+  .regenerative-therapy-text {
+    padding-top: 0;
+  }
+
+  .regenerative-therapy-text h1 {
+    font-size: 36px;
+  }
+
+  .regenerative-therapy-text ul {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .regenerative-therapy-section {
+    padding: 40px 15px;
+  }
+
+  .regenerative-therapy-text h1 {
+    font-size: 32px;
+  }
+
+  .regenerative-therapy-text p,
+  .regenerative-therapy-text ul li {
+    font-size: 16px;
+  }
+
+  .regenerative-therapy-text ul {
+    column-count: 1;
+  }
+
+  .regenerative-therapy-button .qc-btn {
+    font-size: 15px;
+    padding: 10px 24px;
+  }
+}

@@ -1,3 +1,4 @@
+import { ImageDivider } from '../../Common';
 import './WhatToExpectHero.css';
 
 const WhatToExpectHero = () => {
@@ -10,11 +11,13 @@ const WhatToExpectHero = () => {
             <br />
             Medicine
           </h1>
-          <div className="wte-hero-dots">
-            {Array.from({ length: 9 }).map((_, index) => (
-              <span key={index} />
-            ))}
-          </div>
+          <ImageDivider 
+            variant="green" 
+            animated={true}
+            animation="fadeIn"
+            animateImmediate={true}
+            className="wte-hero-divider" 
+          />
           <p>
             At QC Kinetix we blend our orthobiologic regenerative medicine techniques with a patient-first
             approach that ensures you are supported at every step of the way. When you enter our clinic,

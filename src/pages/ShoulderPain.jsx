@@ -1,26 +1,34 @@
 import SEO from '../components/SEO/SEO';
 import { Divider } from '../components/Common';
-import ShoulderPainHero from '../components/Sections/ShoulderPain/ShoulderPainHero';
-import NonsurgicalShoulderTreatments from '../components/Sections/ShoulderPain/NonsurgicalShoulderTreatments';
-import WhatIsRegenerativeShoulderTherapy from '../components/Sections/ShoulderPain/WhatIsRegenerativeShoulderTherapy';
-import ShoulderCandidate from '../components/Sections/ShoulderPain/ShoulderCandidate';
-import BenefitsOfNonsurgicalShoulderTreatments from '../components/Sections/ShoulderPain/BenefitsOfNonsurgicalShoulderTreatments';
-import ReadyToReduceShoulderPain from '../components/Sections/ShoulderPain/ReadyToReduceShoulderPain';
+import {
+  ConditionHero,
+  RegenerativeTherapySection,
+  WhatIsTherapySection,
+  CandidateSection,
+  BenefitsSection,
+  ReadyToReduceSection
+} from '../components/Conditions';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
+import { conditionsData } from '../data/conditionsData';
 
 const ShoulderPain = () => {
+  const data = conditionsData.shoulder;
+
   return (
     <>
       <SEO />
       <main>
-        <ShoulderPainHero />
-        <NonsurgicalShoulderTreatments />
-        <WhatIsRegenerativeShoulderTherapy />
-        <ShoulderCandidate />
+        <ConditionHero 
+          title={data.title} 
+          breadcrumb={data.breadcrumb} 
+        />
+        <RegenerativeTherapySection data={data.regenerativeTherapy} />
+        <WhatIsTherapySection data={data.whatIsTherapy} />
+        <CandidateSection data={data.candidate} />
         <Divider variant="default" />
-        <BenefitsOfNonsurgicalShoulderTreatments />
-        <ReadyToReduceShoulderPain />
+        <BenefitsSection data={data.benefits} />
+        <ReadyToReduceSection data={data.readyToReduce} />
         <Testimonials />
         <ContactForm />
       </main>
@@ -29,5 +37,3 @@ const ShoulderPain = () => {
 };
 
 export default ShoulderPain;
-
-

@@ -48,6 +48,20 @@
   animation: heroDividerSlide 0.9s ease forwards;
 }
 
+/* Estilos para el nuevo ImageDivider */
+.about-hero-dots.qc-image-divider {
+  display: inline-block;
+  margin: 6px 0 24px;
+}
+
+.about-hero-dots.qc-image-divider img {
+  display: block;
+  transform-origin: left center;
+  transform: translateX(-30px) scaleX(0.2);
+  opacity: 0;
+  animation: heroDividerSlide 0.9s ease forwards;
+}
+
 .about-hero-description {
   margin: 0;
   font-size: 20px;

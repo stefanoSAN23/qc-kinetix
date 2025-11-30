@@ -1,3 +1,4 @@
+import { ImageDivider } from '../../Common';
 import './BlogHero.css';
 
 const BlogHero = () => {
@@ -7,14 +8,12 @@ const BlogHero = () => {
         <h1 className="blog-hero-title animated fadeInDown" data-animate-immediate="true">
           QC Kinetix Blog
         </h1>
-        <img
-          className="blog-hero-divider animated fadeInLeft"
-          src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-530.png.webp"
-          width="177"
-          height="8"
-          alt="Decorative divider"
-          loading="lazy"
-          data-animate-immediate="true"
+        <ImageDivider 
+          variant="white"
+          animated={true}
+          animation="fadeInLeft"
+          animateImmediate={true}
+          className="blog-hero-divider"
         />
       </div>
     </section>

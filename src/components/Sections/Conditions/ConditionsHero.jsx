@@ -1,10 +1,10 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider } from '../../Common';
 import './ConditionsHero.css';
 
 const ConditionsHero = () => {
   const subtitleRef = useRef(null);
   const titleRef = useRef(null);
-  const dividerRef = useRef(null);
   const imageRef = useRef(null);
 
   useEffect(() => {
@@ -23,13 +23,11 @@ const ConditionsHero = () => {
 
     if (subtitleRef.current) observer.observe(subtitleRef.current);
     if (titleRef.current) observer.observe(titleRef.current);
-    if (dividerRef.current) observer.observe(dividerRef.current);
     if (imageRef.current) observer.observe(imageRef.current);
 
     return () => {
       if (subtitleRef.current) observer.unobserve(subtitleRef.current);
       if (titleRef.current) observer.unobserve(titleRef.current);
-      if (dividerRef.current) observer.unobserve(dividerRef.current);
       if (imageRef.current) observer.unobserve(imageRef.current);
     };
   }, []);
@@ -57,15 +55,13 @@ const ConditionsHero = () => {
                 Regenerative<br />
                 Medicine Treatments
               </h2>
-              <div
-                className="conditions-hero-divider-dots animated"
-                data-animate-immediate="true"
-                ref={dividerRef}
-              >
-                {Array.from({ length: 7 }).map((_, index) => (
-                  <div key={index} className="conditions-hero-dot"></div>
-                ))}
-              </div>
+              <ImageDivider 
+                variant="green" 
+                animated={true}
+                animation="fadeIn"
+                animateImmediate={true}
+                className="conditions-hero-divider" 
+              />
             </div>
             <div className="conditions-hero-text">
               <p>QC Kinetix offers different types of regenerative medicine designed to address the source of your pain. Our regenerative medicine treatments include <a href="/regenerative-medicine/stem-cell-treatments/" onClick={(e) => { e.preventDefault(); window.location.href = '/regenerative-medicine/stem-cell-treatments/'; }}>stem cell</a> and <a href="/regenerative-medicine/prp-treatments/" onClick={(e) => { e.preventDefault(); window.location.href = '/regenerative-medicine/prp-treatments/'; }}>PRP treatments</a> that work with your body's natural ability to restore and repair itself. These non-surgical options may help various musculoskeletal conditions without the risks and downtime of surgery.</p>

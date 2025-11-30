@@ -1,3 +1,4 @@
+import { ImageDivider } from '../../Common';
 import './AboutHero.css';
 
 const pillars = [
@@ -25,19 +26,13 @@ const AboutHero = () => {
             <h1 className="animated fadeInDown" data-animate-immediate="true">
               Advancing Regenerative Medicine
             </h1>
-            <div
-              className="about-hero-dots animated fadeIn"
-              aria-hidden="true"
-              data-animate-immediate="true"
-            >
-              <img
-                src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-530.png.webp"
-                width="177"
-                height="8"
-                alt=""
-                loading="lazy"
-              />
-            </div>
+            <ImageDivider 
+              variant="white"
+              animated={true}
+              animation="fadeIn"
+              animateImmediate={true}
+              className="about-hero-dots"
+            />
           </div>
           <p className="about-hero-description">
             Our mission is to utilize regenerative medicine to enhance the quality of life of as

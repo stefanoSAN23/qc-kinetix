@@ -292,6 +292,53 @@ img {
   animation-duration: 1.6s;
 }
 
+/* -------------------------------------------
+   ImageDivider - Animaciones
+   ------------------------------------------- */
+
+.qc-image-divider {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.qc-image-divider img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Animaciones para ImageDivider */
+.qc-image-divider.animated {
+  opacity: 0;
+  animation-duration: 1.6s;
+  animation-fill-mode: both;
+}
+
+.qc-image-divider.animated.animated-active {
+  opacity: 1;
+}
+
+.qc-image-divider.animated.animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.qc-image-divider.animated.animated-active.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.qc-image-divider.animated.animated-active.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+.qc-image-divider.animated.animated-active.fadeIn {
+  animation-name: fadeIn;
+}
+
+.qc-image-divider.animated.animated-active.fadeInUp {
+  animation-name: fadeInUp;
+}
+
 /* ------------------------------------------------------------------
    Legacy layout support for imported treatment markup (Elementor -> DBC)
 -------------------------------------------------------------------*/
@@ -503,14 +550,8 @@ img {
 
 /* -------------------------------------------
    QC Image Divider - Componente Reutilizable
+   (Los estilos base están más arriba en la sección de animaciones)
    ------------------------------------------- */
-
-.qc-image-divider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px auto;
-}
 
 .qc-image-divider img {
   display: block;
@@ -597,10 +638,6 @@ img {
     padding: 15px 0;
   }
 
-  .qc-image-divider {
-    margin: 8px auto;
-  }
-
   .qc-image-divider img {
     max-width: 140px;
   }
@@ -631,10 +668,6 @@ img {
 
   .qc-divider {
     padding: 12px 0;
-  }
-
-  .qc-image-divider {
-    margin: 6px auto;
   }
 
   .qc-image-divider img {

@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider } from '../../Common';
 import './RegenerativeHero.css';
 
 const RegenerativeHero = () => {
-  const dividerRef = useRef(null);
   const titleRef = useRef(null);
   const imageRef = useRef(null);
 
@@ -20,9 +20,6 @@ const RegenerativeHero = () => {
       });
     }, observerOptions);
 
-    if (dividerRef.current) {
-      observer.observe(dividerRef.current);
-    }
     if (titleRef.current) {
       observer.observe(titleRef.current);
     }
@@ -31,9 +28,6 @@ const RegenerativeHero = () => {
     }
 
     return () => {
-      if (dividerRef.current) {
-        observer.unobserve(dividerRef.current);
-      }
       if (titleRef.current) {
         observer.unobserve(titleRef.current);
       }
@@ -47,21 +41,14 @@ const RegenerativeHero = () => {
     <section className="regenerative-hero-section">
       <div className="regenerative-hero-container">
         <div className="regenerative-hero-content">
-          <div
-            className="regenerative-hero-divider-container animated fadeInDown"
-            data-animate-immediate="true"
-            ref={dividerRef}
-          >
-            <img 
-              src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp" 
-              alt="Decorative divider" 
-              width="177" 
-              height="8"
-              loading="eager"
-              fetchPriority="high"
-              className="regenerative-hero-divider"
-            />
-          </div>
+          <ImageDivider 
+            variant="green" 
+            loading="eager" 
+            animated={true}
+            animation="fadeInDown"
+            animateImmediate={true}
+            className="regenerative-hero-divider" 
+          />
 
         <h1
           className="regenerative-hero-title animated fadeInDown"

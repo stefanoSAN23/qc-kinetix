@@ -1,33 +1,39 @@
 import SEO from '../components/SEO/SEO';
 import { Divider } from '../components/Common';
-import TendonLigamentPainHero from '../components/Sections/TendonLigamentPain/TendonLigamentPainHero';
-import RegenerativeTherapyForTendonLigamentPain from '../components/Sections/TendonLigamentPain/RegenerativeTherapyForTendonLigamentPain';
-import WhatIsRegenerativeTendonLigamentPainTherapy from '../components/Sections/TendonLigamentPain/WhatIsRegenerativeTendonLigamentPainTherapy';
-import TendonLigamentCandidate from '../components/Sections/TendonLigamentPain/TendonLigamentCandidate';
-import BenefitsOfNonsurgicalTendonLigamentTreatments from '../components/Sections/TendonLigamentPain/BenefitsOfNonsurgicalTendonLigamentTreatments';
-import ReadyToReduceTendonLigamentPain from '../components/Sections/TendonLigamentPain/ReadyToReduceTendonLigamentPain';
+import {
+  ConditionHero,
+  RegenerativeTherapySection,
+  WhatIsTherapySection,
+  CandidateSection,
+  BenefitsSection,
+  ReadyToReduceSection
+} from '../components/Conditions';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
+import { conditionsData } from '../data/conditionsData';
 
 const TendonLigamentPain = () => {
+  const data = conditionsData['tendon-ligament'];
+
   return (
     <>
       <SEO />
       <main>
-      <TendonLigamentPainHero />
-      <RegenerativeTherapyForTendonLigamentPain />
-      <WhatIsRegenerativeTendonLigamentPainTherapy />
-      <TendonLigamentCandidate />
-      <Divider variant="default" />
-      <BenefitsOfNonsurgicalTendonLigamentTreatments />
-      <ReadyToReduceTendonLigamentPain />
-      <Testimonials />
-      <ContactForm />
+        <ConditionHero 
+          title={data.title} 
+          breadcrumb={data.breadcrumb} 
+        />
+        <RegenerativeTherapySection data={data.regenerativeTherapy} />
+        <WhatIsTherapySection data={data.whatIsTherapy} />
+        <CandidateSection data={data.candidate} />
+        <Divider variant="default" />
+        <BenefitsSection data={data.benefits} />
+        <ReadyToReduceSection data={data.readyToReduce} />
+        <Testimonials />
+        <ContactForm />
       </main>
     </>
   );
 };
 
 export default TendonLigamentPain;
-
-

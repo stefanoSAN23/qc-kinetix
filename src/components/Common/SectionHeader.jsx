@@ -1,10 +1,11 @@
+import ImageDivider from './ImageDivider';
 import './SectionHeader.css';
 
 const SectionHeader = ({ 
   titlePart = "What is",
   mainTitle,
   dividerType = "image", // "image" | "dots" | "none"
-  dividerImage = "https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp",
+  dividerImage = "https://qckinetix.com/wp-content/uploads/2025/03/Group-69.svg",
   dotsCount = 7,
   className = "",
   animation = "fadeInDown",
@@ -25,28 +26,15 @@ const SectionHeader = ({
               {titlePart}
             </h2>
           )}
-          {dividerType === "image" && (
-            <div className="qc-section-header-divider-container">
-              <img
-                src={dividerImage}
-                alt="Decorative divider"
-                width="177"
-                height="8"
-                loading="lazy"
-                className={`qc-section-header-divider animated ${animation}`}
-                data-animate-immediate={animateImmediate ? 'true' : undefined}
-              />
-            </div>
-          )}
-          {dividerType === "dots" && (
-            <div
-              className={`qc-section-header-dots animated ${animation}`}
-              data-animate-immediate={animateImmediate ? 'true' : undefined}
-            >
-              {Array.from({ length: dotsCount }).map((_, index) => (
-                <div key={index} className="qc-section-header-dot dot-green"></div>
-              ))}
-            </div>
+          {(dividerType === "image" || dividerType === "dots") && (
+            <ImageDivider 
+              src={dividerImage}
+              variant="green"
+              animated={true}
+              animation={animation}
+              animateImmediate={animateImmediate}
+              className="qc-section-header-divider-container"
+            />
           )}
         </div>
       )}

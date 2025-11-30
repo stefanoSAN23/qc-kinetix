@@ -55,6 +55,22 @@
   transform: translateY(0);
 }
 
+/* Estilos para el nuevo ImageDivider */
+.why-choose-non-surgical-divider {
+  margin-bottom: 10px;
+}
+
+.why-choose-non-surgical-divider.animated {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.why-choose-non-surgical-divider.animated.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .why-choose-non-surgical-title {
   font-size: 30px;
   font-weight: 600;

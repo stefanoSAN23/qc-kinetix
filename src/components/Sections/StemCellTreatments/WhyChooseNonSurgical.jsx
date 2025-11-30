@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider } from '../../Common';
 import './WhyChooseNonSurgical.css';
 
 const WhyChooseNonSurgical = () => {
-  const dividerRef = useRef(null);
   const buttonRef = useRef(null);
 
   useEffect(() => {
@@ -19,11 +19,9 @@ const WhyChooseNonSurgical = () => {
       });
     }, observerOptions);
 
-    if (dividerRef.current) observer.observe(dividerRef.current);
     if (buttonRef.current) observer.observe(buttonRef.current);
 
     return () => {
-      if (dividerRef.current) observer.unobserve(dividerRef.current);
       if (buttonRef.current) observer.unobserve(buttonRef.current);
     };
   }, []);
@@ -49,14 +47,12 @@ const WhyChooseNonSurgical = () => {
         <div className="why-choose-non-surgical-content">
           {/* Left Column */}
           <div className="why-choose-non-surgical-left">
-            <div className="why-choose-non-surgical-dots animated fadeInDown" ref={dividerRef}>
-              {[0, 1, 2, 3, 4, 5, 6].map((index) => (
-                <div
-                  key={index}
-                  className={`why-choose-non-surgical-dot ${index % 2 === 0 ? 'dot-green' : 'dot-green-dark'}`}
-                />
-              ))}
-            </div>
+            <ImageDivider 
+              variant="green" 
+              animated={true}
+              animation="fadeInDown"
+              className="why-choose-non-surgical-divider" 
+            />
             <h3 className="why-choose-non-surgical-title">
               Why Choose<br />Non-Surgical Treatment ?
             </h3>

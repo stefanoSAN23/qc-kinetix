@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider } from '../../Common';
 import './RegenerativeProcess.css';
 
 const RegenerativeProcess = () => {
   const titleRef = useRef(null);
-  const dividerRef = useRef(null);
   const titleLargeRef = useRef(null);
   const introRef = useRef(null);
 
@@ -24,9 +24,6 @@ const RegenerativeProcess = () => {
     if (titleRef.current) {
       observer.observe(titleRef.current);
     }
-    if (dividerRef.current) {
-      observer.observe(dividerRef.current);
-    }
     if (titleLargeRef.current) {
       observer.observe(titleLargeRef.current);
     }
@@ -36,7 +33,6 @@ const RegenerativeProcess = () => {
 
     return () => {
       if (titleRef.current) observer.unobserve(titleRef.current);
-      if (dividerRef.current) observer.unobserve(dividerRef.current);
       if (titleLargeRef.current) observer.unobserve(titleLargeRef.current);
       if (introRef.current) observer.unobserve(introRef.current);
     };
@@ -72,14 +68,11 @@ const RegenerativeProcess = () => {
           <div className="regenerative-process-title-container">
             <div className="regenerative-process-header-top">
               <h2 className="animated fadeInDown" ref={titleRef}>What is the</h2>
-              <img 
-                src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp" 
-                alt="Decorative divider" 
-                width="177" 
-                height="8"
-                loading="lazy"
-                className="regenerative-process-divider animated fadeInDown"
-                ref={dividerRef}
+              <ImageDivider 
+                variant="green" 
+                animated={true}
+                animation="fadeInDown"
+                className="regenerative-process-divider" 
               />
             </div>
             <h2 className="regenerative-process-title-large animated fadeInDown" ref={titleLargeRef}>

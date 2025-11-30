@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { ImageDivider } from '../../Common';
 import './PainReliefJourney.css';
 
 const steps = [
@@ -68,15 +69,7 @@ const PainReliefJourney = () => {
         <div className="pain-relief-header" ref={headerRef}>
           <div className="pain-relief-heading animated fadeInDown animated-active">
             <h3>A Patient&apos;s</h3>
-            <div className="pain-relief-divider">
-              <img
-                src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp"
-                alt="Decorative divider"
-                width="177"
-                height="8"
-                loading="lazy"
-              />
-            </div>
+            <ImageDivider variant="green" className="pain-relief-divider" />
           </div>
           <h2 className="animated fadeInDown animated-active">Pain Relief Journey</h2>
           <p className="pain-relief-description">

@@ -258,21 +258,12 @@ const ResearchSection = () => {
     
     let filteredPosts = [...allPosts];
     
-    // Filter by categories
+    // Filter by categories - maintain original order
     if (categories.length > 0) {
       filteredPosts = filteredPosts.filter(post => 
         categories.includes(post.category)
       );
-      // Sort by date when filters are applied
-      filteredPosts.sort((a, b) => {
-        const getYear = (dateStr) => {
-          const yearMatch = dateStr.match(/\d{4}/);
-          return yearMatch ? parseInt(yearMatch[0]) : 0;
-        };
-        const yearA = getYear(a.date);
-        const yearB = getYear(b.date);
-        return dateOrder === 'newest' ? yearB - yearA : yearA - yearB;
-      });
+      // NO sorting - keep original order from allPosts array
     }
     // When no filters, keep original order from array (no sorting)
     

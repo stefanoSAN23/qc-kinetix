@@ -1,33 +1,39 @@
 import SEO from '../components/SEO/SEO';
 import { Divider } from '../components/Common';
-import JointPainHero from '../components/Sections/JointPain/JointPainHero';
-import RegenerativeTherapyForJointPain from '../components/Sections/JointPain/RegenerativeTherapyForJointPain';
-import WhatIsRegenerativeJointPainTherapy from '../components/Sections/JointPain/WhatIsRegenerativeJointPainTherapy';
-import JointCandidate from '../components/Sections/JointPain/JointCandidate';
-import BenefitsOfNonsurgicalJointTreatments from '../components/Sections/JointPain/BenefitsOfNonsurgicalJointTreatments';
-import ReadyToReduceJointPain from '../components/Sections/JointPain/ReadyToReduceJointPain';
+import {
+  ConditionHero,
+  RegenerativeTherapySection,
+  WhatIsTherapySection,
+  CandidateSection,
+  BenefitsSection,
+  ReadyToReduceSection
+} from '../components/Conditions';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
+import { conditionsData } from '../data/conditionsData';
 
 const JointPain = () => {
+  const data = conditionsData.joint;
+
   return (
     <>
       <SEO />
       <main>
-      <JointPainHero />
-      <RegenerativeTherapyForJointPain />
-      <WhatIsRegenerativeJointPainTherapy />
-      <JointCandidate />
-      <Divider variant="default" />
-      <BenefitsOfNonsurgicalJointTreatments />
-      <ReadyToReduceJointPain />
-      <Testimonials />
-      <ContactForm />
+        <ConditionHero 
+          title={data.title} 
+          breadcrumb={data.breadcrumb} 
+        />
+        <RegenerativeTherapySection data={data.regenerativeTherapy} />
+        <WhatIsTherapySection data={data.whatIsTherapy} />
+        <CandidateSection data={data.candidate} />
+        <Divider variant="default" />
+        <BenefitsSection data={data.benefits} />
+        <ReadyToReduceSection data={data.readyToReduce} />
+        <Testimonials />
+        <ContactForm />
       </main>
     </>
   );
 };
 
 export default JointPain;
-
-

@@ -24,6 +24,17 @@
   flex: 1;
 }
 
+.qc-section-header-divider-container.animated {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.qc-section-header-divider-container.animated.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .qc-section-header-divider {
   display: block;
   opacity: 1;

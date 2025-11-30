@@ -97,6 +97,22 @@
   background-color: #159A00;
 }
 
+/* Estilos para el nuevo ImageDivider */
+.conditions-hero-divider {
+  margin-bottom: 20px;
+}
+
+.conditions-hero-divider.animated {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.conditions-hero-divider.animated.animated-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .conditions-hero-text {
   font-size: 26px;
   color: #333;

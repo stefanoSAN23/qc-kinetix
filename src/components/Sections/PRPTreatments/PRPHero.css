@@ -38,6 +38,18 @@
 
 .prp-hero-divider {
   display: block;
+  margin-bottom: 10px;
+}
+
+.prp-hero-divider.animated {
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.prp-hero-divider.animated.animated-active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .prp-hero-title {

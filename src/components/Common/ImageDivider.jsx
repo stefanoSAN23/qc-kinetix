@@ -10,8 +10,10 @@
  * @param {number} height - Alto de la imagen (default: 7)
  * @param {string} variant - Variante: 'default', 'white', 'green'
  * @param {string} className - Clases adicionales
- * @param {boolean} animated - Si debe tener animación fadeInLeft (default: false)
+ * @param {boolean} animated - Si debe tener animación (default: false)
+ * @param {string} animation - Tipo de animación: 'fadeInLeft', 'fadeInDown', 'fadeIn', 'fadeInUp' (default: 'fadeInDown')
  * @param {string} loading - Estrategia de carga: 'eager' o 'lazy' (default: 'lazy')
+ * @param {boolean} animateImmediate - Si la animación debe ejecutarse inmediatamente (default: false)
  */
 
 // URLs predefinidas de dividers
@@ -29,7 +31,9 @@ const ImageDivider = ({
   variant = 'default',
   className = '',
   animated = false,
-  loading = 'lazy'
+  animation = 'fadeInDown',
+  loading = 'lazy',
+  animateImmediate = false
 }) => {
   // Usar la imagen del variant si no se proporciona src
   const imageSrc = src || DIVIDER_IMAGES[variant] || DIVIDER_IMAGES.default;
@@ -37,19 +41,32 @@ const ImageDivider = ({
   const containerClasses = [
     'qc-image-divider',
     `qc-image-divider-${variant}`,
-    animated ? 'animated fadeInLeft' : '',
+    animated ? `animated ${animation}` : '',
+    animateImmediate ? 'animated-active' : '',
     className
   ].filter(Boolean).join(' ');
 
+  // Determinar los data attributes
+  const dataAttributes = {};
+  if (animated) {
+    dataAttributes['data-animated'] = 'true';
+  }
+  if (animateImmediate) {
+    dataAttributes['data-animate-immediate'] = 'true';
+  }
+
   return (
-    <div className={containerClasses}>
+    <div 
+      className={containerClasses}
+      {...dataAttributes}
+    >
       <img 
         src={imageSrc}
         alt={alt}
         width={width}
         height={height}
         loading={loading}
-        {...(loading === 'eager' && { fetchpriority: 'high' })}
+        {...(loading === 'eager' && { fetchPriority: 'high' })}
       />
     </div>
   );

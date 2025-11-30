@@ -1,33 +1,39 @@
 import SEO from '../components/SEO/SEO';
 import { Divider } from '../components/Common';
-import ArthritisPainHero from '../components/Sections/ArthritisPain/ArthritisPainHero';
-import RegenerativeTherapyForArthritisPain from '../components/Sections/ArthritisPain/RegenerativeTherapyForArthritisPain';
-import WhatIsRegenerativeArthritisPainTherapy from '../components/Sections/ArthritisPain/WhatIsRegenerativeArthritisPainTherapy';
-import ArthritisCandidate from '../components/Sections/ArthritisPain/ArthritisCandidate';
-import BenefitsOfNonsurgicalArthritisTreatments from '../components/Sections/ArthritisPain/BenefitsOfNonsurgicalArthritisTreatments';
-import ReadyToReduceArthritisPain from '../components/Sections/ArthritisPain/ReadyToReduceArthritisPain';
+import {
+  ConditionHero,
+  RegenerativeTherapySection,
+  WhatIsTherapySection,
+  CandidateSection,
+  BenefitsSection,
+  ReadyToReduceSection
+} from '../components/Conditions';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
+import { conditionsData } from '../data/conditionsData';
 
 const ArthritisPain = () => {
+  const data = conditionsData.arthritis;
+
   return (
     <>
       <SEO />
       <main>
-      <ArthritisPainHero />
-      <RegenerativeTherapyForArthritisPain />
-      <WhatIsRegenerativeArthritisPainTherapy />
-      <ArthritisCandidate />
-      <Divider variant="default" />
-      <BenefitsOfNonsurgicalArthritisTreatments />
-      <ReadyToReduceArthritisPain />
-      <Testimonials />
-      <ContactForm />
+        <ConditionHero 
+          title={data.title} 
+          breadcrumb={data.breadcrumb} 
+        />
+        <RegenerativeTherapySection data={data.regenerativeTherapy} />
+        <WhatIsTherapySection data={data.whatIsTherapy} />
+        <CandidateSection data={data.candidate} />
+        <Divider variant="default" />
+        <BenefitsSection data={data.benefits} />
+        <ReadyToReduceSection data={data.readyToReduce} />
+        <Testimonials />
+        <ContactForm />
       </main>
     </>
   );
 };
 
 export default ArthritisPain;
-
-

@@ -3,7 +3,6 @@ import { ImageDivider } from '../../Common';
 import './StemCellHero.css';
 
 const StemCellHero = () => {
-  const dividerRef = useRef(null);
   const titleRef = useRef(null);
   const textRef = useRef(null);
   const listRef = useRef(null);
@@ -23,12 +22,10 @@ const StemCellHero = () => {
       });
     }, observerOptions);
 
-    if (dividerRef.current) observer.observe(dividerRef.current);
     if (titleRef.current) observer.observe(titleRef.current);
     if (imageRef.current) observer.observe(imageRef.current);
 
     return () => {
-      if (dividerRef.current) observer.unobserve(dividerRef.current);
       if (titleRef.current) observer.unobserve(titleRef.current);
       if (imageRef.current) observer.unobserve(imageRef.current);
     };
@@ -47,18 +44,13 @@ const StemCellHero = () => {
       <div className="stem-cell-hero-container">
         <div className="stem-cell-hero-content">
           <div className="stem-cell-hero-header">
-            <div className="stem-cell-hero-divider-container">
-              <img
-                src="https://qckinetix.com/wp-content/smush-webp/2025/04/Group-747.png.webp"
-                alt="Decorative divider"
-                width="177"
-                height="8"
-                loading="lazy"
-                className="stem-cell-hero-divider animated fadeInDown"
-                data-animate-immediate="true"
-                ref={dividerRef}
-              />
-            </div>
+            <ImageDivider 
+              variant="green" 
+              animated={true}
+              animation="fadeInDown"
+              animateImmediate={true}
+              className="stem-cell-hero-divider" 
+            />
             <h1
               className="stem-cell-hero-title animated fadeInDown"
               data-animate-immediate="true"

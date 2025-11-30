@@ -1,0 +1,323 @@
+/* =============================================
+   CONDITION BENEFITS SECTION - Para páginas de condiciones
+   Usa prefijo "condition-" para evitar conflicto con Benefits.jsx
+   ============================================= */
+
+.condition-benefits-section {
+  padding: 110px 20px;
+  background: #f6fafc;
+  position: relative;
+}
+
+.condition-benefits-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.condition-benefits-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.condition-benefits-header h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+}
+
+.condition-benefits-dots {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.condition-benefits-dots .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #0f8f16;
+  opacity: 0.6;
+}
+
+.condition-benefits-dots .dot-1 { opacity: 0.35; }
+.condition-benefits-dots .dot-2 { opacity: 0.45; }
+.condition-benefits-dots .dot-3 { opacity: 0.55; }
+.condition-benefits-dots .dot-4 { opacity: 0.65; }
+.condition-benefits-dots .dot-5 { opacity: 0.75; }
+.condition-benefits-dots .dot-6 { opacity: 0.85; }
+.condition-benefits-dots .dot-7 { opacity: 0.95; }
+.condition-benefits-dots .dot-8 { opacity: 1; }
+
+.condition-benefits-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 70px;
+  align-items: start;
+}
+
+.condition-benefits-left h2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+.condition-benefits-left p {
+  font-size: 19px;
+  color: #24374a;
+  margin: 0 0 24px 0;
+}
+
+.condition-benefits-right {
+  margin-top: -90px;
+  max-width: 720px;
+}
+
+.condition-benefits-right h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #102032;
+  margin: 0 0 18px 0;
+}
+
+.condition-benefits-right p {
+  font-size: 18px;
+  color: #253a4d;
+  margin: 0 0 22px 0;
+}
+
+.condition-benefits-right ul {
+  margin: 20px 0 30px 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 40px;
+}
+
+.condition-benefits-right ul li {
+  font-size: 18px;
+  color: #253a4d;
+  position: relative;
+  padding-left: 18px;
+}
+
+.condition-benefits-right ul li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1ab04d;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.condition-benefits-note {
+  margin-top: 16px;
+  font-style: normal;
+}
+
+/* Subsección (divs envolventes en right) */
+.condition-benefits-subsection {
+  margin-bottom: 30px;
+}
+
+.condition-benefits-subsection:last-child {
+  margin-bottom: 0;
+}
+
+/* Lista doble (para Back, Hip, etc.) */
+.condition-benefits-list-double {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0 30px 0;
+}
+
+.condition-benefits-list-double ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.condition-benefits-list-double ul li {
+  font-size: 18px;
+  color: #253a4d;
+  position: relative;
+  padding-left: 18px;
+}
+
+.condition-benefits-list-double ul li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #1ab04d;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+/* Animations */
+.condition-benefits-section .animated {
+  opacity: 0;
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+.condition-benefits-section .animated.animated-active {
+  opacity: 1;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.condition-benefits-section .animated-active.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .condition-benefits-content {
+    gap: 50px;
+  }
+
+  .condition-benefits-right {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .condition-benefits-section {
+    padding: 90px 20px;
+  }
+
+  .condition-benefits-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .condition-benefits-left h2 {
+    font-size: 38px;
+  }
+
+  .condition-benefits-right h3 {
+    font-size: 26px;
+  }
+
+  .condition-benefits-container {
+    align-items: center;
+  }
+
+  .condition-benefits-header {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .condition-benefits-dots {
+    margin-left: 0;
+  }
+
+  .condition-benefits-left,
+  .condition-benefits-right {
+    text-align: center;
+  }
+
+  .condition-benefits-right {
+    margin-top: 0;
+    max-width: 100%;
+  }
+
+  .condition-benefits-right ul {
+    justify-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .condition-benefits-section {
+    padding: 60px 15px;
+  }
+
+  .condition-benefits-header {
+    gap: 16px;
+  }
+
+  .condition-benefits-left h2 {
+    font-size: 32px;
+  }
+
+  .condition-benefits-right ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 20px 0;
+  }
+
+  .condition-benefits-list-double {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .condition-benefits-right p,
+  .condition-benefits-left p,
+  .condition-benefits-right ul li,
+  .condition-benefits-list-double ul li {
+    font-size: 16px;
+  }
+
+  .condition-benefits-right h3 {
+    font-size: 24px;
+  }
+
+  .condition-benefits-right ul li::before,
+  .condition-benefits-list-double ul li::before {
+    top: 8px;
+  }
+
+  .condition-benefits-content {
+    gap: 32px;
+  }
+
+  .condition-benefits-header {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 520px) {
+  .condition-benefits-left h2 {
+    font-size: 28px;
+  }
+
+  .condition-benefits-right h3 {
+    font-size: 22px;
+  }
+
+  .condition-benefits-right p,
+  .condition-benefits-left p,
+  .condition-benefits-right ul li {
+    font-size: 15px;
+  }
+
+  .condition-benefits-right ul {
+    gap: 10px;
+  }
+}

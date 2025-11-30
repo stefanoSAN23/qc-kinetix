@@ -1,33 +1,39 @@
 import SEO from '../components/SEO/SEO';
 import { Divider } from '../components/Common';
-import FingerToePainHero from '../components/Sections/FingerToePain/FingerToePainHero';
-import RegenerativeTherapyForFingerToePain from '../components/Sections/FingerToePain/RegenerativeTherapyForFingerToePain';
-import WhatIsRegenerativeFingerToePainTherapy from '../components/Sections/FingerToePain/WhatIsRegenerativeFingerToePainTherapy';
-import FingerToeCandidate from '../components/Sections/FingerToePain/FingerToeCandidate';
-import BenefitsOfNonsurgicalFingerToeTreatments from '../components/Sections/FingerToePain/BenefitsOfNonsurgicalFingerToeTreatments';
-import ReadyToReduceFingerToePain from '../components/Sections/FingerToePain/ReadyToReduceFingerToePain';
+import {
+  ConditionHero,
+  RegenerativeTherapySection,
+  WhatIsTherapySection,
+  CandidateSection,
+  BenefitsSection,
+  ReadyToReduceSection
+} from '../components/Conditions';
 import Testimonials from '../components/Sections/Testimonials';
 import ContactForm from '../components/Forms/ContactForm';
+import { conditionsData } from '../data/conditionsData';
 
 const FingerToePain = () => {
+  const data = conditionsData['finger-toe'];
+
   return (
     <>
       <SEO />
       <main>
-      <FingerToePainHero />
-      <RegenerativeTherapyForFingerToePain />
-      <WhatIsRegenerativeFingerToePainTherapy />
-      <FingerToeCandidate />
-      <Divider variant="default" />
-      <BenefitsOfNonsurgicalFingerToeTreatments />
-      <ReadyToReduceFingerToePain />
-      <Testimonials />
-      <ContactForm />
+        <ConditionHero 
+          title={data.title} 
+          breadcrumb={data.breadcrumb} 
+        />
+        <RegenerativeTherapySection data={data.regenerativeTherapy} />
+        <WhatIsTherapySection data={data.whatIsTherapy} />
+        <CandidateSection data={data.candidate} />
+        <Divider variant="default" />
+        <BenefitsSection data={data.benefits} />
+        <ReadyToReduceSection data={data.readyToReduce} />
+        <Testimonials />
+        <ContactForm />
       </main>
     </>
   );
 };
 
 export default FingerToePain;
-
-
