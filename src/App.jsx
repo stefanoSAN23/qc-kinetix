@@ -11,7 +11,6 @@ import Benefits from './components/Sections/Home/Benefits';
 import Testimonials from './components/Sections/Home/Testimonials';
 import ContactForm from './components/Forms/ContactForm';
 import Footer from './components/Footer/Footer';
-import FloatingBanner from './components/Common/FloatingBanner';
 import ScrollToTop from './components/Common/ScrollToTop';
 import SEO from './components/SEO/SEO';
 import RegenerativeMedicine from './pages/RegenerativeMedicine';
@@ -189,7 +188,6 @@ function App() {
       <Router>
         <ScrollToTop />
         <div className="App">
-          <FloatingBanner />
           <HeaderManager />
           <AnimationInitializer />
           <Routes>

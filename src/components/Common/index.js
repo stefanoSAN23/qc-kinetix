@@ -14,7 +14,6 @@ export { default as BulletList } from './BulletList';
 export { default as SectionContainer } from './SectionContainer';
 export { default as SectionHeader } from './SectionHeader';
 export { default as TwoColumnLayout } from './TwoColumnLayout';
-export { default as FloatingBanner } from './FloatingBanner';
 export { default as InternalLink } from './InternalLink';
 export { default as ScrollToTop } from './ScrollToTop';
 

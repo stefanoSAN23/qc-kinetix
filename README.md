@@ -14,7 +14,6 @@ This project is a complete replica of the QC Kinetix website, converted from HTM
 - ✅ Testimonials carousel (Success Stories)
 - ✅ Complete contact form
 - ✅ Complete footer with location search
-- ✅ Floating Banner with localStorage persistence
 - ✅ Responsive design for mobile, tablet and desktop
 - ✅ Animations and hover effects identical to the original
 
@@ -50,7 +49,6 @@ src/
 │   │   └── ContactForm.jsx
 │   ├── Footer/          # Complete footer
 │   └── Common/          # Common components
-│       └── FloatingBanner.jsx
 ├── styles/
 │   └── global.css       # Global styles
 ├── App.jsx              # Main component
@@ -70,7 +68,6 @@ src/
 - All images and resources are referenced from the original QC Kinetix URL
 - The contact form needs backend integration to work completely
 - The human body map has hover functionality to highlight body parts
-- The Floating Banner automatically hides for 30 days after being closed
 
 ## 🔧 Customization
 

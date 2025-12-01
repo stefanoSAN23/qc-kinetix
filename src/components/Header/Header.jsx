@@ -21,48 +21,6 @@ const Header = ({ variant = 'auto' }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Detect if FloatingBanner is visible to adjust header position
-  useEffect(() => {
-    const checkBanner = () => {
-      const banner = document.querySelector('.floating-banner');
-      const header = document.querySelector('.header');
-      if (banner && header) {
-        // If scrolled, always set header to top: 0
-        if (isScrolled) {
-          header.style.top = '0';
-        } else {
-          // If not scrolled, adjust according to banner height
-          const bannerHeight = banner.offsetHeight;
-          const bannerComputed = window.getComputedStyle(banner);
-          if (bannerHeight > 0 && bannerComputed.display !== 'none') {
-            header.style.top = `${bannerHeight}px`;
-          } else {
-            header.style.top = '0';
-          }
-        }
-      }
-    };
-
-    // Check initially and when DOM or scroll changes
-    checkBanner();
-    const observer = new MutationObserver(checkBanner);
-    const banner = document.querySelector('.floating-banner');
-    if (banner) {
-      observer.observe(banner, { attributes: true, attributeFilter: ['style', 'class'] });
-    }
-
-    // Also check when scroll changes
-    const handleScroll = () => {
-      checkBanner();
-    };
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [isScrolled]);
-
   useEffect(() => {
     const body = document.body;
     if (variant !== 'main') {
